@@ -152,18 +152,53 @@
 
         var proj = computeProjections(repData);
 
-        // Walk the DOM and update any element whose parent contains a known label
+        // Walk the DOM and update the value that belongs to the card with this exact label
         function updateByLabel(labelText, newValue) {
+          // Find text nodes that EXACTLY start with labelText (case-insensitive)
+          var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+          var node;
+          var target = null;
+          while ((node = walker.nextNode())) {
+            var trimmed = node.textContent.trim().toUpperCase();
+            if (trimmed === labelText.toUpperCase() ||
+                trimmed.replace(/\s+/g, ' ') === labelText.toUpperCase().replace(/\s+/g, ' ')) {
+              target = node;
+              break;
+            }
+          }
+          if (!target) return false;
+
+          // Climb to the card container (first ancestor whose own text contains a $ value leaf)
+          var parent = target.parentElement;
+          for (var i = 0; i < 6 && parent; i++) {
+            var els = parent.querySelectorAll('*');
+            for (var j = 0; j < els.length; j++) {
+              var el = els[j];
+              if (el.children.length === 0 && /^\$[0-9,.]+$/.test(el.textContent.trim())) {
+                // Make sure this $ value is NOT shared with another label's card
+                // (by checking that the label text is an ancestor/sibling of this value)
+                if (parent.contains(target) && parent.contains(el)) {
+                  el.textContent = newValue;
+                  return true;
+                }
+              }
+            }
+            parent = parent.parentElement;
+          }
+          return false;
+        }
+
+        // Find MTD Collected value specifically (the one WITH $0 pattern next to label)
+        function updateMTDValue(newValue) {
           var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
           var node;
           while ((node = walker.nextNode())) {
-            if (node.textContent.trim().toUpperCase().indexOf(labelText.toUpperCase()) > -1) {
-              var parent = node.parentElement;
-              // Walk up to find the card
-              for (var i = 0; i < 5 && parent; i++) {
-                var bigValue = parent.querySelector('*');
-                // Find child that has pattern like "$X,XXX" and is a leaf
-                var els = parent.querySelectorAll('*');
+            var trimmed = node.textContent.trim();
+            if (/MTD COLLECTED/i.test(trimmed) && /DRIVES ALL PROJECTIONS/i.test(trimmed)) {
+              // Walk up to the card
+              var card = node.parentElement;
+              for (var i = 0; i < 5 && card; i++) {
+                var els = card.querySelectorAll('*');
                 for (var j = 0; j < els.length; j++) {
                   var el = els[j];
                   if (el.children.length === 0 && /^\$[0-9,.]+$/.test(el.textContent.trim())) {
@@ -171,7 +206,7 @@
                     return true;
                   }
                 }
-                parent = parent.parentElement;
+                card = card.parentElement;
               }
             }
           }
@@ -180,11 +215,11 @@
 
         // Wait a beat to let React render then patch the visible values
         setTimeout(function() {
-          updateByLabel('MTD COLLECTED', fmtMoney(proj.mtd));
-          updateByLabel('PROJECTED COMMISSION', fmtMoney(proj.projectedCommissionApril));
+          updateMTDValue(fmtMoney(proj.mtd));
+          updateByLabel('PROJECTED COMMISSION \u2014 APRIL', fmtMoney(proj.projectedCommissionApril));
           updateByLabel('PROJECTED APR\u2013DEC REVENUE', fmtMoney(proj.projectedAprDecRevenue));
           updateByLabel('PROJECTED APR\u2013DEC COMMISSION', fmtMoney(proj.projectedAprDecCommission));
-          updateByLabel('PROJECTED 2026 TOTAL', fmtMoney(proj.total2026));
+          updateByLabel('PROJECTED 2026 TOTAL CASH COMP', fmtMoney(proj.total2026));
 
           // Update the $X earned text next to MTD
           var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
