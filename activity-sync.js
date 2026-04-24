@@ -35,6 +35,10 @@
 
   // Detect which rep is currently active
   function detectActiveRep() {
+    // Admin override via in-page toggle takes highest priority
+    if (window.__EPL_ADMIN_SELECTED_REP === 'karin' || window.__EPL_ADMIN_SELECTED_REP === 'megan') {
+      return window.__EPL_ADMIN_SELECTED_REP;
+    }
     // Check URL param first
     var params = new URLSearchParams(window.location.search);
     var urlRep = params.get('rep');
@@ -51,6 +55,91 @@
       if (m && parseInt(m[1]) < 100 && parseInt(m[2]) > 80) return 'karin';
     }
     return 'karin'; // default
+  }
+
+  function isAdminView() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get('admin') === 'true';
+  }
+
+  function isOnActivityTab() {
+    // Heuristic: the Weekly Activity Recap heading is visible
+    var headings = document.querySelectorAll('h1, h2, h3');
+    for (var i = 0; i < headings.length; i++) {
+      if (/Weekly Activity Recap/i.test(headings[i].textContent)) return headings[i];
+    }
+    return null;
+  }
+
+  function updateWeeklyHeader(repKey) {
+    // Update 'Month-to-date through Mon D, YYYY · RepName'
+    var repName = repKey === 'megan' ? 'Megan Smith' : 'Karin Williamson';
+    var w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+    var node;
+    while ((node = w.nextNode())) {
+      var txt = node.textContent;
+      if (/Month-to-date through/i.test(txt) && /(Karin Williamson|Megan Smith)/.test(txt)) {
+        node.textContent = txt.replace(/(Karin Williamson|Megan Smith)/, repName);
+      }
+    }
+  }
+
+  function injectAdminRepToggle() {
+    if (!isAdminView()) return;
+    if (document.getElementById('epl-admin-rep-toggle')) return; // already injected
+    var recapHeading = isOnActivityTab();
+    if (!recapHeading) return;
+    // Insert toggle just after the Weekly Activity Recap heading block
+    // Find the nearest ancestor that also wraps the subtitle
+    var insertAfter = recapHeading.parentElement;
+    // Walk up until we find a block that contains 'Month-to-date through'
+    var tries = 0;
+    while (insertAfter && tries < 5) {
+      if (/Month-to-date through/i.test(insertAfter.textContent) && insertAfter !== document.body) break;
+      insertAfter = insertAfter.parentElement;
+      tries++;
+    }
+    if (!insertAfter) insertAfter = recapHeading.parentElement;
+
+    var wrap = document.createElement('div');
+    wrap.id = 'epl-admin-rep-toggle';
+    wrap.style.cssText = 'display:flex;gap:8px;align-items:center;margin:12px 0 20px;padding:10px 14px;background:#f0f5f3;border:1px solid #d5e2dd;border-radius:10px;font-family:inherit;';
+    var label = document.createElement('span');
+    label.textContent = 'Admin view — show data for:';
+    label.style.cssText = 'font-size:13px;color:#4a5f5a;font-weight:500;';
+    wrap.appendChild(label);
+
+    var current = window.__EPL_ADMIN_SELECTED_REP || detectActiveRep();
+
+    [['karin', 'Karin Williamson'], ['megan', 'Megan Smith']].forEach(function(pair) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.dataset.rep = pair[0];
+      btn.textContent = pair[1];
+      var isActive = current === pair[0];
+      btn.style.cssText = 'padding:6px 14px;border-radius:6px;border:1px solid ' + (isActive ? '#2f6b5b' : '#cfd8d4') + ';background:' + (isActive ? '#2f6b5b' : '#fff') + ';color:' + (isActive ? '#fff' : '#2f3b39') + ';font-size:13px;font-weight:500;cursor:pointer;transition:all 0.15s;';
+      btn.addEventListener('click', function() {
+        window.__EPL_ADMIN_SELECTED_REP = pair[0];
+        // Re-style buttons
+        wrap.querySelectorAll('button').forEach(function(b) {
+          var active = b.dataset.rep === pair[0];
+          b.style.background = active ? '#2f6b5b' : '#fff';
+          b.style.color = active ? '#fff' : '#2f3b39';
+          b.style.borderColor = active ? '#2f6b5b' : '#cfd8d4';
+        });
+        updateWeeklyHeader(pair[0]);
+        patchAll();
+      });
+      wrap.appendChild(btn);
+    });
+
+    insertAfter.parentNode.insertBefore(wrap, insertAfter.nextSibling);
+
+    // If admin hasn't explicitly chosen yet, default to Karin so view is consistent
+    if (!window.__EPL_ADMIN_SELECTED_REP) {
+      window.__EPL_ADMIN_SELECTED_REP = 'karin';
+      updateWeeklyHeader('karin');
+    }
   }
 
   // ===== Helpers for updating table rows =====
@@ -272,8 +361,12 @@
   // ===== Main patch =====
   function patchAll() {
     if (!activityData) return;
+    try { injectAdminRepToggle(); } catch(e) { console.warn('[EPL] toggle inject failed', e); }
     var repKey = detectActiveRep();
     window.__EPL_ACTIVE_REP = repKey;
+
+    // In admin view, also update the weekly recap header to match selected rep
+    if (isAdminView()) { try { updateWeeklyHeader(repKey); } catch(e){} }
 
     try { patchTopAccounts(repKey); } catch(e) { console.warn('[EPL] topAccounts patch failed', e); }
     try { patchNewClients(repKey); } catch(e) { console.warn('[EPL] newClients patch failed', e); }
