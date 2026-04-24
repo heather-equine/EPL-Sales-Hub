@@ -1,0 +1,47 @@
+{
+  "lastUpdated": "2026-04-23",
+  "uploadedAt": "2026-04-23",
+  "reportDate": "2026-04-23",
+  "totalClients": 56,
+  "aggregates": {
+    "karin": {
+      "repId": "karin",
+      "repName": "Karin Williamson",
+      "mtdSales": 25800,
+      "mtdOrders": 15,
+      "mtdVials": 43,
+      "newClientsMTD": 7,
+      "totalPaid": 70510,
+      "outstanding": 20500,
+      "pctCollected": 77.5,
+      "activeClients": 23,
+      "totalClients": 33
+    },
+    "megan": {
+      "repId": "megan",
+      "repName": "Megan Smith",
+      "mtdSales": 13200,
+      "mtdOrders": 8,
+      "mtdVials": 22,
+      "newClientsMTD": 6,
+      "totalPaid": 25275,
+      "outstanding": 13800,
+      "pctCollected": 64.7,
+      "activeClients": 15,
+      "totalClients": 20
+    },
+    "company": {
+      "repId": "company",
+      "repName": "Company",
+      "mtdSales": 39000,
+      "mtdOrders": 23,
+      "mtdVials": 65,
+      "newClientsMTD": 13,
+      "totalPaid": 95785,
+      "outstanding": 34300,
+      "pctCollected": 73.6,
+      "activeClients": 38,
+      "totalClients": 56
+    }
+  }
+}
