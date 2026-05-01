@@ -1,1 +1,29 @@
-{"generatedAt":"2026-04-24T16:49:01.642Z","members":[{"id":4,"name":"Gary Monteiro","email":"gary@equineperformancelabs.com","role":"admin","inviteToken":"hpc02nxw4rmoc03m8p","pinHash":"f62f1367a501569f5c6d4cc021c7b2d155864a0bb97df2e16397163df6d067af"},{"id":3,"name":"Megan Smith","email":"megan@equineperformancelabs.com","role":"team","inviteToken":"amci62p0a5qmoc033vu","pinHash":"6e1f61e79aed58167a520a702fda6e7e9b7c91ab431467e2a82013a83adf3e45"},{"id":2,"name":"Karin Williamson","email":"karin@equineperformancelabs.com","role":"team","inviteToken":"4lplehi328moc02nrr","pinHash":"d3723ec01a197c39e5ff6bf479fc835ee9ee31e20807cb52aeba5193b27aac51"}]}
+{
+  "generatedAt": "2026-05-01T17:16:31.581Z",
+  "members": [
+    {
+      "id": 4,
+      "name": "Gary Monteiro",
+      "email": "gary@equineperformancelabs.com",
+      "role": "admin",
+      "inviteToken": "hpc02nxw4rmoc03m8p",
+      "pinHash": "f62f1367a501569f5c6d4cc021c7b2d155864a0bb97df2e16397163df6d067af"
+    },
+    {
+      "id": 3,
+      "name": "Megan Smith",
+      "email": "megan@equineperformancelabs.com",
+      "role": "team",
+      "inviteToken": "amci62p0a5qmoc033vu",
+      "pinHash": "6e1f61e79aed58167a520a702fda6e7e9b7c91ab431467e2a82013a83adf3e45"
+    },
+    {
+      "id": 2,
+      "name": "Karin Williamson",
+      "email": "karin@equineperformancelabs.com",
+      "role": "team",
+      "inviteToken": "4lplehi328moc02nrr",
+      "pinHash": "d3723ec01a197c39e5ff6bf479fc835ee9ee31e20807cb52aeba5193b27aac51"
+    }
+  ]
+}
