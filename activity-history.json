@@ -1,1 +1,63 @@
-{"generatedAt":"2026-05-01T16:58:03.022Z","drops":[{"dropDate":"2026-04-30","uploadedAt":"2026-04-30T19:09:23.691Z","totalClients":56,"aggregates":{"karin":{"repId":"karin","repName":"Karin Williamson","mtdSales":42100,"mtdCollected":25800,"mtdOrders":21,"mtdVials":145,"newClientsMTD":8,"totalPaid":70510,"outstanding":33950,"activeClients":24,"totalClients":34,"pctCollected":67.27411506535636,"ytdSales":91860,"ytdCollected":58260,"ytdInvoices":51},"megan":{"repId":"megan","repName":"Megan Smith","mtdSales":19200,"mtdCollected":14400,"mtdOrders":14,"mtdVials":41,"newClientsMTD":7,"totalPaid":26475,"outstanding":12600,"activeClients":13,"totalClients":22,"pctCollected":63.83363471971067,"ytdSales":30600,"ytdCollected":14400,"ytdInvoices":19},"company":{"repId":"company","repName":"Company","mtdSales":61300,"mtdCollected":40200,"mtdOrders":35,"mtdVials":186,"newClientsMTD":15,"totalPaid":96985,"outstanding":46550,"activeClients":37,"totalClients":56,"pctCollected":66.29866356769321,"ytdSales":122460,"ytdCollected":72660,"ytdInvoices":70}}}]}
+{
+  "generatedAt": "2026-05-01T17:16:30.656Z",
+  "drops": [
+    {
+      "dropDate": "2026-04-30",
+      "uploadedAt": "2026-04-30T19:09:23.691Z",
+      "totalClients": 56,
+      "aggregates": {
+        "karin": {
+          "repId": "karin",
+          "repName": "Karin Williamson",
+          "mtdSales": 42100,
+          "mtdCollected": 25800,
+          "mtdOrders": 21,
+          "mtdVials": 145,
+          "newClientsMTD": 8,
+          "totalPaid": 70510,
+          "outstanding": 33950,
+          "activeClients": 24,
+          "totalClients": 34,
+          "pctCollected": 67.27411506535636,
+          "ytdSales": 91860,
+          "ytdCollected": 58260,
+          "ytdInvoices": 51
+        },
+        "megan": {
+          "repId": "megan",
+          "repName": "Megan Smith",
+          "mtdSales": 19200,
+          "mtdCollected": 14400,
+          "mtdOrders": 14,
+          "mtdVials": 41,
+          "newClientsMTD": 7,
+          "totalPaid": 26475,
+          "outstanding": 12600,
+          "activeClients": 13,
+          "totalClients": 22,
+          "pctCollected": 63.83363471971067,
+          "ytdSales": 30600,
+          "ytdCollected": 14400,
+          "ytdInvoices": 19
+        },
+        "company": {
+          "repId": "company",
+          "repName": "Company",
+          "mtdSales": 61300,
+          "mtdCollected": 40200,
+          "mtdOrders": 35,
+          "mtdVials": 186,
+          "newClientsMTD": 15,
+          "totalPaid": 96985,
+          "outstanding": 46550,
+          "activeClients": 37,
+          "totalClients": 56,
+          "pctCollected": 66.29866356769321,
+          "ytdSales": 122460,
+          "ytdCollected": 72660,
+          "ytdInvoices": 70
+        }
+      }
+    }
+  ]
+}
