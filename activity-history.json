@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T17:54:48.593Z",
+  "generatedAt": "2026-05-01T18:04:09.731Z",
   "drops": [
     {
       "dropDate": "2026-04-30",
@@ -15,7 +15,7 @@
           "mtdVials": 145,
           "newClientsMTD": 8,
           "totalPaid": 70510,
-          "outstanding": 33950,
+          "outstanding": 34300,
           "activeClients": 24,
           "totalClients": 34,
           "pctCollected": 67.27411506535636,
@@ -32,7 +32,7 @@
           "mtdVials": 41,
           "newClientsMTD": 7,
           "totalPaid": 26475,
-          "outstanding": 12600,
+          "outstanding": 15000,
           "activeClients": 13,
           "totalClients": 22,
           "pctCollected": 63.83363471971067,
@@ -49,7 +49,7 @@
           "mtdVials": 186,
           "newClientsMTD": 15,
           "totalPaid": 96985,
-          "outstanding": 46550,
+          "outstanding": 49300,
           "activeClients": 37,
           "totalClients": 56,
           "pctCollected": 66.29866356769321,
