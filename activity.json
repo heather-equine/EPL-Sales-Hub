@@ -8,7 +8,7 @@
       "repId": "karin",
       "repName": "Karin Williamson",
       "mtdSales": 4200,
-      "mtdCollected": 10451,
+      "mtdCollected": 19235.88,
       "mtdOrders": 4,
       "mtdVials": 22,
       "newClientsMTD": 0,
@@ -20,7 +20,7 @@
       "ytdSales": 96060,
       "ytdSalesGross": 195570,
       "ytdInvoices": 55,
-      "ytdCollected": 58260
+      "ytdCollected": 77495.88
     },
     "megan": {
       "repId": "megan",
@@ -38,13 +38,13 @@
       "ytdSales": 31800,
       "ytdSalesGross": 51845,
       "ytdInvoices": 23,
-      "ytdCollected": 14400
+      "ytdCollected": 15600
     },
     "company": {
       "repId": "company",
       "repName": "Company",
       "mtdSales": 5400,
-      "mtdCollected": 13301,
+      "mtdCollected": 19235.88,
       "mtdOrders": 8,
       "mtdVials": 35,
       "newClientsMTD": 1,
@@ -56,7 +56,7 @@
       "ytdSales": 127860,
       "ytdSalesGross": 247415,
       "ytdInvoices": 78,
-      "ytdCollected": 72660
+      "ytdCollected": 93095.88
     }
   },
   "repDetails": {
@@ -1772,7 +1772,8 @@
       "2026-01",
       "2026-02",
       "2026-03",
-      "2026-04"
+      "2026-04",
+      "2026-05"
     ]
   },
   "ytdYear": 2026
