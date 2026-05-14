@@ -1,0 +1,334 @@
+{
+  "month": "2026-04",
+  "periodLabel": "April 2026",
+  "repId": "karin",
+  "repName": "Karin Williamson",
+  "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
+  "planKind": "flat",
+  "flatRate": 0.1,
+  "totalCollected": 25800,
+  "totalCommission": 2580,
+  "paymentCount": 15,
+  "accountCount": 11,
+  "dueDate": "May 31, 2026",
+  "accounts": [
+    {
+      "customerName": "Weatherford Equine Medical Center",
+      "transactions": [
+        {
+          "date": "2026-03-23",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1041",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-03-23",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1040",
+          "amount": 1400,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-05",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1041",
+          "amount": 4800,
+          "commissionRate": 0.1,
+          "commissionAmount": 480
+        },
+        {
+          "date": "2026-04-06",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1040",
+          "amount": 1400,
+          "commissionRate": 0.1,
+          "commissionAmount": 140
+        }
+      ],
+      "collected": 6200,
+      "commission": 620
+    },
+    {
+      "customerName": "Paso Robles Equine",
+      "transactions": [
+        {
+          "date": "2026-03-17",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1038",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-03-17",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1037",
+          "amount": 700,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-12",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1038",
+          "amount": 4800,
+          "commissionRate": 0.1,
+          "commissionAmount": 480
+        },
+        {
+          "date": "2026-04-12",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1037",
+          "amount": 700,
+          "commissionRate": 0.1,
+          "commissionAmount": 70
+        }
+      ],
+      "collected": 5500,
+      "commission": 550
+    },
+    {
+      "customerName": "Tanner Equine",
+      "transactions": [
+        {
+          "date": "2026-04-06",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1047",
+          "amount": 1800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-07",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1047",
+          "amount": 1800,
+          "commissionRate": 0.1,
+          "commissionAmount": 180
+        },
+        {
+          "date": "2026-04-16",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1009",
+          "amount": 2400,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-21",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1009",
+          "amount": 2400,
+          "commissionRate": 0.1,
+          "commissionAmount": 240
+        }
+      ],
+      "collected": 4200,
+      "commission": 420
+    },
+    {
+      "customerName": "Northern Star Equine",
+      "transactions": [
+        {
+          "date": "2026-03-27",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1043",
+          "amount": 3600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-08",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1043",
+          "amount": 3600,
+          "commissionRate": 0.1,
+          "commissionAmount": 360
+        }
+      ],
+      "collected": 3600,
+      "commission": 360
+    },
+    {
+      "customerName": "Smith Performance Equine",
+      "transactions": [
+        {
+          "date": "2026-02-24",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1019",
+          "amount": 700,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-09",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1051",
+          "amount": 2400,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-21",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1019",
+          "amount": 700,
+          "commissionRate": 0.1,
+          "commissionAmount": 70
+        },
+        {
+          "date": "2026-04-21",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1051",
+          "amount": 2400,
+          "commissionRate": 0.1,
+          "commissionAmount": 240
+        }
+      ],
+      "collected": 3100,
+      "commission": 310
+    },
+    {
+      "customerName": "West Texas Equine Clinic",
+      "transactions": [
+        {
+          "date": "2026-03-10",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1030",
+          "amount": 700,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-06",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1030",
+          "amount": 700,
+          "commissionRate": 0.1,
+          "commissionAmount": 70
+        }
+      ],
+      "collected": 700,
+      "commission": 70
+    },
+    {
+      "customerName": "Jenson Equine Hospital",
+      "transactions": [
+        {
+          "date": "2026-04-01",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1045",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-07",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1045",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 600,
+      "commission": 60
+    },
+    {
+      "customerName": "Oakridge Equine Hospital",
+      "transactions": [
+        {
+          "date": "2026-03-11",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1034",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-15",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1034",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 600,
+      "commission": 60
+    },
+    {
+      "customerName": "Santa Lucia Farm",
+      "transactions": [
+        {
+          "date": "2026-04-17",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1062",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-21",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1062",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 600,
+      "commission": 60
+    },
+    {
+      "customerName": "Mobile Veterinary Practice",
+      "transactions": [
+        {
+          "date": "2026-03-05",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1026",
+          "amount": 350,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1026",
+          "amount": 350,
+          "commissionRate": 0.1,
+          "commissionAmount": 35
+        }
+      ],
+      "collected": 350,
+      "commission": 35
+    },
+    {
+      "customerName": "Athens Equine",
+      "transactions": [
+        {
+          "date": "2026-04-13",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1056",
+          "amount": 350,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-20",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1056",
+          "amount": 350,
+          "commissionRate": 0.1,
+          "commissionAmount": 35
+        }
+      ],
+      "collected": 350,
+      "commission": 35
+    }
+  ],
+  "generatedAt": "2026-05-14T19:29:28.043Z"
+}
