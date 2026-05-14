@@ -1,0 +1,196 @@
+{
+  "month": "2026-04",
+  "periodLabel": "April 2026",
+  "repId": "megan",
+  "repName": "Megan Smith",
+  "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
+  "planKind": "flat",
+  "flatRate": 0.1,
+  "totalCollected": 14400,
+  "totalCommission": 1440,
+  "paymentCount": 9,
+  "accountCount": 5,
+  "dueDate": "May 31, 2026",
+  "accounts": [
+    {
+      "customerName": "Advanced Equine of the Hudson Valley",
+      "transactions": [
+        {
+          "date": "2026-03-25",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1042",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1042",
+          "amount": 4800,
+          "commissionRate": 0.1,
+          "commissionAmount": 480
+        }
+      ],
+      "collected": 4800,
+      "commission": 480
+    },
+    {
+      "customerName": "Tryon Equine Hospital",
+      "transactions": [
+        {
+          "date": "2026-02-24",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1005",
+          "amount": 1800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-09",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1007",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-14",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1007",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        },
+        {
+          "date": "2026-04-14",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1005",
+          "amount": 1800,
+          "commissionRate": 0.1,
+          "commissionAmount": 180
+        },
+        {
+          "date": "2026-04-14",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1057",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        },
+        {
+          "date": "2026-04-14",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1057",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-28",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1074",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        },
+        {
+          "date": "2026-04-28",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1074",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "collected": 4800,
+      "commission": 480
+    },
+    {
+      "customerName": "Leg Up Equine",
+      "transactions": [
+        {
+          "date": "2026-04-08",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1050",
+          "amount": 2400,
+          "commissionRate": 0.1,
+          "commissionAmount": 240
+        },
+        {
+          "date": "2026-04-08",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1050",
+          "amount": 2400,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "collected": 2400,
+      "commission": 240
+    },
+    {
+      "customerName": "WinStar Farm LLC",
+      "transactions": [
+        {
+          "date": "2026-03-20",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1039",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-12",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1039",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        }
+      ],
+      "collected": 1200,
+      "commission": 120
+    },
+    {
+      "customerName": "The Feiner Equine",
+      "transactions": [
+        {
+          "date": "2026-04-03",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1046",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-11",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1053",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-14",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1053",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        },
+        {
+          "date": "2026-04-22",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1046",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 1200,
+      "commission": 120
+    }
+  ],
+  "generatedAt": "2026-05-14T19:29:29.042Z"
+}
