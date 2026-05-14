@@ -1,0 +1,79 @@
+{
+  "month": "2026-05",
+  "periodLabel": "May 2026",
+  "repId": "megan",
+  "repName": "Megan Smith",
+  "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
+  "planKind": "flat",
+  "flatRate": 0.1,
+  "totalCollected": 4200,
+  "totalCommission": 420,
+  "paymentCount": 3,
+  "accountCount": 2,
+  "dueDate": "June 30, 2026",
+  "accounts": [
+    {
+      "customerName": "WinStar Farm LLC",
+      "transactions": [
+        {
+          "date": "2026-04-08",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1006",
+          "amount": 2400,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-13",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1006",
+          "amount": 2400,
+          "commissionRate": 0.1,
+          "commissionAmount": 240
+        }
+      ],
+      "collected": 2400,
+      "commission": 240
+    },
+    {
+      "customerName": "Ocala Equine Hospital",
+      "transactions": [
+        {
+          "date": "2026-04-20",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1010",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-05",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1012",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-12",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1010",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        },
+        {
+          "date": "2026-05-12",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1012",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 1800,
+      "commission": 180
+    }
+  ],
+  "generatedAt": "2026-05-14T19:29:30.862Z"
+}
