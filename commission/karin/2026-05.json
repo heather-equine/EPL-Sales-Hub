@@ -6,9 +6,9 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 27000,
-  "totalCommission": 2700,
-  "paymentCount": 13,
+  "totalCollected": 27600,
+  "totalCommission": 2760,
+  "paymentCount": 14,
   "accountCount": 10,
   "dueDate": "June 30, 2026",
   "accounts": [
@@ -199,6 +199,45 @@
       "commission": 240
     },
     {
+      "customerName": "Santa Lucia Farm",
+      "transactions": [
+        {
+          "date": "2026-05-01",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1077",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-01",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1078",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-05",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1077",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        },
+        {
+          "date": "2026-05-19",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1078",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 1200,
+      "commission": 120
+    },
+    {
       "customerName": "Mt. Laramie Veterinary Services",
       "transactions": [
         {
@@ -220,29 +259,6 @@
       ],
       "collected": 1200,
       "commission": 120
-    },
-    {
-      "customerName": "Santa Lucia Farm",
-      "transactions": [
-        {
-          "date": "2026-05-01",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1077",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-05",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1077",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        }
-      ],
-      "collected": 600,
-      "commission": 60
     },
     {
       "customerName": "Central Washington Equine Hospital",
@@ -291,5 +307,5 @@
       "commission": 60
     }
   ],
-  "generatedAt": "2026-05-20T17:32:30.213Z"
+  "generatedAt": "2026-05-20T17:33:24.055Z"
 }
