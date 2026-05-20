@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T17:33:19.911Z",
+  "generatedAt": "2026-05-20T17:34:26.730Z",
   "drops": [
     {
       "dropDate": "2026-05-20",
@@ -9,9 +9,9 @@
         "karin": {
           "repId": "karin",
           "repName": "Karin Williamson",
-          "mtdSales": 9600,
+          "mtdSales": 27350,
           "mtdCollected": 27600,
-          "mtdOrders": 8,
+          "mtdOrders": 16,
           "mtdVials": 109,
           "newClientsMTD": 3,
           "totalPaid": 98110,
@@ -19,16 +19,16 @@
           "activeClients": 27,
           "totalClients": 35,
           "pctCollected": 74.23577481840194,
-          "ytdSales": 101460,
+          "ytdSales": 119210,
           "ytdCollected": 86210,
-          "ytdInvoices": 59
+          "ytdInvoices": 67
         },
         "megan": {
           "repId": "megan",
           "repName": "Megan Smith",
-          "mtdSales": 1800,
+          "mtdSales": 4200,
           "mtdCollected": 4800,
-          "mtdOrders": 5,
+          "mtdOrders": 8,
           "mtdVials": 18,
           "newClientsMTD": 4,
           "totalPaid": 31275,
@@ -36,16 +36,16 @@
           "activeClients": 17,
           "totalClients": 27,
           "pctCollected": 68.4729064039409,
-          "ytdSales": 32400,
+          "ytdSales": 34800,
           "ytdCollected": 20400,
-          "ytdInvoices": 24
+          "ytdInvoices": 27
         },
         "company": {
           "repId": "company",
           "repName": "Company",
-          "mtdSales": 11400,
+          "mtdSales": 31550,
           "mtdCollected": 32400,
-          "mtdOrders": 13,
+          "mtdOrders": 24,
           "mtdVials": 127,
           "newClientsMTD": 7,
           "totalPaid": 129385,
@@ -53,9 +53,9 @@
           "activeClients": 44,
           "totalClients": 62,
           "pctCollected": 72.75564427699834,
-          "ytdSales": 133860,
+          "ytdSales": 154010,
           "ytdCollected": 106610,
-          "ytdInvoices": 83
+          "ytdInvoices": 94
         }
       }
     },
