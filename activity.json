@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-20",
-  "uploadedAt": "2026-05-20",
-  "reportDate": "2026-05-20",
+  "lastUpdated": "2026-05-21",
+  "uploadedAt": "2026-05-21",
+  "reportDate": "2026-05-21",
   "totalClients": 62,
   "aggregates": {
     "karin": {
@@ -10,7 +10,7 @@
       "mtdSales": 27350,
       "mtdCollected": 27600,
       "mtdOrders": 16,
-      "mtdVials": 109,
+      "mtdVials": 226,
       "newClientsMTD": 3,
       "totalPaid": 98110,
       "outstanding": 34050,
@@ -30,7 +30,7 @@
       "mtdSales": 4200,
       "mtdCollected": 4800,
       "mtdOrders": 8,
-      "mtdVials": 18,
+      "mtdVials": 74,
       "newClientsMTD": 4,
       "totalPaid": 31275,
       "outstanding": 14400,
@@ -50,7 +50,7 @@
       "mtdSales": 31550,
       "mtdCollected": 32400,
       "mtdOrders": 24,
-      "mtdVials": 127,
+      "mtdVials": 300,
       "newClientsMTD": 7,
       "totalPaid": 129385,
       "outstanding": 48450,
@@ -79,7 +79,7 @@
           "lastOrder": "2026-05-20",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 0,
+          "daysSinceLastOrder": 1,
           "aprilPaid": 9830
         },
         {
@@ -93,7 +93,7 @@
           "lastOrder": "2026-04-27",
           "firstOrder": "2025-12-02",
           "status": "Active",
-          "daysSinceLastOrder": 23,
+          "daysSinceLastOrder": 24,
           "aprilPaid": 17445
         },
         {
@@ -107,7 +107,7 @@
           "lastOrder": "2026-04-23",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 27,
+          "daysSinceLastOrder": 28,
           "aprilPaid": 10650
         },
         {
@@ -121,7 +121,7 @@
           "lastOrder": "2026-05-14",
           "firstOrder": "2026-01-08",
           "status": "Active",
-          "daysSinceLastOrder": 6,
+          "daysSinceLastOrder": 7,
           "aprilPaid": 8400
         },
         {
@@ -135,7 +135,7 @@
           "lastOrder": "2026-05-20",
           "firstOrder": "2025-12-29",
           "status": "Active",
-          "daysSinceLastOrder": 0,
+          "daysSinceLastOrder": 1,
           "aprilPaid": 7650
         }
       ],
@@ -151,7 +151,7 @@
           "lastOrder": "2026-05-15",
           "firstOrder": "2026-05-14",
           "status": "Active",
-          "daysSinceLastOrder": 5,
+          "daysSinceLastOrder": 6,
           "aprilPaid": 0
         },
         {
@@ -165,7 +165,7 @@
           "lastOrder": "2026-05-11",
           "firstOrder": "2026-05-11",
           "status": "Active",
-          "daysSinceLastOrder": 8,
+          "daysSinceLastOrder": 9,
           "aprilPaid": 0
         },
         {
@@ -179,7 +179,7 @@
           "lastOrder": "2026-05-11",
           "firstOrder": "2026-05-11",
           "status": "Active",
-          "daysSinceLastOrder": 9,
+          "daysSinceLastOrder": 10,
           "aprilPaid": 0
         }
       ],
@@ -195,7 +195,7 @@
           "lastOrder": "2026-05-20",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 0,
+          "daysSinceLastOrder": 1,
           "aprilPaid": 9830
         },
         {
@@ -209,7 +209,7 @@
           "lastOrder": "2026-05-15",
           "firstOrder": "2026-05-14",
           "status": "Active",
-          "daysSinceLastOrder": 5,
+          "daysSinceLastOrder": 6,
           "aprilPaid": 0
         },
         {
@@ -223,7 +223,7 @@
           "lastOrder": "2026-04-23",
           "firstOrder": "2026-04-23",
           "status": "Active",
-          "daysSinceLastOrder": 27,
+          "daysSinceLastOrder": 28,
           "aprilPaid": 0
         },
         {
@@ -237,7 +237,7 @@
           "lastOrder": "2026-05-14",
           "firstOrder": "2026-03-23",
           "status": "Active",
-          "daysSinceLastOrder": 6,
+          "daysSinceLastOrder": 7,
           "aprilPaid": 6200
         },
         {
@@ -251,7 +251,7 @@
           "lastOrder": "2026-05-20",
           "firstOrder": "2025-12-29",
           "status": "Active",
-          "daysSinceLastOrder": 0,
+          "daysSinceLastOrder": 1,
           "aprilPaid": 7650
         },
         {
@@ -265,7 +265,7 @@
           "lastOrder": "2026-05-14",
           "firstOrder": "2026-01-08",
           "status": "Active",
-          "daysSinceLastOrder": 6,
+          "daysSinceLastOrder": 7,
           "aprilPaid": 8400
         },
         {
@@ -279,7 +279,7 @@
           "lastOrder": "2026-05-15",
           "firstOrder": "2026-04-13",
           "status": "Active",
-          "daysSinceLastOrder": 5,
+          "daysSinceLastOrder": 6,
           "aprilPaid": 350
         },
         {
@@ -293,7 +293,7 @@
           "lastOrder": "2026-04-08",
           "firstOrder": "2026-03-30",
           "status": "Active",
-          "daysSinceLastOrder": 42,
+          "daysSinceLastOrder": 43,
           "aprilPaid": 0
         },
         {
@@ -307,7 +307,7 @@
           "lastOrder": "2026-05-11",
           "firstOrder": "2026-05-11",
           "status": "Active",
-          "daysSinceLastOrder": 8,
+          "daysSinceLastOrder": 9,
           "aprilPaid": 0
         },
         {
@@ -321,7 +321,7 @@
           "lastOrder": "2026-05-11",
           "firstOrder": "2026-05-11",
           "status": "Active",
-          "daysSinceLastOrder": 9,
+          "daysSinceLastOrder": 10,
           "aprilPaid": 0
         },
         {
@@ -335,7 +335,7 @@
           "lastOrder": "2026-04-15",
           "firstOrder": "2026-04-15",
           "status": "Active",
-          "daysSinceLastOrder": 35,
+          "daysSinceLastOrder": 36,
           "aprilPaid": 0
         }
       ],
@@ -351,7 +351,7 @@
           "lastOrder": "2026-03-03",
           "firstOrder": "2026-03-03",
           "status": "Active",
-          "daysSinceLastOrder": 78,
+          "daysSinceLastOrder": 79,
           "aprilPaid": 350
         },
         {
@@ -365,7 +365,7 @@
           "lastOrder": "2026-03-05",
           "firstOrder": "2025-12-22",
           "status": "Active",
-          "daysSinceLastOrder": 76,
+          "daysSinceLastOrder": 77,
           "aprilPaid": 4030
         },
         {
@@ -379,7 +379,7 @@
           "lastOrder": "2026-03-10",
           "firstOrder": "2026-03-10",
           "status": "Active",
-          "daysSinceLastOrder": 71,
+          "daysSinceLastOrder": 72,
           "aprilPaid": 700
         },
         {
@@ -393,7 +393,7 @@
           "lastOrder": "2026-03-11",
           "firstOrder": "2026-03-11",
           "status": "Active",
-          "daysSinceLastOrder": 70,
+          "daysSinceLastOrder": 71,
           "aprilPaid": 600
         },
         {
@@ -407,7 +407,7 @@
           "lastOrder": "2026-03-12",
           "firstOrder": "2026-03-12",
           "status": "Active",
-          "daysSinceLastOrder": 69,
+          "daysSinceLastOrder": 70,
           "aprilPaid": 350
         },
         {
@@ -421,7 +421,7 @@
           "lastOrder": "2026-03-17",
           "firstOrder": "2026-03-17",
           "status": "Active",
-          "daysSinceLastOrder": 64,
+          "daysSinceLastOrder": 65,
           "aprilPaid": 5500
         },
         {
@@ -435,7 +435,7 @@
           "lastOrder": "2026-04-01",
           "firstOrder": "2026-04-01",
           "status": "Active",
-          "daysSinceLastOrder": 49,
+          "daysSinceLastOrder": 50,
           "aprilPaid": 1495
         }
       ]
@@ -453,7 +453,7 @@
           "lastOrder": "2025-08-06",
           "firstOrder": "2025-08-06",
           "status": "Inactive",
-          "daysSinceLastOrder": 287,
+          "daysSinceLastOrder": 288,
           "aprilPaid": 6495
         },
         {
@@ -467,7 +467,7 @@
           "lastOrder": "2026-04-28",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 22,
+          "daysSinceLastOrder": 23,
           "aprilPaid": 4800
         },
         {
@@ -481,7 +481,7 @@
           "lastOrder": "2026-04-16",
           "firstOrder": "2026-04-16",
           "status": "Active",
-          "daysSinceLastOrder": 34,
+          "daysSinceLastOrder": 35,
           "aprilPaid": 0
         },
         {
@@ -495,7 +495,7 @@
           "lastOrder": "2026-03-25",
           "firstOrder": "2026-03-25",
           "status": "Active",
-          "daysSinceLastOrder": 56,
+          "daysSinceLastOrder": 57,
           "aprilPaid": 4800
         },
         {
@@ -509,7 +509,7 @@
           "lastOrder": "2026-05-20",
           "firstOrder": "2026-04-20",
           "status": "Active",
-          "daysSinceLastOrder": 0,
+          "daysSinceLastOrder": 1,
           "aprilPaid": 1800
         }
       ],
@@ -525,7 +525,7 @@
           "lastOrder": "2026-05-20",
           "firstOrder": "2026-05-20",
           "status": "Active",
-          "daysSinceLastOrder": 0,
+          "daysSinceLastOrder": 1,
           "aprilPaid": 0
         },
         {
@@ -539,7 +539,7 @@
           "lastOrder": "2026-05-15",
           "firstOrder": "2026-05-15",
           "status": "Active",
-          "daysSinceLastOrder": 5,
+          "daysSinceLastOrder": 6,
           "aprilPaid": 0
         },
         {
@@ -553,7 +553,7 @@
           "lastOrder": "2026-05-11",
           "firstOrder": "2026-05-11",
           "status": "Active",
-          "daysSinceLastOrder": 9,
+          "daysSinceLastOrder": 10,
           "aprilPaid": 0
         },
         {
@@ -567,7 +567,7 @@
           "lastOrder": "2026-05-04",
           "firstOrder": "2026-05-04",
           "status": "Active",
-          "daysSinceLastOrder": 16,
+          "daysSinceLastOrder": 17,
           "aprilPaid": 0
         }
       ],
@@ -583,7 +583,7 @@
           "lastOrder": "2026-04-16",
           "firstOrder": "2026-04-16",
           "status": "Active",
-          "daysSinceLastOrder": 34,
+          "daysSinceLastOrder": 35,
           "aprilPaid": 0
         },
         {
@@ -597,7 +597,7 @@
           "lastOrder": "2026-04-08",
           "firstOrder": "2026-04-08",
           "status": "Active",
-          "daysSinceLastOrder": 42,
+          "daysSinceLastOrder": 43,
           "aprilPaid": 0
         },
         {
@@ -611,7 +611,7 @@
           "lastOrder": "2026-02-24",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 85,
+          "daysSinceLastOrder": 86,
           "aprilPaid": 0
         },
         {
@@ -625,7 +625,7 @@
           "lastOrder": "2026-05-20",
           "firstOrder": "2026-04-20",
           "status": "Active",
-          "daysSinceLastOrder": 0,
+          "daysSinceLastOrder": 1,
           "aprilPaid": 1800
         },
         {
@@ -639,7 +639,7 @@
           "lastOrder": "2026-05-20",
           "firstOrder": "2026-05-20",
           "status": "Active",
-          "daysSinceLastOrder": 0,
+          "daysSinceLastOrder": 1,
           "aprilPaid": 0
         },
         {
@@ -653,7 +653,7 @@
           "lastOrder": "2026-05-15",
           "firstOrder": "2026-05-15",
           "status": "Active",
-          "daysSinceLastOrder": 5,
+          "daysSinceLastOrder": 6,
           "aprilPaid": 0
         },
         {
@@ -667,7 +667,7 @@
           "lastOrder": "2026-05-11",
           "firstOrder": "2026-05-11",
           "status": "Active",
-          "daysSinceLastOrder": 9,
+          "daysSinceLastOrder": 10,
           "aprilPaid": 0
         },
         {
@@ -681,7 +681,7 @@
           "lastOrder": "2026-05-04",
           "firstOrder": "2026-05-04",
           "status": "Active",
-          "daysSinceLastOrder": 16,
+          "daysSinceLastOrder": 17,
           "aprilPaid": 0
         },
         {
@@ -695,7 +695,7 @@
           "lastOrder": "2026-04-29",
           "firstOrder": "2026-04-29",
           "status": "Active",
-          "daysSinceLastOrder": 21,
+          "daysSinceLastOrder": 22,
           "aprilPaid": 0
         }
       ],
@@ -711,7 +711,7 @@
           "lastOrder": "2025-08-06",
           "firstOrder": "2025-08-06",
           "status": "Inactive",
-          "daysSinceLastOrder": 287,
+          "daysSinceLastOrder": 288,
           "aprilPaid": 6495
         },
         {
@@ -725,7 +725,7 @@
           "lastOrder": "2025-09-29",
           "firstOrder": "2025-09-29",
           "status": "Inactive",
-          "daysSinceLastOrder": 233,
+          "daysSinceLastOrder": 234,
           "aprilPaid": 2165
         },
         {
@@ -739,7 +739,7 @@
           "lastOrder": "2025-12-15",
           "firstOrder": "2025-12-15",
           "status": "Inactive",
-          "daysSinceLastOrder": 156,
+          "daysSinceLastOrder": 157,
           "aprilPaid": 700
         },
         {
@@ -753,7 +753,7 @@
           "lastOrder": "2026-02-24",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 85,
+          "daysSinceLastOrder": 86,
           "aprilPaid": 0
         },
         {
@@ -767,7 +767,7 @@
           "lastOrder": "2026-03-25",
           "firstOrder": "2026-03-25",
           "status": "Active",
-          "daysSinceLastOrder": 56,
+          "daysSinceLastOrder": 57,
           "aprilPaid": 4800
         }
       ]
@@ -790,9 +790,20 @@
       "outstandingBalance": 2400,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 0,
+      "daysSinceLastOrder": 1,
       "mtd": true,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 8,
+      "invoicedPeriod": 10050,
+      "paidPeriod": 7300,
+      "openInvoicesPeriod": 2,
+      "openBalancePeriod": 2750,
+      "lastInvoiceDatePeriod": "2026-05-20",
+      "lastPaymentDatePeriod": "2026-05-14",
+      "discountsPeriod": 6625,
+      "shippingPeriod": 193.37,
+      "cogsPeriod": 95.35,
+      "grossProfitPeriod": 9761.28
     },
     {
       "clinic": "Equine Athlete Veterinary Services - Simpsonville, KY",
@@ -810,9 +821,20 @@
       "outstandingBalance": 13200,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 0,
+      "daysSinceLastOrder": 1,
       "mtd": true,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 5,
+      "invoicedPeriod": 21600,
+      "paidPeriod": 8400,
+      "openInvoicesPeriod": 2,
+      "openBalancePeriod": 13200,
+      "lastInvoiceDatePeriod": "2026-05-20",
+      "lastPaymentDatePeriod": "2026-03-25",
+      "discountsPeriod": 13900,
+      "shippingPeriod": 210.64,
+      "cogsPeriod": 254.83,
+      "grossProfitPeriod": 21134.53
     },
     {
       "clinic": "Four Winds Equine Hospital",
@@ -830,9 +852,20 @@
       "outstandingBalance": 600,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 0,
+      "daysSinceLastOrder": 1,
       "mtd": true,
-      "newThisMonth": true
+      "newThisMonth": true,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 600,
+      "lastInvoiceDatePeriod": "2026-05-20",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 225,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 600
     },
     {
       "clinic": "Ocala Equine Hospital",
@@ -850,9 +883,20 @@
       "outstandingBalance": 1800,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 0,
+      "daysSinceLastOrder": 1,
       "mtd": true,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 4,
+      "invoicedPeriod": 3600,
+      "paidPeriod": 1800,
+      "openInvoicesPeriod": 2,
+      "openBalancePeriod": 1800,
+      "lastInvoiceDatePeriod": "2026-05-20",
+      "lastPaymentDatePeriod": "2026-05-12",
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 3600
     },
     {
       "clinic": "Athens Equine",
@@ -870,9 +914,20 @@
       "outstandingBalance": 950,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 5,
+      "daysSinceLastOrder": 6,
       "mtd": true,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 3,
+      "invoicedPeriod": 1300,
+      "paidPeriod": 350,
+      "openInvoicesPeriod": 2,
+      "openBalancePeriod": 950,
+      "lastInvoiceDatePeriod": "2026-05-15",
+      "lastPaymentDatePeriod": "2026-04-20",
+      "discountsPeriod": 1175,
+      "shippingPeriod": 94.97,
+      "cogsPeriod": 19.35,
+      "grossProfitPeriod": 1185.68
     },
     {
       "clinic": "Kennedy Equine",
@@ -890,9 +945,20 @@
       "outstandingBalance": 600,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 5,
+      "daysSinceLastOrder": 6,
       "mtd": true,
-      "newThisMonth": true
+      "newThisMonth": true,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 600,
+      "lastInvoiceDatePeriod": "2026-05-15",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 225,
+      "shippingPeriod": 89.39,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 504.16
     },
     {
       "clinic": "Signature Equine Hospital",
@@ -910,9 +976,20 @@
       "outstandingBalance": 4800,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 5,
+      "daysSinceLastOrder": 6,
       "mtd": true,
-      "newThisMonth": true
+      "newThisMonth": true,
+      "invoicesPeriod": 2,
+      "invoicedPeriod": 4800,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 2,
+      "openBalancePeriod": 4800,
+      "lastInvoiceDatePeriod": "2026-05-15",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 1800,
+      "shippingPeriod": 92,
+      "cogsPeriod": 58.74,
+      "grossProfitPeriod": 4649.26
     },
     {
       "clinic": "Weatherford Equine Medical Center",
@@ -930,9 +1007,20 @@
       "outstandingBalance": 3600,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 6,
+      "daysSinceLastOrder": 7,
       "mtd": true,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 3,
+      "invoicedPeriod": 9800,
+      "paidPeriod": 6200,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 3600,
+      "lastInvoiceDatePeriod": "2026-05-14",
+      "lastPaymentDatePeriod": "2026-04-06",
+      "discountsPeriod": 13090,
+      "shippingPeriod": 140.32,
+      "cogsPeriod": 149.94,
+      "grossProfitPeriod": 9509.74
     },
     {
       "clinic": "Elgin Equine",
@@ -950,9 +1038,20 @@
       "outstandingBalance": 1800,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 6,
+      "daysSinceLastOrder": 7,
       "mtd": true,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 9,
+      "invoicedPeriod": 10200,
+      "paidPeriod": 8400,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 1800,
+      "lastInvoiceDatePeriod": "2026-05-14",
+      "lastPaymentDatePeriod": "2026-05-12",
+      "discountsPeriod": 8290,
+      "shippingPeriod": 188.34,
+      "cogsPeriod": 108.95,
+      "grossProfitPeriod": 9902.71
     },
     {
       "clinic": "Desert Pines Equine",
@@ -970,9 +1069,20 @@
       "outstandingBalance": 600,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 8,
+      "daysSinceLastOrder": 9,
       "mtd": true,
-      "newThisMonth": true
+      "newThisMonth": true,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 600,
+      "lastInvoiceDatePeriod": "2026-05-11",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 225,
+      "shippingPeriod": 75.39,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 518.16
     },
     {
       "clinic": "Austin Equine",
@@ -990,9 +1100,20 @@
       "outstandingBalance": 600,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 9,
+      "daysSinceLastOrder": 10,
       "mtd": true,
-      "newThisMonth": true
+      "newThisMonth": true,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 600,
+      "lastInvoiceDatePeriod": "2026-05-11",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 600
     },
     {
       "clinic": "Fairfield Equine Associates",
@@ -1010,9 +1131,20 @@
       "outstandingBalance": 600,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 9,
+      "daysSinceLastOrder": 10,
       "mtd": true,
-      "newThisMonth": true
+      "newThisMonth": true,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 600,
+      "lastInvoiceDatePeriod": "2026-05-11",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 225,
+      "shippingPeriod": 89.91,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 503.64
     },
     {
       "clinic": "Mt. Laramie Veterinary Services",
@@ -1030,9 +1162,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 14,
+      "daysSinceLastOrder": 15,
       "mtd": true,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 3,
+      "invoicedPeriod": 2167,
+      "paidPeriod": 2535.88,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-05-06",
+      "lastPaymentDatePeriod": "2026-05-11",
+      "discountsPeriod": 1345,
+      "shippingPeriod": 197.17,
+      "cogsPeriod": 30.85,
+      "grossProfitPeriod": 1938.98
     },
     {
       "clinic": "Woodland Run Equine Veterinary",
@@ -1050,9 +1193,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 15,
+      "daysSinceLastOrder": 16,
       "mtd": true,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 2,
+      "invoicedPeriod": 1200,
+      "paidPeriod": 1200,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-05-05",
+      "lastPaymentDatePeriod": "2026-01-27",
+      "discountsPeriod": 4950,
+      "shippingPeriod": 83.31,
+      "cogsPeriod": 45.84,
+      "grossProfitPeriod": 1070.85
     },
     {
       "clinic": "Rood and Riddle Lexington",
@@ -1070,9 +1224,20 @@
       "outstandingBalance": 600,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 16,
+      "daysSinceLastOrder": 17,
       "mtd": true,
-      "newThisMonth": true
+      "newThisMonth": true,
+      "invoicesPeriod": 2,
+      "invoicedPeriod": 600,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 600,
+      "lastInvoiceDatePeriod": "2026-05-04",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 1050,
+      "shippingPeriod": 71.17,
+      "cogsPeriod": 12.9,
+      "grossProfitPeriod": 515.93
     },
     {
       "clinic": "Santa Lucia Farm",
@@ -1090,9 +1255,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 19,
+      "daysSinceLastOrder": 20,
       "mtd": true,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 3,
+      "invoicedPeriod": 1800,
+      "paidPeriod": 1835.88,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-05-01",
+      "lastPaymentDatePeriod": "2026-05-19",
+      "discountsPeriod": 675,
+      "shippingPeriod": 160.74,
+      "cogsPeriod": 12.9,
+      "grossProfitPeriod": 1626.36
     },
     {
       "clinic": "Shell Equine Services",
@@ -1110,9 +1286,20 @@
       "outstandingBalance": 600,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 21,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 22,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 600,
+      "lastInvoiceDatePeriod": "2026-04-29",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 225,
+      "shippingPeriod": 79.03,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 514.52
     },
     {
       "clinic": "Equine Sports Medicine & Surgery",
@@ -1130,9 +1317,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 21,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 22,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 4,
+      "invoicedPeriod": 8080,
+      "paidPeriod": 8080,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-29",
+      "lastPaymentDatePeriod": "2026-02-27",
+      "discountsPeriod": 10890,
+      "shippingPeriod": 45.39,
+      "cogsPeriod": 106.14,
+      "grossProfitPeriod": 7928.47
     },
     {
       "clinic": "Tryon Equine Hospital",
@@ -1150,9 +1348,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 22,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 23,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 4,
+      "invoicedPeriod": 4800,
+      "paidPeriod": 4800,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-28",
+      "lastPaymentDatePeriod": "2026-04-28",
+      "discountsPeriod": 900,
+      "shippingPeriod": 156.73,
+      "cogsPeriod": 25.8,
+      "grossProfitPeriod": 4617.47
     },
     {
       "clinic": "Smith Performance Equine",
@@ -1170,9 +1379,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 22,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 23,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 4,
+      "invoicedPeriod": 7900,
+      "paidPeriod": 7900,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-28",
+      "lastPaymentDatePeriod": "2026-05-01",
+      "discountsPeriod": 4090,
+      "shippingPeriod": 153.76,
+      "cogsPeriod": 90.3,
+      "grossProfitPeriod": 7655.94
     },
     {
       "clinic": "Crossroads Veterinary Clinic",
@@ -1190,9 +1410,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 22,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 23,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 600,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-28",
+      "lastPaymentDatePeriod": "2026-05-10",
+      "discountsPeriod": 225,
+      "shippingPeriod": 89.6,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 503.95
     },
     {
       "clinic": "Northern Star Equine",
@@ -1210,9 +1441,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 23,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 24,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 5,
+      "invoicedPeriod": 16845,
+      "paidPeriod": 16845,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-27",
+      "lastPaymentDatePeriod": "2026-05-06",
+      "discountsPeriod": 14250,
+      "shippingPeriod": 148.89,
+      "cogsPeriod": 176.09,
+      "grossProfitPeriod": 16520.02
     },
     {
       "clinic": "Outlaw Equine",
@@ -1230,9 +1472,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 27,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 28,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 4,
+      "invoicedPeriod": 10650,
+      "paidPeriod": 10650,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-23",
+      "lastPaymentDatePeriod": "2026-05-02",
+      "discountsPeriod": 18375,
+      "shippingPeriod": 187.19,
+      "cogsPeriod": 175.67,
+      "grossProfitPeriod": 10287.14
     },
     {
       "clinic": "Double X Veterinary Services",
@@ -1250,9 +1503,20 @@
       "outstandingBalance": 4800,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 27,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 28,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 2,
+      "invoicedPeriod": 4800,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 4800,
+      "lastInvoiceDatePeriod": "2026-04-23",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 3450,
+      "shippingPeriod": 46.8,
+      "cogsPeriod": 76.4,
+      "grossProfitPeriod": 4676.8
     },
     {
       "clinic": "Colts Neck Equine",
@@ -1270,9 +1534,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 29,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 30,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 600,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-21",
+      "lastPaymentDatePeriod": "2026-05-17",
+      "discountsPeriod": 225,
+      "shippingPeriod": 82.47,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 511.08
     },
     {
       "clinic": "Hancock Animal Clinic",
@@ -1290,9 +1565,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 29,
+      "daysSinceLastOrder": 30,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-21",
+      "lastPaymentDatePeriod": "2026-04-22",
+      "discountsPeriod": 825,
+      "shippingPeriod": 73.09,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": -79.54
     },
     {
       "clinic": "Central Washington Equine Hospital",
@@ -1310,9 +1596,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 29,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 30,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 617.94,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-21",
+      "lastPaymentDatePeriod": "2026-05-06",
+      "discountsPeriod": 225,
+      "shippingPeriod": 92.07,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 501.48
     },
     {
       "clinic": "Peterson Smith Equine Hospital",
@@ -1330,9 +1627,20 @@
       "outstandingBalance": 4800,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 34,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 35,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 4800,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 4800,
+      "lastInvoiceDatePeriod": "2026-04-16",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 4800
     },
     {
       "clinic": "Flying UJ",
@@ -1350,9 +1658,20 @@
       "outstandingBalance": 600,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 35,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 36,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 600,
+      "lastInvoiceDatePeriod": "2026-04-15",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 225,
+      "shippingPeriod": 50.28,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 543.27
     },
     {
       "clinic": "Panorama Equine Medical and Surgical Center",
@@ -1370,9 +1689,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 37,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 38,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 2,
+      "invoicedPeriod": 2400,
+      "paidPeriod": 2400,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-13",
+      "lastPaymentDatePeriod": "2026-05-05",
+      "discountsPeriod": 900,
+      "shippingPeriod": 178.61,
+      "cogsPeriod": 34.7,
+      "grossProfitPeriod": 2186.69
     },
     {
       "clinic": "The Feiner Equine",
@@ -1390,9 +1720,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 39,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 40,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 4,
+      "invoicedPeriod": 2250,
+      "paidPeriod": 2250,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-11",
+      "lastPaymentDatePeriod": "2026-04-22",
+      "discountsPeriod": 5065,
+      "shippingPeriod": 79.64,
+      "cogsPeriod": 30.15,
+      "grossProfitPeriod": 2140.21
     },
     {
       "clinic": "Leg Up Equine",
@@ -1410,9 +1751,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 42,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 43,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 2400,
+      "paidPeriod": 2400,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-08",
+      "lastPaymentDatePeriod": "2026-04-08",
+      "discountsPeriod": 900,
+      "shippingPeriod": 89.56,
+      "cogsPeriod": 35.32,
+      "grossProfitPeriod": 2275.12
     },
     {
       "clinic": "Centenary University",
@@ -1430,9 +1782,20 @@
       "outstandingBalance": 2400,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 42,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 43,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 2400,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 2400,
+      "lastInvoiceDatePeriod": "2026-04-08",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 900,
+      "shippingPeriod": 89.56,
+      "cogsPeriod": 25.8,
+      "grossProfitPeriod": 2284.64
     },
     {
       "clinic": "WinStar Farm LLC",
@@ -1450,9 +1813,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 42,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 43,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 2,
+      "invoicedPeriod": 3600,
+      "paidPeriod": 3600,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-08",
+      "lastPaymentDatePeriod": "2026-05-13",
+      "discountsPeriod": 1790,
+      "shippingPeriod": 74.51,
+      "cogsPeriod": 12.9,
+      "grossProfitPeriod": 3512.59
     },
     {
       "clinic": "Brazos Valley Equine Hospital-Cypress",
@@ -1470,9 +1844,20 @@
       "outstandingBalance": 700,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 42,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 43,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 2,
+      "invoicedPeriod": 700,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 2,
+      "openBalancePeriod": 700,
+      "lastInvoiceDatePeriod": "2026-04-08",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 1620,
+      "shippingPeriod": 78.54,
+      "cogsPeriod": 12.9,
+      "grossProfitPeriod": 608.56
     },
     {
       "clinic": "Jenson Equine Hospital",
@@ -1490,9 +1875,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 49,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 50,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 600,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-04-01",
+      "lastPaymentDatePeriod": "2026-04-07",
+      "discountsPeriod": 895,
+      "shippingPeriod": 70.92,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 522.63
     },
     {
       "clinic": "Advanced Equine of the Hudson Valley",
@@ -1510,9 +1906,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 56,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 57,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 4800,
+      "paidPeriod": 4800,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-03-25",
+      "lastPaymentDatePeriod": "2026-04-01",
+      "discountsPeriod": 7160,
+      "shippingPeriod": 83.59,
+      "cogsPeriod": 61.12,
+      "grossProfitPeriod": 4655.29
     },
     {
       "clinic": "Paso Robles Equine",
@@ -1530,9 +1937,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 64,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 65,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 2,
+      "invoicedPeriod": 5500,
+      "paidPeriod": 5500,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-03-17",
+      "lastPaymentDatePeriod": "2026-04-12",
+      "discountsPeriod": 9450,
+      "shippingPeriod": 160.9,
+      "cogsPeriod": 86.75,
+      "grossProfitPeriod": 5252.35
     },
     {
       "clinic": "Tulsa Equine",
@@ -1550,9 +1968,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 69,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 70,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 350,
+      "paidPeriod": 350,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-03-12",
+      "lastPaymentDatePeriod": "2026-03-16",
+      "discountsPeriod": 1145,
+      "shippingPeriod": 72.76,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 270.79
     },
     {
       "clinic": "Oakridge Equine Hospital",
@@ -1570,9 +1999,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 70,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 71,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 600,
+      "paidPeriod": 600,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-03-11",
+      "lastPaymentDatePeriod": "2026-04-15",
+      "discountsPeriod": 895,
+      "shippingPeriod": 62.88,
+      "cogsPeriod": 6.45,
+      "grossProfitPeriod": 530.67
     },
     {
       "clinic": "West Texas Equine Clinic",
@@ -1590,9 +2030,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 71,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 72,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 700,
+      "paidPeriod": 700,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-03-10",
+      "lastPaymentDatePeriod": "2026-04-06",
+      "discountsPeriod": 2290,
+      "shippingPeriod": 43.27,
+      "cogsPeriod": 12.9,
+      "grossProfitPeriod": 643.83
     },
     {
       "clinic": "Mobile Veterinary Practice",
@@ -1610,9 +2061,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 76,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 77,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 3,
+      "invoicedPeriod": 3630,
+      "paidPeriod": 3630,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-03-05",
+      "lastPaymentDatePeriod": "2026-04-10",
+      "discountsPeriod": 1145,
+      "shippingPeriod": 122.74,
+      "cogsPeriod": 25.1,
+      "grossProfitPeriod": 3482.16
     },
     {
       "clinic": "North Texas Veterinary Hospital",
@@ -1630,9 +2092,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 78,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 79,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 350,
+      "paidPeriod": 350,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2026-03-03",
+      "lastPaymentDatePeriod": "2026-03-25",
+      "discountsPeriod": 1145,
+      "shippingPeriod": 0,
+      "cogsPeriod": 5.75,
+      "grossProfitPeriod": 344.25
     },
     {
       "clinic": "Palm Beach Equine Clinic",
@@ -1650,9 +2123,20 @@
       "outstandingBalance": 2400,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 85,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 86,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 2400,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 1,
+      "openBalancePeriod": 2400,
+      "lastInvoiceDatePeriod": "2026-02-24",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 2400
     },
     {
       "clinic": "Florida Equine Veterinary Associates (FEVA)",
@@ -1670,9 +2154,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Inactive",
-      "daysSinceLastOrder": 156,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 157,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 700,
+      "paidPeriod": 700,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2025-12-15",
+      "lastPaymentDatePeriod": "2025-12-14",
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 11.5,
+      "grossProfitPeriod": 688.5
     },
     {
       "clinic": "New Bolton Center",
@@ -1690,9 +2185,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Inactive",
-      "daysSinceLastOrder": 233,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 234,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 2165,
+      "paidPeriod": 2165,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2025-09-29",
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 11.5,
+      "grossProfitPeriod": 2153.5
     },
     {
       "clinic": "Springhill Equine Veterinary Clinic",
@@ -1710,9 +2216,20 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Inactive",
-      "daysSinceLastOrder": 287,
-      "mtd": false,
-      "newThisMonth": false
+      "daysSinceLastOrder": 288,
+      "mtd": true,
+      "newThisMonth": false,
+      "invoicesPeriod": 1,
+      "invoicedPeriod": 6495,
+      "paidPeriod": 6495,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": "2025-08-06",
+      "lastPaymentDatePeriod": "2025-08-11",
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 17.25,
+      "grossProfitPeriod": 6477.75
     },
     {
       "clinic": "Kennedy Equine - Arrow Equine Hospital",
@@ -1732,7 +2249,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Performance Equine Veterinary Services (EPIC)",
@@ -1752,7 +2280,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Acadiana Equine Hospital",
@@ -1772,7 +2311,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Austin Equine (AE)",
@@ -1792,7 +2342,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Greene, Lewis and Associates",
@@ -1812,7 +2373,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Southen Indiana Equine Inc.",
@@ -1832,7 +2404,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "CSU Field Services",
@@ -1852,7 +2435,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Equine Athlete Veterinary Services - Williamston, MI",
@@ -1872,7 +2466,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Blue Ridge Equine",
@@ -1892,7 +2497,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Equine Athlete Veterinary Services - Lexington, KY",
@@ -1912,7 +2528,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Whetstone Equine",
@@ -1932,7 +2559,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Running S Equine",
@@ -1952,7 +2590,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Republic of Texas Equine Medical Center",
@@ -1972,7 +2621,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Equine Therapies",
@@ -1992,7 +2652,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     },
     {
       "clinic": "Neuse River Equine Hospital",
@@ -2012,7 +2683,18 @@
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
-      "newThisMonth": false
+      "newThisMonth": false,
+      "invoicesPeriod": 0,
+      "invoicedPeriod": 0,
+      "paidPeriod": 0,
+      "openInvoicesPeriod": 0,
+      "openBalancePeriod": 0,
+      "lastInvoiceDatePeriod": null,
+      "lastPaymentDatePeriod": null,
+      "discountsPeriod": 0,
+      "shippingPeriod": 0,
+      "cogsPeriod": 0,
+      "grossProfitPeriod": 0
     }
   ],
   "ytdMonths": {
