@@ -800,7 +800,7 @@
       "openBalancePeriod": 2750,
       "lastInvoiceDatePeriod": "2026-05-20",
       "lastPaymentDatePeriod": "2026-05-14",
-      "discountsPeriod": 6625,
+      "discountsPeriod": 0,
       "shippingPeriod": 193.37,
       "cogsPeriod": 95.35,
       "grossProfitPeriod": 9761.28
@@ -831,7 +831,7 @@
       "openBalancePeriod": 13200,
       "lastInvoiceDatePeriod": "2026-05-20",
       "lastPaymentDatePeriod": "2026-03-25",
-      "discountsPeriod": 13900,
+      "discountsPeriod": 0,
       "shippingPeriod": 210.64,
       "cogsPeriod": 254.83,
       "grossProfitPeriod": 21134.53
@@ -862,7 +862,7 @@
       "openBalancePeriod": 600,
       "lastInvoiceDatePeriod": "2026-05-20",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 225,
+      "discountsPeriod": 0,
       "shippingPeriod": 0,
       "cogsPeriod": 0,
       "grossProfitPeriod": 600
@@ -924,7 +924,7 @@
       "openBalancePeriod": 950,
       "lastInvoiceDatePeriod": "2026-05-15",
       "lastPaymentDatePeriod": "2026-04-20",
-      "discountsPeriod": 1175,
+      "discountsPeriod": 0,
       "shippingPeriod": 94.97,
       "cogsPeriod": 19.35,
       "grossProfitPeriod": 1185.68
@@ -955,7 +955,7 @@
       "openBalancePeriod": 600,
       "lastInvoiceDatePeriod": "2026-05-15",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 225,
+      "discountsPeriod": 0,
       "shippingPeriod": 89.39,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 504.16
@@ -986,7 +986,7 @@
       "openBalancePeriod": 4800,
       "lastInvoiceDatePeriod": "2026-05-15",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 1800,
+      "discountsPeriod": 0,
       "shippingPeriod": 92,
       "cogsPeriod": 58.74,
       "grossProfitPeriod": 4649.26
@@ -1017,7 +1017,7 @@
       "openBalancePeriod": 3600,
       "lastInvoiceDatePeriod": "2026-05-14",
       "lastPaymentDatePeriod": "2026-04-06",
-      "discountsPeriod": 13090,
+      "discountsPeriod": 0,
       "shippingPeriod": 140.32,
       "cogsPeriod": 149.94,
       "grossProfitPeriod": 9509.74
@@ -1048,7 +1048,7 @@
       "openBalancePeriod": 1800,
       "lastInvoiceDatePeriod": "2026-05-14",
       "lastPaymentDatePeriod": "2026-05-12",
-      "discountsPeriod": 8290,
+      "discountsPeriod": 0,
       "shippingPeriod": 188.34,
       "cogsPeriod": 108.95,
       "grossProfitPeriod": 9902.71
@@ -1079,7 +1079,7 @@
       "openBalancePeriod": 600,
       "lastInvoiceDatePeriod": "2026-05-11",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 225,
+      "discountsPeriod": 0,
       "shippingPeriod": 75.39,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 518.16
@@ -1141,7 +1141,7 @@
       "openBalancePeriod": 600,
       "lastInvoiceDatePeriod": "2026-05-11",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 225,
+      "discountsPeriod": 0,
       "shippingPeriod": 89.91,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 503.64
@@ -1172,7 +1172,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-05-06",
       "lastPaymentDatePeriod": "2026-05-11",
-      "discountsPeriod": 1345,
+      "discountsPeriod": 0,
       "shippingPeriod": 197.17,
       "cogsPeriod": 30.85,
       "grossProfitPeriod": 1938.98
@@ -1203,7 +1203,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-05-05",
       "lastPaymentDatePeriod": "2026-01-27",
-      "discountsPeriod": 4950,
+      "discountsPeriod": 0,
       "shippingPeriod": 83.31,
       "cogsPeriod": 45.84,
       "grossProfitPeriod": 1070.85
@@ -1234,7 +1234,7 @@
       "openBalancePeriod": 600,
       "lastInvoiceDatePeriod": "2026-05-04",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 1050,
+      "discountsPeriod": 0,
       "shippingPeriod": 71.17,
       "cogsPeriod": 12.9,
       "grossProfitPeriod": 515.93
@@ -1265,7 +1265,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-05-01",
       "lastPaymentDatePeriod": "2026-05-19",
-      "discountsPeriod": 675,
+      "discountsPeriod": 0,
       "shippingPeriod": 160.74,
       "cogsPeriod": 12.9,
       "grossProfitPeriod": 1626.36
@@ -1296,7 +1296,7 @@
       "openBalancePeriod": 600,
       "lastInvoiceDatePeriod": "2026-04-29",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 225,
+      "discountsPeriod": 0,
       "shippingPeriod": 79.03,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 514.52
@@ -1327,7 +1327,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-29",
       "lastPaymentDatePeriod": "2026-02-27",
-      "discountsPeriod": 10890,
+      "discountsPeriod": 0,
       "shippingPeriod": 45.39,
       "cogsPeriod": 106.14,
       "grossProfitPeriod": 7928.47
@@ -1358,7 +1358,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-28",
       "lastPaymentDatePeriod": "2026-04-28",
-      "discountsPeriod": 900,
+      "discountsPeriod": 0,
       "shippingPeriod": 156.73,
       "cogsPeriod": 25.8,
       "grossProfitPeriod": 4617.47
@@ -1389,7 +1389,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-28",
       "lastPaymentDatePeriod": "2026-05-01",
-      "discountsPeriod": 4090,
+      "discountsPeriod": 0,
       "shippingPeriod": 153.76,
       "cogsPeriod": 90.3,
       "grossProfitPeriod": 7655.94
@@ -1420,7 +1420,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-28",
       "lastPaymentDatePeriod": "2026-05-10",
-      "discountsPeriod": 225,
+      "discountsPeriod": 0,
       "shippingPeriod": 89.6,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 503.95
@@ -1451,7 +1451,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-27",
       "lastPaymentDatePeriod": "2026-05-06",
-      "discountsPeriod": 14250,
+      "discountsPeriod": 0,
       "shippingPeriod": 148.89,
       "cogsPeriod": 176.09,
       "grossProfitPeriod": 16520.02
@@ -1482,7 +1482,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-23",
       "lastPaymentDatePeriod": "2026-05-02",
-      "discountsPeriod": 18375,
+      "discountsPeriod": 0,
       "shippingPeriod": 187.19,
       "cogsPeriod": 175.67,
       "grossProfitPeriod": 10287.14
@@ -1513,7 +1513,7 @@
       "openBalancePeriod": 4800,
       "lastInvoiceDatePeriod": "2026-04-23",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 3450,
+      "discountsPeriod": 0,
       "shippingPeriod": 46.8,
       "cogsPeriod": 76.4,
       "grossProfitPeriod": 4676.8
@@ -1544,7 +1544,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-21",
       "lastPaymentDatePeriod": "2026-05-17",
-      "discountsPeriod": 225,
+      "discountsPeriod": 0,
       "shippingPeriod": 82.47,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 511.08
@@ -1575,7 +1575,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-21",
       "lastPaymentDatePeriod": "2026-04-22",
-      "discountsPeriod": 825,
+      "discountsPeriod": 0,
       "shippingPeriod": 73.09,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": -79.54
@@ -1606,7 +1606,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-21",
       "lastPaymentDatePeriod": "2026-05-06",
-      "discountsPeriod": 225,
+      "discountsPeriod": 0,
       "shippingPeriod": 92.07,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 501.48
@@ -1668,7 +1668,7 @@
       "openBalancePeriod": 600,
       "lastInvoiceDatePeriod": "2026-04-15",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 225,
+      "discountsPeriod": 0,
       "shippingPeriod": 50.28,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 543.27
@@ -1699,7 +1699,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-13",
       "lastPaymentDatePeriod": "2026-05-05",
-      "discountsPeriod": 900,
+      "discountsPeriod": 0,
       "shippingPeriod": 178.61,
       "cogsPeriod": 34.7,
       "grossProfitPeriod": 2186.69
@@ -1730,7 +1730,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-11",
       "lastPaymentDatePeriod": "2026-04-22",
-      "discountsPeriod": 5065,
+      "discountsPeriod": 0,
       "shippingPeriod": 79.64,
       "cogsPeriod": 30.15,
       "grossProfitPeriod": 2140.21
@@ -1761,7 +1761,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-08",
       "lastPaymentDatePeriod": "2026-04-08",
-      "discountsPeriod": 900,
+      "discountsPeriod": 0,
       "shippingPeriod": 89.56,
       "cogsPeriod": 35.32,
       "grossProfitPeriod": 2275.12
@@ -1792,7 +1792,7 @@
       "openBalancePeriod": 2400,
       "lastInvoiceDatePeriod": "2026-04-08",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 900,
+      "discountsPeriod": 0,
       "shippingPeriod": 89.56,
       "cogsPeriod": 25.8,
       "grossProfitPeriod": 2284.64
@@ -1823,7 +1823,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-08",
       "lastPaymentDatePeriod": "2026-05-13",
-      "discountsPeriod": 1790,
+      "discountsPeriod": 0,
       "shippingPeriod": 74.51,
       "cogsPeriod": 12.9,
       "grossProfitPeriod": 3512.59
@@ -1854,7 +1854,7 @@
       "openBalancePeriod": 700,
       "lastInvoiceDatePeriod": "2026-04-08",
       "lastPaymentDatePeriod": null,
-      "discountsPeriod": 1620,
+      "discountsPeriod": 0,
       "shippingPeriod": 78.54,
       "cogsPeriod": 12.9,
       "grossProfitPeriod": 608.56
@@ -1885,7 +1885,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-04-01",
       "lastPaymentDatePeriod": "2026-04-07",
-      "discountsPeriod": 895,
+      "discountsPeriod": 0,
       "shippingPeriod": 70.92,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 522.63
@@ -1916,7 +1916,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-03-25",
       "lastPaymentDatePeriod": "2026-04-01",
-      "discountsPeriod": 7160,
+      "discountsPeriod": 0,
       "shippingPeriod": 83.59,
       "cogsPeriod": 61.12,
       "grossProfitPeriod": 4655.29
@@ -1947,7 +1947,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-03-17",
       "lastPaymentDatePeriod": "2026-04-12",
-      "discountsPeriod": 9450,
+      "discountsPeriod": 0,
       "shippingPeriod": 160.9,
       "cogsPeriod": 86.75,
       "grossProfitPeriod": 5252.35
@@ -1978,7 +1978,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-03-12",
       "lastPaymentDatePeriod": "2026-03-16",
-      "discountsPeriod": 1145,
+      "discountsPeriod": 0,
       "shippingPeriod": 72.76,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 270.79
@@ -2009,7 +2009,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-03-11",
       "lastPaymentDatePeriod": "2026-04-15",
-      "discountsPeriod": 895,
+      "discountsPeriod": 0,
       "shippingPeriod": 62.88,
       "cogsPeriod": 6.45,
       "grossProfitPeriod": 530.67
@@ -2040,7 +2040,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-03-10",
       "lastPaymentDatePeriod": "2026-04-06",
-      "discountsPeriod": 2290,
+      "discountsPeriod": 0,
       "shippingPeriod": 43.27,
       "cogsPeriod": 12.9,
       "grossProfitPeriod": 643.83
@@ -2071,7 +2071,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-03-05",
       "lastPaymentDatePeriod": "2026-04-10",
-      "discountsPeriod": 1145,
+      "discountsPeriod": 0,
       "shippingPeriod": 122.74,
       "cogsPeriod": 25.1,
       "grossProfitPeriod": 3482.16
@@ -2102,7 +2102,7 @@
       "openBalancePeriod": 0,
       "lastInvoiceDatePeriod": "2026-03-03",
       "lastPaymentDatePeriod": "2026-03-25",
-      "discountsPeriod": 1145,
+      "discountsPeriod": 0,
       "shippingPeriod": 0,
       "cogsPeriod": 5.75,
       "grossProfitPeriod": 344.25
