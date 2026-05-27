@@ -213,7 +213,7 @@
           "date": "2026-05-01",
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1078",
-          "amount": 600,
+          "amount": 1800,
           "commissionRate": null,
           "commissionAmount": null
         },
@@ -307,5 +307,5 @@
       "commission": 60
     }
   ],
-  "generatedAt": "2026-05-27T21:15:14.389Z"
+  "generatedAt": "2026-05-27T21:27:29.676Z"
 }
