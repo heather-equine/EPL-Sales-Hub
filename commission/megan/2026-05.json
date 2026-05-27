@@ -6,12 +6,35 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 4800,
-  "totalCommission": 480,
-  "paymentCount": 4,
-  "accountCount": 3,
+  "totalCollected": 10800,
+  "totalCommission": 1080,
+  "paymentCount": 6,
+  "accountCount": 5,
   "dueDate": "June 30, 2026",
   "accounts": [
+    {
+      "customerName": "Peterson Smith Equine Hospital",
+      "transactions": [
+        {
+          "date": "2026-04-16",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1008",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-22",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1008",
+          "amount": 4800,
+          "commissionRate": 0.1,
+          "commissionAmount": 480
+        }
+      ],
+      "collected": 4800,
+      "commission": 480
+    },
     {
       "customerName": "WinStar Farm LLC",
       "transactions": [
@@ -75,6 +98,29 @@
       "commission": 180
     },
     {
+      "customerName": "Tryon Equine Hospital",
+      "transactions": [
+        {
+          "date": "2026-05-26",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1100",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        },
+        {
+          "date": "2026-05-26",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1100",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "collected": 1200,
+      "commission": 120
+    },
+    {
       "customerName": "Colts Neck Equine",
       "transactions": [
         {
@@ -98,5 +144,5 @@
       "commission": 60
     }
   ],
-  "generatedAt": "2026-05-27T21:27:31.083Z"
+  "generatedAt": "2026-05-27T21:27:47.691Z"
 }
