@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T15:26:50.527Z",
+  "generatedAt": "2026-06-04T15:48:41.362Z",
   "drops": [
     {
       "dropDate": "2026-06-04",
@@ -56,6 +56,64 @@
           "ytdSales": 188810,
           "ytdCollected": 134095.88,
           "ytdInvoices": 110
+        }
+      },
+      "priorMonthSameDay": {
+        "sourceDropDate": "2026-05-07",
+        "aggregates": {
+          "karin": {
+            "mtdSales": 4200,
+            "mtdCollected": 19235.88,
+            "mtdOrders": 4,
+            "mtdVials": 22,
+            "outstanding": 19300,
+            "pctCollected": 0.8229520227502064
+          },
+          "megan": {
+            "mtdSales": 1200,
+            "mtdCollected": 0,
+            "mtdOrders": 4,
+            "mtdVials": 13,
+            "outstanding": 16200,
+            "pctCollected": 0.6203866432337434
+          },
+          "company": {
+            "mtdSales": 5400,
+            "mtdCollected": 19235.88,
+            "mtdOrders": 8,
+            "mtdVials": 35,
+            "outstanding": 35500,
+            "pctCollected": 0.7659623561987012
+          }
+        }
+      },
+      "priorMonthFinal": {
+        "sourceDropDate": "2026-05-27",
+        "aggregates": {
+          "karin": {
+            "mtdSales": 27350,
+            "mtdCollected": 27600,
+            "mtdOrders": 16,
+            "mtdVials": 228,
+            "outstanding": 28900,
+            "pctCollected": 0.7832933413317337
+          },
+          "megan": {
+            "mtdSales": 4200,
+            "mtdCollected": 4800,
+            "mtdOrders": 8,
+            "mtdVials": 89,
+            "outstanding": 17400,
+            "pctCollected": 0.6817558299039781
+          },
+          "company": {
+            "mtdSales": 31550,
+            "mtdCollected": 32400,
+            "mtdOrders": 24,
+            "mtdVials": 317,
+            "outstanding": 46300,
+            "pctCollected": 0.7537692450873508
+          }
         }
       }
     },
@@ -115,7 +173,9 @@
           "ytdCollected": 0,
           "ytdInvoices": 0
         }
-      }
+      },
+      "priorMonthSameDay": null,
+      "priorMonthFinal": null
     },
     {
       "dropDate": "2026-05-21",
@@ -173,7 +233,9 @@
           "ytdCollected": 0,
           "ytdInvoices": 0
         }
-      }
+      },
+      "priorMonthSameDay": null,
+      "priorMonthFinal": null
     },
     {
       "dropDate": "2026-05-20",
@@ -231,7 +293,9 @@
           "ytdCollected": 0,
           "ytdInvoices": 0
         }
-      }
+      },
+      "priorMonthSameDay": null,
+      "priorMonthFinal": null
     },
     {
       "dropDate": "2026-05-14",
@@ -289,7 +353,9 @@
           "ytdCollected": 0,
           "ytdInvoices": 0
         }
-      }
+      },
+      "priorMonthSameDay": null,
+      "priorMonthFinal": null
     },
     {
       "dropDate": "2026-05-07",
@@ -347,7 +413,9 @@
           "ytdCollected": 0,
           "ytdInvoices": 0
         }
-      }
+      },
+      "priorMonthSameDay": null,
+      "priorMonthFinal": null
     }
   ]
 }
