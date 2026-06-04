@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T18:53:21.560Z",
+  "generatedAt": "2026-06-04T18:56:31.575Z",
   "drops": [
     {
       "dropDate": "2026-06-04",
@@ -136,9 +136,9 @@
           "activeClients": 27,
           "totalClients": 35,
           "pctCollected": 78.32933413317336,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 121610,
+          "ytdCollected": 86210,
+          "ytdInvoices": 67
         },
         "megan": {
           "repId": "megan",
@@ -153,9 +153,9 @@
           "activeClients": 17,
           "totalClients": 28,
           "pctCollected": 68.17558299039781,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 34800,
+          "ytdCollected": 20400,
+          "ytdInvoices": 28
         },
         "company": {
           "repId": "company",
@@ -170,9 +170,9 @@
           "activeClients": 44,
           "totalClients": 63,
           "pctCollected": 75.37692450873507,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 156410,
+          "ytdCollected": 106610,
+          "ytdInvoices": 95
         }
       },
       "priorMonthSameDay": null,
@@ -214,9 +214,9 @@
         "karin": {
           "repId": "karin",
           "repName": "Karin Williamson",
-          "mtdSales": 40550,
-          "mtdCollected": 40085.880000000005,
-          "mtdOrders": 20,
+          "mtdSales": 27350,
+          "mtdCollected": 27600,
+          "mtdOrders": 16,
           "mtdVials": 226,
           "newClientsMTD": 3,
           "totalPaid": 98110,
@@ -224,16 +224,16 @@
           "activeClients": 27,
           "totalClients": 35,
           "pctCollected": 74.23577481840194,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 121610,
+          "ytdCollected": 86210,
+          "ytdInvoices": 67
         },
         "megan": {
           "repId": "megan",
           "repName": "Megan Smith",
-          "mtdSales": 13200,
-          "mtdCollected": 15000,
-          "mtdOrders": 12,
+          "mtdSales": 4200,
+          "mtdCollected": 4800,
+          "mtdOrders": 8,
           "mtdVials": 74,
           "newClientsMTD": 4,
           "totalPaid": 31275,
@@ -241,16 +241,16 @@
           "activeClients": 17,
           "totalClients": 27,
           "pctCollected": 68.4729064039409,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 34800,
+          "ytdCollected": 20400,
+          "ytdInvoices": 28
         },
         "company": {
           "repId": "company",
           "repName": "Company",
-          "mtdSales": 53750,
-          "mtdCollected": 55085.880000000005,
-          "mtdOrders": 32,
+          "mtdSales": 31550,
+          "mtdCollected": 32400,
+          "mtdOrders": 24,
           "mtdVials": 300,
           "newClientsMTD": 7,
           "totalPaid": 129385,
@@ -258,9 +258,9 @@
           "activeClients": 44,
           "totalClients": 62,
           "pctCollected": 72.75564427699834,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 156410,
+          "ytdCollected": 106610,
+          "ytdInvoices": 95
         }
       },
       "priorMonthSameDay": null,
@@ -312,9 +312,9 @@
           "activeClients": 27,
           "totalClients": 35,
           "pctCollected": 74.23577481840194,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 121610,
+          "ytdCollected": 86210,
+          "ytdInvoices": 67
         },
         "megan": {
           "repId": "megan",
@@ -329,9 +329,9 @@
           "activeClients": 17,
           "totalClients": 27,
           "pctCollected": 68.4729064039409,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 34800,
+          "ytdCollected": 20400,
+          "ytdInvoices": 28
         },
         "company": {
           "repId": "company",
@@ -346,9 +346,9 @@
           "activeClients": 44,
           "totalClients": 62,
           "pctCollected": 72.75564427699834,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 156410,
+          "ytdCollected": 106610,
+          "ytdInvoices": 95
         }
       },
       "priorMonthSameDay": null,
@@ -400,9 +400,9 @@
           "activeClients": 26,
           "totalClients": 35,
           "pctCollected": 85.22856393671881,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 103860,
+          "ytdCollected": 85610,
+          "ytdInvoices": 59
         },
         "megan": {
           "repId": "megan",
@@ -417,9 +417,9 @@
           "activeClients": 15,
           "totalClients": 23,
           "pctCollected": 70.8838821490468,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 32400,
+          "ytdCollected": 19800,
+          "ytdInvoices": 25
         },
         "company": {
           "repId": "company",
@@ -434,9 +434,9 @@
           "activeClients": 41,
           "totalClients": 58,
           "pctCollected": 81.29181596220313,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 136260,
+          "ytdCollected": 105410,
+          "ytdInvoices": 84
         }
       },
       "priorMonthSameDay": null,
@@ -488,9 +488,9 @@
           "activeClients": 24,
           "totalClients": 35,
           "pctCollected": 82.29520227502064,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 98460,
+          "ytdCollected": 77845.88,
+          "ytdInvoices": 55
         },
         "megan": {
           "repId": "megan",
@@ -505,9 +505,9 @@
           "activeClients": 14,
           "totalClients": 23,
           "pctCollected": 62.038664323374334,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 31800,
+          "ytdCollected": 15600,
+          "ytdInvoices": 24
         },
         "company": {
           "repId": "company",
@@ -522,9 +522,9 @@
           "activeClients": 38,
           "totalClients": 58,
           "pctCollected": 76.59623561987013,
-          "ytdSales": 0,
-          "ytdCollected": 0,
-          "ytdInvoices": 0
+          "ytdSales": 130260,
+          "ytdCollected": 93445.88,
+          "ytdInvoices": 79
         }
       },
       "priorMonthSameDay": null,
