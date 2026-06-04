@@ -2033,31 +2033,32 @@
     }
   },
   "priorMonthFinal": {
-    "sourceDropDate": "2026-05-27",
+    "sourceDropDate": "2026-05-31",
+    "sourceLabel": "Sales/Collected/Orders through 2026-05-31; Vials & Outstanding as of 2026-05-27",
     "aggregates": {
       "karin": {
-        "mtdSales": 27350,
-        "mtdCollected": 27600,
-        "mtdOrders": 16,
+        "mtdSales": 40550,
+        "mtdCollected": 40085.880000000005,
+        "mtdOrders": 20,
         "mtdVials": 228,
         "outstanding": 28900,
-        "pctCollected": 0.7832933413317337
+        "pctCollected": 0.9885543773119606
       },
       "megan": {
-        "mtdSales": 4200,
-        "mtdCollected": 4800,
-        "mtdOrders": 8,
+        "mtdSales": 13200,
+        "mtdCollected": 15000,
+        "mtdOrders": 12,
         "mtdVials": 89,
         "outstanding": 17400,
-        "pctCollected": 0.6817558299039781
+        "pctCollected": 1.1363636363636365
       },
       "company": {
-        "mtdSales": 31550,
-        "mtdCollected": 32400,
-        "mtdOrders": 24,
+        "mtdSales": 53750,
+        "mtdCollected": 55085.880000000005,
+        "mtdOrders": 32,
         "mtdVials": 317,
         "outstanding": 46300,
-        "pctCollected": 0.7537692450873508
+        "pctCollected": 1.024853581395349
       }
     }
   }
