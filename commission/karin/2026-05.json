@@ -6,10 +6,10 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 32150,
-  "totalCommission": 3215,
-  "paymentCount": 17,
-  "accountCount": 11,
+  "totalCollected": 40085.88,
+  "totalCommission": 4008.59,
+  "paymentCount": 22,
+  "accountCount": 14,
   "dueDate": "June 30, 2026",
   "accounts": [
     {
@@ -180,7 +180,7 @@
           "commissionAmount": null
         },
         {
-          "date": "2026-05-23",
+          "date": "2026-05-28",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1097",
           "amount": 2400,
@@ -190,6 +190,68 @@
       ],
       "collected": 4800,
       "commission": 480
+    },
+    {
+      "customerName": "Double X Veterinary Services",
+      "transactions": [
+        {
+          "date": "2026-04-23",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1068",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-29",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1068",
+          "amount": 4800,
+          "commissionRate": 0.1,
+          "commissionAmount": 480
+        }
+      ],
+      "collected": 4800,
+      "commission": 480
+    },
+    {
+      "customerName": "Santa Lucia Farm",
+      "transactions": [
+        {
+          "date": "2026-05-01",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1077",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-01",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1078",
+          "amount": 1800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-05",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1077",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        },
+        {
+          "date": "2026-05-26",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1078",
+          "amount": 1835.88,
+          "commissionRate": 0.1,
+          "commissionAmount": 183.58800000000002
+        }
+      ],
+      "collected": 2435.88,
+      "commission": 243.58800000000002
     },
     {
       "customerName": "Panorama Equine Medical and Surgical Center",
@@ -293,27 +355,43 @@
       "commission": 95
     },
     {
-      "customerName": "Santa Lucia Farm",
+      "customerName": "Brazos Valley Equine Hospital-Cypress",
       "transactions": [
         {
-          "date": "2026-05-01",
+          "date": "2026-03-30",
           "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1077",
-          "amount": 600,
+          "invoiceNum": "ORD-EPL-1044",
+          "amount": 350,
           "commissionRate": null,
           "commissionAmount": null
         },
         {
-          "date": "2026-05-05",
+          "date": "2026-04-08",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1048",
+          "amount": 350,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-31",
           "type": "Payment",
-          "invoiceNum": "ORD-EPL-1077",
-          "amount": 600,
+          "invoiceNum": "ORD-EPL-1048",
+          "amount": 350,
           "commissionRate": 0.1,
-          "commissionAmount": 60
+          "commissionAmount": 35
+        },
+        {
+          "date": "2026-05-31",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1044",
+          "amount": 350,
+          "commissionRate": 0.1,
+          "commissionAmount": 35
         }
       ],
-      "collected": 600,
-      "commission": 60
+      "collected": 700,
+      "commission": 70
     },
     {
       "customerName": "Central Washington Equine Hospital",
@@ -360,7 +438,30 @@
       ],
       "collected": 600,
       "commission": 60
+    },
+    {
+      "customerName": "Austin Equine",
+      "transactions": [
+        {
+          "date": "2026-05-11",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1013",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-31",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1013",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 600,
+      "commission": 60
     }
   ],
-  "generatedAt": "2026-06-04T15:24:30.456Z"
+  "generatedAt": "2026-06-04T15:24:36.580Z"
 }
