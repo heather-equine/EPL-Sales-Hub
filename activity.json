@@ -20,7 +20,7 @@
       "ytdSales": 143210,
       "ytdSalesGross": 258045,
       "ytdInvoices": 75,
-      "ytdCollected": 90760,
+      "ytdCollected": 102295.88,
       "priorMonthCollected": 25800,
       "priorMonthKey": "2026-04"
     },
@@ -40,7 +40,7 @@
       "ytdSales": 45600,
       "ytdSalesGross": 69470,
       "ytdInvoices": 35,
-      "ytdCollected": 26400,
+      "ytdCollected": 31800,
       "priorMonthCollected": 14400,
       "priorMonthKey": "2026-04"
     },
@@ -60,7 +60,7 @@
       "ytdSales": 188810,
       "ytdSalesGross": 327515,
       "ytdInvoices": 110,
-      "ytdCollected": 117160,
+      "ytdCollected": 134095.88,
       "priorMonthCollected": 40200,
       "priorMonthKey": "2026-04"
     }
@@ -2670,7 +2670,8 @@
       "2026-02",
       "2026-03",
       "2026-04",
-      "2026-05"
+      "2026-05",
+      "2026-06"
     ]
   },
   "ytdYear": 2026
