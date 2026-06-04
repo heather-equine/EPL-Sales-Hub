@@ -6,10 +6,10 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 10800,
-  "totalCommission": 1080,
-  "paymentCount": 6,
-  "accountCount": 5,
+  "totalCollected": 15000,
+  "totalCommission": 1500,
+  "paymentCount": 10,
+  "accountCount": 8,
   "dueDate": "June 30, 2026",
   "accounts": [
     {
@@ -36,29 +36,6 @@
       "commission": 480
     },
     {
-      "customerName": "WinStar Farm LLC",
-      "transactions": [
-        {
-          "date": "2026-04-08",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1006",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-13",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1006",
-          "amount": 2400,
-          "commissionRate": 0.1,
-          "commissionAmount": 240
-        }
-      ],
-      "collected": 2400,
-      "commission": 240
-    },
-    {
       "customerName": "Ocala Equine Hospital",
       "transactions": [
         {
@@ -66,6 +43,14 @@
           "type": "Invoice",
           "invoiceNum": "CINV-EPL-1010",
           "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-28",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1011",
+          "amount": 600,
           "commissionRate": null,
           "commissionAmount": null
         },
@@ -92,10 +77,64 @@
           "amount": 600,
           "commissionRate": 0.1,
           "commissionAmount": 60
+        },
+        {
+          "date": "2026-05-29",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1011",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
         }
       ],
-      "collected": 1800,
-      "commission": 180
+      "collected": 2400,
+      "commission": 240
+    },
+    {
+      "customerName": "WinStar Farm LLC",
+      "transactions": [
+        {
+          "date": "2026-04-08",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1006",
+          "amount": 2400,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-13",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1006",
+          "amount": 2400,
+          "commissionRate": 0.1,
+          "commissionAmount": 240
+        }
+      ],
+      "collected": 2400,
+      "commission": 240
+    },
+    {
+      "customerName": "Palm Beach Equine Clinic",
+      "transactions": [
+        {
+          "date": "2026-02-24",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1002",
+          "amount": 2400,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-31",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1002",
+          "amount": 2400,
+          "commissionRate": 0.1,
+          "commissionAmount": 240
+        }
+      ],
+      "collected": 2400,
+      "commission": 240
     },
     {
       "customerName": "Tryon Equine Hospital",
@@ -142,7 +181,53 @@
       ],
       "collected": 600,
       "commission": 60
+    },
+    {
+      "customerName": "Rood and Riddle Lexington",
+      "transactions": [
+        {
+          "date": "2026-05-04",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1079",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-31",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1079",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 600,
+      "commission": 60
+    },
+    {
+      "customerName": "Shell Equine Services",
+      "transactions": [
+        {
+          "date": "2026-04-29",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1075",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-31",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1075",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 600,
+      "commission": 60
     }
   ],
-  "generatedAt": "2026-05-27T21:40:07.280Z"
+  "generatedAt": "2026-06-04T15:24:37.677Z"
 }
