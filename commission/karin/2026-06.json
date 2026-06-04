@@ -1,0 +1,63 @@
+{
+  "month": "2026-06",
+  "periodLabel": "June 2026",
+  "repId": "karin",
+  "repName": "Karin Williamson",
+  "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
+  "planKind": "flat",
+  "flatRate": 0.1,
+  "totalCollected": 3600,
+  "totalCommission": 360,
+  "paymentCount": 2,
+  "accountCount": 2,
+  "dueDate": "July 31, 2026",
+  "accounts": [
+    {
+      "customerName": "Mt. Laramie Veterinary Services",
+      "transactions": [
+        {
+          "date": "2026-05-31",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1104",
+          "amount": 2400,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1104",
+          "amount": 2400,
+          "commissionRate": 0.1,
+          "commissionAmount": 240
+        }
+      ],
+      "collected": 2400,
+      "commission": 240
+    },
+    {
+      "customerName": "Mobile Veterinary Practice",
+      "transactions": [
+        {
+          "date": "2026-05-31",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1103",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-02",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1103",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        }
+      ],
+      "collected": 1200,
+      "commission": 120
+    }
+  ],
+  "generatedAt": "2026-06-04T15:24:38.701Z"
+}
