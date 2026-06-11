@@ -6,10 +6,10 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 1200,
-  "totalCommission": 120,
-  "paymentCount": 1,
-  "accountCount": 1,
+  "totalCollected": 2400,
+  "totalCommission": 240,
+  "paymentCount": 2,
+  "accountCount": 2,
   "dueDate": "July 31, 2026",
   "accounts": [
     {
@@ -34,7 +34,30 @@
       ],
       "collected": 1200,
       "commission": 120
+    },
+    {
+      "customerName": "Ocala Equine Hospital",
+      "transactions": [
+        {
+          "date": "2026-05-20",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1014",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-09",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1014",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        }
+      ],
+      "collected": 1200,
+      "commission": 120
     }
   ],
-  "generatedAt": "2026-06-11T15:49:01.006Z"
+  "generatedAt": "2026-06-11T15:55:32.375Z"
 }
