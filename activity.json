@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-04",
-  "uploadedAt": "2026-06-04",
-  "reportDate": "2026-06-04",
+  "lastUpdated": "2026-06-11",
+  "uploadedAt": "2026-06-11",
+  "reportDate": "2026-06-11",
   "totalClients": 64,
   "aggregates": {
     "karin": {
@@ -10,13 +10,13 @@
       "mtdSales": 8400,
       "mtdCollected": 3600,
       "mtdOrders": 4,
-      "mtdVials": 48,
+      "mtdVials": 63,
       "newClientsMTD": 0,
-      "totalPaid": 114160,
-      "outstanding": 42000,
-      "activeClients": 26,
+      "totalPaid": 116635,
+      "outstanding": 41475,
+      "activeClients": 23,
       "totalClients": 35,
-      "pctCollected": 73.10450819672131,
+      "pctCollected": 73.76826260198595,
       "ytdSales": 143210,
       "ytdSalesGross": 258045,
       "ytdInvoices": 75,
@@ -30,13 +30,13 @@
       "mtdSales": 1800,
       "mtdCollected": 1200,
       "mtdOrders": 3,
-      "mtdVials": 10,
+      "mtdVials": 12,
       "newClientsMTD": 1,
-      "totalPaid": 42675,
-      "outstanding": 13800,
+      "totalPaid": 43875,
+      "outstanding": 12600,
       "activeClients": 19,
       "totalClients": 29,
-      "pctCollected": 75.56440903054448,
+      "pctCollected": 77.68924302788844,
       "ytdSales": 45600,
       "ytdSalesGross": 69470,
       "ytdInvoices": 35,
@@ -50,13 +50,13 @@
       "mtdSales": 10200,
       "mtdCollected": 4800,
       "mtdOrders": 7,
-      "mtdVials": 58,
+      "mtdVials": 75,
       "newClientsMTD": 1,
-      "totalPaid": 156835,
-      "outstanding": 55800,
-      "activeClients": 45,
+      "totalPaid": 160510,
+      "outstanding": 54075,
+      "activeClients": 42,
       "totalClients": 64,
-      "pctCollected": 73.75784795541655,
+      "pctCollected": 74.80019572663514,
       "ytdSales": 188810,
       "ytdSalesGross": 327515,
       "ytdInvoices": 110,
@@ -79,7 +79,7 @@
           "lastOrder": "2026-05-30",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 5,
+          "daysSinceLastOrder": 12,
           "aprilPaid": 9830
         },
         {
@@ -93,7 +93,7 @@
           "lastOrder": "2026-06-02",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 2,
+          "daysSinceLastOrder": 9,
           "aprilPaid": 10650
         },
         {
@@ -107,7 +107,7 @@
           "lastOrder": "2026-04-27",
           "firstOrder": "2025-12-02",
           "status": "Active",
-          "daysSinceLastOrder": 38,
+          "daysSinceLastOrder": 45,
           "aprilPaid": 17445
         },
         {
@@ -121,7 +121,7 @@
           "lastOrder": "2026-05-30",
           "firstOrder": "2026-01-08",
           "status": "Active",
-          "daysSinceLastOrder": 5,
+          "daysSinceLastOrder": 12,
           "aprilPaid": 10200
         },
         {
@@ -135,7 +135,7 @@
           "lastOrder": "2026-05-20",
           "firstOrder": "2025-12-29",
           "status": "Active",
-          "daysSinceLastOrder": 15,
+          "daysSinceLastOrder": 22,
           "aprilPaid": 10050
         }
       ],
@@ -152,7 +152,7 @@
           "lastOrder": "2026-05-30",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 5,
+          "daysSinceLastOrder": 12,
           "aprilPaid": 9830
         },
         {
@@ -166,7 +166,7 @@
           "lastOrder": "2026-06-02",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 2,
+          "daysSinceLastOrder": 9,
           "aprilPaid": 10650
         },
         {
@@ -180,7 +180,7 @@
           "lastOrder": "2026-05-15",
           "firstOrder": "2026-05-14",
           "status": "Active",
-          "daysSinceLastOrder": 20,
+          "daysSinceLastOrder": 27,
           "aprilPaid": 0
         },
         {
@@ -194,7 +194,7 @@
           "lastOrder": "2026-05-14",
           "firstOrder": "2026-03-23",
           "status": "Active",
-          "daysSinceLastOrder": 21,
+          "daysSinceLastOrder": 28,
           "aprilPaid": 6200
         },
         {
@@ -208,8 +208,22 @@
           "lastOrder": "2026-05-30",
           "firstOrder": "2026-01-08",
           "status": "Active",
-          "daysSinceLastOrder": 5,
+          "daysSinceLastOrder": 12,
           "aprilPaid": 10200
+        },
+        {
+          "clinic": "Austin Equine",
+          "state": "TX",
+          "totalOrders": 3,
+          "totalVials": 3,
+          "totalSpent": 1800,
+          "totalPaid": 600,
+          "outstanding": 1200,
+          "lastOrder": "2026-06-08",
+          "firstOrder": "2026-05-11",
+          "status": "Active",
+          "daysSinceLastOrder": 3,
+          "aprilPaid": 600
         },
         {
           "clinic": "Panorama Equine Medical and Surgical Center",
@@ -222,36 +236,8 @@
           "lastOrder": "2026-06-02",
           "firstOrder": "2026-04-13",
           "status": "Active",
-          "daysSinceLastOrder": 2,
+          "daysSinceLastOrder": 9,
           "aprilPaid": 2400
-        },
-        {
-          "clinic": "Santa Lucia Farm",
-          "state": "CA",
-          "totalOrders": 5,
-          "totalVials": 9,
-          "totalSpent": 4200,
-          "totalPaid": 3000,
-          "outstanding": 1200,
-          "lastOrder": "2026-06-01",
-          "firstOrder": "2026-04-17",
-          "status": "Active",
-          "daysSinceLastOrder": 3,
-          "aprilPaid": 3000
-        },
-        {
-          "clinic": "Desert Pines Equine",
-          "state": "NV",
-          "totalOrders": 1,
-          "totalVials": 1,
-          "totalSpent": 600,
-          "totalPaid": 0,
-          "outstanding": 600,
-          "lastOrder": "2026-05-11",
-          "firstOrder": "2026-05-11",
-          "status": "Active",
-          "daysSinceLastOrder": 23,
-          "aprilPaid": 0
         },
         {
           "clinic": "Flying UJ",
@@ -264,8 +250,22 @@
           "lastOrder": "2026-04-15",
           "firstOrder": "2026-04-15",
           "status": "Active",
-          "daysSinceLastOrder": 50,
+          "daysSinceLastOrder": 57,
           "aprilPaid": 0
+        },
+        {
+          "clinic": "Mt. Laramie Veterinary Services",
+          "state": "CA",
+          "totalOrders": 5,
+          "totalVials": 10,
+          "totalSpent": 4975,
+          "totalPaid": 4900,
+          "outstanding": 75,
+          "lastOrder": "2026-06-10",
+          "firstOrder": "2025-12-16",
+          "status": "Active",
+          "daysSinceLastOrder": 1,
+          "aprilPaid": 4900
         }
       ],
       "atRiskAccounts": [
@@ -280,7 +280,7 @@
           "lastOrder": "2026-03-03",
           "firstOrder": "2026-03-03",
           "status": "Inactive",
-          "daysSinceLastOrder": 93,
+          "daysSinceLastOrder": 100,
           "aprilPaid": 350
         },
         {
@@ -293,8 +293,8 @@
           "outstanding": 0,
           "lastOrder": "2026-03-10",
           "firstOrder": "2026-03-10",
-          "status": "Active",
-          "daysSinceLastOrder": 86,
+          "status": "Inactive",
+          "daysSinceLastOrder": 93,
           "aprilPaid": 700
         },
         {
@@ -307,8 +307,8 @@
           "outstanding": 0,
           "lastOrder": "2026-03-11",
           "firstOrder": "2026-03-11",
-          "status": "Active",
-          "daysSinceLastOrder": 85,
+          "status": "Inactive",
+          "daysSinceLastOrder": 92,
           "aprilPaid": 600
         },
         {
@@ -321,8 +321,8 @@
           "outstanding": 0,
           "lastOrder": "2026-03-12",
           "firstOrder": "2026-03-12",
-          "status": "Active",
-          "daysSinceLastOrder": 84,
+          "status": "Inactive",
+          "daysSinceLastOrder": 91,
           "aprilPaid": 350
         },
         {
@@ -336,7 +336,7 @@
           "lastOrder": "2026-03-17",
           "firstOrder": "2026-03-17",
           "status": "Active",
-          "daysSinceLastOrder": 79,
+          "daysSinceLastOrder": 86,
           "aprilPaid": 5500
         },
         {
@@ -350,7 +350,7 @@
           "lastOrder": "2026-04-01",
           "firstOrder": "2026-04-01",
           "status": "Active",
-          "daysSinceLastOrder": 64,
+          "daysSinceLastOrder": 71,
           "aprilPaid": 1495
         },
         {
@@ -364,7 +364,7 @@
           "lastOrder": "2026-04-08",
           "firstOrder": "2026-03-30",
           "status": "Active",
-          "daysSinceLastOrder": 57,
+          "daysSinceLastOrder": 64,
           "aprilPaid": 700
         },
         {
@@ -378,8 +378,36 @@
           "lastOrder": "2026-04-15",
           "firstOrder": "2026-04-15",
           "status": "Active",
-          "daysSinceLastOrder": 50,
+          "daysSinceLastOrder": 57,
           "aprilPaid": 0
+        },
+        {
+          "clinic": "Central Washington Equine Hospital",
+          "state": "WA",
+          "totalOrders": 1,
+          "totalVials": 1,
+          "totalSpent": 600,
+          "totalPaid": 600,
+          "outstanding": 0,
+          "lastOrder": "2026-04-21",
+          "firstOrder": "2026-04-21",
+          "status": "Active",
+          "daysSinceLastOrder": 51,
+          "aprilPaid": 600
+        },
+        {
+          "clinic": "Double X Veterinary Services",
+          "state": "TX",
+          "totalOrders": 2,
+          "totalVials": 10,
+          "totalSpent": 4800,
+          "totalPaid": 4800,
+          "outstanding": 0,
+          "lastOrder": "2026-04-23",
+          "firstOrder": "2026-04-23",
+          "status": "Active",
+          "daysSinceLastOrder": 49,
+          "aprilPaid": 4800
         }
       ]
     },
@@ -396,7 +424,7 @@
           "lastOrder": "2026-05-26",
           "firstOrder": "2026-03-20",
           "status": "Active",
-          "daysSinceLastOrder": 9,
+          "daysSinceLastOrder": 16,
           "aprilPaid": 3600
         },
         {
@@ -410,7 +438,7 @@
           "lastOrder": "2026-03-20",
           "firstOrder": "2025-08-06",
           "status": "Active",
-          "daysSinceLastOrder": 76,
+          "daysSinceLastOrder": 83,
           "aprilPaid": 6495
         },
         {
@@ -424,7 +452,7 @@
           "lastOrder": "2026-05-26",
           "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 9,
+          "daysSinceLastOrder": 16,
           "aprilPaid": 6000
         },
         {
@@ -433,13 +461,13 @@
           "totalOrders": 5,
           "totalVials": 8,
           "totalSpent": 4800,
-          "totalPaid": 2400,
-          "outstanding": 2400,
+          "totalPaid": 3600,
+          "outstanding": 1200,
           "lastOrder": "2026-06-02",
           "firstOrder": "2026-04-20",
           "status": "Active",
-          "daysSinceLastOrder": 2,
-          "aprilPaid": 2400
+          "daysSinceLastOrder": 9,
+          "aprilPaid": 3600
         },
         {
           "clinic": "Peterson Smith Equine Hospital",
@@ -452,7 +480,7 @@
           "lastOrder": "2026-04-16",
           "firstOrder": "2026-04-16",
           "status": "Active",
-          "daysSinceLastOrder": 49,
+          "daysSinceLastOrder": 56,
           "aprilPaid": 4800
         }
       ],
@@ -468,7 +496,7 @@
           "lastOrder": "2026-06-02",
           "firstOrder": "2026-06-02",
           "status": "Active",
-          "daysSinceLastOrder": 2,
+          "daysSinceLastOrder": 9,
           "aprilPaid": 0
         }
       ],
@@ -484,22 +512,8 @@
           "lastOrder": "2026-05-26",
           "firstOrder": "2026-03-20",
           "status": "Active",
-          "daysSinceLastOrder": 9,
+          "daysSinceLastOrder": 16,
           "aprilPaid": 3600
-        },
-        {
-          "clinic": "Ocala Equine Hospital",
-          "state": "FL",
-          "totalOrders": 5,
-          "totalVials": 8,
-          "totalSpent": 4800,
-          "totalPaid": 2400,
-          "outstanding": 2400,
-          "lastOrder": "2026-06-02",
-          "firstOrder": "2026-04-20",
-          "status": "Active",
-          "daysSinceLastOrder": 2,
-          "aprilPaid": 2400
         },
         {
           "clinic": "Centenary University",
@@ -512,7 +526,35 @@
           "lastOrder": "2026-04-08",
           "firstOrder": "2026-04-08",
           "status": "Active",
-          "daysSinceLastOrder": 57,
+          "daysSinceLastOrder": 64,
+          "aprilPaid": 0
+        },
+        {
+          "clinic": "Ocala Equine Hospital",
+          "state": "FL",
+          "totalOrders": 5,
+          "totalVials": 8,
+          "totalSpent": 4800,
+          "totalPaid": 3600,
+          "outstanding": 1200,
+          "lastOrder": "2026-06-02",
+          "firstOrder": "2026-04-20",
+          "status": "Active",
+          "daysSinceLastOrder": 9,
+          "aprilPaid": 3600
+        },
+        {
+          "clinic": "Spruce Lane Farm",
+          "state": "KY",
+          "totalOrders": 2,
+          "totalVials": 2,
+          "totalSpent": 600,
+          "totalPaid": 0,
+          "outstanding": 600,
+          "lastOrder": "2026-06-05",
+          "firstOrder": "2026-05-26",
+          "status": "Active",
+          "daysSinceLastOrder": 6,
           "aprilPaid": 0
         },
         {
@@ -525,20 +567,6 @@
           "outstanding": 600,
           "lastOrder": "2026-06-02",
           "firstOrder": "2026-06-02",
-          "status": "Active",
-          "daysSinceLastOrder": 2,
-          "aprilPaid": 0
-        },
-        {
-          "clinic": "Spruce Lane Farm",
-          "state": "KY",
-          "totalOrders": 1,
-          "totalVials": 1,
-          "totalSpent": 600,
-          "totalPaid": 0,
-          "outstanding": 600,
-          "lastOrder": "2026-05-26",
-          "firstOrder": "2026-05-26",
           "status": "Active",
           "daysSinceLastOrder": 9,
           "aprilPaid": 0
@@ -554,7 +582,7 @@
           "lastOrder": "2026-05-15",
           "firstOrder": "2026-05-15",
           "status": "Active",
-          "daysSinceLastOrder": 20,
+          "daysSinceLastOrder": 27,
           "aprilPaid": 0
         },
         {
@@ -568,7 +596,7 @@
           "lastOrder": "2026-05-11",
           "firstOrder": "2026-05-11",
           "status": "Active",
-          "daysSinceLastOrder": 24,
+          "daysSinceLastOrder": 31,
           "aprilPaid": 0
         }
       ],
@@ -584,7 +612,7 @@
           "lastOrder": "2025-09-29",
           "firstOrder": "2025-09-29",
           "status": "Inactive",
-          "daysSinceLastOrder": 248,
+          "daysSinceLastOrder": 255,
           "aprilPaid": 2165
         },
         {
@@ -598,7 +626,7 @@
           "lastOrder": "2025-12-15",
           "firstOrder": "2025-12-15",
           "status": "Inactive",
-          "daysSinceLastOrder": 171,
+          "daysSinceLastOrder": 178,
           "aprilPaid": 700
         },
         {
@@ -612,7 +640,7 @@
           "lastOrder": "2026-02-24",
           "firstOrder": "2026-02-24",
           "status": "Inactive",
-          "daysSinceLastOrder": 100,
+          "daysSinceLastOrder": 107,
           "aprilPaid": 2400
         },
         {
@@ -626,7 +654,7 @@
           "lastOrder": "2026-03-20",
           "firstOrder": "2025-08-06",
           "status": "Active",
-          "daysSinceLastOrder": 76,
+          "daysSinceLastOrder": 83,
           "aprilPaid": 6495
         },
         {
@@ -640,7 +668,7 @@
           "lastOrder": "2026-03-25",
           "firstOrder": "2026-03-25",
           "status": "Active",
-          "daysSinceLastOrder": 71,
+          "daysSinceLastOrder": 78,
           "aprilPaid": 4800
         },
         {
@@ -654,7 +682,7 @@
           "lastOrder": "2026-04-08",
           "firstOrder": "2026-04-08",
           "status": "Active",
-          "daysSinceLastOrder": 57,
+          "daysSinceLastOrder": 64,
           "aprilPaid": 2400
         },
         {
@@ -668,7 +696,7 @@
           "lastOrder": "2026-04-08",
           "firstOrder": "2026-04-08",
           "status": "Active",
-          "daysSinceLastOrder": 57,
+          "daysSinceLastOrder": 64,
           "aprilPaid": 0
         },
         {
@@ -682,7 +710,7 @@
           "lastOrder": "2026-04-11",
           "firstOrder": "2025-11-19",
           "status": "Active",
-          "daysSinceLastOrder": 54,
+          "daysSinceLastOrder": 61,
           "aprilPaid": 2250
         },
         {
@@ -696,13 +724,121 @@
           "lastOrder": "2026-04-16",
           "firstOrder": "2026-04-16",
           "status": "Active",
-          "daysSinceLastOrder": 49,
+          "daysSinceLastOrder": 56,
           "aprilPaid": 4800
+        },
+        {
+          "clinic": "Colts Neck Equine",
+          "state": "NJ",
+          "totalOrders": 1,
+          "totalVials": 1,
+          "totalSpent": 600,
+          "totalPaid": 600,
+          "outstanding": 0,
+          "lastOrder": "2026-04-21",
+          "firstOrder": "2026-04-21",
+          "status": "Active",
+          "daysSinceLastOrder": 51,
+          "aprilPaid": 600
+        },
+        {
+          "clinic": "Hancock Animal Clinic",
+          "state": "MS",
+          "totalOrders": 1,
+          "totalVials": 1,
+          "totalSpent": 0,
+          "totalPaid": 0,
+          "outstanding": 0,
+          "lastOrder": "2026-04-21",
+          "firstOrder": "2026-04-21",
+          "status": "Active",
+          "daysSinceLastOrder": 51,
+          "aprilPaid": 0
         }
       ]
     }
   },
   "rows": [
+    {
+      "clinic": "Mt. Laramie Veterinary Services",
+      "clientName": "Mt. Laramie Veterinary Services",
+      "email": "lhowerdvm@gmail.com",
+      "state": "CA",
+      "totalOrders": 5,
+      "transferOrders": 0,
+      "regularOrders": 5,
+      "totalVials": 10,
+      "lastOrderDate": "2026-06-10",
+      "firstOrderDate": "2025-12-16",
+      "totalSpent": 4975,
+      "totalPaid": 4900,
+      "outstandingBalance": 75,
+      "assignedRep": "Karin Williamson",
+      "activityStatus": "Active",
+      "daysSinceLastOrder": 1,
+      "mtd": true,
+      "newThisMonth": false
+    },
+    {
+      "clinic": "Desert Pines Equine",
+      "clientName": "Leslie Schur",
+      "email": "office@desertpinesequine.com",
+      "state": "NV",
+      "totalOrders": 2,
+      "transferOrders": 0,
+      "regularOrders": 2,
+      "totalVials": 2,
+      "lastOrderDate": "2026-06-09",
+      "firstOrderDate": "2026-05-11",
+      "totalSpent": 1275,
+      "totalPaid": 1275,
+      "outstandingBalance": 0,
+      "assignedRep": "Karin Williamson",
+      "activityStatus": "Active",
+      "daysSinceLastOrder": 2,
+      "mtd": true,
+      "newThisMonth": false
+    },
+    {
+      "clinic": "Austin Equine",
+      "clientName": "Austin Equine",
+      "email": "white@austinequine.com",
+      "state": "TX",
+      "totalOrders": 3,
+      "transferOrders": 0,
+      "regularOrders": 0,
+      "totalVials": 3,
+      "lastOrderDate": "2026-06-08",
+      "firstOrderDate": "2026-05-11",
+      "totalSpent": 1800,
+      "totalPaid": 600,
+      "outstandingBalance": 1200,
+      "assignedRep": "Karin Williamson",
+      "activityStatus": "Active",
+      "daysSinceLastOrder": 3,
+      "mtd": true,
+      "newThisMonth": false
+    },
+    {
+      "clinic": "Spruce Lane Farm",
+      "clientName": "Kristin Shivers",
+      "email": "kristin@mcmahonandhill.com",
+      "state": "KY",
+      "totalOrders": 2,
+      "transferOrders": 0,
+      "regularOrders": 2,
+      "totalVials": 2,
+      "lastOrderDate": "2026-06-05",
+      "firstOrderDate": "2026-05-26",
+      "totalSpent": 600,
+      "totalPaid": 0,
+      "outstandingBalance": 600,
+      "assignedRep": "Megan Smith",
+      "activityStatus": "Active",
+      "daysSinceLastOrder": 6,
+      "mtd": true,
+      "newThisMonth": false
+    },
     {
       "clinic": "Panorama Equine Medical and Surgical Center",
       "clientName": "Karen Shaw",
@@ -719,7 +855,7 @@
       "outstandingBalance": 1200,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 2,
+      "daysSinceLastOrder": 9,
       "mtd": true,
       "newThisMonth": false
     },
@@ -735,11 +871,11 @@
       "lastOrderDate": "2026-06-02",
       "firstOrderDate": "2026-04-20",
       "totalSpent": 4800,
-      "totalPaid": 2400,
-      "outstandingBalance": 2400,
+      "totalPaid": 3600,
+      "outstandingBalance": 1200,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 2,
+      "daysSinceLastOrder": 9,
       "mtd": true,
       "newThisMonth": false
     },
@@ -759,7 +895,7 @@
       "outstandingBalance": 600,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 2,
+      "daysSinceLastOrder": 9,
       "mtd": true,
       "newThisMonth": true
     },
@@ -779,7 +915,7 @@
       "outstandingBalance": 8400,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 2,
+      "daysSinceLastOrder": 9,
       "mtd": true,
       "newThisMonth": false
     },
@@ -795,32 +931,12 @@
       "lastOrderDate": "2026-06-01",
       "firstOrderDate": "2026-04-17",
       "totalSpent": 4200,
-      "totalPaid": 3000,
-      "outstandingBalance": 1200,
-      "assignedRep": "Karin Williamson",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 3,
-      "mtd": true,
-      "newThisMonth": false
-    },
-    {
-      "clinic": "Mt. Laramie Veterinary Services",
-      "clientName": "Mt. Laramie Veterinary Services",
-      "email": "lhowerdvm@gmail.com",
-      "state": "CA",
-      "totalOrders": 4,
-      "transferOrders": 0,
-      "regularOrders": 4,
-      "totalVials": 9,
-      "lastOrderDate": "2026-05-31",
-      "firstOrderDate": "2025-12-16",
-      "totalSpent": 4900,
-      "totalPaid": 4900,
+      "totalPaid": 4200,
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 4,
-      "mtd": false,
+      "daysSinceLastOrder": 10,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -839,7 +955,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 4,
+      "daysSinceLastOrder": 11,
       "mtd": false,
       "newThisMonth": false
     },
@@ -859,7 +975,7 @@
       "outstandingBalance": 19200,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 5,
+      "daysSinceLastOrder": 12,
       "mtd": false,
       "newThisMonth": false
     },
@@ -879,7 +995,7 @@
       "outstandingBalance": 2400,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 5,
+      "daysSinceLastOrder": 12,
       "mtd": false,
       "newThisMonth": false
     },
@@ -899,27 +1015,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 9,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
-      "clinic": "Spruce Lane Farm",
-      "clientName": "Kristin Shivers",
-      "email": "kristin@mcmahonandhill.com",
-      "state": "KY",
-      "totalOrders": 1,
-      "transferOrders": 0,
-      "regularOrders": 1,
-      "totalVials": 1,
-      "lastOrderDate": "2026-05-26",
-      "firstOrderDate": "2026-05-26",
-      "totalSpent": 600,
-      "totalPaid": 0,
-      "outstandingBalance": 600,
-      "assignedRep": "Megan Smith",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 9,
+      "daysSinceLastOrder": 16,
       "mtd": false,
       "newThisMonth": false
     },
@@ -939,7 +1035,7 @@
       "outstandingBalance": 6600,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 9,
+      "daysSinceLastOrder": 16,
       "mtd": false,
       "newThisMonth": false
     },
@@ -959,7 +1055,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 15,
+      "daysSinceLastOrder": 22,
       "mtd": false,
       "newThisMonth": false
     },
@@ -979,7 +1075,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 15,
+      "daysSinceLastOrder": 22,
       "mtd": false,
       "newThisMonth": false
     },
@@ -999,7 +1095,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 20,
+      "daysSinceLastOrder": 27,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1019,7 +1115,7 @@
       "outstandingBalance": 600,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 20,
+      "daysSinceLastOrder": 27,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1039,7 +1135,7 @@
       "outstandingBalance": 4800,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 20,
+      "daysSinceLastOrder": 27,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1059,47 +1155,7 @@
       "outstandingBalance": 3600,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 21,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
-      "clinic": "Desert Pines Equine",
-      "clientName": "Leslie Schur",
-      "email": "office@desertpinesequine.com",
-      "state": "NV",
-      "totalOrders": 1,
-      "transferOrders": 0,
-      "regularOrders": 1,
-      "totalVials": 1,
-      "lastOrderDate": "2026-05-11",
-      "firstOrderDate": "2026-05-11",
-      "totalSpent": 600,
-      "totalPaid": 0,
-      "outstandingBalance": 600,
-      "assignedRep": "Karin Williamson",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 23,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
-      "clinic": "Austin Equine",
-      "clientName": "Austin Equine",
-      "email": "white@austinequine.com",
-      "state": "TX",
-      "totalOrders": 1,
-      "transferOrders": 0,
-      "regularOrders": 0,
-      "totalVials": 1,
-      "lastOrderDate": "2026-05-11",
-      "firstOrderDate": "2026-05-11",
-      "totalSpent": 600,
-      "totalPaid": 600,
-      "outstandingBalance": 0,
-      "assignedRep": "Karin Williamson",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 24,
+      "daysSinceLastOrder": 28,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1119,7 +1175,7 @@
       "outstandingBalance": 600,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 24,
+      "daysSinceLastOrder": 31,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1139,7 +1195,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 30,
+      "daysSinceLastOrder": 37,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1159,7 +1215,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 31,
+      "daysSinceLastOrder": 38,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1179,7 +1235,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 36,
+      "daysSinceLastOrder": 43,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1199,7 +1255,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 36,
+      "daysSinceLastOrder": 43,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1219,7 +1275,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 37,
+      "daysSinceLastOrder": 44,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1239,7 +1295,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 37,
+      "daysSinceLastOrder": 44,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1259,7 +1315,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 38,
+      "daysSinceLastOrder": 45,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1279,7 +1335,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 42,
+      "daysSinceLastOrder": 49,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1299,7 +1355,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 44,
+      "daysSinceLastOrder": 51,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1319,7 +1375,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 44,
+      "daysSinceLastOrder": 51,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1339,7 +1395,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 44,
+      "daysSinceLastOrder": 51,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1359,7 +1415,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 49,
+      "daysSinceLastOrder": 56,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1379,7 +1435,7 @@
       "outstandingBalance": 600,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 50,
+      "daysSinceLastOrder": 57,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1399,7 +1455,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 54,
+      "daysSinceLastOrder": 61,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1419,7 +1475,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 57,
+      "daysSinceLastOrder": 64,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1439,7 +1495,7 @@
       "outstandingBalance": 2400,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 57,
+      "daysSinceLastOrder": 64,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1459,7 +1515,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 57,
+      "daysSinceLastOrder": 64,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1479,7 +1535,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 64,
+      "daysSinceLastOrder": 71,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1499,7 +1555,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 71,
+      "daysSinceLastOrder": 78,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1519,7 +1575,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 76,
+      "daysSinceLastOrder": 83,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1539,7 +1595,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
-      "daysSinceLastOrder": 79,
+      "daysSinceLastOrder": 86,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1558,8 +1614,8 @@
       "totalPaid": 350,
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 84,
+      "activityStatus": "Inactive",
+      "daysSinceLastOrder": 91,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1578,8 +1634,8 @@
       "totalPaid": 600,
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 85,
+      "activityStatus": "Inactive",
+      "daysSinceLastOrder": 92,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1598,8 +1654,8 @@
       "totalPaid": 700,
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 86,
+      "activityStatus": "Inactive",
+      "daysSinceLastOrder": 93,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1619,7 +1675,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Karin Williamson",
       "activityStatus": "Inactive",
-      "daysSinceLastOrder": 93,
+      "daysSinceLastOrder": 100,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1639,7 +1695,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Inactive",
-      "daysSinceLastOrder": 100,
+      "daysSinceLastOrder": 107,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1659,7 +1715,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Inactive",
-      "daysSinceLastOrder": 171,
+      "daysSinceLastOrder": 178,
       "mtd": false,
       "newThisMonth": false
     },
@@ -1679,7 +1735,7 @@
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
       "activityStatus": "Inactive",
-      "daysSinceLastOrder": 248,
+      "daysSinceLastOrder": 255,
       "mtd": false,
       "newThisMonth": false
     },
@@ -2004,31 +2060,31 @@
   },
   "ytdYear": 2026,
   "priorMonthSameDay": {
-    "sourceDropDate": "2026-05-07",
+    "sourceDropDate": "2026-05-14",
     "aggregates": {
       "karin": {
-        "mtdSales": 4200,
-        "mtdCollected": 19235.88,
-        "mtdOrders": 4,
-        "mtdVials": 22,
-        "outstanding": 19300,
-        "pctCollected": 0.8229520227502064
+        "mtdSales": 9600,
+        "mtdCollected": 27000,
+        "mtdOrders": 8,
+        "mtdVials": 41,
+        "outstanding": 16900,
+        "pctCollected": 0.8522856393671882
       },
       "megan": {
-        "mtdSales": 1200,
-        "mtdCollected": 0,
-        "mtdOrders": 4,
-        "mtdVials": 13,
-        "outstanding": 16200,
-        "pctCollected": 0.6203866432337434
+        "mtdSales": 1800,
+        "mtdCollected": 4200,
+        "mtdOrders": 5,
+        "mtdVials": 14,
+        "outstanding": 12600,
+        "pctCollected": 0.708838821490468
       },
       "company": {
-        "mtdSales": 5400,
-        "mtdCollected": 19235.88,
-        "mtdOrders": 8,
-        "mtdVials": 35,
-        "outstanding": 35500,
-        "pctCollected": 0.7659623561987012
+        "mtdSales": 11400,
+        "mtdCollected": 31200,
+        "mtdOrders": 13,
+        "mtdVials": 55,
+        "outstanding": 29500,
+        "pctCollected": 0.8129181596220313
       }
     }
   },
