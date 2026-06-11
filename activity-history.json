@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T15:48:46.935Z",
+  "generatedAt": "2026-06-11T15:55:24.385Z",
   "drops": [
     {
       "dropDate": "2026-06-11",
@@ -9,9 +9,9 @@
         "karin": {
           "repId": "karin",
           "repName": "Karin Williamson",
-          "mtdSales": 8400,
-          "mtdCollected": 3600,
-          "mtdOrders": 4,
+          "mtdSales": 10350,
+          "mtdCollected": 6000,
+          "mtdOrders": 8,
           "mtdVials": 63,
           "newClientsMTD": 0,
           "totalPaid": 116635,
@@ -19,16 +19,16 @@
           "activeClients": 23,
           "totalClients": 35,
           "pctCollected": 73.76826260198595,
-          "ytdSales": 143210,
-          "ytdCollected": 102295.88,
-          "ytdInvoices": 75
+          "ytdSales": 145160,
+          "ytdCollected": 104695.88,
+          "ytdInvoices": 79
         },
         "megan": {
           "repId": "megan",
           "repName": "Megan Smith",
           "mtdSales": 1800,
-          "mtdCollected": 1200,
-          "mtdOrders": 3,
+          "mtdCollected": 2400,
+          "mtdOrders": 4,
           "mtdVials": 12,
           "newClientsMTD": 1,
           "totalPaid": 43875,
@@ -37,15 +37,15 @@
           "totalClients": 29,
           "pctCollected": 77.68924302788844,
           "ytdSales": 45600,
-          "ytdCollected": 31800,
-          "ytdInvoices": 35
+          "ytdCollected": 33000,
+          "ytdInvoices": 36
         },
         "company": {
           "repId": "company",
           "repName": "Company",
-          "mtdSales": 10200,
-          "mtdCollected": 4800,
-          "mtdOrders": 7,
+          "mtdSales": 12150,
+          "mtdCollected": 8400,
+          "mtdOrders": 12,
           "mtdVials": 75,
           "newClientsMTD": 1,
           "totalPaid": 160510,
@@ -53,9 +53,9 @@
           "activeClients": 42,
           "totalClients": 64,
           "pctCollected": 74.80019572663514,
-          "ytdSales": 188810,
-          "ytdCollected": 134095.88,
-          "ytdInvoices": 110
+          "ytdSales": 190760,
+          "ytdCollected": 137695.88,
+          "ytdInvoices": 115
         }
       },
       "priorMonthSameDay": {
