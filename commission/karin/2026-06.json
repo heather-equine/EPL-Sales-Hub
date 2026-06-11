@@ -6,10 +6,10 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 3600,
-  "totalCommission": 360,
-  "paymentCount": 2,
-  "accountCount": 2,
+  "totalCollected": 6000,
+  "totalCommission": 600,
+  "paymentCount": 5,
+  "accountCount": 4,
   "dueDate": "July 31, 2026",
   "accounts": [
     {
@@ -57,7 +57,69 @@
       ],
       "collected": 1200,
       "commission": 120
+    },
+    {
+      "customerName": "Santa Lucia Farm",
+      "transactions": [
+        {
+          "date": "2026-06-01",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1106",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-06",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1106",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        }
+      ],
+      "collected": 1200,
+      "commission": 120
+    },
+    {
+      "customerName": "Desert Pines Equine",
+      "transactions": [
+        {
+          "date": "2026-05-11",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1086",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-09",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1112",
+          "amount": 675,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1086",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        },
+        {
+          "date": "2026-06-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1112",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 1200,
+      "commission": 120
     }
   ],
-  "generatedAt": "2026-06-11T15:48:59.896Z"
+  "generatedAt": "2026-06-11T15:55:31.244Z"
 }
