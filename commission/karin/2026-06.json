@@ -94,6 +94,14 @@
           "commissionAmount": 120
         },
         {
+          "date": "2026-06-15",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1115",
+          "amount": 1800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
           "date": "2026-06-16",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1115",
@@ -219,5 +227,5 @@
   "pendingRolloverTotal": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-06-18T18:37:48.258Z"
+  "generatedAt": "2026-06-18T18:37:57.837Z"
 }
