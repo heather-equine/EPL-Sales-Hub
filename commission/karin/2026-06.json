@@ -121,5 +121,10 @@
       "commission": 120
     }
   ],
-  "generatedAt": "2026-06-11T16:08:27.883Z"
+  "reconciliation": null,
+  "pendingRollover": [],
+  "pendingRolloverTotal": 0,
+  "rolloverFromPrior": [],
+  "rolloverFromPriorTotal": 0,
+  "generatedAt": "2026-06-18T15:36:17.191Z"
 }
