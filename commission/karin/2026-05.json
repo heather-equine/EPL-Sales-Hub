@@ -6,462 +6,155 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 40085.88,
-  "totalCommission": 4008.59,
-  "paymentCount": 22,
-  "accountCount": 14,
+  "totalCollected": 0,
+  "totalCommission": 0,
+  "paymentCount": 0,
+  "accountCount": 0,
   "dueDate": "June 30, 2026",
-  "accounts": [
+  "accounts": [],
+  "reconciliation": {
+    "reconciledAt": "2026-06-18T15:36:09.968Z",
+    "crmOnlyCount": 26,
+    "qbOnlyCount": 28,
+    "locked": true
+  },
+  "pendingRollover": [
     {
-      "customerName": "Northern Star Equine",
-      "transactions": [
-        {
-          "date": "2026-04-27",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1071",
-          "amount": 6000,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-06",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1071",
-          "amount": 6000,
-          "commissionRate": 0.1,
-          "commissionAmount": 600
-        }
-      ],
-      "collected": 6000,
-      "commission": 600
+      "invoiceNum": "ORD-EPL-1068",
+      "customer": "Double X Veterinary Services",
+      "crmPaymentDate": "2026-05-29",
+      "crmCommissionable": 4800,
+      "crmFinal": 4800
     },
     {
-      "customerName": "Elgin Equine",
-      "transactions": [
-        {
-          "date": "2026-04-10",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1052",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-05",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1082",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-12",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1082",
-          "amount": 1800,
-          "commissionRate": 0.1,
-          "commissionAmount": 180
-        },
-        {
-          "date": "2026-05-12",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1052",
-          "amount": 1800,
-          "commissionRate": 0.1,
-          "commissionAmount": 180
-        },
-        {
-          "date": "2026-05-14",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1087",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-22",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1087",
-          "amount": 1800,
-          "commissionRate": 0.1,
-          "commissionAmount": 180
-        }
-      ],
-      "collected": 5400,
-      "commission": 540
+      "invoiceNum": "ORD-EPL-1097",
+      "customer": "Tanner Equine",
+      "crmPaymentDate": "2026-05-28",
+      "crmCommissionable": 2400,
+      "crmFinal": 2400
     },
     {
-      "customerName": "Smith Performance Equine",
-      "transactions": [
-        {
-          "date": "2026-04-21",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1063",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-04-28",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1073",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-01",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1073",
-          "amount": 2400,
-          "commissionRate": 0.1,
-          "commissionAmount": 240
-        },
-        {
-          "date": "2026-05-01",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1063",
-          "amount": 2400,
-          "commissionRate": 0.1,
-          "commissionAmount": 240
-        }
-      ],
-      "collected": 4800,
-      "commission": 480
+      "invoiceNum": "ORD-EPL-1078",
+      "customer": "Santa Lucia Farm",
+      "crmPaymentDate": "2026-05-26",
+      "crmCommissionable": 1835.88,
+      "crmFinal": 1800
     },
     {
-      "customerName": "Outlaw Equine",
-      "transactions": [
-        {
-          "date": "2026-04-23",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1070",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-02",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1070",
-          "amount": 4800,
-          "commissionRate": 0.1,
-          "commissionAmount": 480
-        }
-      ],
-      "collected": 4800,
-      "commission": 480
+      "invoiceNum": "ORD-EPL-1092",
+      "customer": "Athens Equine",
+      "crmPaymentDate": "2026-05-22",
+      "crmCommissionable": 350,
+      "crmFinal": 350
     },
     {
-      "customerName": "Tanner Equine",
-      "transactions": [
-        {
-          "date": "2026-05-11",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1085",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-14",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1085",
-          "amount": 2400,
-          "commissionRate": 0.1,
-          "commissionAmount": 240
-        },
-        {
-          "date": "2026-05-20",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1097",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-28",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1097",
-          "amount": 2400,
-          "commissionRate": 0.1,
-          "commissionAmount": 240
-        }
-      ],
-      "collected": 4800,
-      "commission": 480
+      "invoiceNum": "ORD-EPL-1091",
+      "customer": "Athens Equine",
+      "crmPaymentDate": "2026-05-22",
+      "crmCommissionable": 600,
+      "crmFinal": 600
     },
     {
-      "customerName": "Double X Veterinary Services",
-      "transactions": [
-        {
-          "date": "2026-04-23",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1068",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-29",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1068",
-          "amount": 4800,
-          "commissionRate": 0.1,
-          "commissionAmount": 480
-        }
-      ],
-      "collected": 4800,
-      "commission": 480
+      "invoiceNum": "ORD-EPL-1087",
+      "customer": "Elgin Equine",
+      "crmPaymentDate": "2026-05-22",
+      "crmCommissionable": 1800,
+      "crmFinal": 1800
     },
     {
-      "customerName": "Santa Lucia Farm",
-      "transactions": [
-        {
-          "date": "2026-05-01",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1077",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-01",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1078",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-05",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1077",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        },
-        {
-          "date": "2026-05-26",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1078",
-          "amount": 1835.88,
-          "commissionRate": 0.1,
-          "commissionAmount": 183.58800000000002
-        }
-      ],
-      "collected": 2435.88,
-      "commission": 243.58800000000002
+      "invoiceNum": "ORD-EPL-1085",
+      "customer": "Tanner Equine",
+      "crmPaymentDate": "2026-05-14",
+      "crmCommissionable": 2400,
+      "crmFinal": 2400
     },
     {
-      "customerName": "Panorama Equine Medical and Surgical Center",
-      "transactions": [
-        {
-          "date": "2026-04-13",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1055",
-          "amount": 1200,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-04-13",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1054",
-          "amount": 1200,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-05",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1055",
-          "amount": 1200,
-          "commissionRate": 0.1,
-          "commissionAmount": 120
-        },
-        {
-          "date": "2026-05-05",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1054",
-          "amount": 1200,
-          "commissionRate": 0.1,
-          "commissionAmount": 120
-        }
-      ],
-      "collected": 2400,
-      "commission": 240
+      "invoiceNum": "ORD-EPL-1082",
+      "customer": "Elgin Equine",
+      "crmPaymentDate": "2026-05-12",
+      "crmCommissionable": 1800,
+      "crmFinal": 1800
     },
     {
-      "customerName": "Mt. Laramie Veterinary Services",
-      "transactions": [
-        {
-          "date": "2026-05-06",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1083",
-          "amount": 1200,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-11",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1083",
-          "amount": 1200,
-          "commissionRate": 0.1,
-          "commissionAmount": 120
-        }
-      ],
-      "collected": 1200,
-      "commission": 120
+      "invoiceNum": "ORD-EPL-1052",
+      "customer": "Elgin Equine",
+      "crmPaymentDate": "2026-05-12",
+      "crmCommissionable": 1800,
+      "crmFinal": 1800
     },
     {
-      "customerName": "Athens Equine",
-      "transactions": [
-        {
-          "date": "2026-05-15",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1092",
-          "amount": 350,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-15",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1091",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-22",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1092",
-          "amount": 350,
-          "commissionRate": 0.1,
-          "commissionAmount": 35
-        },
-        {
-          "date": "2026-05-22",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1091",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        }
-      ],
-      "collected": 950,
-      "commission": 95
+      "invoiceNum": "ORD-EPL-1083",
+      "customer": "Mt. Laramie Veterinary Services",
+      "crmPaymentDate": "2026-05-11",
+      "crmCommissionable": 1200,
+      "crmFinal": 1200
     },
     {
-      "customerName": "Brazos Valley Equine Hospital-Cypress",
-      "transactions": [
-        {
-          "date": "2026-03-30",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1044",
-          "amount": 350,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-04-08",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1048",
-          "amount": 350,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-31",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1048",
-          "amount": 350,
-          "commissionRate": 0.1,
-          "commissionAmount": 35
-        },
-        {
-          "date": "2026-05-31",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1044",
-          "amount": 350,
-          "commissionRate": 0.1,
-          "commissionAmount": 35
-        }
-      ],
-      "collected": 700,
-      "commission": 70
+      "invoiceNum": "ORD-EPL-1072",
+      "customer": "Crossroads Veterinary Clinic",
+      "crmPaymentDate": "2026-05-10",
+      "crmCommissionable": 600,
+      "crmFinal": 600
     },
     {
-      "customerName": "Central Washington Equine Hospital",
-      "transactions": [
-        {
-          "date": "2026-04-21",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1064",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-06",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1064",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        }
-      ],
-      "collected": 600,
-      "commission": 60
+      "invoiceNum": "ORD-EPL-1064",
+      "customer": "Central Washington Equine Hospital",
+      "crmPaymentDate": "2026-05-06",
+      "crmCommissionable": 600,
+      "crmFinal": 600
     },
     {
-      "customerName": "Crossroads Veterinary Clinic",
-      "transactions": [
-        {
-          "date": "2026-04-28",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1072",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-10",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1072",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        }
-      ],
-      "collected": 600,
-      "commission": 60
+      "invoiceNum": "ORD-EPL-1071",
+      "customer": "Northern Star Equine",
+      "crmPaymentDate": "2026-05-06",
+      "crmCommissionable": 6000,
+      "crmFinal": 6000
     },
     {
-      "customerName": "Austin Equine",
-      "transactions": [
-        {
-          "date": "2026-05-11",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1013",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-31",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1013",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        }
-      ],
-      "collected": 600,
-      "commission": 60
+      "invoiceNum": "ORD-EPL-1055",
+      "customer": "Panorama Equine Medical and Surgical Center",
+      "crmPaymentDate": "2026-05-05",
+      "crmCommissionable": 1200,
+      "crmFinal": 1200
+    },
+    {
+      "invoiceNum": "ORD-EPL-1054",
+      "customer": "Panorama Equine Medical and Surgical Center",
+      "crmPaymentDate": "2026-05-05",
+      "crmCommissionable": 1200,
+      "crmFinal": 1200
+    },
+    {
+      "invoiceNum": "ORD-EPL-1077",
+      "customer": "Santa Lucia Farm",
+      "crmPaymentDate": "2026-05-05",
+      "crmCommissionable": 600,
+      "crmFinal": 600
+    },
+    {
+      "invoiceNum": "ORD-EPL-1070",
+      "customer": "Outlaw Equine",
+      "crmPaymentDate": "2026-05-02",
+      "crmCommissionable": 4800,
+      "crmFinal": 4800
+    },
+    {
+      "invoiceNum": "ORD-EPL-1073",
+      "customer": "Smith Performance Equine",
+      "crmPaymentDate": "2026-05-01",
+      "crmCommissionable": 2400,
+      "crmFinal": 2400
+    },
+    {
+      "invoiceNum": "ORD-EPL-1063",
+      "customer": "Smith Performance Equine",
+      "crmPaymentDate": "2026-05-01",
+      "crmCommissionable": 2400,
+      "crmFinal": 2400
     }
   ],
-  "generatedAt": "2026-06-11T16:08:25.684Z"
+  "pendingRolloverTotal": 38785.88,
+  "rolloverFromPrior": [],
+  "rolloverFromPriorTotal": 0,
+  "generatedAt": "2026-06-18T15:36:15.088Z"
 }
