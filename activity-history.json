@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T18:37:42.114Z",
+  "generatedAt": "2026-06-18T18:37:51.975Z",
   "drops": [
     {
       "dropDate": "2026-06-11",
@@ -19,9 +19,9 @@
           "activeClients": 23,
           "totalClients": 35,
           "pctCollected": 73.76826260198595,
-          "ytdSales": 145160,
+          "ytdSales": 147560,
           "ytdCollected": 116095.88,
-          "ytdInvoices": 79
+          "ytdInvoices": 81
         },
         "megan": {
           "repId": "megan",
@@ -38,7 +38,7 @@
           "pctCollected": 77.68924302788844,
           "ytdSales": 45600,
           "ytdCollected": 33000,
-          "ytdInvoices": 36
+          "ytdInvoices": 38
         },
         "company": {
           "repId": "company",
@@ -53,9 +53,9 @@
           "activeClients": 42,
           "totalClients": 64,
           "pctCollected": 74.80019572663514,
-          "ytdSales": 190760,
+          "ytdSales": 193160,
           "ytdCollected": 149095.88,
-          "ytdInvoices": 115
+          "ytdInvoices": 119
         }
       },
       "priorMonthSameDay": {
