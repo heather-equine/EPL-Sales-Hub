@@ -6,12 +6,105 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 6000,
-  "totalCommission": 600,
-  "paymentCount": 5,
-  "accountCount": 4,
+  "totalCollected": 17400,
+  "totalCommission": 1740,
+  "paymentCount": 10,
+  "accountCount": 7,
   "dueDate": "July 31, 2026",
   "accounts": [
+    {
+      "customerName": "Signature Equine Hospital",
+      "transactions": [
+        {
+          "date": "2026-05-14",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1089",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-15",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1093",
+          "amount": 4200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-15",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1093",
+          "amount": 4200,
+          "commissionRate": 0.1,
+          "commissionAmount": 420
+        },
+        {
+          "date": "2026-06-15",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1089",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 4800,
+      "commission": 480
+    },
+    {
+      "customerName": "Weatherford Equine Medical Center",
+      "transactions": [
+        {
+          "date": "2026-05-14",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1088",
+          "amount": 3600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-15",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1088",
+          "amount": 3600,
+          "commissionRate": 0.1,
+          "commissionAmount": 360
+        }
+      ],
+      "collected": 3600,
+      "commission": 360
+    },
+    {
+      "customerName": "Santa Lucia Farm",
+      "transactions": [
+        {
+          "date": "2026-06-01",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1106",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-06",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1106",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        },
+        {
+          "date": "2026-06-16",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1115",
+          "amount": 1800,
+          "commissionRate": 0.1,
+          "commissionAmount": 180
+        }
+      ],
+      "collected": 3000,
+      "commission": 300
+    },
     {
       "customerName": "Mt. Laramie Veterinary Services",
       "transactions": [
@@ -59,29 +152,6 @@
       "commission": 120
     },
     {
-      "customerName": "Santa Lucia Farm",
-      "transactions": [
-        {
-          "date": "2026-06-01",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1106",
-          "amount": 1200,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-06-06",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1106",
-          "amount": 1200,
-          "commissionRate": 0.1,
-          "commissionAmount": 120
-        }
-      ],
-      "collected": 1200,
-      "commission": 120
-    },
-    {
       "customerName": "Desert Pines Equine",
       "transactions": [
         {
@@ -119,6 +189,29 @@
       ],
       "collected": 1200,
       "commission": 120
+    },
+    {
+      "customerName": "Panorama Equine Medical and Surgical Center",
+      "transactions": [
+        {
+          "date": "2026-06-02",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1110",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-16",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1110",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        }
+      ],
+      "collected": 1200,
+      "commission": 120
     }
   ],
   "reconciliation": null,
@@ -126,5 +219,5 @@
   "pendingRolloverTotal": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-06-18T18:37:34.462Z"
+  "generatedAt": "2026-06-18T18:37:48.258Z"
 }
