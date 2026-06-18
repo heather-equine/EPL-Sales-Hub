@@ -6,228 +6,71 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 15000,
-  "totalCommission": 1500,
-  "paymentCount": 10,
-  "accountCount": 8,
+  "totalCollected": 0,
+  "totalCommission": 0,
+  "paymentCount": 0,
+  "accountCount": 0,
   "dueDate": "June 30, 2026",
-  "accounts": [
+  "accounts": [],
+  "reconciliation": {
+    "reconciledAt": "2026-06-18T15:36:09.968Z",
+    "crmOnlyCount": 26,
+    "qbOnlyCount": 28,
+    "locked": true
+  },
+  "pendingRollover": [
     {
-      "customerName": "Peterson Smith Equine Hospital",
-      "transactions": [
-        {
-          "date": "2026-04-16",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1008",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-22",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1008",
-          "amount": 4800,
-          "commissionRate": 0.1,
-          "commissionAmount": 480
-        }
-      ],
-      "collected": 4800,
-      "commission": 480
+      "invoiceNum": "CINV-EPL-1011",
+      "customer": "Ocala Equine Hospital",
+      "crmPaymentDate": "2026-05-29",
+      "crmCommissionable": 600,
+      "crmFinal": 600
     },
     {
-      "customerName": "Ocala Equine Hospital",
-      "transactions": [
-        {
-          "date": "2026-04-20",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1010",
-          "amount": 1200,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-04-28",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1011",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-05",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1012",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-12",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1010",
-          "amount": 1200,
-          "commissionRate": 0.1,
-          "commissionAmount": 120
-        },
-        {
-          "date": "2026-05-12",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1012",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        },
-        {
-          "date": "2026-05-29",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1011",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        }
-      ],
-      "collected": 2400,
-      "commission": 240
+      "invoiceNum": "ORD-EPL-1100",
+      "customer": "Tryon Equine Hospital",
+      "crmPaymentDate": "2026-05-26",
+      "crmCommissionable": 1200,
+      "crmFinal": 1200
     },
     {
-      "customerName": "WinStar Farm LLC",
-      "transactions": [
-        {
-          "date": "2026-04-08",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1006",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-13",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1006",
-          "amount": 2400,
-          "commissionRate": 0.1,
-          "commissionAmount": 240
-        }
-      ],
-      "collected": 2400,
-      "commission": 240
+      "invoiceNum": "CINV-EPL-1008",
+      "customer": "Peterson Smith Equine Hospital",
+      "crmPaymentDate": "2026-05-22",
+      "crmCommissionable": 4800,
+      "crmFinal": 4800
     },
     {
-      "customerName": "Palm Beach Equine Clinic",
-      "transactions": [
-        {
-          "date": "2026-02-24",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1002",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-31",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1002",
-          "amount": 2400,
-          "commissionRate": 0.1,
-          "commissionAmount": 240
-        }
-      ],
-      "collected": 2400,
-      "commission": 240
+      "invoiceNum": "ORD-EPL-1067",
+      "customer": "Colts Neck Equine",
+      "crmPaymentDate": "2026-05-17",
+      "crmCommissionable": 600,
+      "crmFinal": 600
     },
     {
-      "customerName": "Tryon Equine Hospital",
-      "transactions": [
-        {
-          "date": "2026-05-26",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1100",
-          "amount": 1200,
-          "commissionRate": 0.1,
-          "commissionAmount": 120
-        },
-        {
-          "date": "2026-05-26",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1100",
-          "amount": 1200,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "collected": 1200,
-      "commission": 120
+      "invoiceNum": "CINV-EPL-1006",
+      "customer": "WinStar Farm LLC",
+      "crmPaymentDate": "2026-05-13",
+      "crmCommissionable": 2400,
+      "crmFinal": 2400
     },
     {
-      "customerName": "Colts Neck Equine",
-      "transactions": [
-        {
-          "date": "2026-04-21",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1067",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-17",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1067",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        }
-      ],
-      "collected": 600,
-      "commission": 60
+      "invoiceNum": "CINV-EPL-1010",
+      "customer": "Ocala Equine Hospital",
+      "crmPaymentDate": "2026-05-12",
+      "crmCommissionable": 1200,
+      "crmFinal": 1200
     },
     {
-      "customerName": "Rood and Riddle Lexington",
-      "transactions": [
-        {
-          "date": "2026-05-04",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1079",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-31",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1079",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        }
-      ],
-      "collected": 600,
-      "commission": 60
-    },
-    {
-      "customerName": "Shell Equine Services",
-      "transactions": [
-        {
-          "date": "2026-04-29",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1075",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-05-31",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1075",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        }
-      ],
-      "collected": 600,
-      "commission": 60
+      "invoiceNum": "CINV-EPL-1012",
+      "customer": "Ocala Equine Hospital",
+      "crmPaymentDate": "2026-05-12",
+      "crmCommissionable": 600,
+      "crmFinal": 600
     }
   ],
-  "generatedAt": "2026-06-11T16:08:26.764Z"
+  "pendingRolloverTotal": 11400,
+  "rolloverFromPrior": [],
+  "rolloverFromPriorTotal": 0,
+  "generatedAt": "2026-06-18T15:36:16.150Z"
 }
