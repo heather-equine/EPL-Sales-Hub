@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T17:54:49.418Z",
+  "generatedAt": "2026-07-06T17:55:00.311Z",
   "drops": [
     {
       "dropDate": "2026-07-06",
@@ -10,7 +10,7 @@
           "repId": "karin",
           "repName": "Karin Williamson",
           "mtdSales": 1800,
-          "mtdCollected": 15669,
+          "mtdCollected": 10800,
           "mtdOrders": 1,
           "mtdVials": 30,
           "newClientsMTD": 0,
@@ -20,14 +20,14 @@
           "totalClients": 36,
           "pctCollected": 96.72371491831727,
           "ytdSales": 154160,
-          "ytdCollected": 114795.88,
+          "ytdCollected": 149695.88,
           "ytdInvoices": 84
         },
         "megan": {
           "repId": "megan",
           "repName": "Megan Smith",
           "mtdSales": 4200,
-          "mtdCollected": 5393,
+          "mtdCollected": 0,
           "mtdOrders": 2,
           "mtdVials": 16,
           "newClientsMTD": 0,
@@ -37,14 +37,14 @@
           "totalClients": 35,
           "pctCollected": 70.49525816649106,
           "ytdSales": 59700,
-          "ytdCollected": 29400,
+          "ytdCollected": 38700,
           "ytdInvoices": 47
         },
         "company": {
           "repId": "company",
           "repName": "Company",
           "mtdSales": 6000,
-          "mtdCollected": 21200,
+          "mtdCollected": 10800,
           "mtdOrders": 3,
           "mtdVials": 46,
           "newClientsMTD": 0,
@@ -54,7 +54,7 @@
           "totalClients": 71,
           "pctCollected": 88.88935518391841,
           "ytdSales": 213860,
-          "ytdCollected": 144195.88,
+          "ytdCollected": 188395.88,
           "ytdInvoices": 131
         }
       },
@@ -93,27 +93,27 @@
         "aggregates": {
           "karin": {
             "mtdSales": 17550,
-            "mtdCollected": 17400,
+            "mtdCollected": 41500,
             "mtdOrders": 12,
             "mtdVials": 67,
             "outstanding": 32475,
-            "pctCollected": 0.9914529914529915
+            "pctCollected": 2.364672364672365
           },
           "megan": {
             "mtdSales": 11700,
-            "mtdCollected": 2400,
+            "mtdCollected": 11700,
             "mtdOrders": 13,
             "mtdVials": 18,
             "outstanding": 12600,
-            "pctCollected": 0.20512820512820512
+            "pctCollected": 1
           },
           "company": {
             "mtdSales": 29250,
-            "mtdCollected": 19800,
+            "mtdCollected": 53200,
             "mtdOrders": 25,
             "mtdVials": 85,
             "outstanding": 45075,
-            "pctCollected": 0.676923076923077
+            "pctCollected": 1.8188034188034188
           }
         }
       }
