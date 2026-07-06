@@ -6,12 +6,67 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 17400,
-  "totalCommission": 1740,
-  "paymentCount": 10,
-  "accountCount": 7,
+  "totalCollected": 41500,
+  "totalCommission": 4150,
+  "paymentCount": 19,
+  "accountCount": 11,
   "dueDate": "July 31, 2026",
   "accounts": [
+    {
+      "customerName": "Equine Athlete Veterinary Services - Simpsonville, KY",
+      "transactions": [
+        {
+          "date": "2026-04-15",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1060",
+          "amount": 7200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-20",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1095",
+          "amount": 6000,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-05-30",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1102",
+          "amount": 6000,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-15",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1095",
+          "amount": 6000,
+          "commissionRate": 0.1,
+          "commissionAmount": 600
+        },
+        {
+          "date": "2026-06-15",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1060",
+          "amount": 7200,
+          "commissionRate": 0.1,
+          "commissionAmount": 720
+        },
+        {
+          "date": "2026-06-25",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1102",
+          "amount": 6000,
+          "commissionRate": 0.1,
+          "commissionAmount": 600
+        }
+      ],
+      "collected": 19200,
+      "commission": 1920
+    },
     {
       "customerName": "Signature Equine Hospital",
       "transactions": [
@@ -32,7 +87,7 @@
           "commissionAmount": null
         },
         {
-          "date": "2026-06-15",
+          "date": "2026-06-16",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1093",
           "amount": 4200,
@@ -40,7 +95,7 @@
           "commissionAmount": 420
         },
         {
-          "date": "2026-06-15",
+          "date": "2026-06-16",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1089",
           "amount": 600,
@@ -63,7 +118,7 @@
           "commissionAmount": null
         },
         {
-          "date": "2026-06-15",
+          "date": "2026-06-16",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1088",
           "amount": 3600,
@@ -135,6 +190,84 @@
       ],
       "collected": 2400,
       "commission": 240
+    },
+    {
+      "customerName": "Elgin Equine",
+      "transactions": [
+        {
+          "date": "2026-05-30",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1101",
+          "amount": 2400,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-12",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1101",
+          "amount": 2400,
+          "commissionRate": 0.1,
+          "commissionAmount": 240
+        }
+      ],
+      "collected": 2400,
+      "commission": 240
+    },
+    {
+      "customerName": "Austin Equine",
+      "transactions": [
+        {
+          "date": "2026-05-11",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1013",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-01",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1013",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        },
+        {
+          "date": "2026-06-08",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1019",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-08",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1018",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-22",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1019",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        },
+        {
+          "date": "2026-06-22",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1018",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 1800,
+      "commission": 180
     },
     {
       "customerName": "Mobile Veterinary Practice",
@@ -220,6 +353,45 @@
       ],
       "collected": 1200,
       "commission": 120
+    },
+    {
+      "customerName": "Brazos Valley Equine Hospital-Cypress",
+      "transactions": [
+        {
+          "date": "2026-03-30",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1044",
+          "amount": 350,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-04-08",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1048",
+          "amount": 350,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1048",
+          "amount": 350,
+          "commissionRate": 0.1,
+          "commissionAmount": 35
+        },
+        {
+          "date": "2026-06-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1044",
+          "amount": 350,
+          "commissionRate": 0.1,
+          "commissionAmount": 35
+        }
+      ],
+      "collected": 700,
+      "commission": 70
     }
   ],
   "reconciliation": null,
@@ -227,5 +399,5 @@
   "pendingRolloverTotal": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-06T17:54:54.958Z"
+  "generatedAt": "2026-07-06T17:55:06.470Z"
 }
