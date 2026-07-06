@@ -6,12 +6,97 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 2400,
-  "totalCommission": 240,
-  "paymentCount": 2,
-  "accountCount": 2,
+  "totalCollected": 11700,
+  "totalCommission": 1170,
+  "paymentCount": 8,
+  "accountCount": 7,
   "dueDate": "July 31, 2026",
   "accounts": [
+    {
+      "customerName": "Tryon Equine Hospital",
+      "transactions": [
+        {
+          "date": "2026-06-24",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1124",
+          "amount": 3300,
+          "commissionRate": 0.1,
+          "commissionAmount": 330
+        },
+        {
+          "date": "2026-06-24",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1124",
+          "amount": 3300,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "collected": 3300,
+      "commission": 330
+    },
+    {
+      "customerName": "Palm Beach Equine Clinic",
+      "transactions": [
+        {
+          "date": "2026-02-24",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1002",
+          "amount": 2400,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-01",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1002",
+          "amount": 2400,
+          "commissionRate": 0.1,
+          "commissionAmount": 240
+        }
+      ],
+      "collected": 2400,
+      "commission": 240
+    },
+    {
+      "customerName": "Ocala Equine Hospital",
+      "transactions": [
+        {
+          "date": "2026-05-20",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1014",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-02",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1017",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-09",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1014",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        },
+        {
+          "date": "2026-06-26",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1017",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        }
+      ],
+      "collected": 2400,
+      "commission": 240
+    },
     {
       "customerName": "Four Winds Equine Hospital",
       "transactions": [
@@ -36,27 +121,73 @@
       "commission": 120
     },
     {
-      "customerName": "Ocala Equine Hospital",
+      "customerName": "Signature S Equine",
       "transactions": [
         {
-          "date": "2026-05-20",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1014",
-          "amount": 1200,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-06-09",
+          "date": "2026-06-22",
           "type": "Payment",
-          "invoiceNum": "CINV-EPL-1014",
+          "invoiceNum": "ORD-EPL-1121",
           "amount": 1200,
           "commissionRate": 0.1,
           "commissionAmount": 120
+        },
+        {
+          "date": "2026-06-22",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1121",
+          "amount": 1200,
+          "commissionRate": null,
+          "commissionAmount": null
         }
       ],
       "collected": 1200,
       "commission": 120
+    },
+    {
+      "customerName": "Rood and Riddle Lexington",
+      "transactions": [
+        {
+          "date": "2026-05-04",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1079",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1079",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 600,
+      "commission": 60
+    },
+    {
+      "customerName": "Shell Equine Services",
+      "transactions": [
+        {
+          "date": "2026-04-29",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1075",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1075",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 600,
+      "commission": 60
     }
   ],
   "reconciliation": null,
@@ -64,5 +195,5 @@
   "pendingRolloverTotal": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-06T17:54:55.941Z"
+  "generatedAt": "2026-07-06T17:55:07.416Z"
 }
