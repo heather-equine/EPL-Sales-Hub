@@ -6,16 +6,63 @@
   "planLabel": "Standard waterfall — 5% / 6% / 7.5% / 10% by monthly cumulative",
   "planKind": "waterfall",
   "flatRate": null,
-  "totalCollected": 0,
-  "totalCommission": 0,
-  "paymentCount": 0,
-  "accountCount": 0,
+  "totalCollected": 1200,
+  "totalCommission": 60,
+  "paymentCount": 2,
+  "accountCount": 2,
   "dueDate": "August 31, 2026",
-  "accounts": [],
+  "accounts": [
+    {
+      "customerName": "Spruce Lane Farm",
+      "transactions": [
+        {
+          "date": "2026-05-26",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1099",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-07-06",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1099",
+          "amount": 600,
+          "commissionRate": 0.05,
+          "commissionAmount": 30
+        }
+      ],
+      "collected": 600,
+      "commission": 30
+    },
+    {
+      "customerName": "The Feiner Equine",
+      "transactions": [
+        {
+          "date": "2026-07-03",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1132",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-07-06",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1132",
+          "amount": 600,
+          "commissionRate": 0.05,
+          "commissionAmount": 30
+        }
+      ],
+      "collected": 600,
+      "commission": 30
+    }
+  ],
   "reconciliation": null,
   "pendingRollover": [],
   "pendingRolloverTotal": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-06T17:55:33.631Z"
+  "generatedAt": "2026-07-10T00:38:46.739Z"
 }
