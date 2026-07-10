@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T00:38:34.880Z",
+  "generatedAt": "2026-07-10T00:38:46.841Z",
   "drops": [
     {
       "dropDate": "2026-07-10",
@@ -9,9 +9,9 @@
         "karin": {
           "repId": "karin",
           "repName": "Karin Williamson",
-          "mtdSales": 1800,
+          "mtdSales": 5475,
           "mtdCollected": 10800,
-          "mtdOrders": 1,
+          "mtdOrders": 5,
           "mtdVials": 70,
           "newClientsMTD": 1,
           "totalPaid": 161635,
@@ -19,16 +19,16 @@
           "activeClients": 21,
           "totalClients": 38,
           "pctCollected": 94.64238662646018,
-          "ytdSales": 154160,
+          "ytdSales": 157835,
           "ytdCollected": 149695.88,
-          "ytdInvoices": 84
+          "ytdInvoices": 88
         },
         "megan": {
           "repId": "megan",
           "repName": "Megan Smith",
-          "mtdSales": 4200,
-          "mtdCollected": 0,
-          "mtdOrders": 2,
+          "mtdSales": 4800,
+          "mtdCollected": 1200,
+          "mtdOrders": 4,
           "mtdVials": 16,
           "newClientsMTD": 0,
           "totalPaid": 51975,
@@ -36,16 +36,16 @@
           "activeClients": 21,
           "totalClients": 35,
           "pctCollected": 73.02423603793467,
-          "ytdSales": 59700,
-          "ytdCollected": 38700,
-          "ytdInvoices": 47
+          "ytdSales": 60300,
+          "ytdCollected": 41100,
+          "ytdInvoices": 49
         },
         "company": {
           "repId": "company",
           "repName": "Company",
-          "mtdSales": 6000,
-          "mtdCollected": 10800,
-          "mtdOrders": 3,
+          "mtdSales": 10275,
+          "mtdCollected": 12000,
+          "mtdOrders": 9,
           "mtdVials": 86,
           "newClientsMTD": 1,
           "totalPaid": 213610,
@@ -53,9 +53,9 @@
           "activeClients": 42,
           "totalClients": 73,
           "pctCollected": 88.28318730368656,
-          "ytdSales": 213860,
-          "ytdCollected": 188395.88,
-          "ytdInvoices": 131
+          "ytdSales": 218135,
+          "ytdCollected": 190795.88,
+          "ytdInvoices": 137
         }
       },
       "priorMonthSameDay": {
@@ -101,19 +101,19 @@
           },
           "megan": {
             "mtdSales": 11700,
-            "mtdCollected": 11700,
+            "mtdCollected": 12900,
             "mtdOrders": 13,
             "mtdVials": 18,
             "outstanding": 12600,
-            "pctCollected": 1
+            "pctCollected": 1.1025641025641026
           },
           "company": {
             "mtdSales": 29250,
-            "mtdCollected": 53200,
+            "mtdCollected": 54400,
             "mtdOrders": 25,
             "mtdVials": 85,
             "outstanding": 45075,
-            "pctCollected": 1.8188034188034188
+            "pctCollected": 1.8598290598290599
           }
         }
       }
@@ -154,7 +154,7 @@
           "totalClients": 35,
           "pctCollected": 70.49525816649106,
           "ytdSales": 59700,
-          "ytdCollected": 38700,
+          "ytdCollected": 39900,
           "ytdInvoices": 47
         },
         "company": {
@@ -171,7 +171,7 @@
           "totalClients": 71,
           "pctCollected": 88.88935518391841,
           "ytdSales": 213860,
-          "ytdCollected": 188395.88,
+          "ytdCollected": 189595.88,
           "ytdInvoices": 131
         }
       },
@@ -218,19 +218,19 @@
           },
           "megan": {
             "mtdSales": 11700,
-            "mtdCollected": 11700,
+            "mtdCollected": 12900,
             "mtdOrders": 13,
             "mtdVials": 18,
             "outstanding": 12600,
-            "pctCollected": 1
+            "pctCollected": 1.1025641025641026
           },
           "company": {
             "mtdSales": 29250,
-            "mtdCollected": 53200,
+            "mtdCollected": 54400,
             "mtdOrders": 25,
             "mtdVials": 85,
             "outstanding": 45075,
-            "pctCollected": 1.8188034188034188
+            "pctCollected": 1.8598290598290599
           }
         }
       }
