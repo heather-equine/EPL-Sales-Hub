@@ -1,0 +1,137 @@
+/* ============================================================
+ * Q3 Baselines Panel styles
+ * Uses the same green/gold palette as q3-accelerator.css so
+ * the two blocks read as one unit.
+ * ============================================================ */
+
+.q3bl-root {
+  --q3bl-green-dk: #12563F;
+  --q3bl-green: #1F7A5C;
+  --q3bl-cream: #FFF8E9;
+  --q3bl-gold: #C08A2E;
+  --q3bl-mute: #6b7a72;
+  --q3bl-line: #E4E9E6;
+  --q3bl-bg: #FBFBF9;
+  --q3bl-zebra: #F5F8F6;
+  margin: 20px 0 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #28251D;
+}
+
+/* ---------- Header ---------- */
+.q3bl-root .q3bl-hdr {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap; margin-bottom: 8px;
+}
+.q3bl-root .q3bl-title {
+  font-family: 'Italiana', serif;
+  font-size: 26px; font-weight: 400; line-height: 1.1;
+  color: #111;
+}
+.q3bl-root .q3bl-sub {
+  font-size: 13px; color: var(--q3bl-mute); margin-top: 4px;
+  max-width: 780px; line-height: 1.5;
+}
+.q3bl-root .q3bl-sub strong {
+  color: var(--q3bl-green-dk); font-weight: 600;
+}
+.q3bl-root .q3bl-summary {
+  text-align: right;
+  background: var(--q3bl-cream); border: 1px solid #EFD79A;
+  padding: 10px 16px; border-radius: 10px;
+  min-width: 180px;
+}
+.q3bl-root .q3bl-summary-n {
+  font-family: 'Italiana', serif;
+  font-size: 30px; color: var(--q3bl-gold); line-height: 1;
+}
+.q3bl-root .q3bl-summary-l {
+  font-size: 11px; color: #6b5a2b; font-weight: 600;
+  letter-spacing: 0.5px; margin-top: 4px;
+}
+
+.q3bl-root .q3bl-meta {
+  font-size: 11px; color: var(--q3bl-mute); font-style: italic;
+  margin: 4px 0 14px;
+}
+
+/* ---------- Rep group header (admin view only) ---------- */
+.q3bl-root .q3bl-rep-hdr {
+  font-size: 13px; font-weight: 700; color: var(--q3bl-green-dk);
+  text-transform: uppercase; letter-spacing: 0.6px;
+  margin: 16px 0 6px;
+  padding-bottom: 6px; border-bottom: 1px solid var(--q3bl-line);
+}
+.q3bl-root .q3bl-rep-hdr:first-of-type {
+  margin-top: 4px;
+}
+
+/* ---------- Table ---------- */
+.q3bl-root .q3bl-tablewrap {
+  border: 1px solid var(--q3bl-line);
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.q3bl-root .q3bl-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}
+.q3bl-root .q3bl-table thead th {
+  background: var(--q3bl-green-dk);
+  color: #fff;
+  font-size: 10.5px; font-weight: 700;
+  letter-spacing: 0.5px; text-transform: uppercase;
+  padding: 9px 6px;
+  text-align: center;
+  white-space: nowrap;
+}
+.q3bl-root .q3bl-table thead .q3bl-th-acct {
+  text-align: left; padding-left: 14px;
+}
+.q3bl-root .q3bl-table thead .q3bl-th-tot {
+  background: #0F4B37;
+}
+.q3bl-root .q3bl-table thead .q3bl-th-base {
+  background: var(--q3bl-gold);
+  color: #fff;
+}
+.q3bl-root .q3bl-table tbody td {
+  padding: 8px 6px;
+  border-top: 1px solid var(--q3bl-line);
+  vertical-align: middle;
+}
+.q3bl-root .q3bl-table tbody tr:nth-child(even) td {
+  background: var(--q3bl-zebra);
+}
+.q3bl-root .q3bl-account {
+  padding-left: 14px !important;
+  font-weight: 500;
+  color: #28251D;
+}
+.q3bl-root .q3bl-num {
+  text-align: center;
+  color: #4a5651;
+}
+.q3bl-root .q3bl-total {
+  font-weight: 700;
+  color: #28251D;
+}
+.q3bl-root .q3bl-baseline {
+  font-weight: 800;
+  color: var(--q3bl-green-dk);
+  background: rgba(255,243,214,0.55);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .q3bl-root .q3bl-hdr { flex-direction: column; }
+  .q3bl-root .q3bl-summary { align-self: flex-start; }
+  .q3bl-root .q3bl-table { font-size: 11.5px; }
+  .q3bl-root .q3bl-table thead th { padding: 8px 3px; font-size: 9.5px; }
+  .q3bl-root .q3bl-table tbody td { padding: 7px 4px; }
+  .q3bl-root .q3bl-account { padding-left: 8px !important; }
+}
