@@ -5,19 +5,15 @@
  * on the Overview tab with a tabbed block:
  *   [ Q3 Accelerator (ACTIVE) | Q2 Escalator (archived) | Standard ]
  *
- * Visibility gate: ADMIN ONLY.
- * If ?rep= is in the URL (Karin/Megan rep-locked view), this script
- * does nothing and the original comp section renders unchanged.
+ * Visibility gate: SHOWN TO ALL (admin + reps).
+ * (Historically was admin-only during Q3 rollout preview; opened to reps on 2026-07-14.)
+ * Debug bypass: ?q3ax=off disables injection.
  * ============================================================ */
 (function () {
   'use strict';
 
   // ---- Visibility gate ---------------------------------------------------
   var params = new URLSearchParams(window.location.search);
-  if (params.get('rep')) {
-    // rep-locked view: leave the original comp section alone.
-    return;
-  }
   if (params.get('q3ax') === 'off') {
     // debug bypass
     return;
@@ -29,11 +25,6 @@
   function buildHTML() {
     return (
       '<div class="q3ax-root" ' + INJECTED_ATTR + '="1">' +
-
-        // Admin flag row (top-right)
-        '<div class="q3ax-flagrow">' +
-          '<div class="q3ax-adminflag">Admin preview · Q3 rollout</div>' +
-        '</div>' +
 
         // Tabs
         '<div class="q3ax-tabs" role="tablist">' +
