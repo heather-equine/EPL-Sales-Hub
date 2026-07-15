@@ -6,9 +6,9 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 41500,
-  "totalCommission": 4150,
-  "paymentCount": 19,
+  "totalCollected": 40300,
+  "totalCommission": 4030,
+  "paymentCount": 17,
   "accountCount": 11,
   "dueDate": "July 31, 2026",
   "accounts": [
@@ -215,61 +215,6 @@
       "commission": 240
     },
     {
-      "customerName": "Austin Equine",
-      "transactions": [
-        {
-          "date": "2026-05-11",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1013",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-06-01",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1013",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        },
-        {
-          "date": "2026-06-08",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1019",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-06-08",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1018",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-06-22",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1019",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        },
-        {
-          "date": "2026-06-22",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1018",
-          "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
-        }
-      ],
-      "collected": 1800,
-      "commission": 180
-    },
-    {
       "customerName": "MVP Equine",
       "transactions": [
         {
@@ -392,12 +337,55 @@
       ],
       "collected": 700,
       "commission": 70
+    },
+    {
+      "customerName": "Austin Equine",
+      "transactions": [
+        {
+          "date": "2026-06-08",
+          "type": "Invoice",
+          "invoiceNum": "CINV-EPL-1019",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-06-22",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1019",
+          "amount": 600,
+          "commissionRate": 0.1,
+          "commissionAmount": 60
+        }
+      ],
+      "collected": 600,
+      "commission": 60
     }
   ],
-  "reconciliation": null,
-  "pendingRollover": [],
-  "pendingRolloverTotal": 0,
+  "reconciliation": {
+    "reconciledAt": "2026-07-15T21:15:55.495Z",
+    "crmOnlyCount": 4,
+    "qbOnlyCount": 0,
+    "locked": true
+  },
+  "pendingRollover": [
+    {
+      "invoiceNum": "CINV-EPL-1018",
+      "customer": "Austin Equine",
+      "crmPaymentDate": "2026-06-22",
+      "crmCommissionable": 600,
+      "crmFinal": 600
+    },
+    {
+      "invoiceNum": "CINV-EPL-1013",
+      "customer": "Austin Equine",
+      "crmPaymentDate": "2026-06-01",
+      "crmCommissionable": 600,
+      "crmFinal": 600
+    }
+  ],
+  "pendingRolloverTotal": 1200,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-15T20:56:29.028Z"
+  "generatedAt": "2026-07-15T21:23:14.109Z"
 }
