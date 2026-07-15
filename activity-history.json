@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T21:23:07.983Z",
+  "generatedAt": "2026-07-15T21:25:11.401Z",
   "drops": [
     {
       "dropDate": "2026-07-10",
@@ -37,7 +37,7 @@
           "totalClients": 35,
           "pctCollected": 73.02423603793467,
           "ytdSales": 60300,
-          "ytdCollected": 41100,
+          "ytdCollected": 45900,
           "ytdInvoices": 49
         },
         "company": {
@@ -54,7 +54,7 @@
           "totalClients": 73,
           "pctCollected": 88.28318730368656,
           "ytdSales": 218135,
-          "ytdCollected": 190795.88,
+          "ytdCollected": 195595.88,
           "ytdInvoices": 137
         }
       },
