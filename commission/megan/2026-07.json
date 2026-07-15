@@ -6,12 +6,35 @@
   "planLabel": "Standard waterfall — 5% / 6% / 7.5% / 10% by monthly cumulative",
   "planKind": "waterfall",
   "flatRate": null,
-  "totalCollected": 1200,
-  "totalCommission": 60,
-  "paymentCount": 2,
-  "accountCount": 2,
+  "totalCollected": 6000,
+  "totalCommission": 300,
+  "paymentCount": 3,
+  "accountCount": 3,
   "dueDate": "August 31, 2026",
   "accounts": [
+    {
+      "customerName": "KBS Performance Horse Services",
+      "transactions": [
+        {
+          "date": "2026-06-24",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1123",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-07-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1123",
+          "amount": 4800,
+          "commissionRate": 0.05,
+          "commissionAmount": 240
+        }
+      ],
+      "collected": 4800,
+      "commission": 240
+    },
     {
       "customerName": "Spruce Lane Farm",
       "transactions": [
@@ -64,5 +87,5 @@
   "pendingRolloverTotal": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-15T21:23:17.239Z"
+  "generatedAt": "2026-07-15T21:25:21.897Z"
 }
