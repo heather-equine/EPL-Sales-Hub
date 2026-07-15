@@ -6,58 +6,12 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 12900,
-  "totalCommission": 1290,
-  "paymentCount": 9,
-  "accountCount": 8,
+  "totalCollected": 7200,
+  "totalCommission": 720,
+  "paymentCount": 7,
+  "accountCount": 6,
   "dueDate": "July 31, 2026",
   "accounts": [
-    {
-      "customerName": "Tryon Equine Hospital",
-      "transactions": [
-        {
-          "date": "2026-06-24",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1124",
-          "amount": 3300,
-          "commissionRate": 0.1,
-          "commissionAmount": 330
-        },
-        {
-          "date": "2026-06-24",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1124",
-          "amount": 3300,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "collected": 3300,
-      "commission": 330
-    },
-    {
-      "customerName": "Palm Beach Equine Clinic",
-      "transactions": [
-        {
-          "date": "2026-02-24",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1002",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-06-01",
-          "type": "Payment",
-          "invoiceNum": "CINV-EPL-1002",
-          "amount": 2400,
-          "commissionRate": 0.1,
-          "commissionAmount": 240
-        }
-      ],
-      "collected": 2400,
-      "commission": 240
-    },
     {
       "customerName": "Ocala Equine Hospital",
       "transactions": [
@@ -213,10 +167,30 @@
       "commission": 60
     }
   ],
-  "reconciliation": null,
-  "pendingRollover": [],
-  "pendingRolloverTotal": 0,
+  "reconciliation": {
+    "reconciledAt": "2026-07-15T21:15:55.495Z",
+    "crmOnlyCount": 4,
+    "qbOnlyCount": 0,
+    "locked": true
+  },
+  "pendingRollover": [
+    {
+      "invoiceNum": "ORD-EPL-1124",
+      "customer": "Tryon Equine Hospital",
+      "crmPaymentDate": "2026-06-24",
+      "crmCommissionable": 3300,
+      "crmFinal": 3300
+    },
+    {
+      "invoiceNum": "CINV-EPL-1002",
+      "customer": "Palm Beach Equine Clinic",
+      "crmPaymentDate": "2026-06-01",
+      "crmCommissionable": 2400,
+      "crmFinal": 2400
+    }
+  ],
+  "pendingRolloverTotal": 5700,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-15T20:56:29.942Z"
+  "generatedAt": "2026-07-15T21:23:15.284Z"
 }
