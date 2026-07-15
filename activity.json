@@ -40,7 +40,7 @@
       "ytdSales": 60300,
       "ytdSalesGross": 95870,
       "ytdInvoices": 49,
-      "ytdCollected": 41100,
+      "ytdCollected": 45900,
       "priorMonthCollected": 12900,
       "priorMonthKey": "2026-06"
     },
@@ -60,7 +60,7 @@
       "ytdSales": 218135,
       "ytdSalesGross": 375365,
       "ytdInvoices": 137,
-      "ytdCollected": 190795.88,
+      "ytdCollected": 195595.88,
       "priorMonthCollected": 54400,
       "priorMonthKey": "2026-06"
     }
