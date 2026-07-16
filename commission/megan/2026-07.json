@@ -6,12 +6,51 @@
   "planLabel": "Standard waterfall — 5% / 6% / 7.5% / 10% by monthly cumulative",
   "planKind": "waterfall",
   "flatRate": null,
-  "totalCollected": 6000,
-  "totalCommission": 300,
-  "paymentCount": 3,
-  "accountCount": 3,
+  "totalCollected": 11400,
+  "totalCommission": 570,
+  "paymentCount": 5,
+  "accountCount": 4,
   "dueDate": "August 31, 2026",
   "accounts": [
+    {
+      "customerName": "The Feiner Equine",
+      "transactions": [
+        {
+          "date": "2026-07-03",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1132",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-07-06",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1132",
+          "amount": 600,
+          "commissionRate": 0.05,
+          "commissionAmount": 30
+        },
+        {
+          "date": "2026-07-14",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1138",
+          "amount": 4800,
+          "commissionRate": 0.05,
+          "commissionAmount": 240
+        },
+        {
+          "date": "2026-07-14",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1138",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "collected": 5400,
+      "commission": 270
+    },
     {
       "customerName": "KBS Performance Horse Services",
       "transactions": [
@@ -59,20 +98,20 @@
       "commission": 30
     },
     {
-      "customerName": "The Feiner Equine",
+      "customerName": "Kennedy Equine",
       "transactions": [
         {
-          "date": "2026-07-03",
+          "date": "2026-05-15",
           "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1132",
+          "invoiceNum": "ORD-EPL-1090",
           "amount": 600,
           "commissionRate": null,
           "commissionAmount": null
         },
         {
-          "date": "2026-07-06",
+          "date": "2026-07-16",
           "type": "Payment",
-          "invoiceNum": "ORD-EPL-1132",
+          "invoiceNum": "ORD-EPL-1090",
           "amount": 600,
           "commissionRate": 0.05,
           "commissionAmount": 30
@@ -87,5 +126,5 @@
   "pendingRolloverTotal": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-16T18:12:51.688Z"
+  "generatedAt": "2026-07-16T18:13:19.780Z"
 }
