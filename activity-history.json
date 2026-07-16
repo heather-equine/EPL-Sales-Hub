@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T18:13:00.044Z",
+  "generatedAt": "2026-07-16T18:13:09.901Z",
   "drops": [
     {
       "dropDate": "2026-07-16",
@@ -27,7 +27,7 @@
           "repId": "megan",
           "repName": "Megan Smith",
           "mtdSales": 14400,
-          "mtdCollected": 6000,
+          "mtdCollected": 11400,
           "mtdOrders": 8,
           "mtdVials": 36,
           "newClientsMTD": 1,
@@ -37,14 +37,14 @@
           "totalClients": 38,
           "pctCollected": 76.97307335190344,
           "ytdSales": 69900,
-          "ytdCollected": 45900,
+          "ytdCollected": 51300,
           "ytdInvoices": 53
         },
         "company": {
           "repId": "company",
           "repName": "Company",
           "mtdSales": 21675,
-          "mtdCollected": 16800,
+          "mtdCollected": 22200,
           "mtdOrders": 14,
           "mtdVials": 119,
           "newClientsMTD": 2,
@@ -54,7 +54,7 @@
           "totalClients": 79,
           "pctCollected": 88.336754025892,
           "ytdSales": 229535,
-          "ytdCollected": 195595.88,
+          "ytdCollected": 200995.88,
           "ytdInvoices": 142
         }
       },
