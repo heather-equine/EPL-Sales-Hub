@@ -6,8 +6,8 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 7200,
-  "totalCommission": 720,
+  "totalCollected": 9600,
+  "totalCommission": 960,
   "paymentCount": 7,
   "accountCount": 6,
   "dueDate": "July 31, 2026",
@@ -180,17 +180,29 @@
       "crmPaymentDate": "2026-06-24",
       "crmCommissionable": 3300,
       "crmFinal": 3300
-    },
-    {
-      "invoiceNum": "CINV-EPL-1002",
-      "customer": "Palm Beach Equine Clinic",
-      "crmPaymentDate": "2026-06-01",
-      "crmCommissionable": 2400,
-      "crmFinal": 2400
     }
   ],
-  "pendingRolloverTotal": 5700,
+  "pendingRolloverTotal": 3300,
+  "adjustments": [
+    {
+      "id": "palm-beach-may-catchup",
+      "repId": "megan",
+      "customer": "Palm Beach Equine Clinic",
+      "invoiceNum": "CINV-EPL-1002",
+      "basisAmount": 2400,
+      "commissionAmount": 240,
+      "reason": "Late-clearing May payment (QB dep. 5/29/2026) — missed May payout, catch-up in June",
+      "originalMonth": "2026-05",
+      "addedAt": "2026-07-16",
+      "resolvesPending": {
+        "invoiceNum": "CINV-EPL-1002",
+        "customer": "Palm Beach Equine Clinic"
+      }
+    }
+  ],
+  "adjustmentsCommission": 240,
+  "adjustmentsBasis": 2400,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-16T19:17:14.611Z"
+  "generatedAt": "2026-07-16T20:44:55.444Z"
 }
