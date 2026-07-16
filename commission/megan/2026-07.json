@@ -124,7 +124,10 @@
   "reconciliation": null,
   "pendingRollover": [],
   "pendingRolloverTotal": 0,
+  "adjustments": [],
+  "adjustmentsCommission": 0,
+  "adjustmentsBasis": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-16T19:17:18.031Z"
+  "generatedAt": "2026-07-16T20:44:58.770Z"
 }
