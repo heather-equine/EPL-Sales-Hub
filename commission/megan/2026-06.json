@@ -6,8 +6,8 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 9600,
-  "totalCommission": 960,
+  "totalCollected": 12900,
+  "totalCommission": 1290,
   "paymentCount": 7,
   "accountCount": 6,
   "dueDate": "July 31, 2026",
@@ -173,16 +173,8 @@
     "qbOnlyCount": 0,
     "locked": true
   },
-  "pendingRollover": [
-    {
-      "invoiceNum": "ORD-EPL-1124",
-      "customer": "Tryon Equine Hospital",
-      "crmPaymentDate": "2026-06-24",
-      "crmCommissionable": 3300,
-      "crmFinal": 3300
-    }
-  ],
-  "pendingRolloverTotal": 3300,
+  "pendingRollover": [],
+  "pendingRolloverTotal": 0,
   "adjustments": [
     {
       "id": "palm-beach-may-catchup",
@@ -198,11 +190,26 @@
         "invoiceNum": "CINV-EPL-1002",
         "customer": "Palm Beach Equine Clinic"
       }
+    },
+    {
+      "id": "tryon-june-crm-approved",
+      "repId": "megan",
+      "customer": "Tryon Equine Hospital",
+      "invoiceNum": "ORD-EPL-1124",
+      "basisAmount": 3300,
+      "commissionAmount": 330,
+      "reason": "Approved by accounting on CRM record (QB match pending); paid on CRM Received Payments (6/24/2026)",
+      "originalMonth": "2026-06",
+      "addedAt": "2026-07-16",
+      "resolvesPending": {
+        "invoiceNum": "ORD-EPL-1124",
+        "customer": "Tryon Equine Hospital"
+      }
     }
   ],
-  "adjustmentsCommission": 240,
-  "adjustmentsBasis": 2400,
+  "adjustmentsCommission": 570,
+  "adjustmentsBasis": 5700,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-16T21:33:51.070Z"
+  "generatedAt": "2026-07-16T21:35:30.060Z"
 }
