@@ -3,131 +3,146 @@
   "periodLabel": "July 2026",
   "repId": "megan",
   "repName": "Megan Smith",
-  "planLabel": "Standard waterfall — 5% / 6% / 7.5% / 10% by monthly cumulative",
-  "planKind": "waterfall",
+  "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
+  "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 11400,
-  "totalCommission": 570,
-  "paymentCount": 5,
-  "accountCount": 4,
+  "totalCollected": 14400,
+  "totalCommission": 720,
+  "paymentCount": 8,
+  "accountCount": 3,
   "dueDate": "August 31, 2026",
   "accounts": [
     {
       "customerName": "The Feiner Equine",
+      "collected": 5400,
+      "finalTotal": 5400,
+      "commission": 671.25,
       "transactions": [
+        {
+          "date": "2026-07-14",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1139",
+          "amount": 0,
+          "rate": null,
+          "commission": null
+        },
+        {
+          "date": "2026-07-14",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1138",
+          "amount": 4800,
+          "rate": null,
+          "commission": null
+        },
+        {
+          "date": "2026-07-03",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1133",
+          "amount": 0,
+          "rate": null,
+          "commission": null
+        },
         {
           "date": "2026-07-03",
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1132",
           "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-06",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1132",
-          "amount": 600,
-          "commissionRate": 0.05,
-          "commissionAmount": 30
-        },
-        {
-          "date": "2026-07-14",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1138",
-          "amount": 4800,
-          "commissionRate": 0.05,
-          "commissionAmount": 240
-        },
-        {
-          "date": "2026-07-14",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1138",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
+          "rate": null,
+          "commission": null
         }
       ],
-      "collected": 5400,
-      "commission": 270
+      "customer": "The Feiner Equine",
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.3333333333333333,
+      "routeCVialsThisMonth": 12,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true
     },
     {
-      "customerName": "KBS Performance Horse Services",
-      "transactions": [
-        {
-          "date": "2026-06-24",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1123",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-10",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1123",
-          "amount": 4800,
-          "commissionRate": 0.05,
-          "commissionAmount": 240
-        }
-      ],
+      "customerName": "Equine Sports Medicine",
       "collected": 4800,
-      "commission": 240
-    },
-    {
-      "customerName": "Spruce Lane Farm",
+      "finalTotal": 4800,
+      "commission": 720,
       "transactions": [
         {
-          "date": "2026-05-26",
+          "date": "2026-07-15",
           "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1099",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
+          "invoiceNum": "ORD-EPL-1142",
+          "amount": 0,
+          "rate": null,
+          "commission": null
         },
         {
-          "date": "2026-07-06",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1099",
-          "amount": 600,
-          "commissionRate": 0.05,
-          "commissionAmount": 30
+          "date": "2026-07-15",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1141",
+          "amount": 4800,
+          "rate": null,
+          "commission": null
         }
       ],
-      "collected": 600,
-      "commission": 30
+      "customer": "Equine Sports Medicine",
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 10,
+      "routeCFreezerHit": true,
+      "routeCBreadth": false
     },
     {
-      "customerName": "Kennedy Equine",
+      "customerName": "Running S Equine",
+      "collected": 4200,
+      "finalTotal": 4200,
+      "commission": 522.81,
       "transactions": [
         {
-          "date": "2026-05-15",
+          "date": "2026-07-02",
           "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1090",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
+          "invoiceNum": "ORD-EPL-1131",
+          "amount": 0,
+          "rate": null,
+          "commission": null
         },
         {
-          "date": "2026-07-16",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1090",
-          "amount": 600,
-          "commissionRate": 0.05,
-          "commissionAmount": 30
+          "date": "2026-07-02",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1130",
+          "amount": 4200,
+          "rate": null,
+          "commission": null
         }
       ],
-      "collected": 600,
-      "commission": 30
+      "customer": "Running S Equine",
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.16666666666666666,
+      "routeCVialsThisMonth": 8,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true
     }
   ],
   "reconciliation": null,
-  "pendingRollover": [],
-  "pendingRolloverTotal": 0,
-  "adjustments": [],
-  "adjustmentsCommission": 0,
-  "adjustmentsBasis": 0,
-  "rolloverFromPrior": [],
-  "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-16T21:35:33.283Z"
+  "routeC": {
+    "gateInvoiced": 14400,
+    "gateThreshold": 30000,
+    "gateMet": false,
+    "routeUsed": "standard-waterfall",
+    "accelerator": {
+      "newReactRevenue": 4800,
+      "newReactCommission": 720,
+      "growthRevenue": 9362.5,
+      "growthCommission": 1170.31,
+      "baselineRevenue": 237.5,
+      "baselineCommission": 23.75,
+      "baseTiered": 1914.06,
+      "newAccountSpiffCount": 1,
+      "newAccountSpiffTotal": 0,
+      "breadthAccountCount": 2,
+      "breadthBonus": 0,
+      "total": 0
+    },
+    "standardWaterfall": {
+      "invoicedRevenue": 14400,
+      "commission": 720
+    }
+  },
+  "generatedAt": "2026-07-19T19:37:19.585Z"
 }
