@@ -3,85 +3,172 @@
   "periodLabel": "July 2026",
   "repId": "karin",
   "repName": "Karin Williamson",
-  "planLabel": "Standard waterfall — 5% / 6% / 7.5% / 10% by monthly cumulative",
-  "planKind": "waterfall",
+  "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
+  "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 10800,
-  "totalCommission": 540,
-  "paymentCount": 3,
-  "accountCount": 2,
+  "totalCollected": 7275,
+  "totalCommission": 363.75,
+  "paymentCount": 6,
+  "accountCount": 6,
   "dueDate": "August 31, 2026",
   "accounts": [
     {
-      "customerName": "Outlaw Equine",
+      "customerName": "Mt. Laramie Veterinary Services",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 207.5,
       "transactions": [
         {
-          "date": "2026-03-03",
+          "date": "2026-07-15",
           "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1024",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-06-02",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1107",
-          "amount": 6000,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-01",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1024",
-          "amount": 2400,
-          "commissionRate": 0.05,
-          "commissionAmount": 120
-        },
-        {
-          "date": "2026-07-01",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1107",
-          "amount": 6000,
-          "commissionRate": 0.05,
-          "commissionAmount": 300
+          "invoiceNum": "ORD-EPL-1140",
+          "amount": 1800,
+          "rate": null,
+          "commission": null
         }
       ],
-      "collected": 8400,
-      "commission": 420
+      "customer": "Mt. Laramie Veterinary Services",
+      "routeCStatus": "existing",
+      "routeCBaseline": 1.1666666666666667,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true
     },
     {
       "customerName": "Tanner Equine",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 180,
       "transactions": [
         {
-          "date": "2026-06-29",
+          "date": "2026-07-07",
           "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1127",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-02",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1127",
-          "amount": 2400,
-          "commissionRate": 0.05,
-          "commissionAmount": 120
+          "invoiceNum": "ORD-EPL-1135",
+          "amount": 1800,
+          "rate": null,
+          "commission": null
         }
       ],
-      "collected": 2400,
-      "commission": 120
+      "customer": "Tanner Equine",
+      "routeCStatus": "existing",
+      "routeCBaseline": 4.027777777777778,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false
+    },
+    {
+      "customerName": "Elgin Equine",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 180,
+      "transactions": [
+        {
+          "date": "2026-07-01",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1129",
+          "amount": 1800,
+          "rate": null,
+          "commission": null
+        }
+      ],
+      "customer": "Elgin Equine",
+      "routeCStatus": "existing",
+      "routeCBaseline": 3.5,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false
+    },
+    {
+      "customerName": "Panorama Equine Medical and Surgical Center",
+      "collected": 1275,
+      "finalTotal": 1275,
+      "commission": 140.45,
+      "transactions": [
+        {
+          "date": "2026-07-07",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1136",
+          "amount": 1275,
+          "rate": null,
+          "commission": null
+        }
+      ],
+      "customer": "Panorama Equine Medical and Surgical Center",
+      "routeCStatus": "existing",
+      "routeCBaseline": 1.1875,
+      "routeCVialsThisMonth": 2,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true
+    },
+    {
+      "customerName": "113 Equine",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 90,
+      "transactions": [
+        {
+          "date": "2026-07-08",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1137",
+          "amount": 600,
+          "rate": null,
+          "commission": null
+        }
+      ],
+      "customer": "113 Equine",
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 1,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false
+    },
+    {
+      "customerName": "Austin Equine",
+      "collected": 0,
+      "finalTotal": 0,
+      "commission": 0,
+      "transactions": [
+        {
+          "date": "2026-07-06",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1134",
+          "amount": 0,
+          "rate": null,
+          "commission": null
+        }
+      ],
+      "customer": "Austin Equine",
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.5,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true
     }
   ],
   "reconciliation": null,
-  "pendingRollover": [],
-  "pendingRolloverTotal": 0,
-  "adjustments": [],
-  "adjustmentsCommission": 0,
-  "adjustmentsBasis": 0,
-  "rolloverFromPrior": [],
-  "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-07-16T21:35:31.938Z"
+  "routeC": {
+    "gateInvoiced": 7275,
+    "gateThreshold": 30000,
+    "gateMet": false,
+    "routeUsed": "standard-waterfall",
+    "accelerator": {
+      "newReactRevenue": 600,
+      "newReactCommission": 90,
+      "growthRevenue": 1617.97,
+      "growthCommission": 202.25,
+      "baselineRevenue": 5057.03,
+      "baselineCommission": 505.7,
+      "baseTiered": 797.95,
+      "newAccountSpiffCount": 0,
+      "newAccountSpiffTotal": 0,
+      "breadthAccountCount": 3,
+      "breadthBonus": 0,
+      "total": 0
+    },
+    "standardWaterfall": {
+      "invoicedRevenue": 7275,
+      "commission": 363.75
+    }
+  },
+  "generatedAt": "2026-07-19T19:37:18.763Z"
 }
