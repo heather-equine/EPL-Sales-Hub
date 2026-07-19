@@ -23,32 +23,32 @@
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1139",
           "amount": 0,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         },
         {
           "date": "2026-07-14",
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1138",
           "amount": 4800,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         },
         {
           "date": "2026-07-03",
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1133",
           "amount": 0,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         },
         {
           "date": "2026-07-03",
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1132",
           "amount": 600,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         }
       ],
       "customer": "The Feiner Equine",
@@ -69,16 +69,16 @@
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1142",
           "amount": 0,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         },
         {
           "date": "2026-07-15",
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1141",
           "amount": 4800,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         }
       ],
       "customer": "Equine Sports Medicine",
@@ -99,16 +99,16 @@
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1131",
           "amount": 0,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         },
         {
           "date": "2026-07-02",
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1130",
           "amount": 4200,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         }
       ],
       "customer": "Running S Equine",
@@ -144,5 +144,5 @@
       "commission": 720
     }
   },
-  "generatedAt": "2026-07-19T19:37:19.585Z"
+  "generatedAt": "2026-07-19T19:42:18.583Z"
 }
