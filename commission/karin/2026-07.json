@@ -23,8 +23,8 @@
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1140",
           "amount": 1800,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         }
       ],
       "customer": "Mt. Laramie Veterinary Services",
@@ -45,8 +45,8 @@
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1135",
           "amount": 1800,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         }
       ],
       "customer": "Tanner Equine",
@@ -67,8 +67,8 @@
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1129",
           "amount": 1800,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         }
       ],
       "customer": "Elgin Equine",
@@ -89,8 +89,8 @@
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1136",
           "amount": 1275,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         }
       ],
       "customer": "Panorama Equine Medical and Surgical Center",
@@ -111,8 +111,8 @@
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1137",
           "amount": 600,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         }
       ],
       "customer": "113 Equine",
@@ -133,8 +133,8 @@
           "type": "Invoice",
           "invoiceNum": "ORD-EPL-1134",
           "amount": 0,
-          "rate": null,
-          "commission": null
+          "commissionRate": null,
+          "commissionAmount": null
         }
       ],
       "customer": "Austin Equine",
@@ -170,5 +170,5 @@
       "commission": 363.75
     }
   },
-  "generatedAt": "2026-07-19T19:37:18.763Z"
+  "generatedAt": "2026-07-19T19:42:17.819Z"
 }
