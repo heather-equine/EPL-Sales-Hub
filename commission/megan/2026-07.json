@@ -6,10 +6,10 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 14400,
-  "totalCommission": 720,
-  "paymentCount": 8,
-  "accountCount": 3,
+  "totalCollected": 19200,
+  "totalCommission": 960,
+  "paymentCount": 13,
+  "accountCount": 8,
   "dueDate": "August 31, 2026",
   "accounts": [
     {
@@ -117,32 +117,142 @@
       "routeCVialsThisMonth": 8,
       "routeCFreezerHit": false,
       "routeCBreadth": true
+    },
+    {
+      "customerName": "Ocala Equine Hospital",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 205,
+      "transactions": [
+        {
+          "date": "2026-07-23",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1152",
+          "amount": 1800,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Ocala Equine Hospital",
+      "routeCStatus": "existing",
+      "routeCBaseline": 1.3333333333333333,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true
+    },
+    {
+      "customerName": "Springhill Equine Veterinary Clinic",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 270,
+      "transactions": [
+        {
+          "date": "2026-07-21",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1146",
+          "amount": 1800,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Springhill Equine Veterinary Clinic",
+      "routeCStatus": "reactivated",
+      "routeCBaseline": 0.5,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false
+    },
+    {
+      "customerName": "East Coast Equine Veterinary",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 72.5,
+      "transactions": [
+        {
+          "date": "2026-07-23",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1153",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "East Coast Equine Veterinary",
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.16666666666666666,
+      "routeCVialsThisMonth": 1,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true
+    },
+    {
+      "customerName": "KBS Performance Horse Services",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 60,
+      "transactions": [
+        {
+          "date": "2026-07-22",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1149",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "KBS Performance Horse Services",
+      "routeCStatus": "existing",
+      "routeCBaseline": 1.3333333333333333,
+      "routeCVialsThisMonth": 1,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false
+    },
+    {
+      "customerName": "Advanced Equine of the Hudson Valley",
+      "collected": 0,
+      "finalTotal": 0,
+      "commission": 0,
+      "transactions": [
+        {
+          "date": "2026-07-21",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1145",
+          "amount": 0,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Advanced Equine of the Hudson Valley",
+      "routeCStatus": "reactivated",
+      "routeCBaseline": 1.3333333333333333,
+      "routeCVialsThisMonth": 2,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false
     }
   ],
   "reconciliation": null,
   "routeC": {
-    "gateInvoiced": 14400,
+    "gateInvoiced": 19200,
     "gateThreshold": 30000,
     "gateMet": false,
     "routeUsed": "standard-waterfall",
     "accelerator": {
-      "newReactRevenue": 4800,
-      "newReactCommission": 720,
-      "growthRevenue": 9362.5,
-      "growthCommission": 1170.31,
-      "baselineRevenue": 237.5,
-      "baselineCommission": 23.75,
-      "baseTiered": 1914.06,
+      "newReactRevenue": 6600,
+      "newReactCommission": 990,
+      "growthRevenue": 10862.5,
+      "growthCommission": 1357.81,
+      "baselineRevenue": 1737.5,
+      "baselineCommission": 173.75,
+      "baseTiered": 2521.56,
       "newAccountSpiffCount": 1,
       "newAccountSpiffTotal": 0,
-      "breadthAccountCount": 2,
+      "breadthAccountCount": 4,
       "breadthBonus": 0,
       "total": 0
     },
     "standardWaterfall": {
-      "invoicedRevenue": 14400,
-      "commission": 720
+      "invoicedRevenue": 19200,
+      "commission": 960
     }
   },
-  "generatedAt": "2026-07-19T19:42:18.583Z"
+  "generatedAt": "2026-07-24T17:55:02.551Z"
 }
