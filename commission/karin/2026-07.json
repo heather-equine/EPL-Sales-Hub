@@ -6,8 +6,8 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 15075,
-  "totalCommission": 753.75,
+  "totalCollected": 18675,
+  "totalCommission": 933.75,
   "paymentCount": 12,
   "accountCount": 9,
   "dueDate": "August 31, 2026",
@@ -235,7 +235,60 @@
       "routeCBreadth": false
     }
   ],
-  "reconciliation": null,
+  "reconciliation": {
+    "reconciledAt": "2026-08-10T22:03:14.434Z",
+    "crmOnlyCount": 0,
+    "qbOnlyCount": 4,
+    "locked": true
+  },
+  "adjustments": [
+    {
+      "id": "austin-equine-clinic-june-catchup-1",
+      "repId": "karin",
+      "customer": "Austin Equine Clinic",
+      "invoiceNum": "CINV-EPL-1018",
+      "basisAmount": 600,
+      "commissionAmount": 30,
+      "reason": "QB deposit cleared 7/7/2026 on June-dated invoice (CINV-EPL-1018 dated 6/8/2026); missing from CRM Received Payments July export. Rate: 5% (Route C fallback — gate missed, standard waterfall tier 1).",
+      "originalMonth": "2026-06",
+      "addedAt": "2026-08-10"
+    },
+    {
+      "id": "austin-equine-clinic-june-catchup-2",
+      "repId": "karin",
+      "customer": "Austin Equine Clinic",
+      "invoiceNum": "CINV-EPL-1019",
+      "basisAmount": 600,
+      "commissionAmount": 30,
+      "reason": "QB deposit cleared 7/7/2026 on June-dated invoice (CINV-EPL-1019 dated 6/8/2026); missing from CRM Received Payments July export. Rate: 5% (Route C fallback — gate missed, standard waterfall tier 1).",
+      "originalMonth": "2026-06",
+      "addedAt": "2026-08-10"
+    },
+    {
+      "id": "elgin-equine-july-catchup",
+      "repId": "karin",
+      "customer": "Elgin Equine",
+      "invoiceNum": "ORD-EPL-1129",
+      "basisAmount": 1800,
+      "commissionAmount": 90,
+      "reason": "QB deposit cleared 7/24/2026 on 7/1/2026 invoice (ORD-EPL-1129); missing from CRM Received Payments July export. Rate: 5% (Route C fallback — gate missed, standard waterfall tier 1).",
+      "originalMonth": "2026-07",
+      "addedAt": "2026-08-10"
+    },
+    {
+      "id": "signature-s-equine-july-prepay",
+      "repId": "karin",
+      "customer": "Signature S Equine",
+      "invoiceNum": "ORD-EPL-1171",
+      "basisAmount": 600,
+      "commissionAmount": 30,
+      "reason": "QB deposit cleared 7/27/2026 — prepayment on 8/7/2026 invoice (ORD-EPL-1171). Missing from CRM Received Payments July export. Rate: 5% (Route C fallback — gate missed, standard waterfall tier 1). Commissionable in July (payment received basis).",
+      "originalMonth": "2026-07",
+      "addedAt": "2026-08-10"
+    }
+  ],
+  "adjustmentsCommission": 180,
+  "adjustmentsBasis": 3600,
   "routeC": {
     "gateInvoiced": 15075,
     "gateThreshold": 30000,
@@ -260,5 +313,5 @@
       "commission": 753.75
     }
   },
-  "generatedAt": "2026-08-10T21:46:54.953Z"
+  "generatedAt": "2026-08-10T22:03:28.834Z"
 }
