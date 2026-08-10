@@ -289,7 +289,15 @@
       "routeCBreadth": false
     }
   ],
-  "reconciliation": null,
+  "reconciliation": {
+    "reconciledAt": "2026-08-10T22:03:14.434Z",
+    "crmOnlyCount": 0,
+    "qbOnlyCount": 4,
+    "locked": true
+  },
+  "adjustments": [],
+  "adjustmentsCommission": 0,
+  "adjustmentsBasis": 0,
   "routeC": {
     "gateInvoiced": 20400,
     "gateThreshold": 30000,
@@ -314,5 +322,5 @@
       "commission": 1020
     }
   },
-  "generatedAt": "2026-08-10T21:46:56.852Z"
+  "generatedAt": "2026-08-10T22:03:30.617Z"
 }
