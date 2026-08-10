@@ -88,6 +88,9 @@
     }
   ],
   "reconciliation": null,
+  "adjustments": [],
+  "adjustmentsCommission": 0,
+  "adjustmentsBasis": 0,
   "routeC": {
     "gateInvoiced": 5400,
     "gateThreshold": 30000,
@@ -112,5 +115,5 @@
       "commission": 270
     }
   },
-  "generatedAt": "2026-08-10T21:46:59.691Z"
+  "generatedAt": "2026-08-10T22:03:33.357Z"
 }
