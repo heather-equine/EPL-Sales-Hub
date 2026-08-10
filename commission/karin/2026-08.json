@@ -1,0 +1,228 @@
+{
+  "month": "2026-08",
+  "periodLabel": "August 2026",
+  "repId": "karin",
+  "repName": "Karin Williamson",
+  "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
+  "planKind": "route-c",
+  "flatRate": null,
+  "totalCollected": 15600,
+  "totalCommission": 780,
+  "paymentCount": 11,
+  "accountCount": 7,
+  "dueDate": "September 30, 2026",
+  "accounts": [
+    {
+      "customerName": "Republic of Texas Equine Medical Center",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 720,
+      "transactions": [
+        {
+          "date": "2026-08-03",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1162",
+          "amount": 0,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-08-03",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1161",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Republic of Texas Equine Medical Center",
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 10,
+      "routeCFreezerHit": true,
+      "routeCBreadth": false
+    },
+    {
+      "customerName": "David M Dutton, DVM PC",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 720,
+      "transactions": [
+        {
+          "date": "2026-08-03",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1160",
+          "amount": 0,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-08-03",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1159",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "David M Dutton, DVM PC",
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 10,
+      "routeCFreezerHit": true,
+      "routeCBreadth": false
+    },
+    {
+      "customerName": "Tanner Equine",
+      "collected": 3000,
+      "finalTotal": 3000,
+      "commission": 320.83,
+      "transactions": [
+        {
+          "date": "2026-08-04",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1165",
+          "amount": 0,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-08-04",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1164",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-08-03",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1158",
+          "amount": 2400,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Tanner Equine",
+      "routeCStatus": "existing",
+      "routeCBaseline": 4.333333333333333,
+      "routeCVialsThisMonth": 6,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true
+    },
+    {
+      "customerName": "Panorama Equine Medical and Surgical Center",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 207.5,
+      "transactions": [
+        {
+          "date": "2026-08-03",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1157",
+          "amount": 1800,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Panorama Equine Medical and Surgical Center",
+      "routeCStatus": "existing",
+      "routeCBaseline": 1.1666666666666667,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true
+    },
+    {
+      "customerName": "Greene, Lewis and Associates",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 90,
+      "transactions": [
+        {
+          "date": "2026-08-05",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1170",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Greene, Lewis and Associates",
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 1,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false
+    },
+    {
+      "customerName": "Mid-South Equine Sports Medicine & Surgery",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 90,
+      "transactions": [
+        {
+          "date": "2026-08-04",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1166",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Mid-South Equine Sports Medicine & Surgery",
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 1,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false
+    },
+    {
+      "customerName": "Pioneer Equine Hospital",
+      "collected": 0,
+      "finalTotal": 0,
+      "commission": 0,
+      "transactions": [
+        {
+          "date": "2026-08-05",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1169",
+          "amount": 0,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Pioneer Equine Hospital",
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 1,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false
+    }
+  ],
+  "reconciliation": null,
+  "routeC": {
+    "gateInvoiced": 15600,
+    "gateThreshold": 30000,
+    "gateMet": false,
+    "routeUsed": "standard-waterfall",
+    "accelerator": {
+      "newReactRevenue": 10800,
+      "newReactCommission": 1620,
+      "growthRevenue": 1933.33,
+      "growthCommission": 241.67,
+      "baselineRevenue": 2866.67,
+      "baselineCommission": 286.67,
+      "baseTiered": 2148.33,
+      "newAccountSpiffCount": 2,
+      "newAccountSpiffTotal": 0,
+      "breadthAccountCount": 2,
+      "breadthBonus": 0,
+      "total": 0
+    },
+    "standardWaterfall": {
+      "invoicedRevenue": 15600,
+      "commission": 780
+    }
+  },
+  "generatedAt": "2026-08-10T21:24:02.974Z"
+}
