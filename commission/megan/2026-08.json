@@ -1,0 +1,116 @@
+{
+  "month": "2026-08",
+  "periodLabel": "August 2026",
+  "repId": "megan",
+  "repName": "Megan Smith",
+  "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
+  "planKind": "route-c",
+  "flatRate": null,
+  "totalCollected": 5400,
+  "totalCommission": 270,
+  "paymentCount": 4,
+  "accountCount": 3,
+  "dueDate": "September 30, 2026",
+  "accounts": [
+    {
+      "customerName": "Stahl Veterinary PLLC",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 720,
+      "transactions": [
+        {
+          "date": "2026-08-04",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1168",
+          "amount": 0,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-08-04",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1167",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Stahl Veterinary PLLC",
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 10,
+      "routeCFreezerHit": true,
+      "routeCBreadth": false
+    },
+    {
+      "customerName": "Signature S Equine",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 70,
+      "transactions": [
+        {
+          "date": "2026-08-07",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1171",
+          "amount": 600,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Signature S Equine",
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.3333333333333333,
+      "routeCVialsThisMonth": 1,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true
+    },
+    {
+      "customerName": "Ginn Equine",
+      "collected": 0,
+      "finalTotal": 0,
+      "commission": 0,
+      "transactions": [
+        {
+          "date": "2026-08-04",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1163",
+          "amount": 0,
+          "commissionRate": null,
+          "commissionAmount": null
+        }
+      ],
+      "customer": "Ginn Equine",
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 2,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false
+    }
+  ],
+  "reconciliation": null,
+  "routeC": {
+    "gateInvoiced": 5400,
+    "gateThreshold": 30000,
+    "gateMet": false,
+    "routeUsed": "standard-waterfall",
+    "accelerator": {
+      "newReactRevenue": 4800,
+      "newReactCommission": 720,
+      "growthRevenue": 400,
+      "growthCommission": 50,
+      "baselineRevenue": 200,
+      "baselineCommission": 20,
+      "baseTiered": 790,
+      "newAccountSpiffCount": 1,
+      "newAccountSpiffTotal": 0,
+      "breadthAccountCount": 1,
+      "breadthBonus": 0,
+      "total": 0
+    },
+    "standardWaterfall": {
+      "invoicedRevenue": 5400,
+      "commission": 270
+    }
+  },
+  "generatedAt": "2026-08-10T21:24:04.088Z"
+}
