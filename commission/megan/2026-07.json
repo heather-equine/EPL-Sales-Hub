@@ -176,6 +176,7 @@
       "breadthBonus": 0,
       "total": 0
     },
+    "acceleratorOnCollected": null,
     "standardWaterfall": {
       "collectedRevenue": 18600,
       "commission": 930,
@@ -183,5 +184,5 @@
       "invoicedCommission": 1020
     }
   },
-  "generatedAt": "2026-08-17T15:53:58.854Z"
+  "generatedAt": "2026-08-17T16:01:36.235Z"
 }
