@@ -6,233 +6,95 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 18675,
-  "totalCommission": 933.75,
+  "totalCollected": 18000,
+  "totalCommission": 900,
   "paymentCount": 12,
   "accountCount": 9,
   "dueDate": "August 31, 2026",
   "accounts": [
     {
-      "customerName": "Perfect Balance Equine Dentistry and Veterinary Services",
-      "collected": 4800,
-      "finalTotal": 4800,
-      "commission": 720,
+      "customerName": "Outlaw Equine",
+      "customer": "Outlaw Equine",
+      "collected": 8400,
+      "finalTotal": 8400,
+      "commission": 420,
       "transactions": [
         {
-          "date": "2026-07-23",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1151",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-23",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1150",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Perfect Balance Equine Dentistry and Veterinary Services",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": true,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Elgin Equine",
-      "collected": 3600,
-      "finalTotal": 3600,
-      "commission": 397.5,
-      "transactions": [
-        {
-          "date": "2026-07-21",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1144",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
+          "date": "2026-07-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1024",
+          "amount": 2400,
+          "commissionRate": 0.05,
+          "commissionAmount": 120
         },
         {
           "date": "2026-07-01",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1129",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1107",
+          "amount": 6000,
+          "commissionRate": 0.05,
+          "commissionAmount": 300
         }
-      ],
-      "customer": "Elgin Equine",
-      "routeCStatus": "existing",
-      "routeCBaseline": 3.5,
-      "routeCVialsThisMonth": 6,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "Mt. Laramie Veterinary Services",
-      "collected": 1800,
-      "finalTotal": 1800,
-      "commission": 205,
-      "transactions": [
-        {
-          "date": "2026-07-15",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1140",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Mt. Laramie Veterinary Services",
-      "routeCStatus": "existing",
-      "routeCBaseline": 1.3333333333333333,
-      "routeCVialsThisMonth": 3,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
+      ]
     },
     {
       "customerName": "Tanner Equine",
-      "collected": 1800,
-      "finalTotal": 1800,
-      "commission": 180,
+      "customer": "Tanner Equine",
+      "collected": 2400,
+      "finalTotal": 2400,
+      "commission": 120,
       "transactions": [
         {
-          "date": "2026-07-07",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1135",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
+          "date": "2026-07-02",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1127",
+          "amount": 2400,
+          "commissionRate": 0.05,
+          "commissionAmount": 120
         }
-      ],
-      "customer": "Tanner Equine",
-      "routeCStatus": "existing",
-      "routeCBaseline": 4.333333333333333,
-      "routeCVialsThisMonth": 3,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
+      ]
     },
     {
       "customerName": "Panorama Equine Medical and Surgical Center",
-      "collected": 1275,
-      "finalTotal": 1275,
-      "commission": 140.78,
-      "transactions": [
-        {
-          "date": "2026-07-07",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1136",
-          "amount": 1275,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
       "customer": "Panorama Equine Medical and Surgical Center",
-      "routeCStatus": "existing",
-      "routeCBaseline": 1.1666666666666667,
-      "routeCVialsThisMonth": 2,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "Buffalo Veterinary Clinic PC",
-      "collected": 1200,
-      "finalTotal": 1200,
-      "commission": 180,
-      "transactions": [
-        {
-          "date": "2026-07-22",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1148",
-          "amount": 1200,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Buffalo Veterinary Clinic PC",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 2,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "113 Equine",
-      "collected": 600,
-      "finalTotal": 600,
+      "collected": 1800,
+      "finalTotal": 1800,
       "commission": 90,
       "transactions": [
         {
-          "date": "2026-07-08",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1137",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "113 Equine",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 1,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Austin Equine",
-      "collected": 0,
-      "finalTotal": 0,
-      "commission": 0,
-      "transactions": [
-        {
           "date": "2026-07-22",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1147",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1118",
+          "amount": 600,
+          "commissionRate": 0.05,
+          "commissionAmount": 30
         },
         {
-          "date": "2026-07-06",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1134",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
+          "date": "2026-07-29",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1136",
+          "amount": 1200,
+          "commissionRate": 0.05,
+          "commissionAmount": 60
         }
-      ],
-      "customer": "Austin Equine",
-      "routeCStatus": "existing",
-      "routeCBaseline": 0.5,
-      "routeCVialsThisMonth": 7,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
+      ]
     },
     {
-      "customerName": "Northwest Equine Performance",
-      "collected": 0,
-      "finalTotal": 0,
-      "commission": 0,
+      "customerName": "Mt. Laramie Veterinary Services",
+      "customer": "Mt. Laramie Veterinary Services",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 90,
       "transactions": [
         {
-          "date": "2026-07-20",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1143",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
+          "date": "2026-07-29",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1140",
+          "amount": 1800,
+          "commissionRate": 0.05,
+          "commissionAmount": 90
         }
-      ],
-      "customer": "Northwest Equine Performance",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 2,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
+      ]
     }
   ],
   "reconciliation": {
@@ -309,9 +171,11 @@
       "total": 0
     },
     "standardWaterfall": {
+      "collectedRevenue": 14400,
+      "commission": 720,
       "invoicedRevenue": 15075,
-      "commission": 753.75
+      "invoicedCommission": 753.75
     }
   },
-  "generatedAt": "2026-08-17T15:41:11.584Z"
+  "generatedAt": "2026-08-17T15:53:55.050Z"
 }
