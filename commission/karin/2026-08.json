@@ -68,7 +68,177 @@
       "commission": 240,
       "invoicedRevenue": 54300,
       "invoicedCommission": 2715
-    }
+    },
+    "perAccount": [
+      {
+        "customer": "Northern Star Equine",
+        "customerKey": "northern star equine",
+        "status": "reactivated",
+        "baselineVials": 3.1666666666666665,
+        "vialsThisMonth": 22,
+        "revenueThisMonth": 10500,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Santa Lucia Farm",
+        "customerKey": "santa lucia",
+        "status": "existing",
+        "baselineVials": 2,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 6000,
+        "vialsAtOrBelowBaseline": 2,
+        "vialsAboveBaseline": 8,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Outlaw Equine",
+        "customerKey": "outlaw equine",
+        "status": "existing",
+        "baselineVials": 5.5,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 6000,
+        "vialsAtOrBelowBaseline": 5.5,
+        "vialsAboveBaseline": 4.5,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Smith Performance Equine",
+        "customerKey": "smith performance equine",
+        "status": "reactivated",
+        "baselineVials": 2.3333333333333335,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Signature Equine Hospital",
+        "customerKey": "signature equine",
+        "status": "existing",
+        "baselineVials": 1.3333333333333333,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 1.3333333333333333,
+        "vialsAboveBaseline": 8.666666666666666,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "West Texas Equine Clinic",
+        "customerKey": "west texas equine",
+        "status": "reactivated",
+        "baselineVials": 0.3333333333333333,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Republic of Texas Equine Medical Center",
+        "customerKey": "republic of texas equine",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": true,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "David M Dutton, DVM PC",
+        "customerKey": "david m dutton dvm",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": true,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Tanner Equine",
+        "customerKey": "tanner equine",
+        "status": "existing",
+        "baselineVials": 4.333333333333333,
+        "vialsThisMonth": 6,
+        "revenueThisMonth": 3000,
+        "vialsAtOrBelowBaseline": 4.333333333333333,
+        "vialsAboveBaseline": 1.666666666666667,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Elgin Equine",
+        "customerKey": "elgin equine",
+        "status": "existing",
+        "baselineVials": 3.5,
+        "vialsThisMonth": 3,
+        "revenueThisMonth": 1800,
+        "vialsAtOrBelowBaseline": 3,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Panorama Equine Medical and Surgical Center",
+        "customerKey": "panorama equine medical and surgical",
+        "status": "existing",
+        "baselineVials": 1.1666666666666667,
+        "vialsThisMonth": 3,
+        "revenueThisMonth": 1800,
+        "vialsAtOrBelowBaseline": 1.1666666666666667,
+        "vialsAboveBaseline": 1.8333333333333333,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Greene, Lewis and Associates",
+        "customerKey": "greene lewis and associates",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 600,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Mid-South Equine Sports Medicine & Surgery",
+        "customerKey": "mid south equine sports medicine surgery",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 600,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Pioneer Equine Hospital",
+        "customerKey": "pioneer equine",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 2,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      }
+    ]
   },
-  "generatedAt": "2026-08-17T16:13:23.924Z"
+  "generatedAt": "2026-08-17T16:25:55.812Z"
 }
