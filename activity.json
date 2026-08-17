@@ -30,7 +30,7 @@
       "repId": "megan",
       "repName": "Megan Smith",
       "mtdSales": 11400,
-      "mtdCollected": 600,
+      "mtdCollected": 7200,
       "mtdOrders": 10,
       "mtdVials": 27,
       "mtdVialsPaid": 25,
@@ -44,7 +44,7 @@
       "ytdSales": 87300,
       "ytdSalesGross": 147395,
       "ytdInvoices": 72,
-      "ytdCollected": 59100,
+      "ytdCollected": 65700,
       "priorMonthCollected": 18600,
       "priorMonthKey": "2026-07"
     },
@@ -52,7 +52,7 @@
       "repId": "company",
       "repName": "Company",
       "mtdSales": 65700,
-      "mtdCollected": 5400,
+      "mtdCollected": 12000,
       "mtdOrders": 34,
       "mtdVials": 135,
       "mtdVialsPaid": 117,
@@ -66,7 +66,7 @@
       "ytdSales": 309035,
       "ytdSalesGross": 534190,
       "ytdInvoices": 191,
-      "ytdCollected": 217195.88,
+      "ytdCollected": 223795.88,
       "priorMonthCollected": 33000,
       "priorMonthKey": "2026-07"
     }
