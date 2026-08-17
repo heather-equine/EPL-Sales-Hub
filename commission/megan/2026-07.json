@@ -6,287 +6,146 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 20400,
-  "totalCommission": 1020,
+  "totalCollected": 18600,
+  "totalCommission": 930,
   "paymentCount": 17,
   "accountCount": 10,
   "dueDate": "August 31, 2026",
   "accounts": [
     {
       "customerName": "The Feiner Equine",
+      "customer": "The Feiner Equine",
       "collected": 5400,
       "finalTotal": 5400,
-      "commission": 671.25,
-      "transactions": [
-        {
-          "date": "2026-07-14",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1139",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-14",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1138",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-03",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1133",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-03",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1132",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "The Feiner Equine",
-      "routeCStatus": "existing",
-      "routeCBaseline": 0.3333333333333333,
-      "routeCVialsThisMonth": 12,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "Equine Sports Medicine",
-      "collected": 4800,
-      "finalTotal": 4800,
-      "commission": 720,
-      "transactions": [
-        {
-          "date": "2026-07-15",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1142",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-15",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1141",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Equine Sports Medicine",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": true,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Running S Equine",
-      "collected": 4200,
-      "finalTotal": 4200,
-      "commission": 522.81,
-      "transactions": [
-        {
-          "date": "2026-07-02",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1131",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-02",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1130",
-          "amount": 4200,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Running S Equine",
-      "routeCStatus": "existing",
-      "routeCBaseline": 0.16666666666666666,
-      "routeCVialsThisMonth": 8,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "Ocala Equine Hospital",
-      "collected": 3000,
-      "finalTotal": 3000,
-      "commission": 355,
-      "transactions": [
-        {
-          "date": "2026-07-28",
-          "type": "Invoice",
-          "invoiceNum": "CINV-EPL-1020",
-          "amount": 1200,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-07-23",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1152",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Ocala Equine Hospital",
-      "routeCStatus": "existing",
-      "routeCBaseline": 1.3333333333333333,
-      "routeCVialsThisMonth": 5,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "Springhill Equine Veterinary Clinic",
-      "collected": 1800,
-      "finalTotal": 1800,
       "commission": 270,
       "transactions": [
         {
-          "date": "2026-07-21",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1146",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
+          "date": "2026-07-06",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1132",
+          "amount": 600,
+          "commissionRate": 0.05,
+          "commissionAmount": 30
+        },
+        {
+          "date": "2026-07-14",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1138",
+          "amount": 4800,
+          "commissionRate": 0.05,
+          "commissionAmount": 240
         }
-      ],
-      "customer": "Springhill Equine Veterinary Clinic",
-      "routeCStatus": "reactivated",
-      "routeCBaseline": 0.5,
-      "routeCVialsThisMonth": 3,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
+      ]
     },
     {
       "customerName": "KBS Performance Horse Services",
-      "collected": 600,
-      "finalTotal": 600,
-      "commission": 68.33,
+      "customer": "KBS Performance Horse Services",
+      "collected": 5400,
+      "finalTotal": 5400,
+      "commission": 270,
       "transactions": [
         {
-          "date": "2026-07-26",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1154",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
+          "date": "2026-07-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1123",
+          "amount": 4800,
+          "commissionRate": 0.05,
+          "commissionAmount": 240
         },
         {
-          "date": "2026-07-22",
-          "type": "Invoice",
+          "date": "2026-07-23",
+          "type": "Payment",
           "invoiceNum": "ORD-EPL-1149",
           "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
+          "commissionRate": 0.05,
+          "commissionAmount": 30
         }
-      ],
-      "customer": "KBS Performance Horse Services",
-      "routeCStatus": "existing",
-      "routeCBaseline": 1.3333333333333333,
-      "routeCVialsThisMonth": 3,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
+      ]
     },
     {
-      "customerName": "East Coast Equine Veterinary",
-      "collected": 600,
-      "finalTotal": 600,
-      "commission": 72.5,
+      "customerName": "WinStar Farm LLC",
+      "customer": "WinStar Farm LLC",
+      "collected": 5400,
+      "finalTotal": 5400,
+      "commission": 270,
       "transactions": [
         {
           "date": "2026-07-23",
-          "type": "Invoice",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1098",
+          "amount": 5400,
+          "commissionRate": 0.05,
+          "commissionAmount": 270
+        }
+      ]
+    },
+    {
+      "customerName": "Spruce Lane Farm",
+      "customer": "Spruce Lane Farm",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 30,
+      "transactions": [
+        {
+          "date": "2026-07-06",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1099",
+          "amount": 600,
+          "commissionRate": 0.05,
+          "commissionAmount": 30
+        }
+      ]
+    },
+    {
+      "customerName": "Running S Equine",
+      "customer": "Running S Equine",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 30,
+      "transactions": [
+        {
+          "date": "2026-07-15",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1126",
+          "amount": 600,
+          "commissionRate": 0.05,
+          "commissionAmount": 30
+        }
+      ]
+    },
+    {
+      "customerName": "Kennedy Equine",
+      "customer": "Kennedy Equine",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 30,
+      "transactions": [
+        {
+          "date": "2026-07-16",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1090",
+          "amount": 600,
+          "commissionRate": 0.05,
+          "commissionAmount": 30
+        }
+      ]
+    },
+    {
+      "customerName": "East Coast Equine Veterinary",
+      "customer": "East Coast Equine Veterinary",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 30,
+      "transactions": [
+        {
+          "date": "2026-07-24",
+          "type": "Payment",
           "invoiceNum": "ORD-EPL-1153",
           "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
+          "commissionRate": 0.05,
+          "commissionAmount": 30
         }
-      ],
-      "customer": "East Coast Equine Veterinary",
-      "routeCStatus": "existing",
-      "routeCBaseline": 0.16666666666666666,
-      "routeCVialsThisMonth": 1,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "East Fork Equine",
-      "collected": 0,
-      "finalTotal": 0,
-      "commission": 0,
-      "transactions": [
-        {
-          "date": "2026-07-31",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1156",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "East Fork Equine",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 1,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Kentucky Equine Medical Associates",
-      "collected": 0,
-      "finalTotal": 0,
-      "commission": 0,
-      "transactions": [
-        {
-          "date": "2026-07-27",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1155",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Kentucky Equine Medical Associates",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 1,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Advanced Equine of the Hudson Valley",
-      "collected": 0,
-      "finalTotal": 0,
-      "commission": 0,
-      "transactions": [
-        {
-          "date": "2026-07-21",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1145",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Advanced Equine of the Hudson Valley",
-      "routeCStatus": "reactivated",
-      "routeCBaseline": 1.3333333333333333,
-      "routeCVialsThisMonth": 2,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
+      ]
     }
   ],
   "reconciliation": {
@@ -318,9 +177,11 @@
       "total": 0
     },
     "standardWaterfall": {
+      "collectedRevenue": 18600,
+      "commission": 930,
       "invoicedRevenue": 20400,
-      "commission": 1020
+      "invoicedCommission": 1020
     }
   },
-  "generatedAt": "2026-08-17T15:41:15.540Z"
+  "generatedAt": "2026-08-17T15:53:58.854Z"
 }
