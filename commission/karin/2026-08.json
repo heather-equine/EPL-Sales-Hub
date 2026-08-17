@@ -7,398 +7,27 @@
   "planKind": "route-c",
   "flatRate": null,
   "totalCollected": 54300,
-  "totalCommission": 10814.83,
+  "totalCommission": 3500,
   "paymentCount": 24,
   "accountCount": 14,
   "dueDate": "September 30, 2026",
   "accounts": [
     {
-      "customerName": "Northern Star Equine",
-      "collected": 10500,
-      "finalTotal": 10500,
-      "commission": 1575,
-      "transactions": [
-        {
-          "date": "2026-08-11",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1181",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-08-11",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1180",
-          "amount": 10500,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Northern Star Equine",
-      "routeCStatus": "reactivated",
-      "routeCBaseline": 3.1666666666666665,
-      "routeCVialsThisMonth": 22,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Santa Lucia Farm",
-      "collected": 6000,
-      "finalTotal": 6000,
-      "commission": 720,
-      "transactions": [
-        {
-          "date": "2026-08-14",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1190",
-          "amount": 1200,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-08-14",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1189",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Santa Lucia Farm",
-      "routeCStatus": "existing",
-      "routeCBaseline": 2,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "Outlaw Equine",
-      "collected": 6000,
-      "finalTotal": 6000,
-      "commission": 667.5,
-      "transactions": [
-        {
-          "date": "2026-08-10",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1174",
-          "amount": 6000,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Outlaw Equine",
-      "routeCStatus": "existing",
-      "routeCBaseline": 5.5,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "Smith Performance Equine",
+      "customerName": "Perfect Balance Equine Dentistry and Veterinary Services",
+      "customer": "Perfect Balance Equine Dentistry and Veterinary Services",
       "collected": 4800,
       "finalTotal": 4800,
-      "commission": 720,
-      "transactions": [
-        {
-          "date": "2026-08-12",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1184",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-08-12",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1183",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Smith Performance Equine",
-      "routeCStatus": "reactivated",
-      "routeCBaseline": 2.3333333333333335,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Signature Equine Hospital",
-      "collected": 4800,
-      "finalTotal": 4800,
-      "commission": 584,
-      "transactions": [
-        {
-          "date": "2026-08-11",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1179",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-08-11",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1178",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Signature Equine Hospital",
-      "routeCStatus": "existing",
-      "routeCBaseline": 1.3333333333333333,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "West Texas Equine Clinic",
-      "collected": 4800,
-      "finalTotal": 4800,
-      "commission": 720,
-      "transactions": [
-        {
-          "date": "2026-08-10",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1173",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-08-10",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1172",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "West Texas Equine Clinic",
-      "routeCStatus": "reactivated",
-      "routeCBaseline": 0.3333333333333333,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Republic of Texas Equine Medical Center",
-      "collected": 4800,
-      "finalTotal": 4800,
-      "commission": 720,
-      "transactions": [
-        {
-          "date": "2026-08-03",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1162",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-08-03",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1161",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Republic of Texas Equine Medical Center",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": true,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "David M Dutton, DVM PC",
-      "collected": 4800,
-      "finalTotal": 4800,
-      "commission": 720,
-      "transactions": [
-        {
-          "date": "2026-08-03",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1160",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-08-03",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1159",
-          "amount": 4800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "David M Dutton, DVM PC",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": true,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Tanner Equine",
-      "collected": 3000,
-      "finalTotal": 3000,
-      "commission": 320.83,
-      "transactions": [
-        {
-          "date": "2026-08-04",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1165",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-08-04",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1164",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-08-03",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1158",
-          "amount": 2400,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Tanner Equine",
-      "routeCStatus": "existing",
-      "routeCBaseline": 4.333333333333333,
-      "routeCVialsThisMonth": 6,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "Elgin Equine",
-      "collected": 1800,
-      "finalTotal": 1800,
-      "commission": 180,
-      "transactions": [
-        {
-          "date": "2026-08-13",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1185",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Elgin Equine",
-      "routeCStatus": "existing",
-      "routeCBaseline": 3.5,
-      "routeCVialsThisMonth": 3,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Panorama Equine Medical and Surgical Center",
-      "collected": 1800,
-      "finalTotal": 1800,
-      "commission": 207.5,
-      "transactions": [
-        {
-          "date": "2026-08-03",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1157",
-          "amount": 1800,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Panorama Equine Medical and Surgical Center",
-      "routeCStatus": "existing",
-      "routeCBaseline": 1.1666666666666667,
-      "routeCVialsThisMonth": 3,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true
-    },
-    {
-      "customerName": "Greene, Lewis and Associates",
-      "collected": 600,
-      "finalTotal": 600,
-      "commission": 90,
+      "commission": 480,
       "transactions": [
         {
           "date": "2026-08-05",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1170",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1150",
+          "amount": 4800,
+          "commissionRate": 0.1,
+          "commissionAmount": 480
         }
-      ],
-      "customer": "Greene, Lewis and Associates",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 1,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Mid-South Equine Sports Medicine & Surgery",
-      "collected": 600,
-      "finalTotal": 600,
-      "commission": 90,
-      "transactions": [
-        {
-          "date": "2026-08-04",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1166",
-          "amount": 600,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Mid-South Equine Sports Medicine & Surgery",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 1,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
-    },
-    {
-      "customerName": "Pioneer Equine Hospital",
-      "collected": 0,
-      "finalTotal": 0,
-      "commission": 0,
-      "transactions": [
-        {
-          "date": "2026-08-10",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1175",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        },
-        {
-          "date": "2026-08-05",
-          "type": "Invoice",
-          "invoiceNum": "ORD-EPL-1169",
-          "amount": 0,
-          "commissionRate": null,
-          "commissionAmount": null
-        }
-      ],
-      "customer": "Pioneer Equine Hospital",
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 2,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false
+      ]
     }
   ],
   "reconciliation": null,
@@ -424,6 +53,16 @@
       "breadthBonus": 2000,
       "total": 10814.83
     },
+    "acceleratorOnCollected": {
+      "newReactCollected": 0,
+      "newReactCommission": 0,
+      "growthCollected": 0,
+      "growthCommission": 0,
+      "baselineCollected": 0,
+      "baselineCommission": 0,
+      "baseTiered": 0,
+      "total": 3500
+    },
     "standardWaterfall": {
       "collectedRevenue": 4800,
       "commission": 240,
@@ -431,5 +70,5 @@
       "invoicedCommission": 2715
     }
   },
-  "generatedAt": "2026-08-17T15:54:02.710Z"
+  "generatedAt": "2026-08-17T16:01:39.608Z"
 }
