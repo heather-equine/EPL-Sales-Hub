@@ -425,9 +425,11 @@
       "total": 10814.83
     },
     "standardWaterfall": {
+      "collectedRevenue": 4800,
+      "commission": 240,
       "invoicedRevenue": 54300,
-      "commission": 2715
+      "invoicedCommission": 2715
     }
   },
-  "generatedAt": "2026-08-17T15:38:40.749Z"
+  "generatedAt": "2026-08-17T15:54:02.710Z"
 }
