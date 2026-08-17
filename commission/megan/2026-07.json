@@ -35,7 +35,13 @@
           "commissionRate": 0.05,
           "commissionAmount": 240
         }
-      ]
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.3333333333333333,
+      "routeCVialsThisMonth": 12,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 5400
     },
     {
       "customerName": "KBS Performance Horse Services",
@@ -60,7 +66,13 @@
           "commissionRate": 0.05,
           "commissionAmount": 30
         }
-      ]
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 1.3333333333333333,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 600
     },
     {
       "customerName": "WinStar Farm LLC",
@@ -111,7 +123,13 @@
           "commissionRate": 0.05,
           "commissionAmount": 30
         }
-      ]
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.16666666666666666,
+      "routeCVialsThisMonth": 8,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 4200
     },
     {
       "customerName": "Kennedy Equine",
@@ -145,7 +163,13 @@
           "commissionRate": 0.05,
           "commissionAmount": 30
         }
-      ]
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.16666666666666666,
+      "routeCVialsThisMonth": 1,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 600
     }
   ],
   "reconciliation": {
@@ -182,7 +206,129 @@
       "commission": 930,
       "invoicedRevenue": 20400,
       "invoicedCommission": 1020
-    }
+    },
+    "perAccount": [
+      {
+        "customer": "The Feiner Equine",
+        "customerKey": "the feiner equine",
+        "status": "existing",
+        "baselineVials": 0.3333333333333333,
+        "vialsThisMonth": 12,
+        "revenueThisMonth": 5400,
+        "vialsAtOrBelowBaseline": 0.3333333333333333,
+        "vialsAboveBaseline": 11.666666666666666,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Equine Sports Medicine",
+        "customerKey": "equine sports medicine",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": true,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Running S Equine",
+        "customerKey": "running s equine",
+        "status": "existing",
+        "baselineVials": 0.16666666666666666,
+        "vialsThisMonth": 8,
+        "revenueThisMonth": 4200,
+        "vialsAtOrBelowBaseline": 0.16666666666666666,
+        "vialsAboveBaseline": 7.833333333333333,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Ocala Equine Hospital",
+        "customerKey": "ocala equine",
+        "status": "existing",
+        "baselineVials": 1.3333333333333333,
+        "vialsThisMonth": 5,
+        "revenueThisMonth": 3000,
+        "vialsAtOrBelowBaseline": 1.3333333333333333,
+        "vialsAboveBaseline": 3.666666666666667,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Springhill Equine Veterinary Clinic",
+        "customerKey": "springhill equine veterinary",
+        "status": "reactivated",
+        "baselineVials": 0.5,
+        "vialsThisMonth": 3,
+        "revenueThisMonth": 1800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "KBS Performance Horse Services",
+        "customerKey": "kbs performance horse",
+        "status": "existing",
+        "baselineVials": 1.3333333333333333,
+        "vialsThisMonth": 3,
+        "revenueThisMonth": 600,
+        "vialsAtOrBelowBaseline": 1.3333333333333333,
+        "vialsAboveBaseline": 1.6666666666666667,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "East Coast Equine Veterinary",
+        "customerKey": "east coast equine veterinary",
+        "status": "existing",
+        "baselineVials": 0.16666666666666666,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 600,
+        "vialsAtOrBelowBaseline": 0.16666666666666666,
+        "vialsAboveBaseline": 0.8333333333333334,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "East Fork Equine",
+        "customerKey": "east fork equine",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Kentucky Equine Medical Associates",
+        "customerKey": "kentucky equine medical associates",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Advanced Equine of the Hudson Valley",
+        "customerKey": "advanced equine of the hudson valley",
+        "status": "reactivated",
+        "baselineVials": 1.3333333333333333,
+        "vialsThisMonth": 2,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      }
+    ]
   },
-  "generatedAt": "2026-08-17T16:13:19.892Z"
+  "generatedAt": "2026-08-17T16:25:53.703Z"
 }
