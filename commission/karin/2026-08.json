@@ -7,7 +7,7 @@
   "planKind": "route-c",
   "flatRate": null,
   "totalCollected": 57900,
-  "totalCommission": 3500,
+  "totalCommission": 5515.17,
   "paymentCount": 27,
   "accountCount": 16,
   "dueDate": "September 30, 2026",
@@ -28,6 +28,146 @@
           "commissionAmount": 480
         }
       ]
+    },
+    {
+      "customerName": "West Texas Equine Clinic",
+      "customer": "West Texas Equine Clinic",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 720,
+      "transactions": [
+        {
+          "date": "2026-08-20",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1172",
+          "amount": 4800,
+          "commissionRate": 0.15,
+          "commissionAmount": 720
+        }
+      ],
+      "routeCStatus": "reactivated",
+      "routeCBaseline": 0.3333333333333333,
+      "routeCVialsThisMonth": 10,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 4800
+    },
+    {
+      "customerName": "Santa Lucia Farm",
+      "customer": "Santa Lucia Farm",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 576,
+      "transactions": [
+        {
+          "date": "2026-08-20",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1189",
+          "amount": 4800,
+          "commissionRate": 0.12000000000000001,
+          "commissionAmount": 576
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 2,
+      "routeCVialsThisMonth": 10,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 4800
+    },
+    {
+      "customerName": "Tanner Equine",
+      "customer": "Tanner Equine",
+      "collected": 4200,
+      "finalTotal": 4200,
+      "commission": 449.17,
+      "transactions": [
+        {
+          "date": "2026-08-20",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1135",
+          "amount": 1800,
+          "commissionRate": 0.10694444444444445,
+          "commissionAmount": 192.5
+        },
+        {
+          "date": "2026-08-20",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1120",
+          "amount": 2400,
+          "commissionRate": 0.10694444444444445,
+          "commissionAmount": 256.67
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 4.333333333333333,
+      "routeCVialsThisMonth": 6,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 3000
+    },
+    {
+      "customerName": "Elgin Equine",
+      "customer": "Elgin Equine",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 180,
+      "transactions": [
+        {
+          "date": "2026-08-20",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1129",
+          "amount": 1800,
+          "commissionRate": 0.1,
+          "commissionAmount": 180
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 3.5,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 1800
+    },
+    {
+      "customerName": "Buffalo Veterinary Clinic PC",
+      "customer": "Buffalo Veterinary Clinic PC",
+      "collected": 1200,
+      "finalTotal": 1200,
+      "commission": 120,
+      "transactions": [
+        {
+          "date": "2026-08-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1148",
+          "amount": 1200,
+          "commissionRate": 0.1,
+          "commissionAmount": 120
+        }
+      ]
+    },
+    {
+      "customerName": "Greene, Lewis and Associates",
+      "customer": "Greene, Lewis and Associates",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 90,
+      "transactions": [
+        {
+          "date": "2026-08-18",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1170",
+          "amount": 600,
+          "commissionRate": 0.15,
+          "commissionAmount": 90
+        }
+      ],
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 1,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 600
     }
   ],
   "reconciliation": null,
@@ -54,18 +194,18 @@
       "total": 11390.83
     },
     "acceleratorOnCollected": {
-      "newReactCollected": 0,
-      "newReactCommission": 0,
-      "growthCollected": 0,
-      "growthCommission": 0,
-      "baselineCollected": 0,
-      "baselineCommission": 0,
-      "baseTiered": 0,
-      "total": 3500
+      "newReactCollected": 5400,
+      "newReactCommission": 810,
+      "growthCollected": 5006.67,
+      "growthCommission": 625.83,
+      "baselineCollected": 5793.33,
+      "baselineCommission": 579.33,
+      "baseTiered": 2015.17,
+      "total": 5515.17
     },
     "standardWaterfall": {
-      "collectedRevenue": 4800,
-      "commission": 240,
+      "collectedRevenue": 22200,
+      "commission": 1110,
       "invoicedRevenue": 57900,
       "invoicedCommission": 2895
     },
@@ -264,5 +404,5 @@
       }
     ]
   },
-  "generatedAt": "2026-08-21T13:18:32.195Z"
+  "generatedAt": "2026-08-21T13:18:39.295Z"
 }
