@@ -6,10 +6,10 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 54300,
+  "totalCollected": 57900,
   "totalCommission": 3500,
-  "paymentCount": 24,
-  "accountCount": 14,
+  "paymentCount": 27,
+  "accountCount": 16,
   "dueDate": "September 30, 2026",
   "accounts": [
     {
@@ -35,23 +35,23 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 54300,
+    "gateInvoiced": 57900,
     "gateThreshold": 30000,
     "gateMet": true,
     "routeUsed": "route-c",
     "accelerator": {
-      "newReactRevenue": 30900,
-      "newReactCommission": 4635,
-      "growthRevenue": 13593.33,
-      "growthCommission": 1699.17,
-      "baselineRevenue": 9806.67,
-      "baselineCommission": 980.67,
-      "baseTiered": 7314.83,
+      "newReactRevenue": 35700,
+      "newReactCommission": 5355,
+      "growthRevenue": 12633.33,
+      "growthCommission": 1579.17,
+      "baselineRevenue": 9566.67,
+      "baselineCommission": 956.67,
+      "baseTiered": 7890.83,
       "newAccountSpiffCount": 2,
       "newAccountSpiffTotal": 1500,
       "breadthAccountCount": 5,
       "breadthBonus": 2000,
-      "total": 10814.83
+      "total": 11390.83
     },
     "acceleratorOnCollected": {
       "newReactCollected": 0,
@@ -66,8 +66,8 @@
     "standardWaterfall": {
       "collectedRevenue": 4800,
       "commission": 240,
-      "invoicedRevenue": 54300,
-      "invoicedCommission": 2715
+      "invoicedRevenue": 57900,
+      "invoicedCommission": 2895
     },
     "perAccount": [
       {
@@ -83,18 +83,6 @@
         "breadthQualifier": false
       },
       {
-        "customer": "Santa Lucia Farm",
-        "customerKey": "santa lucia",
-        "status": "existing",
-        "baselineVials": 2,
-        "vialsThisMonth": 10,
-        "revenueThisMonth": 6000,
-        "vialsAtOrBelowBaseline": 2,
-        "vialsAboveBaseline": 8,
-        "freezerHitThisMonth": false,
-        "breadthQualifier": true
-      },
-      {
         "customer": "Outlaw Equine",
         "customerKey": "outlaw equine",
         "status": "existing",
@@ -103,6 +91,30 @@
         "revenueThisMonth": 6000,
         "vialsAtOrBelowBaseline": 5.5,
         "vialsAboveBaseline": 4.5,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Double X Veterinary Services",
+        "customerKey": "double x veterinary",
+        "status": "reactivated",
+        "baselineVials": 1.6666666666666667,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Santa Lucia Farm",
+        "customerKey": "santa lucia",
+        "status": "existing",
+        "baselineVials": 2,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 2,
+        "vialsAboveBaseline": 8,
         "freezerHitThisMonth": false,
         "breadthQualifier": true
       },
@@ -227,6 +239,18 @@
         "breadthQualifier": false
       },
       {
+        "customer": "Mt. Laramie Veterinary Services",
+        "customerKey": "mt laramie veterinary",
+        "status": "existing",
+        "baselineVials": 1.3333333333333333,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 1,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
         "customer": "Pioneer Equine Hospital",
         "customerKey": "pioneer equine",
         "status": "new",
@@ -240,5 +264,5 @@
       }
     ]
   },
-  "generatedAt": "2026-08-17T16:25:55.812Z"
+  "generatedAt": "2026-08-21T13:18:32.195Z"
 }
