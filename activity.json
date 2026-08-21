@@ -8,7 +8,7 @@
       "repId": "karin",
       "repName": "Karin Williamson",
       "mtdSales": 57900,
-      "mtdCollected": 4800,
+      "mtdCollected": 22200,
       "mtdOrders": 27,
       "mtdVials": 119,
       "mtdVialsPaid": 100,
@@ -22,7 +22,7 @@
       "ytdSales": 225335,
       "ytdSalesGross": 395870,
       "ytdInvoices": 122,
-      "ytdCollected": 158095.88,
+      "ytdCollected": 175495.88,
       "priorMonthCollected": 14400,
       "priorMonthKey": "2026-07"
     },
@@ -30,7 +30,7 @@
       "repId": "megan",
       "repName": "Megan Smith",
       "mtdSales": 22875,
-      "mtdCollected": 7200,
+      "mtdCollected": 20400,
       "mtdOrders": 18,
       "mtdVials": 55,
       "mtdVialsPaid": 48,
@@ -44,7 +44,7 @@
       "ytdSales": 98775,
       "ytdSalesGross": 170495,
       "ytdInvoices": 80,
-      "ytdCollected": 65700,
+      "ytdCollected": 78900,
       "priorMonthCollected": 18600,
       "priorMonthKey": "2026-07"
     },
@@ -52,7 +52,7 @@
       "repId": "company",
       "repName": "Company",
       "mtdSales": 80775,
-      "mtdCollected": 12000,
+      "mtdCollected": 42600,
       "mtdOrders": 45,
       "mtdVials": 174,
       "mtdVialsPaid": 148,
@@ -66,7 +66,7 @@
       "ytdSales": 324110,
       "ytdSalesGross": 566365,
       "ytdInvoices": 202,
-      "ytdCollected": 223795.88,
+      "ytdCollected": 254395.88,
       "priorMonthCollected": 33000,
       "priorMonthKey": "2026-07"
     }
