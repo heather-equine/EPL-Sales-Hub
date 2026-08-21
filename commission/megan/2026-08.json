@@ -6,12 +6,29 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 7200,
-  "totalCommission": 360,
+  "totalCollected": 20400,
+  "totalCommission": 1020,
   "paymentCount": 18,
   "accountCount": 11,
   "dueDate": "September 30, 2026",
   "accounts": [
+    {
+      "customerName": "Equine Sports Medicine",
+      "customer": "Equine Sports Medicine",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 240,
+      "transactions": [
+        {
+          "date": "2026-08-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1141",
+          "amount": 4800,
+          "commissionRate": 0.05,
+          "commissionAmount": 240
+        }
+      ]
+    },
     {
       "customerName": "Stahl Veterinary PLLC",
       "customer": "Stahl Veterinary PLLC",
@@ -34,6 +51,40 @@
       "routeCFreezerHit": true,
       "routeCBreadth": false,
       "routeCInvoicedThisMonth": 4800
+    },
+    {
+      "customerName": "Running S Equine",
+      "customer": "Running S Equine",
+      "collected": 4200,
+      "finalTotal": 4200,
+      "commission": 210,
+      "transactions": [
+        {
+          "date": "2026-08-17",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1130",
+          "amount": 4200,
+          "commissionRate": 0.05,
+          "commissionAmount": 210
+        }
+      ]
+    },
+    {
+      "customerName": "Centenary University",
+      "customer": "Centenary University",
+      "collected": 2400,
+      "finalTotal": 2400,
+      "commission": 120,
+      "transactions": [
+        {
+          "date": "2026-08-17",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1049",
+          "amount": 2400,
+          "commissionRate": 0.05,
+          "commissionAmount": 120
+        }
+      ]
     },
     {
       "customerName": "East Coast Equine Veterinary",
@@ -59,6 +110,29 @@
       "routeCInvoicedThisMonth": 1800
     },
     {
+      "customerName": "Ocala Equine Hospital",
+      "customer": "Ocala Equine Hospital",
+      "collected": 1200,
+      "finalTotal": 1200,
+      "commission": 60,
+      "transactions": [
+        {
+          "date": "2026-08-19",
+          "type": "Payment",
+          "invoiceNum": "CINV-EPL-1020",
+          "amount": 1200,
+          "commissionRate": 0.05,
+          "commissionAmount": 60
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 1.3333333333333333,
+      "routeCVialsThisMonth": 12,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 3000
+    },
+    {
       "customerName": "Signature S Equine",
       "customer": "Signature S Equine",
       "collected": 600,
@@ -80,6 +154,29 @@
       "routeCFreezerHit": false,
       "routeCBreadth": true,
       "routeCInvoicedThisMonth": 600
+    },
+    {
+      "customerName": "Fairfield Equine Associates",
+      "customer": "Fairfield Equine Associates",
+      "collected": 600,
+      "finalTotal": 600,
+      "commission": 30,
+      "transactions": [
+        {
+          "date": "2026-08-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1084",
+          "amount": 600,
+          "commissionRate": 0.05,
+          "commissionAmount": 30
+        }
+      ],
+      "routeCStatus": "reactivated",
+      "routeCBaseline": 0.16666666666666666,
+      "routeCVialsThisMonth": 1,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 675
     }
   ],
   "reconciliation": null,
@@ -107,8 +204,8 @@
     },
     "acceleratorOnCollected": null,
     "standardWaterfall": {
-      "collectedRevenue": 7200,
-      "commission": 360,
+      "collectedRevenue": 20400,
+      "commission": 1020,
       "invoicedRevenue": 22875,
       "invoicedCommission": 1143.75
     },
@@ -247,5 +344,5 @@
       }
     ]
   },
-  "generatedAt": "2026-08-21T13:18:33.099Z"
+  "generatedAt": "2026-08-21T13:18:40.211Z"
 }
