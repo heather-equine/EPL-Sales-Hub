@@ -8,8 +8,8 @@
   "flatRate": null,
   "totalCollected": 7200,
   "totalCommission": 360,
-  "paymentCount": 10,
-  "accountCount": 8,
+  "paymentCount": 18,
+  "accountCount": 11,
   "dueDate": "September 30, 2026",
   "accounts": [
     {
@@ -87,19 +87,19 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 11400,
+    "gateInvoiced": 22875,
     "gateThreshold": 30000,
     "gateMet": false,
     "routeUsed": "standard-waterfall",
     "accelerator": {
-      "newReactRevenue": 6600,
-      "newReactCommission": 990,
-      "growthRevenue": 3700,
-      "growthCommission": 462.5,
-      "baselineRevenue": 1100,
-      "baselineCommission": 110,
-      "baseTiered": 1562.5,
-      "newAccountSpiffCount": 1,
+      "newReactRevenue": 17475,
+      "newReactCommission": 2621.25,
+      "growthRevenue": 4766.67,
+      "growthCommission": 595.83,
+      "baselineRevenue": 633.33,
+      "baselineCommission": 63.33,
+      "baseTiered": 3280.42,
+      "newAccountSpiffCount": 2,
       "newAccountSpiffTotal": 0,
       "breadthAccountCount": 3,
       "breadthBonus": 0,
@@ -109,10 +109,34 @@
     "standardWaterfall": {
       "collectedRevenue": 7200,
       "commission": 360,
-      "invoicedRevenue": 11400,
-      "invoicedCommission": 570
+      "invoicedRevenue": 22875,
+      "invoicedCommission": 1143.75
     },
     "perAccount": [
+      {
+        "customer": "Woodland Run Equine Veterinary",
+        "customerKey": "woodland run equine veterinary",
+        "status": "reactivated",
+        "baselineVials": 1.1666666666666667,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Cleveland Equine Clinic LLC",
+        "customerKey": "cleveland equine",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 10,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": true,
+        "breadthQualifier": false
+      },
       {
         "customer": "Stahl Veterinary PLLC",
         "customerKey": "stahl veterinary",
@@ -130,10 +154,10 @@
         "customerKey": "ocala equine",
         "status": "existing",
         "baselineVials": 1.3333333333333333,
-        "vialsThisMonth": 4,
-        "revenueThisMonth": 2400,
+        "vialsThisMonth": 12,
+        "revenueThisMonth": 3000,
         "vialsAtOrBelowBaseline": 1.3333333333333333,
-        "vialsAboveBaseline": 2.666666666666667,
+        "vialsAboveBaseline": 10.666666666666666,
         "freezerHitThisMonth": false,
         "breadthQualifier": true
       },
@@ -156,6 +180,30 @@
         "baselineVials": 0,
         "vialsThisMonth": 4,
         "revenueThisMonth": 1800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Fairfield Equine Associates",
+        "customerKey": "fairfield equine associates",
+        "status": "reactivated",
+        "baselineVials": 0.16666666666666666,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 675,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Virginia Equine Imaging",
+        "customerKey": "virginia equine imaging",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 600,
         "vialsAtOrBelowBaseline": 0,
         "vialsAboveBaseline": 0,
         "freezerHitThisMonth": false,
@@ -186,18 +234,6 @@
         "breadthQualifier": false
       },
       {
-        "customer": "Cleveland Equine Clinic LLC",
-        "customerKey": "cleveland equine",
-        "status": "new",
-        "baselineVials": 0,
-        "vialsThisMonth": 2,
-        "revenueThisMonth": 0,
-        "vialsAtOrBelowBaseline": 0,
-        "vialsAboveBaseline": 0,
-        "freezerHitThisMonth": false,
-        "breadthQualifier": false
-      },
-      {
         "customer": "Ginn Equine",
         "customerKey": "ginn equine",
         "status": "new",
@@ -211,5 +247,5 @@
       }
     ]
   },
-  "generatedAt": "2026-08-17T16:25:56.936Z"
+  "generatedAt": "2026-08-21T13:18:33.099Z"
 }
