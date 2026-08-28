@@ -6,10 +6,10 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 20400,
-  "totalCommission": 1020,
-  "paymentCount": 18,
-  "accountCount": 11,
+  "totalCollected": 36600,
+  "totalCommission": 3834.17,
+  "paymentCount": 24,
+  "accountCount": 14,
   "dueDate": "September 30, 2026",
   "accounts": [
     {
@@ -17,15 +17,15 @@
       "customer": "Equine Sports Medicine",
       "collected": 4800,
       "finalTotal": 4800,
-      "commission": 240,
+      "commission": 480,
       "transactions": [
         {
           "date": "2026-08-10",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1141",
           "amount": 4800,
-          "commissionRate": 0.05,
-          "commissionAmount": 240
+          "commissionRate": 0.1,
+          "commissionAmount": 480
         }
       ]
     },
@@ -34,15 +34,38 @@
       "customer": "Stahl Veterinary PLLC",
       "collected": 4800,
       "finalTotal": 4800,
-      "commission": 240,
+      "commission": 720,
       "transactions": [
         {
           "date": "2026-08-11",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1167",
           "amount": 4800,
-          "commissionRate": 0.05,
-          "commissionAmount": 240
+          "commissionRate": 0.15,
+          "commissionAmount": 720
+        }
+      ],
+      "routeCStatus": "new",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 10,
+      "routeCFreezerHit": true,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 4800
+    },
+    {
+      "customerName": "Cleveland Equine Clinic LLC",
+      "customer": "Cleveland Equine Clinic LLC",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 720,
+      "transactions": [
+        {
+          "date": "2026-08-26",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1192",
+          "amount": 4800,
+          "commissionRate": 0.15,
+          "commissionAmount": 720
         }
       ],
       "routeCStatus": "new",
@@ -57,72 +80,40 @@
       "customer": "Running S Equine",
       "collected": 4200,
       "finalTotal": 4200,
-      "commission": 210,
+      "commission": 420,
       "transactions": [
         {
           "date": "2026-08-17",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1130",
           "amount": 4200,
-          "commissionRate": 0.05,
-          "commissionAmount": 210
+          "commissionRate": 0.1,
+          "commissionAmount": 420
         }
       ]
-    },
-    {
-      "customerName": "Centenary University",
-      "customer": "Centenary University",
-      "collected": 2400,
-      "finalTotal": 2400,
-      "commission": 120,
-      "transactions": [
-        {
-          "date": "2026-08-17",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1049",
-          "amount": 2400,
-          "commissionRate": 0.05,
-          "commissionAmount": 120
-        }
-      ]
-    },
-    {
-      "customerName": "East Coast Equine Veterinary",
-      "customer": "East Coast Equine Veterinary",
-      "collected": 1800,
-      "finalTotal": 1800,
-      "commission": 90,
-      "transactions": [
-        {
-          "date": "2026-08-12",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1182",
-          "amount": 1800,
-          "commissionRate": 0.05,
-          "commissionAmount": 90
-        }
-      ],
-      "routeCStatus": "existing",
-      "routeCBaseline": 0.16666666666666666,
-      "routeCVialsThisMonth": 3,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true,
-      "routeCInvoicedThisMonth": 1800
     },
     {
       "customerName": "Ocala Equine Hospital",
       "customer": "Ocala Equine Hospital",
-      "collected": 1200,
-      "finalTotal": 1200,
-      "commission": 60,
+      "collected": 3000,
+      "finalTotal": 3000,
+      "commission": 366.67,
       "transactions": [
         {
           "date": "2026-08-19",
           "type": "Payment",
           "invoiceNum": "CINV-EPL-1020",
           "amount": 1200,
-          "commissionRate": 0.05,
-          "commissionAmount": 60
+          "commissionRate": 0.12222222222222222,
+          "commissionAmount": 146.67
+        },
+        {
+          "date": "2026-08-25",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1152",
+          "amount": 1800,
+          "commissionRate": 0.12222222222222222,
+          "commissionAmount": 220
         }
       ],
       "routeCStatus": "existing",
@@ -133,19 +124,107 @@
       "routeCInvoicedThisMonth": 3000
     },
     {
+      "customerName": "Centenary University",
+      "customer": "Centenary University",
+      "collected": 2400,
+      "finalTotal": 2400,
+      "commission": 240,
+      "transactions": [
+        {
+          "date": "2026-08-17",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1049",
+          "amount": 2400,
+          "commissionRate": 0.1,
+          "commissionAmount": 240
+        }
+      ]
+    },
+    {
+      "customerName": "East Coast Equine Veterinary",
+      "customer": "East Coast Equine Veterinary",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 222.5,
+      "transactions": [
+        {
+          "date": "2026-08-12",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1182",
+          "amount": 1800,
+          "commissionRate": 0.12361111111111112,
+          "commissionAmount": 222.5
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.16666666666666666,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 1800
+    },
+    {
+      "customerName": "Springhill Equine Veterinary Clinic",
+      "customer": "Springhill Equine Veterinary Clinic",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 180,
+      "transactions": [
+        {
+          "date": "2026-08-28",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1146",
+          "amount": 1800,
+          "commissionRate": 0.1,
+          "commissionAmount": 180
+        }
+      ]
+    },
+    {
+      "customerName": "Mountain Pointe Equine",
+      "customer": "Mountain Pointe Equine",
+      "collected": 1200,
+      "finalTotal": 1200,
+      "commission": 145,
+      "transactions": [
+        {
+          "date": "2026-08-21",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1202",
+          "amount": 600,
+          "commissionRate": 0.12083333333333333,
+          "commissionAmount": 72.5
+        },
+        {
+          "date": "2026-08-26",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1108",
+          "amount": 600,
+          "commissionRate": 0.12083333333333333,
+          "commissionAmount": 72.5
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.3333333333333333,
+      "routeCVialsThisMonth": 2,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 600
+    },
+    {
       "customerName": "Signature S Equine",
       "customer": "Signature S Equine",
       "collected": 600,
       "finalTotal": 600,
-      "commission": 30,
+      "commission": 70,
       "transactions": [
         {
           "date": "2026-08-07",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1171",
           "amount": 600,
-          "commissionRate": 0.05,
-          "commissionAmount": 30
+          "commissionRate": 0.11666666666666667,
+          "commissionAmount": 70
         }
       ],
       "routeCStatus": "existing",
@@ -160,15 +239,15 @@
       "customer": "Fairfield Equine Associates",
       "collected": 600,
       "finalTotal": 600,
-      "commission": 30,
+      "commission": 90,
       "transactions": [
         {
           "date": "2026-08-10",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1084",
           "amount": 600,
-          "commissionRate": 0.05,
-          "commissionAmount": 30
+          "commissionRate": 0.15,
+          "commissionAmount": 90
         }
       ],
       "routeCStatus": "reactivated",
@@ -184,32 +263,53 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 22875,
+    "gateInvoiced": 36600,
     "gateThreshold": 30000,
-    "gateMet": false,
-    "routeUsed": "standard-waterfall",
+    "gateMet": true,
+    "routeUsed": "route-c",
     "accelerator": {
-      "newReactRevenue": 17475,
-      "newReactCommission": 2621.25,
-      "growthRevenue": 4766.67,
-      "growthCommission": 595.83,
-      "baselineRevenue": 633.33,
-      "baselineCommission": 63.33,
-      "baseTiered": 3280.42,
+      "newReactRevenue": 30600,
+      "newReactCommission": 4590,
+      "growthRevenue": 5266.67,
+      "growthCommission": 658.33,
+      "baselineRevenue": 733.33,
+      "baselineCommission": 73.33,
+      "baseTiered": 5321.67,
       "newAccountSpiffCount": 2,
-      "newAccountSpiffTotal": 0,
-      "breadthAccountCount": 3,
+      "newAccountSpiffTotal": 1500,
+      "breadthAccountCount": 4,
       "breadthBonus": 0,
-      "total": 0
+      "total": 6821.67
     },
-    "acceleratorOnCollected": null,
+    "acceleratorOnCollected": {
+      "newReactCollected": 10200,
+      "newReactCommission": 1530,
+      "growthCollected": 5766.67,
+      "growthCommission": 720.83,
+      "baselineCollected": 833.33,
+      "baselineCommission": 83.33,
+      "baseTiered": 2334.17,
+      "total": 3834.17
+    },
     "standardWaterfall": {
-      "collectedRevenue": 20400,
-      "commission": 1020,
-      "invoicedRevenue": 22875,
-      "invoicedCommission": 1143.75
+      "collectedRevenue": 30000,
+      "commission": 1500,
+      "invoicedRevenue": 36600,
+      "invoicedCommission": 1830
     },
     "perAccount": [
+      {
+        "customer": "Peterson Smith Equine Hospital",
+        "customerKey": "peterson smith equine",
+        "status": "reactivated",
+        "baselineVials": 1.3333333333333333,
+        "vialsThisMonth": 15,
+        "revenueThisMonth": 13125,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
       {
         "customer": "Woodland Run Equine Veterinary",
         "customerKey": "woodland run equine veterinary",
@@ -295,6 +395,18 @@
         "breadthQualifier": false
       },
       {
+        "customer": "Mountain Pointe Equine",
+        "customerKey": "mountain pointe equine",
+        "status": "existing",
+        "baselineVials": 0.3333333333333333,
+        "vialsThisMonth": 2,
+        "revenueThisMonth": 600,
+        "vialsAtOrBelowBaseline": 0.3333333333333333,
+        "vialsAboveBaseline": 1.6666666666666667,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
         "customer": "Virginia Equine Imaging",
         "customerKey": "virginia equine imaging",
         "status": "new",
@@ -317,6 +429,18 @@
         "vialsAboveBaseline": 0.6666666666666667,
         "freezerHitThisMonth": false,
         "breadthQualifier": true
+      },
+      {
+        "customer": "Colts Neck Equine",
+        "customerKey": "colts neck equine",
+        "status": "reactivated",
+        "baselineVials": 0.16666666666666666,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
       },
       {
         "customer": "Dr. Mark A Christine",
@@ -344,5 +468,5 @@
       }
     ]
   },
-  "generatedAt": "2026-08-28T19:45:33.539Z"
+  "generatedAt": "2026-08-28T19:46:38.381Z"
 }
