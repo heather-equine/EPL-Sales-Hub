@@ -6,12 +6,82 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 57900,
-  "totalCommission": 5515.17,
-  "paymentCount": 27,
-  "accountCount": 16,
+  "totalCollected": 78375,
+  "totalCommission": 8981.59,
+  "paymentCount": 39,
+  "accountCount": 22,
   "dueDate": "September 30, 2026",
   "accounts": [
+    {
+      "customerName": "Northern Star Equine",
+      "customer": "Northern Star Equine",
+      "collected": 10500,
+      "finalTotal": 10500,
+      "commission": 1575,
+      "transactions": [
+        {
+          "date": "2026-08-28",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1180",
+          "amount": 10500,
+          "commissionRate": 0.15,
+          "commissionAmount": 1575
+        }
+      ],
+      "routeCStatus": "reactivated",
+      "routeCBaseline": 3.1666666666666665,
+      "routeCVialsThisMonth": 22,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 10500
+    },
+    {
+      "customerName": "Tanner Equine",
+      "customer": "Tanner Equine",
+      "collected": 7200,
+      "finalTotal": 7200,
+      "commission": 829.09,
+      "transactions": [
+        {
+          "date": "2026-08-20",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1135",
+          "amount": 1800,
+          "commissionRate": 0.11515151515151516,
+          "commissionAmount": 207.27
+        },
+        {
+          "date": "2026-08-20",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1120",
+          "amount": 2400,
+          "commissionRate": 0.11515151515151516,
+          "commissionAmount": 276.36
+        },
+        {
+          "date": "2026-08-27",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1164",
+          "amount": 600,
+          "commissionRate": 0.11515151515151516,
+          "commissionAmount": 69.09
+        },
+        {
+          "date": "2026-08-27",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1158",
+          "amount": 2400,
+          "commissionRate": 0.11515151515151516,
+          "commissionAmount": 276.36
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 4.333333333333333,
+      "routeCVialsThisMonth": 11,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 6000
+    },
     {
       "customerName": "Perfect Balance Equine Dentistry and Veterinary Services",
       "customer": "Perfect Balance Equine Dentistry and Veterinary Services",
@@ -76,35 +146,50 @@
       "routeCInvoicedThisMonth": 4800
     },
     {
-      "customerName": "Tanner Equine",
-      "customer": "Tanner Equine",
-      "collected": 4200,
-      "finalTotal": 4200,
-      "commission": 449.17,
+      "customerName": "Smith Performance Equine",
+      "customer": "Smith Performance Equine",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 720,
       "transactions": [
         {
-          "date": "2026-08-20",
+          "date": "2026-08-25",
           "type": "Payment",
-          "invoiceNum": "ORD-EPL-1135",
-          "amount": 1800,
-          "commissionRate": 0.10694444444444445,
-          "commissionAmount": 192.5
-        },
+          "invoiceNum": "ORD-EPL-1183",
+          "amount": 4800,
+          "commissionRate": 0.15,
+          "commissionAmount": 720
+        }
+      ],
+      "routeCStatus": "reactivated",
+      "routeCBaseline": 2.3333333333333335,
+      "routeCVialsThisMonth": 10,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 4800
+    },
+    {
+      "customerName": "Signature Equine Hospital",
+      "customer": "Signature Equine Hospital",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 584,
+      "transactions": [
         {
-          "date": "2026-08-20",
+          "date": "2026-08-25",
           "type": "Payment",
-          "invoiceNum": "ORD-EPL-1120",
-          "amount": 2400,
-          "commissionRate": 0.10694444444444445,
-          "commissionAmount": 256.67
+          "invoiceNum": "ORD-EPL-1178",
+          "amount": 4800,
+          "commissionRate": 0.12166666666666666,
+          "commissionAmount": 584
         }
       ],
       "routeCStatus": "existing",
-      "routeCBaseline": 4.333333333333333,
-      "routeCVialsThisMonth": 6,
+      "routeCBaseline": 1.3333333333333333,
+      "routeCVialsThisMonth": 10,
       "routeCFreezerHit": false,
       "routeCBreadth": true,
-      "routeCInvoicedThisMonth": 3000
+      "routeCInvoicedThisMonth": 4800
     },
     {
       "customerName": "Elgin Equine",
@@ -127,6 +212,29 @@
       "routeCVialsThisMonth": 3,
       "routeCFreezerHit": false,
       "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 1800
+    },
+    {
+      "customerName": "Panorama Equine Medical and Surgical Center",
+      "customer": "Panorama Equine Medical and Surgical Center",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 207.5,
+      "transactions": [
+        {
+          "date": "2026-08-25",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1157",
+          "amount": 1800,
+          "commissionRate": 0.11527777777777777,
+          "commissionAmount": 207.5
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 1.1666666666666667,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
       "routeCInvoicedThisMonth": 1800
     },
     {
@@ -175,39 +283,39 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 57900,
+    "gateInvoiced": 78375,
     "gateThreshold": 30000,
     "gateMet": true,
     "routeUsed": "route-c",
     "accelerator": {
-      "newReactRevenue": 35700,
-      "newReactCommission": 5355,
-      "growthRevenue": 12633.33,
-      "growthCommission": 1579.17,
-      "baselineRevenue": 9566.67,
-      "baselineCommission": 956.67,
-      "baseTiered": 7890.83,
+      "newReactRevenue": 37575,
+      "newReactCommission": 5636.25,
+      "growthRevenue": 26870.91,
+      "growthCommission": 3358.86,
+      "baselineRevenue": 13929.09,
+      "baselineCommission": 1392.91,
+      "baseTiered": 10388.02,
       "newAccountSpiffCount": 2,
       "newAccountSpiffTotal": 1500,
-      "breadthAccountCount": 5,
+      "breadthAccountCount": 8,
       "breadthBonus": 2000,
-      "total": 11390.83
+      "total": 13888.02
     },
     "acceleratorOnCollected": {
-      "newReactCollected": 5400,
-      "newReactCommission": 810,
-      "growthCollected": 5006.67,
-      "growthCommission": 625.83,
-      "baselineCollected": 5793.33,
-      "baselineCommission": 579.33,
-      "baseTiered": 2015.17,
-      "total": 5515.17
+      "newReactCollected": 20700,
+      "newReactCommission": 3105,
+      "growthCollected": 13463.64,
+      "growthCommission": 1682.95,
+      "baselineCollected": 6936.36,
+      "baselineCommission": 693.64,
+      "baseTiered": 5481.59,
+      "total": 8981.59
     },
     "standardWaterfall": {
-      "collectedRevenue": 22200,
-      "commission": 1110,
-      "invoicedRevenue": 57900,
-      "invoicedCommission": 2895
+      "collectedRevenue": 47100,
+      "commission": 2355,
+      "invoicedRevenue": 78375,
+      "invoicedCommission": 3952.5
     },
     "perAccount": [
       {
@@ -223,6 +331,30 @@
         "breadthQualifier": false
       },
       {
+        "customer": "Equine Athlete Veterinary Services - Simpsonville, KY",
+        "customerKey": "equine athlete veterinary services simpsonville ky",
+        "status": "existing",
+        "baselineVials": 7.333333333333333,
+        "vialsThisMonth": 20,
+        "revenueThisMonth": 9600,
+        "vialsAtOrBelowBaseline": 7.333333333333333,
+        "vialsAboveBaseline": 12.666666666666668,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Tanner Equine",
+        "customerKey": "tanner equine",
+        "status": "existing",
+        "baselineVials": 4.333333333333333,
+        "vialsThisMonth": 11,
+        "revenueThisMonth": 6000,
+        "vialsAtOrBelowBaseline": 4.333333333333333,
+        "vialsAboveBaseline": 6.666666666666667,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
         "customer": "Outlaw Equine",
         "customerKey": "outlaw equine",
         "status": "existing",
@@ -235,11 +367,23 @@
         "breadthQualifier": true
       },
       {
+        "customer": "Desert Pines Equine",
+        "customerKey": "desert pines equine",
+        "status": "existing",
+        "baselineVials": 0.3333333333333333,
+        "vialsThisMonth": 11,
+        "revenueThisMonth": 4800,
+        "vialsAtOrBelowBaseline": 0.3333333333333333,
+        "vialsAboveBaseline": 10.666666666666666,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
         "customer": "Double X Veterinary Services",
         "customerKey": "double x veterinary",
         "status": "reactivated",
         "baselineVials": 1.6666666666666667,
-        "vialsThisMonth": 10,
+        "vialsThisMonth": 20,
         "revenueThisMonth": 4800,
         "vialsAtOrBelowBaseline": 0,
         "vialsAboveBaseline": 0,
@@ -319,18 +463,6 @@
         "breadthQualifier": false
       },
       {
-        "customer": "Tanner Equine",
-        "customerKey": "tanner equine",
-        "status": "existing",
-        "baselineVials": 4.333333333333333,
-        "vialsThisMonth": 6,
-        "revenueThisMonth": 3000,
-        "vialsAtOrBelowBaseline": 4.333333333333333,
-        "vialsAboveBaseline": 1.666666666666667,
-        "freezerHitThisMonth": false,
-        "breadthQualifier": true
-      },
-      {
         "customer": "Elgin Equine",
         "customerKey": "elgin equine",
         "status": "existing",
@@ -355,6 +487,42 @@
         "breadthQualifier": true
       },
       {
+        "customer": "MVP Equine",
+        "customerKey": "mvp equine",
+        "status": "existing",
+        "baselineVials": 0.8333333333333334,
+        "vialsThisMonth": 2,
+        "revenueThisMonth": 1200,
+        "vialsAtOrBelowBaseline": 0.8333333333333334,
+        "vialsAboveBaseline": 1.1666666666666665,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Athens Equine",
+        "customerKey": "athens equine",
+        "status": "reactivated",
+        "baselineVials": 0.5,
+        "vialsThisMonth": 2,
+        "revenueThisMonth": 1200,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Equine Sports Medicine & Surgery",
+        "customerKey": "equine sports medicine surgery",
+        "status": "reactivated",
+        "baselineVials": 1.6666666666666667,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 675,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
         "customer": "Greene, Lewis and Associates",
         "customerKey": "greene lewis and associates",
         "status": "new",
@@ -373,6 +541,18 @@
         "baselineVials": 0,
         "vialsThisMonth": 1,
         "revenueThisMonth": 600,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "La Feliz Montana Ranch",
+        "customerKey": "la feliz montana",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 0,
         "vialsAtOrBelowBaseline": 0,
         "vialsAboveBaseline": 0,
         "freezerHitThisMonth": false,
@@ -404,5 +584,5 @@
       }
     ]
   },
-  "generatedAt": "2026-08-28T19:45:32.367Z"
+  "generatedAt": "2026-08-28T19:46:09.851Z"
 }
