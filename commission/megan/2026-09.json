@@ -6,10 +6,10 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 9050,
-  "totalCommission": 452.5,
-  "paymentCount": 4,
-  "accountCount": 3,
+  "totalCollected": 13850,
+  "totalCommission": 692.5,
+  "paymentCount": 5,
+  "accountCount": 4,
   "dueDate": "October 31, 2026",
   "accounts": [
     {
@@ -23,6 +23,23 @@
           "date": "2026-09-02",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1207",
+          "amount": 4800,
+          "commissionRate": 0.05,
+          "commissionAmount": 240
+        }
+      ]
+    },
+    {
+      "customerName": "Cleveland Equine Clinic LLC",
+      "customer": "Cleveland Equine Clinic LLC",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 240,
+      "transactions": [
+        {
+          "date": "2026-09-11",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1192",
           "amount": 4800,
           "commissionRate": 0.05,
           "commissionAmount": 240
@@ -83,18 +100,18 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 1925,
+    "gateInvoiced": 3725,
     "gateThreshold": 30000,
     "gateMet": false,
     "routeUsed": "standard-waterfall",
     "accelerator": {
       "newReactRevenue": 0,
       "newReactCommission": 0,
-      "growthRevenue": 1796.67,
-      "growthCommission": 224.58,
+      "growthRevenue": 3596.67,
+      "growthCommission": 449.58,
       "baselineRevenue": 128.33,
       "baselineCommission": 12.83,
-      "baseTiered": 237.42,
+      "baseTiered": 462.42,
       "newAccountSpiffCount": 0,
       "newAccountSpiffTotal": 0,
       "breadthAccountCount": 2,
@@ -103,10 +120,10 @@
     },
     "acceleratorOnCollected": null,
     "standardWaterfall": {
-      "collectedRevenue": 9050,
-      "commission": 452.5,
-      "invoicedRevenue": 1925,
-      "invoicedCommission": 96.25
+      "collectedRevenue": 13850,
+      "commission": 692.5,
+      "invoicedRevenue": 3725,
+      "invoicedCommission": 186.25
     },
     "perAccount": [
       {
@@ -120,6 +137,18 @@
         "vialsAboveBaseline": 4.666666666666667,
         "freezerHitThisMonth": false,
         "breadthQualifier": true
+      },
+      {
+        "customer": "Equine Services Ltd",
+        "customerKey": "equine",
+        "status": "existing",
+        "baselineVials": 0,
+        "vialsThisMonth": 3,
+        "revenueThisMonth": 1800,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 3,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
       },
       {
         "customer": "Mandrona Equine Veterinary Services",
@@ -147,7 +176,7 @@
       }
     ]
   },
-  "generatedAt": "2026-09-11T12:52:08.927Z",
+  "generatedAt": "2026-09-11T15:59:52.079Z",
   "approval": {
     "approved": false
   }
