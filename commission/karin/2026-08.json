@@ -7,9 +7,9 @@
   "planKind": "route-c",
   "flatRate": null,
   "totalCollected": 78375,
-  "totalCommission": 8981.59,
-  "paymentCount": 39,
-  "accountCount": 22,
+  "totalCommission": 9161.59,
+  "paymentCount": 40,
+  "accountCount": 23,
   "dueDate": "September 30, 2026",
   "accounts": [
     {
@@ -255,6 +255,29 @@
       ]
     },
     {
+      "customerName": "Athens Equine",
+      "customer": "Athens Equine",
+      "collected": 1200,
+      "finalTotal": 1200,
+      "commission": 180,
+      "transactions": [
+        {
+          "date": "2026-08-28",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1206",
+          "amount": 1200,
+          "commissionRate": 0.15,
+          "commissionAmount": 180
+        }
+      ],
+      "routeCStatus": "reactivated",
+      "routeCBaseline": 0.5,
+      "routeCVialsThisMonth": 2,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 1200
+    },
+    {
       "customerName": "Greene, Lewis and Associates",
       "customer": "Greene, Lewis and Associates",
       "collected": 600,
@@ -302,18 +325,18 @@
       "total": 13888.02
     },
     "acceleratorOnCollected": {
-      "newReactCollected": 20700,
-      "newReactCommission": 3105,
+      "newReactCollected": 21900,
+      "newReactCommission": 3285,
       "growthCollected": 13463.64,
       "growthCommission": 1682.95,
       "baselineCollected": 6936.36,
       "baselineCommission": 693.64,
-      "baseTiered": 5481.59,
-      "total": 8981.59
+      "baseTiered": 5661.59,
+      "total": 9161.59
     },
     "standardWaterfall": {
-      "collectedRevenue": 47100,
-      "commission": 2355,
+      "collectedRevenue": 48300,
+      "commission": 2415,
       "invoicedRevenue": 78375,
       "invoicedCommission": 3952.5
     },
@@ -547,6 +570,18 @@
         "breadthQualifier": false
       },
       {
+        "customer": "RD Equine",
+        "customerKey": "rd equine",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
         "customer": "La Feliz Montana Ranch",
         "customerKey": "la feliz montana",
         "status": "new",
@@ -584,5 +619,5 @@
       }
     ]
   },
-  "generatedAt": "2026-08-28T19:46:37.139Z"
+  "generatedAt": "2026-09-11T01:04:33.563Z"
 }
