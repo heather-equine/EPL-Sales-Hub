@@ -8,7 +8,7 @@
       "repId": "karin",
       "repName": "Karin Williamson",
       "mtdSales": 3675,
-      "mtdCollected": 59381,
+      "mtdCollected": 21000,
       "mtdOrders": 8,
       "mtdVials": 19,
       "mtdVialsPaid": 16,
@@ -22,15 +22,15 @@
       "ytdSales": 249485,
       "ytdSalesGross": 455270,
       "ytdInvoices": 143,
-      "ytdCollected": 202795.88,
-      "priorMonthCollected": 47100,
+      "ytdCollected": 225560,
+      "priorMonthCollected": 48300,
       "priorMonthKey": "2026-08"
     },
     "megan": {
       "repId": "megan",
       "repName": "Megan Smith",
       "mtdSales": 1925,
-      "mtdCollected": 10407,
+      "mtdCollected": 9050,
       "mtdOrders": 4,
       "mtdVials": 10,
       "mtdVialsPaid": 10,
@@ -44,15 +44,15 @@
       "ytdSales": 114425,
       "ytdSalesGross": 196570,
       "ytdInvoices": 91,
-      "ytdCollected": 88500,
-      "priorMonthCollected": 30000,
+      "ytdCollected": 92750,
+      "priorMonthCollected": 25200,
       "priorMonthKey": "2026-08"
     },
     "company": {
       "repId": "company",
       "repName": "Company",
       "mtdSales": 5600,
-      "mtdCollected": 68742,
+      "mtdCollected": 30050,
       "mtdOrders": 12,
       "mtdVials": 29,
       "mtdVialsPaid": 26,
@@ -66,8 +66,8 @@
       "ytdSales": 363910,
       "ytdSalesGross": 651840,
       "ytdInvoices": 234,
-      "ytdCollected": 291295.88,
-      "priorMonthCollected": 77100,
+      "ytdCollected": 318310,
+      "priorMonthCollected": 73500,
       "priorMonthKey": "2026-08"
     }
   },
@@ -3081,7 +3081,8 @@
       "2026-05",
       "2026-06",
       "2026-07",
-      "2026-08"
+      "2026-08",
+      "2026-09"
     ]
   },
   "ytdYear": 2026,
@@ -3126,33 +3127,33 @@
     "aggregates": {
       "karin": {
         "mtdSales": 78375,
-        "mtdCollected": 47100,
+        "mtdCollected": 48300,
         "mtdOrders": 40,
         "mtdVials": 171,
         "mtdVialsPaid": 148,
         "mtdVialsFree": 23,
         "outstanding": 48675,
-        "pctCollected": 0.600956937799043
+        "pctCollected": 0.6162679425837321
       },
       "megan": {
         "mtdSales": 36600,
-        "mtdCollected": 30000,
+        "mtdCollected": 25200,
         "mtdOrders": 25,
         "mtdVials": 73,
         "mtdVialsPaid": 64,
         "mtdVialsFree": 9,
         "outstanding": 26400,
-        "pctCollected": 0.819672131147541
+        "pctCollected": 0.6885245901639344
       },
       "company": {
         "mtdSales": 114975,
-        "mtdCollected": 77100,
+        "mtdCollected": 73500,
         "mtdOrders": 65,
         "mtdVials": 244,
         "mtdVialsPaid": 212,
         "mtdVialsFree": 32,
         "outstanding": 75075,
-        "pctCollected": 0.6705805609915199
+        "pctCollected": 0.639269406392694
       }
     }
   }
