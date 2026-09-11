@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T01:04:16.262Z",
+  "generatedAt": "2026-09-11T01:04:38.624Z",
   "drops": [
     {
       "dropDate": "2026-09-11",
@@ -10,7 +10,7 @@
           "repId": "karin",
           "repName": "Karin Williamson",
           "mtdSales": 3675,
-          "mtdCollected": 59381,
+          "mtdCollected": 21000,
           "mtdOrders": 8,
           "mtdVials": 19,
           "mtdVialsPaid": 16,
@@ -22,14 +22,14 @@
           "totalClients": 50,
           "pctCollected": 88.35810469944508,
           "ytdSales": 249485,
-          "ytdCollected": 202795.88,
+          "ytdCollected": 225560,
           "ytdInvoices": 143
         },
         "megan": {
           "repId": "megan",
           "repName": "Megan Smith",
           "mtdSales": 1925,
-          "mtdCollected": 10407,
+          "mtdCollected": 9050,
           "mtdOrders": 4,
           "mtdVials": 10,
           "mtdVialsPaid": 10,
@@ -41,14 +41,14 @@
           "totalClients": 57,
           "pctCollected": 79.90286384190253,
           "ytdSales": 114425,
-          "ytdCollected": 88500,
+          "ytdCollected": 92750,
           "ytdInvoices": 91
         },
         "company": {
           "repId": "company",
           "repName": "Company",
           "mtdSales": 5600,
-          "mtdCollected": 68742,
+          "mtdCollected": 30050,
           "mtdOrders": 12,
           "mtdVials": 29,
           "mtdVialsPaid": 26,
@@ -60,7 +60,7 @@
           "totalClients": 107,
           "pctCollected": 85.68057065577683,
           "ytdSales": 363910,
-          "ytdCollected": 291295.88,
+          "ytdCollected": 318310,
           "ytdInvoices": 234
         }
       },
@@ -105,33 +105,33 @@
         "aggregates": {
           "karin": {
             "mtdSales": 78375,
-            "mtdCollected": 47100,
+            "mtdCollected": 48300,
             "mtdOrders": 40,
             "mtdVials": 171,
             "mtdVialsPaid": 148,
             "mtdVialsFree": 23,
             "outstanding": 48675,
-            "pctCollected": 0.600956937799043
+            "pctCollected": 0.6162679425837321
           },
           "megan": {
             "mtdSales": 36600,
-            "mtdCollected": 30000,
+            "mtdCollected": 25200,
             "mtdOrders": 25,
             "mtdVials": 73,
             "mtdVialsPaid": 64,
             "mtdVialsFree": 9,
             "outstanding": 26400,
-            "pctCollected": 0.819672131147541
+            "pctCollected": 0.6885245901639344
           },
           "company": {
             "mtdSales": 114975,
-            "mtdCollected": 77100,
+            "mtdCollected": 73500,
             "mtdOrders": 65,
             "mtdVials": 244,
             "mtdVialsPaid": 212,
             "mtdVialsFree": 32,
             "outstanding": 75075,
-            "pctCollected": 0.6705805609915199
+            "pctCollected": 0.639269406392694
           }
         }
       }
@@ -157,7 +157,7 @@
           "totalClients": 48,
           "pctCollected": 80.83774580241324,
           "ytdSales": 245810,
-          "ytdCollected": 202795.88,
+          "ytdCollected": 203360,
           "ytdInvoices": 134
         },
         "megan": {
@@ -195,7 +195,7 @@
           "totalClients": 102,
           "pctCollected": 79.7919302306802,
           "ytdSales": 358310,
-          "ytdCollected": 291295.88,
+          "ytdCollected": 291860,
           "ytdInvoices": 220
         }
       },
@@ -292,7 +292,7 @@
           "totalClients": 47,
           "pctCollected": 77.83509661624551,
           "ytdSales": 225335,
-          "ytdCollected": 177895.88,
+          "ytdCollected": 178460,
           "ytdInvoices": 122
         },
         "megan": {
@@ -330,7 +330,7 @@
           "totalClients": 98,
           "pctCollected": 78.05329163032691,
           "ytdSales": 324110,
-          "ytdCollected": 256795.88,
+          "ytdCollected": 257360,
           "ytdInvoices": 202
         }
       },
@@ -427,7 +427,7 @@
           "totalClients": 47,
           "pctCollected": 72.51635170547756,
           "ytdSales": 221735,
-          "ytdCollected": 160495.88,
+          "ytdCollected": 161060,
           "ytdInvoices": 119
         },
         "megan": {
@@ -465,7 +465,7 @@
           "totalClients": 96,
           "pctCollected": 73.6619003552345,
           "ytdSales": 309035,
-          "ytdCollected": 226195.88,
+          "ytdCollected": 226760,
           "ytdInvoices": 191
         }
       },
@@ -562,7 +562,7 @@
           "totalClients": 47,
           "pctCollected": 82.30045699639722,
           "ytdSales": 183035,
-          "ytdCollected": 160495.88,
+          "ytdCollected": 161060,
           "ytdInvoices": 106
         },
         "megan": {
@@ -600,7 +600,7 @@
           "totalClients": 93,
           "pctCollected": 79.76352585605633,
           "ytdSales": 264335,
-          "ytdCollected": 219595.88,
+          "ytdCollected": 220160,
           "ytdInvoices": 172
         }
       },
@@ -697,7 +697,7 @@
           "totalClients": 42,
           "pctCollected": 89.9797655015661,
           "ytdSales": 167435,
-          "ytdCollected": 150295.88,
+          "ytdCollected": 150860,
           "ytdInvoices": 95
         },
         "megan": {
@@ -735,7 +735,7 @@
           "totalClients": 81,
           "pctCollected": 87.11272371785232,
           "ytdSales": 242135,
-          "ytdCollected": 208795.88,
+          "ytdCollected": 209360,
           "ytdInvoices": 153
         }
       },
