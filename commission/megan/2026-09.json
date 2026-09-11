@@ -1,0 +1,151 @@
+{
+  "month": "2026-09",
+  "periodLabel": "September 2026",
+  "repId": "megan",
+  "repName": "Megan Smith",
+  "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
+  "planKind": "route-c",
+  "flatRate": null,
+  "totalCollected": 9050,
+  "totalCommission": 452.5,
+  "paymentCount": 4,
+  "accountCount": 3,
+  "dueDate": "October 31, 2026",
+  "accounts": [
+    {
+      "customerName": "Peterson Smith Equine Hospital",
+      "customer": "Peterson Smith Equine Hospital",
+      "collected": 4800,
+      "finalTotal": 4800,
+      "commission": 240,
+      "transactions": [
+        {
+          "date": "2026-09-02",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1207",
+          "amount": 4800,
+          "commissionRate": 0.05,
+          "commissionAmount": 240
+        }
+      ]
+    },
+    {
+      "customerName": "Ocala Equine Hospital",
+      "customer": "Ocala Equine Hospital",
+      "collected": 2400,
+      "finalTotal": 2400,
+      "commission": 120,
+      "transactions": [
+        {
+          "date": "2026-09-02",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1191",
+          "amount": 2400,
+          "commissionRate": 0.05,
+          "commissionAmount": 120
+        }
+      ]
+    },
+    {
+      "customerName": "Signature S Equine",
+      "customer": "Signature S Equine",
+      "collected": 1850,
+      "finalTotal": 1850,
+      "commission": 92.5,
+      "transactions": [
+        {
+          "date": "2026-09-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1223",
+          "amount": 625,
+          "commissionRate": 0.05,
+          "commissionAmount": 31.25
+        },
+        {
+          "date": "2026-09-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1232",
+          "amount": 1225,
+          "commissionRate": 0.05,
+          "commissionAmount": 61.25
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.3333333333333333,
+      "routeCVialsThisMonth": 5,
+      "routeCFreezerHit": false,
+      "routeCBreadth": true,
+      "routeCInvoicedThisMonth": 1925
+    }
+  ],
+  "reconciliation": null,
+  "adjustments": [],
+  "adjustmentsCommission": 0,
+  "adjustmentsBasis": 0,
+  "routeC": {
+    "gateInvoiced": 1925,
+    "gateThreshold": 30000,
+    "gateMet": false,
+    "routeUsed": "standard-waterfall",
+    "accelerator": {
+      "newReactRevenue": 0,
+      "newReactCommission": 0,
+      "growthRevenue": 1796.67,
+      "growthCommission": 224.58,
+      "baselineRevenue": 128.33,
+      "baselineCommission": 12.83,
+      "baseTiered": 237.42,
+      "newAccountSpiffCount": 0,
+      "newAccountSpiffTotal": 0,
+      "breadthAccountCount": 2,
+      "breadthBonus": 0,
+      "total": 0
+    },
+    "acceleratorOnCollected": null,
+    "standardWaterfall": {
+      "collectedRevenue": 9050,
+      "commission": 452.5,
+      "invoicedRevenue": 1925,
+      "invoicedCommission": 96.25
+    },
+    "perAccount": [
+      {
+        "customer": "Signature S Equine",
+        "customerKey": "signature s equine",
+        "status": "existing",
+        "baselineVials": 0.3333333333333333,
+        "vialsThisMonth": 5,
+        "revenueThisMonth": 1925,
+        "vialsAtOrBelowBaseline": 0.3333333333333333,
+        "vialsAboveBaseline": 4.666666666666667,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      },
+      {
+        "customer": "Mandrona Equine Veterinary Services",
+        "customerKey": "mandrona equine veterinary",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Tryon Equine Hospital",
+        "customerKey": "tryon equine",
+        "status": "existing",
+        "baselineVials": 2.5,
+        "vialsThisMonth": 4,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 2.5,
+        "vialsAboveBaseline": 1.5,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
+      }
+    ]
+  },
+  "generatedAt": "2026-09-11T01:05:01.856Z"
+}
