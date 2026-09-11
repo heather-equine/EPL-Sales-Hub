@@ -6,7 +6,7 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 36600,
+  "totalCollected": 31275,
   "totalCommission": 3114.17,
   "paymentCount": 25,
   "accountCount": 15,
@@ -240,23 +240,23 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 36600,
+    "gateInvoiced": 31275,
     "gateThreshold": 30000,
     "gateMet": true,
     "routeUsed": "route-c",
     "accelerator": {
-      "newReactRevenue": 30600,
-      "newReactCommission": 4590,
+      "newReactRevenue": 25275,
+      "newReactCommission": 3791.25,
       "growthRevenue": 5266.67,
       "growthCommission": 658.33,
       "baselineRevenue": 733.33,
       "baselineCommission": 73.33,
-      "baseTiered": 5321.67,
+      "baseTiered": 4522.92,
       "newAccountSpiffCount": 2,
       "newAccountSpiffTotal": 1500,
       "breadthAccountCount": 4,
       "breadthBonus": 0,
-      "total": 6821.67
+      "total": 6022.92
     },
     "acceleratorOnCollected": {
       "newReactCollected": 5400,
@@ -271,8 +271,8 @@
     "standardWaterfall": {
       "collectedRevenue": 25200,
       "commission": 1260,
-      "invoicedRevenue": 36600,
-      "invoicedCommission": 1830
+      "invoicedRevenue": 31275,
+      "invoicedCommission": 1563.75
     },
     "perAccount": [
       {
@@ -281,7 +281,7 @@
         "status": "reactivated",
         "baselineVials": 1.3333333333333333,
         "vialsThisMonth": 15,
-        "revenueThisMonth": 13125,
+        "revenueThisMonth": 7800,
         "vialsAtOrBelowBaseline": 0,
         "vialsAboveBaseline": 0,
         "freezerHitThisMonth": false,
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generatedAt": "2026-09-11T12:52:06.727Z",
+  "generatedAt": "2026-09-11T15:59:49.823Z",
   "approval": {
     "approved": false
   }
