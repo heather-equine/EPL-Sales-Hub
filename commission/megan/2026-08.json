@@ -7,9 +7,9 @@
   "planKind": "route-c",
   "flatRate": null,
   "totalCollected": 36600,
-  "totalCommission": 3834.17,
-  "paymentCount": 24,
-  "accountCount": 14,
+  "totalCommission": 3114.17,
+  "paymentCount": 25,
+  "accountCount": 15,
   "dueDate": "September 30, 2026",
   "accounts": [
     {
@@ -40,29 +40,6 @@
           "date": "2026-08-11",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1167",
-          "amount": 4800,
-          "commissionRate": 0.15,
-          "commissionAmount": 720
-        }
-      ],
-      "routeCStatus": "new",
-      "routeCBaseline": 0,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": true,
-      "routeCBreadth": false,
-      "routeCInvoicedThisMonth": 4800
-    },
-    {
-      "customerName": "Cleveland Equine Clinic LLC",
-      "customer": "Cleveland Equine Clinic LLC",
-      "collected": 4800,
-      "finalTotal": 4800,
-      "commission": 720,
-      "transactions": [
-        {
-          "date": "2026-08-26",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1192",
           "amount": 4800,
           "commissionRate": 0.15,
           "commissionAmount": 720
@@ -282,18 +259,18 @@
       "total": 6821.67
     },
     "acceleratorOnCollected": {
-      "newReactCollected": 10200,
-      "newReactCommission": 1530,
+      "newReactCollected": 5400,
+      "newReactCommission": 810,
       "growthCollected": 5766.67,
       "growthCommission": 720.83,
       "baselineCollected": 833.33,
       "baselineCommission": 83.33,
-      "baseTiered": 2334.17,
-      "total": 3834.17
+      "baseTiered": 1614.17,
+      "total": 3114.17
     },
     "standardWaterfall": {
-      "collectedRevenue": 30000,
-      "commission": 1500,
+      "collectedRevenue": 25200,
+      "commission": 1260,
       "invoicedRevenue": 36600,
       "invoicedCommission": 1830
     },
@@ -431,6 +408,18 @@
         "breadthQualifier": true
       },
       {
+        "customer": "Southern Veterinary Clinic",
+        "customerKey": "southern veterinary",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 1,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
         "customer": "Colts Neck Equine",
         "customerKey": "colts neck equine",
         "status": "reactivated",
@@ -468,5 +457,5 @@
       }
     ]
   },
-  "generatedAt": "2026-08-28T19:46:38.381Z"
+  "generatedAt": "2026-09-11T01:04:58.682Z"
 }
