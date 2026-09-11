@@ -306,8 +306,11 @@
       }
     ]
   },
-  "generatedAt": "2026-09-11T01:20:49.187Z",
+  "generatedAt": "2026-09-11T12:51:43.546Z",
   "approval": {
-    "approved": false
+    "approved": true,
+    "approvedAt": "2026-09-11T12:51:31.083Z",
+    "approvedBy": "heather",
+    "note": "Backfilled Sep 10 2026 — confirmed paid out"
   }
 }
