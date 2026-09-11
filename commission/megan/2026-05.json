@@ -173,8 +173,11 @@
   "adjustmentsBasis": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-09-11T01:20:42.153Z",
+  "generatedAt": "2026-09-11T12:51:37.242Z",
   "approval": {
-    "approved": false
+    "approved": true,
+    "approvedAt": "2026-09-11T12:51:31.044Z",
+    "approvedBy": "heather",
+    "note": "Backfilled Sep 10 2026 — confirmed paid out"
   }
 }
