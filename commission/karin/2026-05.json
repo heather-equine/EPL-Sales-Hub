@@ -6,8 +6,8 @@
   "planLabel": "Q2 Escalator — 10% flat on every collected dollar",
   "planKind": "flat",
   "flatRate": 0.1,
-  "totalCollected": 38785.88,
-  "totalCommission": 3878.59,
+  "totalCollected": 39350,
+  "totalCommission": 3935,
   "paymentCount": 19,
   "accountCount": 12,
   "dueDate": "June 30, 2026",
@@ -245,13 +245,13 @@
           "date": "2026-05-27",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1078",
-          "amount": 1835.88,
+          "amount": 2400,
           "commissionRate": 0.1,
-          "commissionAmount": 183.58800000000002
+          "commissionAmount": 240
         }
       ],
-      "collected": 2435.88,
-      "commission": 243.58800000000002
+      "collected": 3000,
+      "commission": 300
     },
     {
       "customerName": "Panorama Equine Medical and Surgical Center",
@@ -414,5 +414,5 @@
   "adjustmentsBasis": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-09-11T01:04:22.328Z"
+  "generatedAt": "2026-09-11T01:05:21.382Z"
 }
