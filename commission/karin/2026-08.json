@@ -7,7 +7,7 @@
   "planKind": "route-c",
   "flatRate": null,
   "totalCollected": 78375,
-  "totalCommission": 9341.59,
+  "totalCommission": 8414.09,
   "paymentCount": 40,
   "accountCount": 23,
   "dueDate": "September 30, 2026",
@@ -146,29 +146,6 @@
       "routeCInvoicedThisMonth": 4800
     },
     {
-      "customerName": "Smith Performance Equine",
-      "customer": "Smith Performance Equine",
-      "collected": 4800,
-      "finalTotal": 4800,
-      "commission": 720,
-      "transactions": [
-        {
-          "date": "2026-08-25",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1183",
-          "amount": 4800,
-          "commissionRate": 0.15,
-          "commissionAmount": 720
-        }
-      ],
-      "routeCStatus": "reactivated",
-      "routeCBaseline": 2.3333333333333335,
-      "routeCVialsThisMonth": 10,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false,
-      "routeCInvoicedThisMonth": 4800
-    },
-    {
       "customerName": "Signature Equine Hospital",
       "customer": "Signature Equine Hospital",
       "collected": 4800,
@@ -220,29 +197,6 @@
       "routeCVialsThisMonth": 3,
       "routeCFreezerHit": false,
       "routeCBreadth": false,
-      "routeCInvoicedThisMonth": 1800
-    },
-    {
-      "customerName": "Panorama Equine Medical and Surgical Center",
-      "customer": "Panorama Equine Medical and Surgical Center",
-      "collected": 1800,
-      "finalTotal": 1800,
-      "commission": 207.5,
-      "transactions": [
-        {
-          "date": "2026-08-25",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1157",
-          "amount": 1800,
-          "commissionRate": 0.11527777777777777,
-          "commissionAmount": 207.5
-        }
-      ],
-      "routeCStatus": "existing",
-      "routeCBaseline": 1.1666666666666667,
-      "routeCVialsThisMonth": 3,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true,
       "routeCInvoicedThisMonth": 1800
     },
     {
@@ -309,7 +263,12 @@
       "routeCInvoicedThisMonth": 600
     }
   ],
-  "reconciliation": null,
+  "reconciliation": {
+    "reconciledAt": "2026-09-18T19:08:53.076Z",
+    "crmOnlyCount": 4,
+    "qbOnlyCount": 3,
+    "locked": true
+  },
   "adjustments": [],
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
@@ -333,18 +292,18 @@
       "total": 13888.02
     },
     "acceleratorOnCollected": {
-      "newReactCollected": 21900,
-      "newReactCommission": 3285,
-      "growthCollected": 13463.64,
-      "growthCommission": 1682.95,
-      "baselineCollected": 8736.36,
-      "baselineCommission": 873.64,
-      "baseTiered": 5841.59,
-      "total": 9341.59
+      "newReactCollected": 17100,
+      "newReactCommission": 2565,
+      "growthCollected": 12363.64,
+      "growthCommission": 1545.45,
+      "baselineCollected": 8036.36,
+      "baselineCommission": 803.64,
+      "baseTiered": 4914.09,
+      "total": 8414.09
     },
     "standardWaterfall": {
-      "collectedRevenue": 50100,
-      "commission": 2505,
+      "collectedRevenue": 43500,
+      "commission": 2175,
       "invoicedRevenue": 78375,
       "invoicedCommission": 3952.5
     },
@@ -627,7 +586,7 @@
       }
     ]
   },
-  "generatedAt": "2026-09-18T13:02:57.354Z",
+  "generatedAt": "2026-09-18T19:09:05.226Z",
   "approval": {
     "approved": false
   }
