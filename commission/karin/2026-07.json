@@ -35,7 +35,10 @@
           "commissionRate": 0.05,
           "commissionAmount": 300
         }
-      ]
+      ],
+      "routeCStatus": "prior-month",
+      "routeCVialsThisMonth": 0,
+      "routeCInvoicedThisMonth": 0
     },
     {
       "customerName": "Tanner Equine",
@@ -352,7 +355,7 @@
       }
     ]
   },
-  "generatedAt": "2026-09-18T21:50:41.989Z",
+  "generatedAt": "2026-09-18T23:54:47.330Z",
   "approval": {
     "approved": true,
     "approvedAt": "2026-09-11T12:51:31.083Z",
