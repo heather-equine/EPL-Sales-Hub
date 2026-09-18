@@ -7,7 +7,7 @@
   "planKind": "route-c",
   "flatRate": null,
   "totalCollected": 78375,
-  "totalCommission": 9161.59,
+  "totalCommission": 9341.59,
   "paymentCount": 40,
   "accountCount": 23,
   "dueDate": "September 30, 2026",
@@ -194,10 +194,18 @@
     {
       "customerName": "Elgin Equine",
       "customer": "Elgin Equine",
-      "collected": 1800,
-      "finalTotal": 1800,
-      "commission": 180,
+      "collected": 3600,
+      "finalTotal": 3600,
+      "commission": 360,
       "transactions": [
+        {
+          "date": "2026-08-20",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1185",
+          "amount": 1800,
+          "commissionRate": 0.1,
+          "commissionAmount": 180
+        },
         {
           "date": "2026-08-20",
           "type": "Payment",
@@ -329,14 +337,14 @@
       "newReactCommission": 3285,
       "growthCollected": 13463.64,
       "growthCommission": 1682.95,
-      "baselineCollected": 6936.36,
-      "baselineCommission": 693.64,
-      "baseTiered": 5661.59,
-      "total": 9161.59
+      "baselineCollected": 8736.36,
+      "baselineCommission": 873.64,
+      "baseTiered": 5841.59,
+      "total": 9341.59
     },
     "standardWaterfall": {
-      "collectedRevenue": 48300,
-      "commission": 2415,
+      "collectedRevenue": 50100,
+      "commission": 2505,
       "invoicedRevenue": 78375,
       "invoicedCommission": 3952.5
     },
@@ -619,7 +627,7 @@
       }
     ]
   },
-  "generatedAt": "2026-09-14T16:10:33.628Z",
+  "generatedAt": "2026-09-18T13:02:57.354Z",
   "approval": {
     "approved": false
   }
