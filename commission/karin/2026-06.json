@@ -395,8 +395,8 @@
     }
   ],
   "reconciliation": {
-    "reconciledAt": "2026-07-15T21:25:25.000Z",
-    "crmOnlyCount": 4,
+    "reconciledAt": "2026-09-18T20:13:23.933Z",
+    "crmOnlyCount": 0,
     "qbOnlyCount": 0,
     "unverifiedCount": 2,
     "locked": true
@@ -414,20 +414,20 @@
       "customer": "Austin Equine",
       "crmPaymentDate": "2026-06-22",
       "crmCommissionable": 600,
-      "commission": 0
+      "commission": 60
     },
     {
       "invoiceNum": "CINV-EPL-1013",
       "customer": "Austin Equine",
       "crmPaymentDate": "2026-06-01",
       "crmCommissionable": 600,
-      "commission": 0
+      "commission": 60
     }
   ],
   "unverifiedTotal": 1200,
   "bouncedInvoices": [],
   "bouncedTotal": 0,
-  "generatedAt": "2026-09-18T20:08:07.361Z",
+  "generatedAt": "2026-09-18T20:22:35.907Z",
   "approval": {
     "approved": true,
     "approvedAt": "2026-09-11T12:51:31.055Z",
