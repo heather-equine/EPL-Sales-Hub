@@ -7,28 +7,11 @@
   "planKind": "route-c",
   "flatRate": null,
   "totalCollected": 31275,
-  "totalCommission": 3114.17,
+  "totalCommission": 3044.17,
   "paymentCount": 25,
   "accountCount": 15,
   "dueDate": "September 30, 2026",
   "accounts": [
-    {
-      "customerName": "Equine Sports Medicine",
-      "customer": "Equine Sports Medicine",
-      "collected": 4800,
-      "finalTotal": 4800,
-      "commission": 480,
-      "transactions": [
-        {
-          "date": "2026-08-10",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1141",
-          "amount": 4800,
-          "commissionRate": 0.1,
-          "commissionAmount": 480
-        }
-      ]
-    },
     {
       "customerName": "Stahl Veterinary PLLC",
       "customer": "Stahl Veterinary PLLC",
@@ -189,29 +172,6 @@
       "routeCInvoicedThisMonth": 600
     },
     {
-      "customerName": "Signature S Equine",
-      "customer": "Signature S Equine",
-      "collected": 600,
-      "finalTotal": 600,
-      "commission": 70,
-      "transactions": [
-        {
-          "date": "2026-08-07",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1171",
-          "amount": 600,
-          "commissionRate": 0.11666666666666667,
-          "commissionAmount": 70
-        }
-      ],
-      "routeCStatus": "existing",
-      "routeCBaseline": 0.3333333333333333,
-      "routeCVialsThisMonth": 1,
-      "routeCFreezerHit": false,
-      "routeCBreadth": true,
-      "routeCInvoicedThisMonth": 600
-    },
-    {
       "customerName": "Fairfield Equine Associates",
       "customer": "Fairfield Equine Associates",
       "collected": 600,
@@ -235,7 +195,12 @@
       "routeCInvoicedThisMonth": 675
     }
   ],
-  "reconciliation": null,
+  "reconciliation": {
+    "reconciledAt": "2026-09-18T19:08:53.076Z",
+    "crmOnlyCount": 4,
+    "qbOnlyCount": 3,
+    "locked": true
+  },
   "adjustments": [],
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
@@ -261,16 +226,16 @@
     "acceleratorOnCollected": {
       "newReactCollected": 5400,
       "newReactCommission": 810,
-      "growthCollected": 5766.67,
-      "growthCommission": 720.83,
-      "baselineCollected": 833.33,
-      "baselineCommission": 83.33,
-      "baseTiered": 1614.17,
-      "total": 3114.17
+      "growthCollected": 5366.67,
+      "growthCommission": 670.83,
+      "baselineCollected": 633.33,
+      "baselineCommission": 63.33,
+      "baseTiered": 1544.17,
+      "total": 3044.17
     },
     "standardWaterfall": {
-      "collectedRevenue": 25200,
-      "commission": 1260,
+      "collectedRevenue": 19800,
+      "commission": 990,
       "invoicedRevenue": 31275,
       "invoicedCommission": 1563.75
     },
@@ -457,7 +422,7 @@
       }
     ]
   },
-  "generatedAt": "2026-09-18T13:02:58.375Z",
+  "generatedAt": "2026-09-18T19:09:07.488Z",
   "approval": {
     "approved": false
   }
