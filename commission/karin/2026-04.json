@@ -338,7 +338,11 @@
   "adjustmentsBasis": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-09-18T19:08:47.488Z",
+  "unverifiedInvoices": [],
+  "unverifiedTotal": 0,
+  "bouncedInvoices": [],
+  "bouncedTotal": 0,
+  "generatedAt": "2026-09-18T19:35:30.566Z",
   "approval": {
     "approved": true,
     "approvedAt": "2026-09-11T12:51:31.009Z",
