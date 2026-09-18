@@ -89,7 +89,10 @@
           "commissionRate": 0.05,
           "commissionAmount": 270
         }
-      ]
+      ],
+      "routeCStatus": "prior-month",
+      "routeCVialsThisMonth": 0,
+      "routeCInvoicedThisMonth": 0
     },
     {
       "customerName": "Spruce Lane Farm",
@@ -106,7 +109,10 @@
           "commissionRate": 0.05,
           "commissionAmount": 30
         }
-      ]
+      ],
+      "routeCStatus": "prior-month",
+      "routeCVialsThisMonth": 0,
+      "routeCInvoicedThisMonth": 0
     },
     {
       "customerName": "Running S Equine",
@@ -146,7 +152,10 @@
           "commissionRate": 0.05,
           "commissionAmount": 30
         }
-      ]
+      ],
+      "routeCStatus": "prior-month",
+      "routeCVialsThisMonth": 0,
+      "routeCInvoicedThisMonth": 0
     },
     {
       "customerName": "East Coast Equine Veterinary",
@@ -330,7 +339,7 @@
       }
     ]
   },
-  "generatedAt": "2026-09-18T21:50:43.937Z",
+  "generatedAt": "2026-09-18T23:54:49.147Z",
   "approval": {
     "approved": true,
     "approvedAt": "2026-09-11T12:51:31.100Z",
