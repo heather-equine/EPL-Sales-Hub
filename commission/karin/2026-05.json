@@ -405,6 +405,7 @@
     "reconciledAt": "2026-07-15T21:22:09.712Z",
     "crmOnlyCount": 0,
     "qbOnlyCount": 1,
+    "unverifiedCount": 0,
     "locked": true
   },
   "pendingRollover": [],
@@ -414,7 +415,11 @@
   "adjustmentsBasis": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "generatedAt": "2026-09-18T19:08:51.877Z",
+  "unverifiedInvoices": [],
+  "unverifiedTotal": 0,
+  "bouncedInvoices": [],
+  "bouncedTotal": 0,
+  "generatedAt": "2026-09-18T19:35:34.799Z",
   "approval": {
     "approved": true,
     "approvedAt": "2026-09-11T12:51:31.033Z",
