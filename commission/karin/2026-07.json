@@ -6,8 +6,8 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 18000,
-  "totalCommission": 900,
+  "totalCollected": 20400,
+  "totalCommission": 1020,
   "paymentCount": 12,
   "accountCount": 9,
   "dueDate": "August 31, 2026",
@@ -190,8 +190,8 @@
     },
     "acceleratorOnCollected": null,
     "standardWaterfall": {
-      "collectedRevenue": 14400,
-      "commission": 720,
+      "collectedRevenue": 16800,
+      "commission": 840,
       "invoicedRevenue": 15075,
       "invoicedCommission": 753.75
     },
@@ -306,7 +306,7 @@
       }
     ]
   },
-  "generatedAt": "2026-09-18T19:09:00.978Z",
+  "generatedAt": "2026-09-18T19:35:43.755Z",
   "approval": {
     "approved": true,
     "approvedAt": "2026-09-11T12:51:31.083Z",
