@@ -310,9 +310,9 @@
     }
   ],
   "reconciliation": {
-    "reconciledAt": "2026-09-18T20:26:15.496Z",
+    "reconciledAt": "2026-09-18T20:28:41.629Z",
     "crmOnlyCount": 0,
-    "qbOnlyCount": 3,
+    "qbOnlyCount": 2,
     "locked": true
   },
   "adjustments": [],
@@ -632,7 +632,7 @@
       }
     ]
   },
-  "generatedAt": "2026-09-18T20:26:30.509Z",
+  "generatedAt": "2026-09-18T20:29:19.414Z",
   "approval": {
     "approved": false
   }
