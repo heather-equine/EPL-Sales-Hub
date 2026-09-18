@@ -6,10 +6,10 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c",
   "flatRate": null,
-  "totalCollected": 21000,
-  "totalCommission": 1050,
-  "paymentCount": 8,
-  "accountCount": 6,
+  "totalCollected": 28200,
+  "totalCommission": 1410,
+  "paymentCount": 9,
+  "accountCount": 7,
   "dueDate": "October 31, 2026",
   "accounts": [
     {
@@ -62,6 +62,69 @@
           "commissionAmount": 240
         }
       ]
+    },
+    {
+      "customerName": "Desert Pines Equine",
+      "customer": "Desert Pines Equine",
+      "collected": 4200,
+      "finalTotal": 4200,
+      "commission": 210,
+      "transactions": [
+        {
+          "date": "2026-09-15",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1215",
+          "amount": 4200,
+          "commissionRate": 0.05,
+          "commissionAmount": 210
+        }
+      ]
+    },
+    {
+      "customerName": "Jenson Equine Hospital",
+      "customer": "Jenson Equine Hospital",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 90,
+      "transactions": [
+        {
+          "date": "2026-09-15",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1229",
+          "amount": 1800,
+          "commissionRate": 0.05,
+          "commissionAmount": 90
+        }
+      ],
+      "routeCStatus": "reactivated",
+      "routeCBaseline": 0.16666666666666666,
+      "routeCVialsThisMonth": 3,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 1800
+    },
+    {
+      "customerName": "Elgin Equine",
+      "customer": "Elgin Equine",
+      "collected": 1200,
+      "finalTotal": 1200,
+      "commission": 60,
+      "transactions": [
+        {
+          "date": "2026-09-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1226",
+          "amount": 1200,
+          "commissionRate": 0.05,
+          "commissionAmount": 60
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 3.5,
+      "routeCVialsThisMonth": 4,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 1200
     },
     {
       "customerName": "Equine Sports Medicine & Surgery",
@@ -132,18 +195,18 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 3675,
+    "gateInvoiced": 4950,
     "gateThreshold": 30000,
     "gateMet": false,
     "routeUsed": "standard-waterfall",
     "accelerator": {
       "newReactRevenue": 2475,
       "newReactCommission": 371.25,
-      "growthRevenue": 150,
-      "growthCommission": 18.75,
+      "growthRevenue": 1425,
+      "growthCommission": 178.13,
       "baselineRevenue": 1050,
       "baselineCommission": 105,
-      "baseTiered": 495,
+      "baseTiered": 654.38,
       "newAccountSpiffCount": 0,
       "newAccountSpiffTotal": 0,
       "breadthAccountCount": 1,
@@ -152,10 +215,10 @@
     },
     "acceleratorOnCollected": null,
     "standardWaterfall": {
-      "collectedRevenue": 21000,
-      "commission": 1050,
-      "invoicedRevenue": 3675,
-      "invoicedCommission": 183.75
+      "collectedRevenue": 28200,
+      "commission": 1410,
+      "invoicedRevenue": 4950,
+      "invoicedCommission": 247.5
     },
     "perAccount": [
       {
@@ -167,6 +230,18 @@
         "revenueThisMonth": 1800,
         "vialsAtOrBelowBaseline": 0,
         "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Perfect Balance Equine Dentistry and Veterinary Services",
+        "customerKey": "perfect balance equine dentistry and veterinary",
+        "status": "existing",
+        "baselineVials": 0,
+        "vialsThisMonth": 2,
+        "revenueThisMonth": 1275,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 2,
         "freezerHitThisMonth": false,
         "breadthQualifier": false
       },
@@ -232,7 +307,7 @@
       }
     ]
   },
-  "generatedAt": "2026-09-14T16:10:35.773Z",
+  "generatedAt": "2026-09-18T13:02:22.749Z",
   "approval": {
     "approved": false
   }
