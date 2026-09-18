@@ -4,13 +4,13 @@
   "repId": "megan",
   "repName": "Megan Smith",
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
-  "planKind": "route-c",
+  "planKind": "route-c-stamp",
   "flatRate": null,
-  "totalCollected": 33125,
-  "totalCommission": 4278.17,
-  "paymentCount": 10,
-  "accountCount": 7,
-  "dueDate": "October 31, 2026",
+  "totalCollected": 32450,
+  "totalCommission": 6141.25,
+  "paymentCount": 7,
+  "accountCount": 6,
+  "dueDate": "2026-10-31",
   "accounts": [
     {
       "customerName": "Byron Reid and Associates",
@@ -25,32 +25,42 @@
           "invoiceNum": "ORD-EPL-1240",
           "amount": 18000,
           "commissionRate": 0.15,
-          "commissionAmount": 2700
+          "commissionAmount": 2700,
+          "stampReason": "new (15%) · H1 baseline 0.0 v/mo, this inv 30v",
+          "stampInvoiceMonth": "2026-09"
         }
       ],
       "routeCStatus": "new",
       "routeCBaseline": 0,
-      "routeCVialsThisMonth": 30,
-      "routeCFreezerHit": true,
+      "routeCVialsThisMonth": 0,
+      "routeCFreezerHit": false,
       "routeCBreadth": false,
-      "routeCInvoicedThisMonth": 18000
+      "routeCInvoicedThisMonth": 0
     },
     {
       "customerName": "Peterson Smith Equine Hospital",
       "customer": "Peterson Smith Equine Hospital",
       "collected": 4800,
       "finalTotal": 4800,
-      "commission": 480,
+      "commission": 720,
       "transactions": [
         {
           "date": "2026-09-02",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1207",
           "amount": 4800,
-          "commissionRate": 0.1,
-          "commissionAmount": 480
+          "commissionRate": 0.15,
+          "commissionAmount": 720,
+          "stampReason": "reactivated (15%) · H1 baseline 1.3 v/mo, this inv 8v",
+          "stampInvoiceMonth": "2026-08"
         }
-      ]
+      ],
+      "routeCStatus": "reactivated",
+      "routeCBaseline": 1.3333333333333333,
+      "routeCVialsThisMonth": 0,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 0
     },
     {
       "customerName": "Cleveland Equine Clinic LLC",
@@ -65,80 +75,102 @@
           "invoiceNum": "ORD-EPL-1192",
           "amount": 4800,
           "commissionRate": 0.125,
-          "commissionAmount": 600
+          "commissionAmount": 600,
+          "stampReason": "growth (12.5%) — no H1 baseline · H1 baseline 0.0 v/mo, this inv 8v",
+          "stampInvoiceMonth": "2026-08"
         }
       ],
       "routeCStatus": "existing",
       "routeCBaseline": 0,
-      "routeCVialsThisMonth": 10,
+      "routeCVialsThisMonth": 0,
       "routeCFreezerHit": false,
       "routeCBreadth": false,
-      "routeCInvoicedThisMonth": 6000
+      "routeCInvoicedThisMonth": 0
     },
     {
       "customerName": "Ocala Equine Hospital",
       "customer": "Ocala Equine Hospital",
       "collected": 2400,
       "finalTotal": 2400,
-      "commission": 240,
+      "commission": 300,
       "transactions": [
         {
           "date": "2026-09-02",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1191",
           "amount": 2400,
-          "commissionRate": 0.1,
-          "commissionAmount": 240
+          "commissionRate": 0.125,
+          "commissionAmount": 300,
+          "stampReason": "growth (12.5%) — 4v > 1.3 baseline · H1 baseline 1.3 v/mo, this inv 4v",
+          "stampInvoiceMonth": "2026-08"
         }
-      ]
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 1.3333333333333333,
+      "routeCVialsThisMonth": 0,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 0
     },
     {
       "customerName": "Signature S Equine",
       "customer": "Signature S Equine",
       "collected": 1850,
       "finalTotal": 1850,
-      "commission": 228.17,
+      "commission": 231.25,
       "transactions": [
         {
           "date": "2026-09-01",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1223",
           "amount": 625,
-          "commissionRate": 0.12333333333333334,
-          "commissionAmount": 77.08
+          "commissionRate": 0.125,
+          "commissionAmount": 78.13,
+          "stampReason": "growth (12.5%) — 2v > 0.3 baseline · H1 baseline 0.3 v/mo, this inv 2v",
+          "stampInvoiceMonth": "2026-09"
         },
         {
           "date": "2026-09-10",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1232",
           "amount": 1225,
-          "commissionRate": 0.12333333333333334,
-          "commissionAmount": 151.08
+          "commissionRate": 0.125,
+          "commissionAmount": 153.13,
+          "stampReason": "growth (12.5%) — 3v > 0.3 baseline · H1 baseline 0.3 v/mo, this inv 3v",
+          "stampInvoiceMonth": "2026-09"
         }
       ],
       "routeCStatus": "existing",
       "routeCBaseline": 0.3333333333333333,
-      "routeCVialsThisMonth": 5,
+      "routeCVialsThisMonth": 0,
       "routeCFreezerHit": false,
-      "routeCBreadth": true,
-      "routeCInvoicedThisMonth": 1925
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 0
     },
     {
       "customerName": "Fairfield Equine Associates",
       "customer": "Fairfield Equine Associates",
       "collected": 600,
       "finalTotal": 600,
-      "commission": 60,
+      "commission": 90,
       "transactions": [
         {
           "date": "2026-09-14",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1194",
           "amount": 600,
-          "commissionRate": 0.1,
-          "commissionAmount": 60
+          "commissionRate": 0.15,
+          "commissionAmount": 90,
+          "stampReason": "reactivated (15%) · H1 baseline 0.2 v/mo, this inv 1v",
+          "stampInvoiceMonth": "2026-08"
         }
-      ]
+      ],
+      "routeCStatus": "reactivated",
+      "routeCBaseline": 0.16666666666666666,
+      "routeCVialsThisMonth": 0,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 0
     }
   ],
   "reconciliation": null,
@@ -149,48 +181,73 @@
     "gateInvoiced": 33125,
     "gateThreshold": 30000,
     "gateMet": true,
-    "routeUsed": "route-c",
+    "routeUsed": "accelerator",
     "accelerator": {
-      "newReactRevenue": 18000,
-      "newReactCommission": 2700,
-      "growthRevenue": 14996.67,
-      "growthCommission": 1874.58,
-      "baselineRevenue": 128.33,
-      "baselineCommission": 12.83,
-      "baseTiered": 4587.42,
-      "newAccountSpiffCount": 1,
-      "newAccountSpiffTotal": 750,
-      "breadthAccountCount": 2,
+      "newReactRevenue": 23400,
+      "newReactCommission": 3510,
+      "growthRevenue": 9050,
+      "growthCommission": 1131.25,
+      "baselineRevenue": 0,
+      "baselineCommission": 0,
+      "newAccountSpiffCount": 2,
+      "newAccountSpiffTotal": 1500,
+      "breadthAccountCount": 1,
       "breadthBonus": 0,
-      "total": 5337.42
+      "total": 6141.25
     },
     "acceleratorOnCollected": {
-      "newReactCollected": 18000,
-      "newReactCommission": 2700,
-      "growthCollected": 6526.67,
-      "growthCommission": 815.83,
-      "baselineCollected": 123.33,
-      "baselineCommission": 12.33,
-      "baseTiered": 3528.17,
-      "total": 4278.17
+      "newReactCollected": 23400,
+      "newReactCommission": 3510,
+      "growthCollected": 9050,
+      "growthCommission": 1131.25,
+      "baselineCollected": 0,
+      "baselineCommission": 0,
+      "priorMonthCollected": 0,
+      "priorMonthCommission": 0,
+      "baseTiered": 4641.25,
+      "total": 6141.25
     },
     "standardWaterfall": {
       "collectedRevenue": 32450,
-      "commission": 1622.5,
+      "commission": 4641.25,
       "invoicedRevenue": 33125,
-      "invoicedCommission": 1656.25
+      "invoicedCommission": 4641.25
     },
     "perAccount": [
       {
-        "customer": "Byron Reid and Associates",
-        "customerKey": "byron reid and associates",
-        "status": "new",
-        "baselineVials": 0,
-        "vialsThisMonth": 30,
-        "revenueThisMonth": 18000,
+        "customer": "Signature S Equine",
+        "customerKey": "signature s equine",
+        "status": "existing",
+        "baselineVials": 0.3333333333333333,
+        "vialsThisMonth": 0,
+        "revenueThisMonth": 0,
         "vialsAtOrBelowBaseline": 0,
         "vialsAboveBaseline": 0,
-        "freezerHitThisMonth": true,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Peterson Smith Equine Hospital",
+        "customerKey": "peterson smith equine",
+        "status": "reactivated",
+        "baselineVials": 1.3333333333333333,
+        "vialsThisMonth": 0,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Ocala Equine Hospital",
+        "customerKey": "ocala equine",
+        "status": "existing",
+        "baselineVials": 1.3333333333333333,
+        "vialsThisMonth": 0,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
         "breadthQualifier": false
       },
       {
@@ -198,55 +255,7 @@
         "customerKey": "cleveland equine",
         "status": "existing",
         "baselineVials": 0,
-        "vialsThisMonth": 10,
-        "revenueThisMonth": 6000,
-        "vialsAtOrBelowBaseline": 0,
-        "vialsAboveBaseline": 10,
-        "freezerHitThisMonth": false,
-        "breadthQualifier": false
-      },
-      {
-        "customer": "Equine Sports Medicine",
-        "customerKey": "equine sports medicine",
-        "status": "existing",
-        "baselineVials": 0,
-        "vialsThisMonth": 10,
-        "revenueThisMonth": 4800,
-        "vialsAtOrBelowBaseline": 0,
-        "vialsAboveBaseline": 10,
-        "freezerHitThisMonth": false,
-        "breadthQualifier": false
-      },
-      {
-        "customer": "Equine Services Ltd",
-        "customerKey": "equine",
-        "status": "existing",
-        "baselineVials": 0,
-        "vialsThisMonth": 5,
-        "revenueThisMonth": 2400,
-        "vialsAtOrBelowBaseline": 0,
-        "vialsAboveBaseline": 5,
-        "freezerHitThisMonth": false,
-        "breadthQualifier": false
-      },
-      {
-        "customer": "Signature S Equine",
-        "customerKey": "signature s equine",
-        "status": "existing",
-        "baselineVials": 0.3333333333333333,
-        "vialsThisMonth": 5,
-        "revenueThisMonth": 1925,
-        "vialsAtOrBelowBaseline": 0.3333333333333333,
-        "vialsAboveBaseline": 4.666666666666667,
-        "freezerHitThisMonth": false,
-        "breadthQualifier": true
-      },
-      {
-        "customer": "Mandrona Equine Veterinary Services",
-        "customerKey": "mandrona equine veterinary",
-        "status": "new",
-        "baselineVials": 0,
-        "vialsThisMonth": 1,
+        "vialsThisMonth": 0,
         "revenueThisMonth": 0,
         "vialsAtOrBelowBaseline": 0,
         "vialsAboveBaseline": 0,
@@ -254,20 +263,60 @@
         "breadthQualifier": false
       },
       {
-        "customer": "Tryon Equine Hospital",
-        "customerKey": "tryon equine",
-        "status": "existing",
-        "baselineVials": 2.5,
-        "vialsThisMonth": 4,
+        "customer": "Fairfield Equine Associates",
+        "customerKey": "fairfield equine associates",
+        "status": "reactivated",
+        "baselineVials": 0.16666666666666666,
+        "vialsThisMonth": 0,
         "revenueThisMonth": 0,
-        "vialsAtOrBelowBaseline": 2.5,
-        "vialsAboveBaseline": 1.5,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
         "freezerHitThisMonth": false,
-        "breadthQualifier": true
+        "breadthQualifier": false
+      },
+      {
+        "customer": "Byron Reid and Associates",
+        "customerKey": "byron reid and associates",
+        "status": "new",
+        "baselineVials": 0,
+        "vialsThisMonth": 0,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": false
       }
-    ]
+    ],
+    "stampModel": {
+      "version": "q3-2026-v4",
+      "invoicingMonth": "2026-09",
+      "spiffQualifying": [
+        {
+          "customer": "Equine Services Ltd",
+          "invoiceDate": "2026-09-11",
+          "invoiceNum": "ORD-EPL-1234"
+        },
+        {
+          "customer": "Byron Reid and Associates",
+          "invoiceDate": "2026-09-16",
+          "invoiceNum": "ORD-EPL-1240"
+        }
+      ],
+      "spiffOverrides": [],
+      "breadthQualifying": [
+        {
+          "customer": "Tryon Equine Hospital",
+          "vialsThisMonth": 4,
+          "baseline": 2.5
+        }
+      ],
+      "breadthMin": 5,
+      "spiffAmount": 750,
+      "spiffVialThreshold": 8,
+      "spiffPaidCount": 2
+    }
   },
-  "generatedAt": "2026-09-18T21:50:50.605Z",
+  "generatedAt": "2026-09-18T23:54:54.027Z",
   "approval": {
     "approved": false
   }
