@@ -6,9 +6,9 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c-stamp",
   "flatRate": null,
-  "totalCollected": 32450,
-  "totalCommission": 6141.25,
-  "paymentCount": 7,
+  "totalCollected": 38450,
+  "totalCommission": 6891.25,
+  "paymentCount": 8,
   "accountCount": 6,
   "dueDate": "2026-10-31",
   "accounts": [
@@ -38,6 +38,41 @@
       "routeCInvoicedThisMonth": 0
     },
     {
+      "customerName": "Cleveland Equine Clinic LLC",
+      "customer": "Cleveland Equine Clinic LLC",
+      "collected": 10800,
+      "finalTotal": 10800,
+      "commission": 1350,
+      "transactions": [
+        {
+          "date": "2026-09-11",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1192",
+          "amount": 4800,
+          "commissionRate": 0.125,
+          "commissionAmount": 600,
+          "stampReason": "growth (12.5%) — no H1 baseline · H1 baseline 0.0 v/mo, this inv 8v",
+          "stampInvoiceMonth": "2026-08"
+        },
+        {
+          "date": "2026-09-22",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1242",
+          "amount": 6000,
+          "commissionRate": 0.125,
+          "commissionAmount": 750,
+          "stampReason": "growth (12.5%) — no H1 baseline · H1 baseline 0.0 v/mo, this inv 10v",
+          "stampInvoiceMonth": "2026-09"
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 0,
+      "routeCVialsThisMonth": 0,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 0
+    },
+    {
       "customerName": "Peterson Smith Equine Hospital",
       "customer": "Peterson Smith Equine Hospital",
       "collected": 4800,
@@ -57,31 +92,6 @@
       ],
       "routeCStatus": "reactivated",
       "routeCBaseline": 1.3333333333333333,
-      "routeCVialsThisMonth": 0,
-      "routeCFreezerHit": false,
-      "routeCBreadth": false,
-      "routeCInvoicedThisMonth": 0
-    },
-    {
-      "customerName": "Cleveland Equine Clinic LLC",
-      "customer": "Cleveland Equine Clinic LLC",
-      "collected": 4800,
-      "finalTotal": 4800,
-      "commission": 600,
-      "transactions": [
-        {
-          "date": "2026-09-11",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1192",
-          "amount": 4800,
-          "commissionRate": 0.125,
-          "commissionAmount": 600,
-          "stampReason": "growth (12.5%) — no H1 baseline · H1 baseline 0.0 v/mo, this inv 8v",
-          "stampInvoiceMonth": "2026-08"
-        }
-      ],
-      "routeCStatus": "existing",
-      "routeCBaseline": 0,
       "routeCVialsThisMonth": 0,
       "routeCFreezerHit": false,
       "routeCBreadth": false,
@@ -178,40 +188,40 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 33125,
+    "gateInvoiced": 34350,
     "gateThreshold": 30000,
     "gateMet": true,
     "routeUsed": "accelerator",
     "accelerator": {
       "newReactRevenue": 23400,
       "newReactCommission": 3510,
-      "growthRevenue": 9050,
-      "growthCommission": 1131.25,
+      "growthRevenue": 15050,
+      "growthCommission": 1881.25,
       "baselineRevenue": 0,
       "baselineCommission": 0,
       "newAccountSpiffCount": 2,
       "newAccountSpiffTotal": 1500,
       "breadthAccountCount": 1,
       "breadthBonus": 0,
-      "total": 6141.25
+      "total": 6891.25
     },
     "acceleratorOnCollected": {
       "newReactCollected": 23400,
       "newReactCommission": 3510,
-      "growthCollected": 9050,
-      "growthCommission": 1131.25,
+      "growthCollected": 15050,
+      "growthCommission": 1881.25,
       "baselineCollected": 0,
       "baselineCommission": 0,
       "priorMonthCollected": 0,
       "priorMonthCommission": 0,
-      "baseTiered": 4641.25,
-      "total": 6141.25
+      "baseTiered": 5391.25,
+      "total": 6891.25
     },
     "standardWaterfall": {
-      "collectedRevenue": 32450,
-      "commission": 4641.25,
-      "invoicedRevenue": 33125,
-      "invoicedCommission": 4641.25
+      "collectedRevenue": 38450,
+      "commission": 5391.25,
+      "invoicedRevenue": 34350,
+      "invoicedCommission": 5391.25
     },
     "perAccount": [
       {
@@ -316,7 +326,7 @@
       "spiffPaidCount": 2
     }
   },
-  "generatedAt": "2026-09-25T00:13:10.764Z",
+  "generatedAt": "2026-09-25T13:44:21.158Z",
   "approval": {
     "approved": false
   }
