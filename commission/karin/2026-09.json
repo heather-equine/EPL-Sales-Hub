@@ -243,7 +243,7 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 4950,
+    "gateInvoiced": 22950,
     "gateThreshold": 30000,
     "gateMet": false,
     "routeUsed": "standard-waterfall",
@@ -256,7 +256,7 @@
       "baselineCommission": 60,
       "newAccountSpiffCount": 0,
       "newAccountSpiffTotal": 0,
-      "breadthAccountCount": 0,
+      "breadthAccountCount": 1,
       "breadthBonus": 0,
       "total": 1410
     },
@@ -275,7 +275,7 @@
     "standardWaterfall": {
       "collectedRevenue": 28200,
       "commission": 1410,
-      "invoicedRevenue": 4950,
+      "invoicedRevenue": 22950,
       "invoicedCommission": 1410
     },
     "perAccount": [
@@ -349,7 +349,7 @@
         "vialsAtOrBelowBaseline": 0,
         "vialsAboveBaseline": 0,
         "freezerHitThisMonth": false,
-        "breadthQualifier": false
+        "breadthQualifier": true
       },
       {
         "customer": "Republic of Texas Equine Medical Center",
@@ -391,16 +391,33 @@
     "stampModel": {
       "version": "q3-2026-v4",
       "invoicingMonth": "2026-09",
-      "spiffQualifying": [],
+      "spiffQualifying": [
+        {
+          "customer": "Interstate Equine",
+          "invoiceDate": "2026-09-24",
+          "invoiceNum": "ORD-EPL-1254"
+        },
+        {
+          "customer": "Soldier Creek Equine Clinic",
+          "invoiceDate": "2026-09-25",
+          "invoiceNum": "ORD-EPL-1257"
+        }
+      ],
       "spiffOverrides": [],
-      "breadthQualifying": [],
+      "breadthQualifying": [
+        {
+          "customer": "Elgin Equine",
+          "vialsThisMonth": 7,
+          "baseline": 3.5
+        }
+      ],
       "breadthMin": 5,
       "spiffAmount": 750,
       "spiffVialThreshold": 8,
       "spiffPaidCount": 0
     }
   },
-  "generatedAt": "2026-09-25T00:13:09.568Z",
+  "generatedAt": "2026-09-25T13:44:34.637Z",
   "approval": {
     "approved": false
   }
