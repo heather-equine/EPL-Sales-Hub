@@ -402,10 +402,10 @@
     }
   ],
   "reconciliation": {
-    "reconciledAt": "2026-07-15T21:22:09.712Z",
+    "reconciledAt": "2026-09-25T13:44:04.067Z",
     "crmOnlyCount": 0,
     "qbOnlyCount": 1,
-    "unverifiedCount": 0,
+    "unverifiedCount": 1,
     "locked": true
   },
   "pendingRollover": [],
@@ -415,11 +415,19 @@
   "adjustmentsBasis": 0,
   "rolloverFromPrior": [],
   "rolloverFromPriorTotal": 0,
-  "unverifiedInvoices": [],
-  "unverifiedTotal": 0,
+  "unverifiedInvoices": [
+    {
+      "invoiceNum": "ORD-EPL-1077",
+      "customer": "Santa Lucia Farm",
+      "crmPaymentDate": "2026-05-05",
+      "crmCommissionable": 600,
+      "commission": 60
+    }
+  ],
+  "unverifiedTotal": 600,
   "bouncedInvoices": [],
   "bouncedTotal": 0,
-  "generatedAt": "2026-09-25T13:43:54.737Z",
+  "generatedAt": "2026-09-25T13:44:26.357Z",
   "approval": {
     "approved": true,
     "approvedAt": "2026-09-11T12:51:31.033Z",
