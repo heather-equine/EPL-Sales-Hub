@@ -7,7 +7,7 @@
   "planKind": "route-c-stamp",
   "flatRate": null,
   "totalCollected": 28200,
-  "totalCommission": 1410,
+  "totalCommission": 5325,
   "paymentCount": 9,
   "accountCount": 9,
   "dueDate": "2026-10-31",
@@ -17,16 +17,16 @@
       "customer": "Equine Athlete Veterinary Services - Simpsonville, KY",
       "collected": 9600,
       "finalTotal": 9600,
-      "commission": 480,
+      "commission": 1200,
       "transactions": [
         {
           "date": "2026-09-03",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1204",
           "amount": 9600,
-          "commissionRate": 0.05,
-          "commissionAmount": 480,
-          "stampReason": "waterfall 5.0% — pay-month gate missed · Q3 stamp: growth (12.5%) — 16v > 7.3 baseline",
+          "commissionRate": 0.125,
+          "commissionAmount": 1200,
+          "stampReason": "growth (12.5%) — 16v > 7.3 baseline · H1 baseline 7.3 v/mo, this inv 16v",
           "stampInvoiceMonth": "2026-08"
         }
       ],
@@ -42,16 +42,16 @@
       "customer": "David M Dutton, DVM PC",
       "collected": 4800,
       "finalTotal": 4800,
-      "commission": 240,
+      "commission": 720,
       "transactions": [
         {
           "date": "2026-09-09",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1159",
           "amount": 4800,
-          "commissionRate": 0.05,
-          "commissionAmount": 240,
-          "stampReason": "waterfall 5.0% — pay-month gate missed · Q3 stamp: new (15%)",
+          "commissionRate": 0.15,
+          "commissionAmount": 720,
+          "stampReason": "new (15%) · H1 baseline 0.0 v/mo, this inv 8v",
           "stampInvoiceMonth": "2026-08"
         }
       ],
@@ -67,16 +67,16 @@
       "customer": "Republic of Texas Equine Medical Center",
       "collected": 4800,
       "finalTotal": 4800,
-      "commission": 240,
+      "commission": 720,
       "transactions": [
         {
           "date": "2026-09-10",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1161",
           "amount": 4800,
-          "commissionRate": 0.05,
-          "commissionAmount": 240,
-          "stampReason": "waterfall 5.0% — pay-month gate missed · Q3 stamp: new (15%)",
+          "commissionRate": 0.15,
+          "commissionAmount": 720,
+          "stampReason": "new (15%) · H1 baseline 0.0 v/mo, this inv 8v",
           "stampInvoiceMonth": "2026-08"
         }
       ],
@@ -92,16 +92,16 @@
       "customer": "Desert Pines Equine",
       "collected": 4200,
       "finalTotal": 4200,
-      "commission": 210,
+      "commission": 525,
       "transactions": [
         {
           "date": "2026-09-15",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1215",
           "amount": 4200,
-          "commissionRate": 0.05,
-          "commissionAmount": 210,
-          "stampReason": "waterfall 5.0% — pay-month gate missed · Q3 stamp: growth (12.5%) — 7v > 0.3 baseline",
+          "commissionRate": 0.125,
+          "commissionAmount": 525,
+          "stampReason": "growth (12.5%) — 7v > 0.3 baseline · H1 baseline 0.3 v/mo, this inv 7v",
           "stampInvoiceMonth": "2026-08"
         }
       ],
@@ -117,16 +117,16 @@
       "customer": "Jenson Equine Hospital",
       "collected": 1800,
       "finalTotal": 1800,
-      "commission": 90,
+      "commission": 270,
       "transactions": [
         {
           "date": "2026-09-15",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1229",
           "amount": 1800,
-          "commissionRate": 0.05,
-          "commissionAmount": 90,
-          "stampReason": "waterfall 5.0% — pay-month gate missed · Q3 stamp: reactivated (15%)",
+          "commissionRate": 0.15,
+          "commissionAmount": 270,
+          "stampReason": "reactivated (15%) · H1 baseline 0.2 v/mo, this inv 3v",
           "stampInvoiceMonth": "2026-09"
         }
       ],
@@ -142,16 +142,16 @@
       "customer": "Elgin Equine",
       "collected": 1200,
       "finalTotal": 1200,
-      "commission": 60,
+      "commission": 120,
       "transactions": [
         {
           "date": "2026-09-10",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1226",
           "amount": 1200,
-          "commissionRate": 0.05,
-          "commissionAmount": 60,
-          "stampReason": "waterfall 5.0% — pay-month gate missed · Q3 stamp: baseline (10%) — 2v ≤ 3.5 baseline",
+          "commissionRate": 0.1,
+          "commissionAmount": 120,
+          "stampReason": "baseline (10%) — 2v ≤ 3.5 baseline · H1 baseline 3.5 v/mo, this inv 2v",
           "stampInvoiceMonth": "2026-09"
         }
       ],
@@ -167,16 +167,16 @@
       "customer": "Equine Sports Medicine & Surgery",
       "collected": 600,
       "finalTotal": 600,
-      "commission": 30,
+      "commission": 90,
       "transactions": [
         {
           "date": "2026-09-01",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1212",
           "amount": 600,
-          "commissionRate": 0.05,
-          "commissionAmount": 30,
-          "stampReason": "waterfall 5.0% — pay-month gate missed · Q3 stamp: reactivated (15%)",
+          "commissionRate": 0.15,
+          "commissionAmount": 90,
+          "stampReason": "reactivated (15%) · H1 baseline 1.7 v/mo, this inv 1v",
           "stampInvoiceMonth": "2026-08"
         }
       ],
@@ -192,16 +192,16 @@
       "customer": "Mid-South Equine Sports Medicine & Surgery",
       "collected": 600,
       "finalTotal": 600,
-      "commission": 30,
+      "commission": 90,
       "transactions": [
         {
           "date": "2026-09-01",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1166",
           "amount": 600,
-          "commissionRate": 0.05,
-          "commissionAmount": 30,
-          "stampReason": "waterfall 5.0% — pay-month gate missed · Q3 stamp: new (15%)",
+          "commissionRate": 0.15,
+          "commissionAmount": 90,
+          "stampReason": "new (15%) · H1 baseline 0.0 v/mo, this inv 1v",
           "stampInvoiceMonth": "2026-08"
         }
       ],
@@ -217,16 +217,16 @@
       "customer": "Pilchuck Veterinary Hospital",
       "collected": 600,
       "finalTotal": 600,
-      "commission": 30,
+      "commission": 90,
       "transactions": [
         {
           "date": "2026-09-08",
           "type": "Payment",
           "invoiceNum": "ORD-EPL-1228",
           "amount": 600,
-          "commissionRate": 0.05,
-          "commissionAmount": 30,
-          "stampReason": "waterfall 5.0% — pay-month gate missed · Q3 stamp: new (15%)",
+          "commissionRate": 0.15,
+          "commissionAmount": 90,
+          "stampReason": "new (15%) · H1 baseline 0.0 v/mo, this inv 1v",
           "stampInvoiceMonth": "2026-09"
         }
       ],
@@ -243,40 +243,40 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 22950,
+    "gateInvoiced": 53550,
     "gateThreshold": 30000,
-    "gateMet": false,
-    "routeUsed": "standard-waterfall",
+    "gateMet": true,
+    "routeUsed": "accelerator",
     "accelerator": {
       "newReactRevenue": 13200,
-      "newReactCommission": 660,
+      "newReactCommission": 1980,
       "growthRevenue": 13800,
-      "growthCommission": 690,
+      "growthCommission": 1725,
       "baselineRevenue": 1200,
-      "baselineCommission": 60,
-      "newAccountSpiffCount": 0,
-      "newAccountSpiffTotal": 0,
-      "breadthAccountCount": 1,
+      "baselineCommission": 120,
+      "newAccountSpiffCount": 2,
+      "newAccountSpiffTotal": 1500,
+      "breadthAccountCount": 4,
       "breadthBonus": 0,
-      "total": 1410
+      "total": 5325
     },
     "acceleratorOnCollected": {
       "newReactCollected": 13200,
-      "newReactCommission": 660,
+      "newReactCommission": 1980,
       "growthCollected": 13800,
-      "growthCommission": 690,
+      "growthCommission": 1725,
       "baselineCollected": 1200,
-      "baselineCommission": 60,
+      "baselineCommission": 120,
       "priorMonthCollected": 0,
       "priorMonthCommission": 0,
-      "baseTiered": 1410,
-      "total": 1410
+      "baseTiered": 3825,
+      "total": 5325
     },
     "standardWaterfall": {
       "collectedRevenue": 28200,
-      "commission": 1410,
-      "invoicedRevenue": 22950,
-      "invoicedCommission": 1410
+      "commission": 3825,
+      "invoicedRevenue": 53550,
+      "invoicedCommission": 3825
     },
     "perAccount": [
       {
@@ -406,6 +406,21 @@
       "spiffOverrides": [],
       "breadthQualifying": [
         {
+          "customer": "Outlaw Equine",
+          "vialsThisMonth": 16,
+          "baseline": 5.5
+        },
+        {
+          "customer": "Northern Star Equine",
+          "vialsThisMonth": 22,
+          "baseline": 3.2
+        },
+        {
+          "customer": "Tanner Equine",
+          "vialsThisMonth": 17,
+          "baseline": 4.3
+        },
+        {
           "customer": "Elgin Equine",
           "vialsThisMonth": 7,
           "baseline": 3.5
@@ -414,10 +429,10 @@
       "breadthMin": 5,
       "spiffAmount": 750,
       "spiffVialThreshold": 8,
-      "spiffPaidCount": 0
+      "spiffPaidCount": 2
     }
   },
-  "generatedAt": "2026-09-25T13:44:34.637Z",
+  "generatedAt": "2026-10-01T17:14:59.241Z",
   "approval": {
     "approved": false
   }
