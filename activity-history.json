@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T17:14:36.302Z",
+  "generatedAt": "2026-10-01T17:15:05.056Z",
   "drops": [
     {
       "dropDate": "2026-10-01",
@@ -10,7 +10,7 @@
           "repId": "karin",
           "repName": "Karin Williamson",
           "mtdSales": 0,
-          "mtdCollected": 0,
+          "mtdCollected": 10800,
           "mtdOrders": 0,
           "mtdVials": 0,
           "newClientsMTD": 0,
@@ -20,7 +20,7 @@
           "totalClients": 51,
           "pctCollected": 80.46754344610082,
           "ytdSales": 299360,
-          "ytdCollected": 234560,
+          "ytdCollected": 245360,
           "ytdInvoices": 160
         },
         "megan": {
@@ -37,14 +37,14 @@
           "totalClients": 60,
           "pctCollected": 85.73736974013983,
           "ytdSales": 146625,
-          "ytdCollected": 122150,
+          "ytdCollected": 127250,
           "ytdInvoices": 108
         },
         "company": {
           "repId": "company",
           "repName": "Company",
           "mtdSales": 0,
-          "mtdCollected": 0,
+          "mtdCollected": 10800,
           "mtdOrders": 0,
           "mtdVials": 0,
           "newClientsMTD": 0,
@@ -54,7 +54,7 @@
           "totalClients": 111,
           "pctCollected": 82.20760695580212,
           "ytdSales": 445985,
-          "ytdCollected": 356710,
+          "ytdCollected": 372610,
           "ytdInvoices": 268
         }
       },
@@ -73,7 +73,7 @@
           },
           "megan": {
             "mtdSales": 39450,
-            "mtdCollected": 38450,
+            "mtdCollected": 43550,
             "mtdOrders": 21,
             "mtdVials": 106,
             "mtdVialsPaid": 69,
@@ -83,7 +83,7 @@
           },
           "company": {
             "mtdSales": 93000,
-            "mtdCollected": 66650,
+            "mtdCollected": 71750,
             "mtdOrders": 46,
             "mtdVials": 244,
             "mtdVialsPaid": 155,
@@ -109,23 +109,23 @@
           },
           "megan": {
             "mtdSales": 39450,
-            "mtdCollected": 38450,
+            "mtdCollected": 43550,
             "mtdOrders": 21,
             "mtdVials": 106,
             "mtdVialsPaid": 69,
             "mtdVialsFree": 37,
             "outstanding": 21625,
-            "pctCollected": 0.9746514575411914
+            "pctCollected": 1.1039290240811153
           },
           "company": {
             "mtdSales": 93000,
-            "mtdCollected": 66650,
+            "mtdCollected": 71750,
             "mtdOrders": 46,
             "mtdVials": 244,
             "mtdVialsPaid": 155,
             "mtdVialsFree": 89,
             "outstanding": 61900,
-            "pctCollected": 0.7166666666666667
+            "pctCollected": 0.771505376344086
           }
         }
       }
@@ -158,7 +158,7 @@
           "repId": "megan",
           "repName": "Megan Smith",
           "mtdSales": 39450,
-          "mtdCollected": 38450,
+          "mtdCollected": 43550,
           "mtdOrders": 21,
           "mtdVials": 106,
           "mtdVialsPaid": 69,
@@ -170,14 +170,14 @@
           "totalClients": 60,
           "pctCollected": 85.24092274092274,
           "ytdSales": 146625,
-          "ytdCollected": 122150,
+          "ytdCollected": 127250,
           "ytdInvoices": 108
         },
         "company": {
           "repId": "company",
           "repName": "Company",
           "mtdSales": 93000,
-          "mtdCollected": 66650,
+          "mtdCollected": 71750,
           "mtdOrders": 46,
           "mtdVials": 244,
           "mtdVialsPaid": 155,
@@ -189,7 +189,7 @@
           "totalClients": 111,
           "pctCollected": 85.38318948723095,
           "ytdSales": 445985,
-          "ytdCollected": 356710,
+          "ytdCollected": 361810,
           "ytdInvoices": 268
         }
       },
@@ -293,7 +293,7 @@
           "repId": "megan",
           "repName": "Megan Smith",
           "mtdSales": 39450,
-          "mtdCollected": 38450,
+          "mtdCollected": 43550,
           "mtdOrders": 21,
           "mtdVials": 106,
           "mtdVialsPaid": 69,
@@ -305,14 +305,14 @@
           "totalClients": 59,
           "pctCollected": 81.83006985787536,
           "ytdSales": 146625,
-          "ytdCollected": 122150,
+          "ytdCollected": 127250,
           "ytdInvoices": 108
         },
         "company": {
           "repId": "company",
           "repName": "Company",
           "mtdSales": 93000,
-          "mtdCollected": 66650,
+          "mtdCollected": 71750,
           "mtdOrders": 46,
           "mtdVials": 244,
           "mtdVialsPaid": 155,
@@ -324,7 +324,7 @@
           "totalClients": 109,
           "pctCollected": 87.95948152179291,
           "ytdSales": 445985,
-          "ytdCollected": 356710,
+          "ytdCollected": 361810,
           "ytdInvoices": 268
         }
       },
@@ -428,7 +428,7 @@
           "repId": "megan",
           "repName": "Megan Smith",
           "mtdSales": 39450,
-          "mtdCollected": 38450,
+          "mtdCollected": 43550,
           "mtdOrders": 21,
           "mtdVials": 106,
           "mtdVialsPaid": 69,
@@ -440,14 +440,14 @@
           "totalClients": 57,
           "pctCollected": 79.90286384190253,
           "ytdSales": 146625,
-          "ytdCollected": 122150,
+          "ytdCollected": 127250,
           "ytdInvoices": 108
         },
         "company": {
           "repId": "company",
           "repName": "Company",
           "mtdSales": 93000,
-          "mtdCollected": 66650,
+          "mtdCollected": 71750,
           "mtdOrders": 46,
           "mtdVials": 244,
           "mtdVialsPaid": 155,
@@ -459,7 +459,7 @@
           "totalClients": 107,
           "pctCollected": 85.68057065577683,
           "ytdSales": 445985,
-          "ytdCollected": 356710,
+          "ytdCollected": 361810,
           "ytdInvoices": 268
         }
       },
