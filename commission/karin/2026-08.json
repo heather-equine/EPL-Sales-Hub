@@ -596,8 +596,10 @@
       "spiffPaidCount": 2
     }
   },
-  "generatedAt": "2026-10-01T17:15:26.418Z",
+  "generatedAt": "2026-10-01T17:18:01.812Z",
   "approval": {
-    "approved": false
+    "approved": true,
+    "approvedAt": "2026-10-01T17:17:39.214Z",
+    "approvedBy": "admin"
   }
 }
