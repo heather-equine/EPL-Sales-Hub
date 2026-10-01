@@ -1,0 +1,78 @@
+{
+  "month": "2026-10",
+  "periodLabel": "October 2026",
+  "repId": "karin",
+  "repName": "Karin Williamson",
+  "planLabel": "Standard waterfall — 5% / 6% / 7.5% / 10% by monthly cumulative",
+  "planKind": "waterfall",
+  "flatRate": null,
+  "totalCollected": 10800,
+  "totalCommission": 540,
+  "paymentCount": 2,
+  "accountCount": 2,
+  "dueDate": "November 30, 2026",
+  "accounts": [
+    {
+      "customerName": "Outlaw Equine",
+      "transactions": [
+        {
+          "date": "2026-08-10",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1174",
+          "amount": 6000,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-10-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1174",
+          "amount": 6000,
+          "commissionRate": 0.05,
+          "commissionAmount": 300
+        }
+      ],
+      "collected": 6000,
+      "commission": 300
+    },
+    {
+      "customerName": "Double X Veterinary Services",
+      "transactions": [
+        {
+          "date": "2026-08-24",
+          "type": "Invoice",
+          "invoiceNum": "ORD-EPL-1210",
+          "amount": 4800,
+          "commissionRate": null,
+          "commissionAmount": null
+        },
+        {
+          "date": "2026-10-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1210",
+          "amount": 4800,
+          "commissionRate": 0.05,
+          "commissionAmount": 240
+        }
+      ],
+      "collected": 4800,
+      "commission": 240
+    }
+  ],
+  "reconciliation": null,
+  "pendingRollover": [],
+  "pendingRolloverTotal": 0,
+  "adjustments": [],
+  "adjustmentsCommission": 0,
+  "adjustmentsBasis": 0,
+  "rolloverFromPrior": [],
+  "rolloverFromPriorTotal": 0,
+  "unverifiedInvoices": [],
+  "unverifiedTotal": 0,
+  "bouncedInvoices": [],
+  "bouncedTotal": 0,
+  "generatedAt": "2026-10-01T17:15:31.547Z",
+  "approval": {
+    "approved": false
+  }
+}
