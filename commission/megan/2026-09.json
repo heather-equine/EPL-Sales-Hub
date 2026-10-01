@@ -6,10 +6,10 @@
   "planLabel": "Q3 Route C Accelerator — tiered on invoiced revenue when $30K gate met (else standard waterfall)",
   "planKind": "route-c-stamp",
   "flatRate": null,
-  "totalCollected": 38450,
-  "totalCommission": 6891.25,
-  "paymentCount": 8,
-  "accountCount": 6,
+  "totalCollected": 43550,
+  "totalCommission": 7528.75,
+  "paymentCount": 10,
+  "accountCount": 7,
   "dueDate": "2026-10-31",
   "accounts": [
     {
@@ -73,6 +73,51 @@
       "routeCInvoicedThisMonth": 0
     },
     {
+      "customerName": "Signature S Equine",
+      "customer": "Signature S Equine",
+      "collected": 5150,
+      "finalTotal": 5150,
+      "commission": 643.75,
+      "transactions": [
+        {
+          "date": "2026-09-01",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1223",
+          "amount": 625,
+          "commissionRate": 0.125,
+          "commissionAmount": 78.13,
+          "stampReason": "growth (12.5%) — 2v > 0.3 baseline · H1 baseline 0.3 v/mo, this inv 2v",
+          "stampInvoiceMonth": "2026-09"
+        },
+        {
+          "date": "2026-09-10",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1232",
+          "amount": 1225,
+          "commissionRate": 0.125,
+          "commissionAmount": 153.13,
+          "stampReason": "growth (12.5%) — 3v > 0.3 baseline · H1 baseline 0.3 v/mo, this inv 3v",
+          "stampInvoiceMonth": "2026-09"
+        },
+        {
+          "date": "2026-09-30",
+          "type": "Payment",
+          "invoiceNum": "ORD-EPL-1271",
+          "amount": 3300,
+          "commissionRate": 0.125,
+          "commissionAmount": 412.5,
+          "stampReason": "growth (12.5%) — 6v > 0.3 baseline · H1 baseline 0.3 v/mo, this inv 6v",
+          "stampInvoiceMonth": "2026-09"
+        }
+      ],
+      "routeCStatus": "existing",
+      "routeCBaseline": 0.3333333333333333,
+      "routeCVialsThisMonth": 0,
+      "routeCFreezerHit": false,
+      "routeCBreadth": false,
+      "routeCInvoicedThisMonth": 0
+    },
+    {
       "customerName": "Peterson Smith Equine Hospital",
       "customer": "Peterson Smith Equine Hospital",
       "collected": 4800,
@@ -123,35 +168,25 @@
       "routeCInvoicedThisMonth": 0
     },
     {
-      "customerName": "Signature S Equine",
-      "customer": "Signature S Equine",
-      "collected": 1850,
-      "finalTotal": 1850,
-      "commission": 231.25,
+      "customerName": "Tryon Equine Hospital",
+      "customer": "Tryon Equine Hospital",
+      "collected": 1800,
+      "finalTotal": 1800,
+      "commission": 225,
       "transactions": [
         {
-          "date": "2026-09-01",
+          "date": "2026-09-28",
           "type": "Payment",
-          "invoiceNum": "ORD-EPL-1223",
-          "amount": 625,
+          "invoiceNum": "ORD-EPL-1260",
+          "amount": 1800,
           "commissionRate": 0.125,
-          "commissionAmount": 78.13,
-          "stampReason": "growth (12.5%) — 2v > 0.3 baseline · H1 baseline 0.3 v/mo, this inv 2v",
-          "stampInvoiceMonth": "2026-09"
-        },
-        {
-          "date": "2026-09-10",
-          "type": "Payment",
-          "invoiceNum": "ORD-EPL-1232",
-          "amount": 1225,
-          "commissionRate": 0.125,
-          "commissionAmount": 153.13,
-          "stampReason": "growth (12.5%) — 3v > 0.3 baseline · H1 baseline 0.3 v/mo, this inv 3v",
+          "commissionAmount": 225,
+          "stampReason": "growth (12.5%) — 3v > 2.5 baseline · H1 baseline 2.5 v/mo, this inv 3v",
           "stampInvoiceMonth": "2026-09"
         }
       ],
       "routeCStatus": "existing",
-      "routeCBaseline": 0.3333333333333333,
+      "routeCBaseline": 2.5,
       "routeCVialsThisMonth": 0,
       "routeCFreezerHit": false,
       "routeCBreadth": false,
@@ -188,40 +223,40 @@
   "adjustmentsCommission": 0,
   "adjustmentsBasis": 0,
   "routeC": {
-    "gateInvoiced": 34350,
+    "gateInvoiced": 39450,
     "gateThreshold": 30000,
     "gateMet": true,
     "routeUsed": "accelerator",
     "accelerator": {
       "newReactRevenue": 23400,
       "newReactCommission": 3510,
-      "growthRevenue": 15050,
-      "growthCommission": 1881.25,
+      "growthRevenue": 20150,
+      "growthCommission": 2518.75,
       "baselineRevenue": 0,
       "baselineCommission": 0,
       "newAccountSpiffCount": 2,
       "newAccountSpiffTotal": 1500,
       "breadthAccountCount": 1,
       "breadthBonus": 0,
-      "total": 6891.25
+      "total": 7528.75
     },
     "acceleratorOnCollected": {
       "newReactCollected": 23400,
       "newReactCommission": 3510,
-      "growthCollected": 15050,
-      "growthCommission": 1881.25,
+      "growthCollected": 20150,
+      "growthCommission": 2518.75,
       "baselineCollected": 0,
       "baselineCommission": 0,
       "priorMonthCollected": 0,
       "priorMonthCommission": 0,
-      "baseTiered": 5391.25,
-      "total": 6891.25
+      "baseTiered": 6028.75,
+      "total": 7528.75
     },
     "standardWaterfall": {
-      "collectedRevenue": 38450,
-      "commission": 5391.25,
-      "invoicedRevenue": 34350,
-      "invoicedCommission": 5391.25
+      "collectedRevenue": 43550,
+      "commission": 6028.75,
+      "invoicedRevenue": 39450,
+      "invoicedCommission": 6028.75
     },
     "perAccount": [
       {
@@ -295,6 +330,18 @@
         "vialsAboveBaseline": 0,
         "freezerHitThisMonth": false,
         "breadthQualifier": false
+      },
+      {
+        "customer": "Tryon Equine Hospital",
+        "customerKey": "tryon equine",
+        "status": "existing",
+        "baselineVials": 2.5,
+        "vialsThisMonth": 0,
+        "revenueThisMonth": 0,
+        "vialsAtOrBelowBaseline": 0,
+        "vialsAboveBaseline": 0,
+        "freezerHitThisMonth": false,
+        "breadthQualifier": true
       }
     ],
     "stampModel": {
@@ -316,7 +363,7 @@
       "breadthQualifying": [
         {
           "customer": "Tryon Equine Hospital",
-          "vialsThisMonth": 4,
+          "vialsThisMonth": 15,
           "baseline": 2.5
         }
       ],
@@ -326,7 +373,7 @@
       "spiffPaidCount": 2
     }
   },
-  "generatedAt": "2026-09-25T13:44:48.574Z",
+  "generatedAt": "2026-10-01T17:15:30.374Z",
   "approval": {
     "approved": false
   }
