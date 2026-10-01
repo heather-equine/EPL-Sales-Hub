@@ -1,68 +1,74 @@
 {
-  "lastUpdated": "2026-10-01",
-  "uploadedAt": "2026-10-01",
-  "reportDate": "2026-10-01",
+  "lastUpdated": "2026-09-30",
+  "uploadedAt": "2026-09-30",
+  "reportDate": "2026-09-30",
   "totalClients": 111,
   "aggregates": {
     "karin": {
       "repId": "karin",
       "repName": "Karin Williamson",
-      "mtdSales": 0,
-      "mtdCollected": 10800,
-      "mtdOrders": 0,
-      "mtdVials": 0,
-      "newClientsMTD": 0,
+      "mtdSales": 53550,
+      "mtdCollected": 28200,
+      "mtdOrders": 25,
+      "mtdVials": 138,
+      "mtdVialsPaid": 86,
+      "mtdVialsFree": 52,
+      "newClientsMTD": 3,
       "totalPaid": 247490,
-      "outstanding": 60075,
+      "outstanding": 44475,
       "activeClients": 33,
       "totalClients": 51,
-      "pctCollected": 80.46754344610082,
+      "pctCollected": 84.76700974431867,
       "ytdSales": 299360,
       "ytdSalesGross": 553445,
       "ytdInvoices": 160,
-      "ytdCollected": 245360,
-      "priorMonthCollected": 28200,
-      "priorMonthKey": "2026-09"
+      "ytdCollected": 234560,
+      "priorMonthCollected": 50100,
+      "priorMonthKey": "2026-08"
     },
     "megan": {
       "repId": "megan",
       "repName": "Megan Smith",
-      "mtdSales": 0,
-      "mtdCollected": 0,
-      "mtdOrders": 0,
-      "mtdVials": 0,
-      "newClientsMTD": 0,
-      "totalPaid": 129995,
+      "mtdSales": 39450,
+      "mtdCollected": 43550,
+      "mtdOrders": 21,
+      "mtdVials": 106,
+      "mtdVialsPaid": 69,
+      "mtdVialsFree": 37,
+      "newClientsMTD": 3,
+      "totalPaid": 126695,
       "outstanding": 21625,
-      "activeClients": 28,
+      "activeClients": 26,
       "totalClients": 60,
-      "pctCollected": 85.73736974013983,
+      "pctCollected": 85.4200377562028,
       "ytdSales": 146625,
       "ytdSalesGross": 265220,
       "ytdInvoices": 108,
       "ytdCollected": 127250,
-      "priorMonthCollected": 43550,
-      "priorMonthKey": "2026-09"
+      "priorMonthCollected": 25200,
+      "priorMonthKey": "2026-08"
     },
     "company": {
       "repId": "company",
       "repName": "Company",
-      "mtdSales": 0,
-      "mtdCollected": 10800,
-      "mtdOrders": 0,
-      "mtdVials": 0,
-      "newClientsMTD": 0,
-      "totalPaid": 377485,
-      "outstanding": 81700,
-      "activeClients": 61,
+      "mtdSales": 93000,
+      "mtdCollected": 71750,
+      "mtdOrders": 46,
+      "mtdVials": 244,
+      "mtdVialsPaid": 155,
+      "mtdVialsFree": 89,
+      "newClientsMTD": 6,
+      "totalPaid": 374185,
+      "outstanding": 66100,
+      "activeClients": 59,
       "totalClients": 111,
-      "pctCollected": 82.20760695580212,
+      "pctCollected": 84.98699705872332,
       "ytdSales": 445985,
       "ytdSalesGross": 818665,
       "ytdInvoices": 268,
-      "ytdCollected": 372610,
-      "priorMonthCollected": 71750,
-      "priorMonthKey": "2026-09"
+      "ytdCollected": 361810,
+      "priorMonthCollected": 75300,
+      "priorMonthKey": "2026-08"
     }
   },
   "repDetails": {
@@ -97,20 +103,6 @@
           "aprilPaid": 21900
         },
         {
-          "clinic": "Outlaw Equine",
-          "state": "TX",
-          "totalOrders": 8,
-          "totalVials": 59,
-          "totalSpent": 31050,
-          "totalPaid": 25050,
-          "outstanding": 6000,
-          "lastOrder": "2026-09-30",
-          "firstOrder": "2026-02-24",
-          "status": "Active",
-          "daysSinceLastOrder": 1,
-          "aprilPaid": 25050
-        },
-        {
           "clinic": "Tanner Equine",
           "state": "TX",
           "totalOrders": 18,
@@ -125,36 +117,79 @@
           "aprilPaid": 19300
         },
         {
-          "clinic": "Double X Veterinary Services",
+          "clinic": "Outlaw Equine",
           "state": "TX",
-          "totalOrders": 9,
-          "totalVials": 55,
-          "totalSpent": 24000,
-          "totalPaid": 9600,
-          "outstanding": 14400,
-          "lastOrder": "2026-09-30",
-          "firstOrder": "2026-04-23",
+          "totalOrders": 6,
+          "totalVials": 43,
+          "totalSpent": 25050,
+          "totalPaid": 25050,
+          "outstanding": 0,
+          "lastOrder": "2026-08-10",
+          "firstOrder": "2026-02-24",
           "status": "Active",
-          "daysSinceLastOrder": 1,
-          "aprilPaid": 9600
+          "daysSinceLastOrder": 52,
+          "aprilPaid": 25050
+        },
+        {
+          "clinic": "Elgin Equine",
+          "state": "TX",
+          "totalOrders": 16,
+          "totalVials": 37,
+          "totalSpent": 21000,
+          "totalPaid": 19200,
+          "outstanding": 1800,
+          "lastOrder": "2026-09-21",
+          "firstOrder": "2026-01-08",
+          "status": "Active",
+          "daysSinceLastOrder": 10,
+          "aprilPaid": 19200
         }
       ],
-      "newClients": [],
-      "outstandingAR": [
+      "newClients": [
         {
-          "clinic": "Double X Veterinary Services",
-          "state": "TX",
-          "totalOrders": 9,
-          "totalVials": 55,
-          "totalSpent": 24000,
-          "totalPaid": 9600,
-          "outstanding": 14400,
-          "lastOrder": "2026-09-30",
-          "firstOrder": "2026-04-23",
+          "clinic": "Soldier Creek Equine Clinic",
+          "state": "OK",
+          "totalOrders": 2,
+          "totalVials": 11,
+          "totalSpent": 4800,
+          "totalPaid": 0,
+          "outstanding": 4800,
+          "lastOrder": "2026-09-25",
+          "firstOrder": "2026-09-25",
           "status": "Active",
-          "daysSinceLastOrder": 1,
-          "aprilPaid": 9600
+          "daysSinceLastOrder": 6,
+          "aprilPaid": 0
         },
+        {
+          "clinic": "Interstate Equine",
+          "state": "OK",
+          "totalOrders": 2,
+          "totalVials": 16,
+          "totalSpent": 6600,
+          "totalPaid": 0,
+          "outstanding": 6600,
+          "lastOrder": "2026-09-24",
+          "firstOrder": "2026-09-24",
+          "status": "Active",
+          "daysSinceLastOrder": 7,
+          "aprilPaid": 0
+        },
+        {
+          "clinic": "Pilchuck Veterinary Hospital",
+          "state": "WA",
+          "totalOrders": 1,
+          "totalVials": 1,
+          "totalSpent": 675,
+          "totalPaid": 675,
+          "outstanding": 0,
+          "lastOrder": "2026-09-02",
+          "firstOrder": "2026-09-02",
+          "status": "Active",
+          "daysSinceLastOrder": 29,
+          "aprilPaid": 675
+        }
+      ],
+      "outstandingAR": [
         {
           "clinic": "Northern Star Equine",
           "state": "TX",
@@ -198,20 +233,6 @@
           "aprilPaid": 0
         },
         {
-          "clinic": "Outlaw Equine",
-          "state": "TX",
-          "totalOrders": 8,
-          "totalVials": 59,
-          "totalSpent": 31050,
-          "totalPaid": 25050,
-          "outstanding": 6000,
-          "lastOrder": "2026-09-30",
-          "firstOrder": "2026-02-24",
-          "status": "Active",
-          "daysSinceLastOrder": 1,
-          "aprilPaid": 25050
-        },
-        {
           "clinic": "Soldier Creek Equine Clinic",
           "state": "OK",
           "totalOrders": 2,
@@ -238,6 +259,20 @@
           "status": "Active",
           "daysSinceLastOrder": 7,
           "aprilPaid": 600
+        },
+        {
+          "clinic": "Double X Veterinary Services",
+          "state": "TX",
+          "totalOrders": 7,
+          "totalVials": 35,
+          "totalSpent": 14400,
+          "totalPaid": 9600,
+          "outstanding": 4800,
+          "lastOrder": "2026-09-09",
+          "firstOrder": "2026-04-23",
+          "status": "Active",
+          "daysSinceLastOrder": 22,
+          "aprilPaid": 9600
         },
         {
           "clinic": "Mt. Laramie Veterinary Services",
@@ -578,6 +613,20 @@
           "aprilPaid": 0
         },
         {
+          "clinic": "Outlaw Equine",
+          "state": "TX",
+          "totalOrders": 6,
+          "totalVials": 43,
+          "totalSpent": 25050,
+          "totalPaid": 25050,
+          "outstanding": 0,
+          "lastOrder": "2026-08-10",
+          "firstOrder": "2026-02-24",
+          "status": "Active",
+          "daysSinceLastOrder": 52,
+          "aprilPaid": 25050
+        },
+        {
           "clinic": "West Texas Equine Clinic",
           "state": "TX",
           "totalOrders": 3,
@@ -708,7 +757,50 @@
           "aprilPaid": 10800
         }
       ],
-      "newClients": [],
+      "newClients": [
+        {
+          "clinic": "Flat River Veterinary Hospital",
+          "state": "NC",
+          "totalOrders": 1,
+          "totalVials": 1,
+          "totalSpent": 0,
+          "totalPaid": 0,
+          "outstanding": 0,
+          "lastOrder": "2026-09-21",
+          "firstOrder": "2026-09-21",
+          "status": "Active",
+          "daysSinceLastOrder": 10,
+          "aprilPaid": 0
+        },
+        {
+          "clinic": "Byron Reid and Associates",
+          "state": "FL",
+          "totalOrders": 1,
+          "totalVials": 30,
+          "totalSpent": 18000,
+          "totalPaid": 18000,
+          "outstanding": 0,
+          "lastOrder": "2026-09-16",
+          "firstOrder": "2026-09-16",
+          "status": "Active",
+          "daysSinceLastOrder": 15,
+          "aprilPaid": 18000
+        },
+        {
+          "clinic": "Mandrona Equine Veterinary Services",
+          "state": "NJ",
+          "totalOrders": 1,
+          "totalVials": 1,
+          "totalSpent": 0,
+          "totalPaid": 0,
+          "outstanding": 0,
+          "lastOrder": "2026-09-09",
+          "firstOrder": "2026-09-09",
+          "status": "Active",
+          "daysSinceLastOrder": 22,
+          "aprilPaid": 0
+        }
+      ],
       "outstandingAR": [
         {
           "clinic": "Equine Sports Medicine",
@@ -839,6 +931,20 @@
           "aprilPaid": 2400
         },
         {
+          "clinic": "Hancock Animal Clinic",
+          "state": "MS",
+          "totalOrders": 1,
+          "totalVials": 1,
+          "totalSpent": 0,
+          "totalPaid": 0,
+          "outstanding": 0,
+          "lastOrder": "2026-04-21",
+          "firstOrder": "2026-04-21",
+          "status": "Inactive",
+          "daysSinceLastOrder": 163,
+          "aprilPaid": 0
+        },
+        {
           "clinic": "Shell Equine Services",
           "state": "OH",
           "totalOrders": 1,
@@ -949,6 +1055,20 @@
           "status": "Inactive",
           "daysSinceLastOrder": 94,
           "aprilPaid": 600
+        },
+        {
+          "clinic": "Running S Equine",
+          "state": "NJ",
+          "totalOrders": 3,
+          "totalVials": 9,
+          "totalSpent": 4800,
+          "totalPaid": 4800,
+          "outstanding": 0,
+          "lastOrder": "2026-07-02",
+          "firstOrder": "2026-06-26",
+          "status": "Inactive",
+          "daysSinceLastOrder": 91,
+          "aprilPaid": 4800
         },
         {
           "clinic": "Springhill Equine Veterinary Clinic",
@@ -1067,106 +1187,6 @@
   },
   "rows": [
     {
-      "clinic": "Signature S Equine",
-      "clientName": "Dr. Megan Stuhlfauth",
-      "email": "signaturesequine@gmail.com",
-      "state": "NJ",
-      "totalOrders": 6,
-      "transferOrders": 0,
-      "regularOrders": 6,
-      "totalVials": 17,
-      "lastOrderDate": "2026-09-30",
-      "firstOrderDate": "2026-06-22",
-      "totalSpent": 7025,
-      "totalPaid": 7025,
-      "outstandingBalance": 0,
-      "assignedRep": "Megan Smith",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 1,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
-      "clinic": "Hancock Animal Clinic",
-      "clientName": "Hancock Animal Clinic",
-      "email": "accounting@cnequine.com",
-      "state": "MS",
-      "totalOrders": 2,
-      "transferOrders": 0,
-      "regularOrders": 2,
-      "totalVials": 3,
-      "lastOrderDate": "2026-09-30",
-      "firstOrderDate": "2026-04-21",
-      "totalSpent": 0,
-      "totalPaid": 0,
-      "outstandingBalance": 0,
-      "assignedRep": "Megan Smith",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 1,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
-      "clinic": "Running S Equine",
-      "clientName": "Dr. Gregory Staller",
-      "email": "info@runningsequine.com",
-      "state": "NJ",
-      "totalOrders": 4,
-      "transferOrders": 0,
-      "regularOrders": 4,
-      "totalVials": 11,
-      "lastOrderDate": "2026-09-30",
-      "firstOrderDate": "2026-06-26",
-      "totalSpent": 4800,
-      "totalPaid": 4800,
-      "outstandingBalance": 0,
-      "assignedRep": "Megan Smith",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 1,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
-      "clinic": "Outlaw Equine",
-      "clientName": "Josh Harvey",
-      "email": "khull@outlawvets.com",
-      "state": "TX",
-      "totalOrders": 8,
-      "transferOrders": 0,
-      "regularOrders": 8,
-      "totalVials": 59,
-      "lastOrderDate": "2026-09-30",
-      "firstOrderDate": "2026-02-24",
-      "totalSpent": 31050,
-      "totalPaid": 25050,
-      "outstandingBalance": 6000,
-      "assignedRep": "Karin Williamson",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 1,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
-      "clinic": "Double X Veterinary Services",
-      "clientName": "Don Lee",
-      "email": "kenzie@xxvets.com",
-      "state": "TX",
-      "totalOrders": 9,
-      "transferOrders": 0,
-      "regularOrders": 9,
-      "totalVials": 55,
-      "lastOrderDate": "2026-09-30",
-      "firstOrderDate": "2026-04-23",
-      "totalSpent": 24000,
-      "totalPaid": 9600,
-      "outstandingBalance": 14400,
-      "assignedRep": "Karin Williamson",
-      "activityStatus": "Active",
-      "daysSinceLastOrder": 1,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
       "clinic": "Northern Star Equine",
       "clientName": "Northern Star Equine",
       "email": "taryn.parsonage@vmitexas.com",
@@ -1183,7 +1203,7 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 2,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1203,7 +1223,7 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 3,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1223,7 +1243,7 @@
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
       "daysSinceLastOrder": 3,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1243,8 +1263,8 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 6,
-      "mtd": false,
-      "newThisMonth": false
+      "mtd": true,
+      "newThisMonth": true
     },
     {
       "clinic": "Oakridge Equine Hospital",
@@ -1263,7 +1283,7 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 7,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1283,8 +1303,8 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 7,
-      "mtd": false,
-      "newThisMonth": false
+      "mtd": true,
+      "newThisMonth": true
     },
     {
       "clinic": "Mt. Laramie Veterinary Services",
@@ -1303,7 +1323,7 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 7,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1323,7 +1343,7 @@
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
       "daysSinceLastOrder": 8,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1343,7 +1363,7 @@
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
       "daysSinceLastOrder": 10,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1363,8 +1383,8 @@
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
       "daysSinceLastOrder": 10,
-      "mtd": false,
-      "newThisMonth": false
+      "mtd": true,
+      "newThisMonth": true
     },
     {
       "clinic": "Mountain Pointe Equine",
@@ -1383,7 +1403,7 @@
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
       "daysSinceLastOrder": 10,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1403,7 +1423,7 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 10,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1423,7 +1443,7 @@
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
       "daysSinceLastOrder": 15,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1443,8 +1463,8 @@
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
       "daysSinceLastOrder": 15,
-      "mtd": false,
-      "newThisMonth": false
+      "mtd": true,
+      "newThisMonth": true
     },
     {
       "clinic": "Equine Sports Medicine",
@@ -1463,7 +1483,7 @@
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
       "daysSinceLastOrder": 16,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1483,7 +1503,7 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 20,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1503,7 +1523,7 @@
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
       "daysSinceLastOrder": 20,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1523,7 +1543,47 @@
       "assignedRep": "Megan Smith",
       "activityStatus": "Active",
       "daysSinceLastOrder": 22,
-      "mtd": false,
+      "mtd": true,
+      "newThisMonth": true
+    },
+    {
+      "clinic": "Signature S Equine",
+      "clientName": "Dr. Megan Stuhlfauth",
+      "email": "signaturesequine@gmail.com",
+      "state": "NJ",
+      "totalOrders": 4,
+      "transferOrders": 0,
+      "regularOrders": 4,
+      "totalVials": 8,
+      "lastOrderDate": "2026-09-09",
+      "firstOrderDate": "2026-06-22",
+      "totalSpent": 3725,
+      "totalPaid": 3725,
+      "outstandingBalance": 0,
+      "assignedRep": "Megan Smith",
+      "activityStatus": "Active",
+      "daysSinceLastOrder": 22,
+      "mtd": true,
+      "newThisMonth": false
+    },
+    {
+      "clinic": "Double X Veterinary Services",
+      "clientName": "Don Lee",
+      "email": "kenzie@xxvets.com",
+      "state": "TX",
+      "totalOrders": 7,
+      "transferOrders": 0,
+      "regularOrders": 7,
+      "totalVials": 35,
+      "lastOrderDate": "2026-09-09",
+      "firstOrderDate": "2026-04-23",
+      "totalSpent": 14400,
+      "totalPaid": 9600,
+      "outstandingBalance": 4800,
+      "assignedRep": "Karin Williamson",
+      "activityStatus": "Active",
+      "daysSinceLastOrder": 22,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1543,7 +1603,7 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 23,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1563,8 +1623,8 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 29,
-      "mtd": false,
-      "newThisMonth": false
+      "mtd": true,
+      "newThisMonth": true
     },
     {
       "clinic": "Equine Sports Medicine & Surgery",
@@ -1583,7 +1643,7 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Active",
       "daysSinceLastOrder": 30,
-      "mtd": false,
+      "mtd": true,
       "newThisMonth": false
     },
     {
@@ -1967,6 +2027,26 @@
       "newThisMonth": false
     },
     {
+      "clinic": "Outlaw Equine",
+      "clientName": "Josh Harvey",
+      "email": "khull@outlawvets.com",
+      "state": "TX",
+      "totalOrders": 6,
+      "transferOrders": 0,
+      "regularOrders": 6,
+      "totalVials": 43,
+      "lastOrderDate": "2026-08-10",
+      "firstOrderDate": "2026-02-24",
+      "totalSpent": 25050,
+      "totalPaid": 25050,
+      "outstandingBalance": 0,
+      "assignedRep": "Karin Williamson",
+      "activityStatus": "Active",
+      "daysSinceLastOrder": 52,
+      "mtd": false,
+      "newThisMonth": false
+    },
+    {
       "clinic": "West Texas Equine Clinic",
       "clientName": "Randy Lewis",
       "email": "westtexasequineclinic@outlook.com",
@@ -2287,6 +2367,26 @@
       "newThisMonth": false
     },
     {
+      "clinic": "Running S Equine",
+      "clientName": "Dr. Gregory Staller",
+      "email": "info@runningsequine.com",
+      "state": "NJ",
+      "totalOrders": 3,
+      "transferOrders": 0,
+      "regularOrders": 3,
+      "totalVials": 9,
+      "lastOrderDate": "2026-07-02",
+      "firstOrderDate": "2026-06-26",
+      "totalSpent": 4800,
+      "totalPaid": 4800,
+      "outstandingBalance": 0,
+      "assignedRep": "Megan Smith",
+      "activityStatus": "Inactive",
+      "daysSinceLastOrder": 91,
+      "mtd": false,
+      "newThisMonth": false
+    },
+    {
       "clinic": "Rood and Riddle Lexington",
       "clientName": "Dr. Daniel Devis",
       "email": "apinvoices@roodandriddle.com",
@@ -2483,6 +2583,26 @@
       "assignedRep": "Karin Williamson",
       "activityStatus": "Inactive",
       "daysSinceLastOrder": 156,
+      "mtd": false,
+      "newThisMonth": false
+    },
+    {
+      "clinic": "Hancock Animal Clinic",
+      "clientName": "Hancock Animal Clinic",
+      "email": "accounting@cnequine.com",
+      "state": "MS",
+      "totalOrders": 1,
+      "transferOrders": 0,
+      "regularOrders": 1,
+      "totalVials": 1,
+      "lastOrderDate": "2026-04-21",
+      "firstOrderDate": "2026-04-21",
+      "totalSpent": 0,
+      "totalPaid": 0,
+      "outstandingBalance": 0,
+      "assignedRep": "Megan Smith",
+      "activityStatus": "Inactive",
+      "daysSinceLastOrder": 163,
       "mtd": false,
       "newThisMonth": false
     },
@@ -2747,26 +2867,6 @@
       "newThisMonth": false
     },
     {
-      "clinic": "Equine Athlete Veterinary Services - Williamston, MI",
-      "clientName": "Brad Hill",
-      "email": "eavs+expenses@assist.intuit.com",
-      "state": "MI",
-      "totalOrders": 0,
-      "transferOrders": 0,
-      "regularOrders": 0,
-      "totalVials": 0,
-      "lastOrderDate": null,
-      "firstOrderDate": null,
-      "totalSpent": 0,
-      "totalPaid": 0,
-      "outstandingBalance": 0,
-      "assignedRep": "Karin Williamson",
-      "activityStatus": "No Orders",
-      "daysSinceLastOrder": 0,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
       "clinic": "Southen Indiana Equine Inc.",
       "clientName": "Amy Peoples",
       "email": "siequine@gmail.com",
@@ -2847,6 +2947,26 @@
       "newThisMonth": false
     },
     {
+      "clinic": "Equine Athlete Veterinary Services - Williamston, MI",
+      "clientName": "Brad Hill",
+      "email": "eavs+expenses@assist.intuit.com",
+      "state": "MI",
+      "totalOrders": 0,
+      "transferOrders": 0,
+      "regularOrders": 0,
+      "totalVials": 0,
+      "lastOrderDate": null,
+      "firstOrderDate": null,
+      "totalSpent": 0,
+      "totalPaid": 0,
+      "outstandingBalance": 0,
+      "assignedRep": "Karin Williamson",
+      "activityStatus": "No Orders",
+      "daysSinceLastOrder": 0,
+      "mtd": false,
+      "newThisMonth": false
+    },
+    {
       "clinic": "Whetstone Equine",
       "clientName": "Dr. Charley McColough",
       "email": "charleymccolough@whetstoneequine.com",
@@ -2907,46 +3027,6 @@
       "newThisMonth": false
     },
     {
-      "clinic": "Palm Beach Equine Clinic",
-      "clientName": "Christopher Elliott",
-      "email": "chrisbvsc@gmail.com",
-      "state": "FL",
-      "totalOrders": 0,
-      "transferOrders": 0,
-      "regularOrders": 0,
-      "totalVials": 0,
-      "lastOrderDate": null,
-      "firstOrderDate": null,
-      "totalSpent": 0,
-      "totalPaid": 0,
-      "outstandingBalance": 0,
-      "assignedRep": "Megan Smith",
-      "activityStatus": "No Orders",
-      "daysSinceLastOrder": 0,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
-      "clinic": "LSU School of Veterinary Medicine",
-      "clientName": "Britta Leise",
-      "email": "bleise@lsu.edu",
-      "state": "LA",
-      "totalOrders": 0,
-      "transferOrders": 0,
-      "regularOrders": 0,
-      "totalVials": 0,
-      "lastOrderDate": null,
-      "firstOrderDate": null,
-      "totalSpent": 0,
-      "totalPaid": 0,
-      "outstandingBalance": 0,
-      "assignedRep": "Karin Williamson",
-      "activityStatus": "No Orders",
-      "daysSinceLastOrder": 0,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
       "clinic": "Banks Veterinary Medicine Prof Corp",
       "clientName": "Victoria Banks",
       "email": "victoria.banks6@gmail.com",
@@ -2961,6 +3041,26 @@
       "totalPaid": 0,
       "outstandingBalance": 0,
       "assignedRep": "Megan Smith",
+      "activityStatus": "No Orders",
+      "daysSinceLastOrder": 0,
+      "mtd": false,
+      "newThisMonth": false
+    },
+    {
+      "clinic": "Equine Veterinary Services of Central Texas, Inc",
+      "clientName": "Craig Niblett",
+      "email": "cniblettdvm@gmail.com",
+      "state": "TX",
+      "totalOrders": 0,
+      "transferOrders": 0,
+      "regularOrders": 0,
+      "totalVials": 0,
+      "lastOrderDate": null,
+      "firstOrderDate": null,
+      "totalSpent": 0,
+      "totalPaid": 0,
+      "outstandingBalance": 0,
+      "assignedRep": "Karin Williamson",
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
@@ -3067,10 +3167,10 @@
       "newThisMonth": false
     },
     {
-      "clinic": "Exclusively Equine",
-      "clientName": "Rod Moberg",
-      "email": "rodmoberg@gmail.com",
-      "state": "MN",
+      "clinic": "Palm Beach Equine Clinic",
+      "clientName": "Christopher Elliott",
+      "email": "chrisbvsc@gmail.com",
+      "state": "FL",
       "totalOrders": 0,
       "transferOrders": 0,
       "regularOrders": 0,
@@ -3087,10 +3187,10 @@
       "newThisMonth": false
     },
     {
-      "clinic": "Essex Equine",
-      "clientName": "Brett Gaby",
-      "email": "bgaby@essexequine.net",
-      "state": "MA",
+      "clinic": "LSU School of Veterinary Medicine",
+      "clientName": "Britta Leise",
+      "email": "bleise@lsu.edu",
+      "state": "LA",
       "totalOrders": 0,
       "transferOrders": 0,
       "regularOrders": 0,
@@ -3100,7 +3200,7 @@
       "totalSpent": 0,
       "totalPaid": 0,
       "outstandingBalance": 0,
-      "assignedRep": "Megan Smith",
+      "assignedRep": "Karin Williamson",
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
@@ -3147,10 +3247,10 @@
       "newThisMonth": false
     },
     {
-      "clinic": "Salado Equine Medical Center",
-      "clientName": "John Janicek",
-      "email": "office@saladomc.com",
-      "state": "CA",
+      "clinic": "Essex Equine",
+      "clientName": "Brett Gaby",
+      "email": "bgaby@essexequine.net",
+      "state": "MA",
       "totalOrders": 0,
       "transferOrders": 0,
       "regularOrders": 0,
@@ -3160,7 +3260,7 @@
       "totalSpent": 0,
       "totalPaid": 0,
       "outstandingBalance": 0,
-      "assignedRep": "Karin Williamson",
+      "assignedRep": "Megan Smith",
       "activityStatus": "No Orders",
       "daysSinceLastOrder": 0,
       "mtd": false,
@@ -3170,6 +3270,26 @@
       "clinic": "JR Equine Services",
       "clientName": "Jacobo Rodriguez",
       "email": "jrequinevet@gmail.com",
+      "state": "FL",
+      "totalOrders": 0,
+      "transferOrders": 0,
+      "regularOrders": 0,
+      "totalVials": 0,
+      "lastOrderDate": null,
+      "firstOrderDate": null,
+      "totalSpent": 0,
+      "totalPaid": 0,
+      "outstandingBalance": 0,
+      "assignedRep": "Megan Smith",
+      "activityStatus": "No Orders",
+      "daysSinceLastOrder": 0,
+      "mtd": false,
+      "newThisMonth": false
+    },
+    {
+      "clinic": "Russell Equine Sports Medicine",
+      "clientName": "Ross Russell",
+      "email": "russe292@gmail.com",
       "state": "FL",
       "totalOrders": 0,
       "transferOrders": 0,
@@ -3207,30 +3327,10 @@
       "newThisMonth": false
     },
     {
-      "clinic": "Russell Equine Sports Medicine",
-      "clientName": "Ross Russell",
-      "email": "russe292@gmail.com",
-      "state": "FL",
-      "totalOrders": 0,
-      "transferOrders": 0,
-      "regularOrders": 0,
-      "totalVials": 0,
-      "lastOrderDate": null,
-      "firstOrderDate": null,
-      "totalSpent": 0,
-      "totalPaid": 0,
-      "outstandingBalance": 0,
-      "assignedRep": "Megan Smith",
-      "activityStatus": "No Orders",
-      "daysSinceLastOrder": 0,
-      "mtd": false,
-      "newThisMonth": false
-    },
-    {
-      "clinic": "Equine Veterinary Services of Central Texas, Inc",
-      "clientName": "Craig Niblett",
-      "email": "cniblettdvm@gmail.com",
-      "state": "TX",
+      "clinic": "Salado Equine Medical Center",
+      "clientName": "John Janicek",
+      "email": "office@saladomc.com",
+      "state": "CA",
       "totalOrders": 0,
       "transferOrders": 0,
       "regularOrders": 0,
@@ -3247,10 +3347,10 @@
       "newThisMonth": false
     },
     {
-      "clinic": "AXEL F SONDHOF, DVM, MS, P.C.",
-      "clientName": "AXEL SONDHOF",
-      "email": "asondhof@yahoo.com",
-      "state": "NY",
+      "clinic": "Equine Medical Center",
+      "clientName": "Meg Branning",
+      "email": "mbranningdvm@gmail.com",
+      "state": "GA",
       "totalOrders": 0,
       "transferOrders": 0,
       "regularOrders": 0,
@@ -3267,10 +3367,30 @@
       "newThisMonth": false
     },
     {
-      "clinic": "Equine Medical Center",
-      "clientName": "Meg Branning",
-      "email": "mbranningdvm@gmail.com",
-      "state": "GA",
+      "clinic": "Exclusively Equine",
+      "clientName": "Rod Moberg",
+      "email": "rodmoberg@gmail.com",
+      "state": "MN",
+      "totalOrders": 0,
+      "transferOrders": 0,
+      "regularOrders": 0,
+      "totalVials": 0,
+      "lastOrderDate": null,
+      "firstOrderDate": null,
+      "totalSpent": 0,
+      "totalPaid": 0,
+      "outstandingBalance": 0,
+      "assignedRep": "Megan Smith",
+      "activityStatus": "No Orders",
+      "daysSinceLastOrder": 0,
+      "mtd": false,
+      "newThisMonth": false
+    },
+    {
+      "clinic": "AXEL F SONDHOF, DVM, MS, P.C.",
+      "clientName": "AXEL SONDHOF",
+      "email": "asondhof@yahoo.com",
+      "state": "NY",
       "totalOrders": 0,
       "transferOrders": 0,
       "regularOrders": 0,
@@ -3308,79 +3428,78 @@
       "2026-06",
       "2026-07",
       "2026-08",
-      "2026-09",
-      "2026-10"
+      "2026-09"
     ]
   },
   "ytdYear": 2026,
   "priorMonthSameDay": {
-    "sourceDropDate": "2026-09-11",
+    "sourceDropDate": "2026-08-28",
     "aggregates": {
       "karin": {
-        "mtdSales": 53550,
-        "mtdCollected": 28200,
-        "mtdOrders": 25,
-        "mtdVials": 138,
-        "mtdVialsPaid": 86,
-        "mtdVialsFree": 52,
-        "outstanding": 30000,
-        "pctCollected": 0.8835810469944507
+        "mtdSales": 78375,
+        "mtdCollected": 50100,
+        "mtdOrders": 40,
+        "mtdVials": 172,
+        "mtdVialsPaid": 129,
+        "mtdVialsFree": 43,
+        "outstanding": 48675,
+        "pctCollected": 0.8083774580241324
       },
       "megan": {
-        "mtdSales": 39450,
-        "mtdCollected": 43550,
-        "mtdOrders": 21,
-        "mtdVials": 106,
-        "mtdVialsPaid": 69,
-        "mtdVialsFree": 37,
-        "outstanding": 24000,
-        "pctCollected": 0.7990286384190253
+        "mtdSales": 31275,
+        "mtdCollected": 25200,
+        "mtdOrders": 25,
+        "mtdVials": 74,
+        "mtdVialsPaid": 52,
+        "mtdVialsFree": 22,
+        "outstanding": 26400,
+        "pctCollected": 0.7753095876420273
       },
       "company": {
-        "mtdSales": 93000,
-        "mtdCollected": 71750,
-        "mtdOrders": 46,
-        "mtdVials": 244,
-        "mtdVialsPaid": 155,
-        "mtdVialsFree": 89,
-        "outstanding": 54000,
-        "pctCollected": 0.8568057065577683
+        "mtdSales": 109650,
+        "mtdCollected": 75300,
+        "mtdOrders": 65,
+        "mtdVials": 246,
+        "mtdVialsPaid": 181,
+        "mtdVialsFree": 65,
+        "outstanding": 75075,
+        "pctCollected": 0.797919302306802
       }
     }
   },
   "priorMonthFinal": {
-    "sourceDropDate": "2026-09-30",
-    "sourceLabel": "Sales/Collected/Orders through 2026-09-30; Vials & Outstanding as of 2026-09-25",
+    "sourceDropDate": "2026-08-31",
+    "sourceLabel": "Sales/Collected/Orders through 2026-08-31; Vials & Outstanding as of 2026-08-28",
     "aggregates": {
       "karin": {
-        "mtdSales": 53550,
-        "mtdCollected": 28200,
-        "mtdOrders": 25,
-        "mtdVials": 138,
-        "mtdVialsPaid": 86,
-        "mtdVialsFree": 52,
-        "outstanding": 40275,
-        "pctCollected": 0.5266106442577031
+        "mtdSales": 78375,
+        "mtdCollected": 50100,
+        "mtdOrders": 40,
+        "mtdVials": 172,
+        "mtdVialsPaid": 129,
+        "mtdVialsFree": 43,
+        "outstanding": 48675,
+        "pctCollected": 0.6392344497607656
       },
       "megan": {
-        "mtdSales": 39450,
-        "mtdCollected": 43550,
-        "mtdOrders": 21,
-        "mtdVials": 106,
-        "mtdVialsPaid": 69,
-        "mtdVialsFree": 37,
-        "outstanding": 21625,
-        "pctCollected": 1.1039290240811153
+        "mtdSales": 31275,
+        "mtdCollected": 25200,
+        "mtdOrders": 25,
+        "mtdVials": 74,
+        "mtdVialsPaid": 52,
+        "mtdVialsFree": 22,
+        "outstanding": 26400,
+        "pctCollected": 0.8057553956834532
       },
       "company": {
-        "mtdSales": 93000,
-        "mtdCollected": 71750,
-        "mtdOrders": 46,
-        "mtdVials": 244,
-        "mtdVialsPaid": 155,
-        "mtdVialsFree": 89,
-        "outstanding": 61900,
-        "pctCollected": 0.771505376344086
+        "mtdSales": 109650,
+        "mtdCollected": 75300,
+        "mtdOrders": 65,
+        "mtdVials": 246,
+        "mtdVialsPaid": 181,
+        "mtdVialsFree": 65,
+        "outstanding": 75075,
+        "pctCollected": 0.6867305061559508
       }
     }
   }
