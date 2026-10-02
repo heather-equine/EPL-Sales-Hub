@@ -13,6 +13,14 @@
       "mtdVials": 138,
       "mtdVialsPaid": 86,
       "mtdVialsFree": 52,
+      "mtdVialsSampling": 21,
+      "mtdVialsClinical": 31,
+      "mtdVialsUnclassified": 0,
+      "mtdFreeVialsByCode": {
+        "RES-CENTA": 31,
+        "FREE_VIALS": 16,
+        "SAMPLE26": 5
+      },
       "newClientsMTD": 3,
       "totalPaid": 247490,
       "outstanding": 44475,
@@ -35,6 +43,15 @@
       "mtdVials": 106,
       "mtdVialsPaid": 69,
       "mtdVialsFree": 37,
+      "mtdVialsSampling": 10,
+      "mtdVialsClinical": 27,
+      "mtdVialsUnclassified": 0,
+      "mtdFreeVialsByCode": {
+        "MAINTAIN_LAUNCH": 9,
+        "FREE_VIALS": 6,
+        "RES-CENTA": 18,
+        "SAMPLE26": 4
+      },
       "newClientsMTD": 3,
       "totalPaid": 126695,
       "outstanding": 21625,
@@ -57,6 +74,15 @@
       "mtdVials": 244,
       "mtdVialsPaid": 155,
       "mtdVialsFree": 89,
+      "mtdVialsSampling": 31,
+      "mtdVialsClinical": 58,
+      "mtdVialsUnclassified": 0,
+      "mtdFreeVialsByCode": {
+        "MAINTAIN_LAUNCH": 9,
+        "FREE_VIALS": 22,
+        "RES-CENTA": 49,
+        "SAMPLE26": 9
+      },
       "newClientsMTD": 6,
       "totalPaid": 374185,
       "outstanding": 66100,
