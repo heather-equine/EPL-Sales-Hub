@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T17:34:12.338Z",
+  "generatedAt": "2026-10-02T21:18:44.587Z",
   "drops": [
     {
       "dropDate": "2026-09-30",
@@ -15,6 +15,14 @@
           "mtdVials": 138,
           "mtdVialsPaid": 86,
           "mtdVialsFree": 52,
+          "mtdVialsSampling": 21,
+          "mtdVialsClinical": 31,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "RES-CENTA": 31,
+            "FREE_VIALS": 16,
+            "SAMPLE26": 5
+          },
           "newClientsMTD": 3,
           "totalPaid": 247490,
           "outstanding": 44475,
@@ -34,6 +42,15 @@
           "mtdVials": 106,
           "mtdVialsPaid": 69,
           "mtdVialsFree": 37,
+          "mtdVialsSampling": 10,
+          "mtdVialsClinical": 27,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "MAINTAIN_LAUNCH": 9,
+            "FREE_VIALS": 6,
+            "RES-CENTA": 18,
+            "SAMPLE26": 4
+          },
           "newClientsMTD": 3,
           "totalPaid": 126695,
           "outstanding": 21625,
@@ -53,6 +70,15 @@
           "mtdVials": 244,
           "mtdVialsPaid": 155,
           "mtdVialsFree": 89,
+          "mtdVialsSampling": 31,
+          "mtdVialsClinical": 58,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "MAINTAIN_LAUNCH": 9,
+            "FREE_VIALS": 22,
+            "RES-CENTA": 49,
+            "SAMPLE26": 9
+          },
           "newClientsMTD": 6,
           "totalPaid": 374185,
           "outstanding": 66100,
@@ -150,6 +176,14 @@
           "mtdVials": 138,
           "mtdVialsPaid": 86,
           "mtdVialsFree": 52,
+          "mtdVialsSampling": 21,
+          "mtdVialsClinical": 31,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "RES-CENTA": 31,
+            "FREE_VIALS": 16,
+            "SAMPLE26": 5
+          },
           "newClientsMTD": 3,
           "totalPaid": 236690,
           "outstanding": 40275,
@@ -169,6 +203,15 @@
           "mtdVials": 106,
           "mtdVialsPaid": 69,
           "mtdVialsFree": 37,
+          "mtdVialsSampling": 10,
+          "mtdVialsClinical": 27,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "MAINTAIN_LAUNCH": 9,
+            "FREE_VIALS": 6,
+            "RES-CENTA": 18,
+            "SAMPLE26": 4
+          },
           "newClientsMTD": 3,
           "totalPaid": 124895,
           "outstanding": 21625,
@@ -188,6 +231,15 @@
           "mtdVials": 244,
           "mtdVialsPaid": 155,
           "mtdVialsFree": 89,
+          "mtdVialsSampling": 31,
+          "mtdVialsClinical": 58,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "MAINTAIN_LAUNCH": 9,
+            "FREE_VIALS": 22,
+            "RES-CENTA": 49,
+            "SAMPLE26": 9
+          },
           "newClientsMTD": 6,
           "totalPaid": 361585,
           "outstanding": 61900,
@@ -285,6 +337,14 @@
           "mtdVials": 138,
           "mtdVialsPaid": 86,
           "mtdVialsFree": 52,
+          "mtdVialsSampling": 21,
+          "mtdVialsClinical": 31,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "RES-CENTA": 31,
+            "FREE_VIALS": 16,
+            "SAMPLE26": 5
+          },
           "newClientsMTD": 1,
           "totalPaid": 236690,
           "outstanding": 22275,
@@ -304,6 +364,15 @@
           "mtdVials": 106,
           "mtdVialsPaid": 69,
           "mtdVialsFree": 37,
+          "mtdVialsSampling": 10,
+          "mtdVialsClinical": 27,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "MAINTAIN_LAUNCH": 9,
+            "FREE_VIALS": 6,
+            "RES-CENTA": 18,
+            "SAMPLE26": 4
+          },
           "newClientsMTD": 2,
           "totalPaid": 118895,
           "outstanding": 26400,
@@ -323,6 +392,15 @@
           "mtdVials": 244,
           "mtdVialsPaid": 155,
           "mtdVialsFree": 89,
+          "mtdVialsSampling": 31,
+          "mtdVialsClinical": 58,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "MAINTAIN_LAUNCH": 9,
+            "FREE_VIALS": 22,
+            "RES-CENTA": 49,
+            "SAMPLE26": 9
+          },
           "newClientsMTD": 3,
           "totalPaid": 355585,
           "outstanding": 48675,
@@ -420,6 +498,14 @@
           "mtdVials": 138,
           "mtdVialsPaid": 86,
           "mtdVialsFree": 52,
+          "mtdVialsSampling": 21,
+          "mtdVialsClinical": 31,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "RES-CENTA": 31,
+            "FREE_VIALS": 16,
+            "SAMPLE26": 5
+          },
           "newClientsMTD": 1,
           "totalPaid": 227690,
           "outstanding": 30000,
@@ -439,6 +525,15 @@
           "mtdVials": 106,
           "mtdVialsPaid": 69,
           "mtdVialsFree": 37,
+          "mtdVialsSampling": 10,
+          "mtdVialsClinical": 27,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "MAINTAIN_LAUNCH": 9,
+            "FREE_VIALS": 6,
+            "RES-CENTA": 18,
+            "SAMPLE26": 4
+          },
           "newClientsMTD": 1,
           "totalPaid": 95420,
           "outstanding": 24000,
@@ -458,6 +553,15 @@
           "mtdVials": 244,
           "mtdVialsPaid": 155,
           "mtdVialsFree": 89,
+          "mtdVialsSampling": 31,
+          "mtdVialsClinical": 58,
+          "mtdVialsUnclassified": 0,
+          "mtdFreeVialsByCode": {
+            "MAINTAIN_LAUNCH": 9,
+            "FREE_VIALS": 22,
+            "RES-CENTA": 49,
+            "SAMPLE26": 9
+          },
           "newClientsMTD": 2,
           "totalPaid": 323110,
           "outstanding": 54000,
@@ -555,6 +659,14 @@
           "mtdVials": 172,
           "mtdVialsPaid": 129,
           "mtdVialsFree": 43,
+          "mtdVialsSampling": 35,
+          "mtdVialsClinical": 0,
+          "mtdVialsUnclassified": 8,
+          "mtdFreeVialsByCode": {
+            "SAMPLE26": 12,
+            "FREE_VIALS": 23,
+            "(uncoded)": 8
+          },
           "newClientsMTD": 6,
           "totalPaid": 205340,
           "outstanding": 48675,
@@ -574,6 +686,14 @@
           "mtdVials": 74,
           "mtdVialsPaid": 52,
           "mtdVialsFree": 22,
+          "mtdVialsSampling": 18,
+          "mtdVialsClinical": 0,
+          "mtdVialsUnclassified": 4,
+          "mtdFreeVialsByCode": {
+            "FREE_VIALS": 10,
+            "SAMPLE26": 8,
+            "(uncoded)": 4
+          },
           "newClientsMTD": 6,
           "totalPaid": 91095,
           "outstanding": 26400,
@@ -593,6 +713,14 @@
           "mtdVials": 246,
           "mtdVialsPaid": 181,
           "mtdVialsFree": 65,
+          "mtdVialsSampling": 53,
+          "mtdVialsClinical": 0,
+          "mtdVialsUnclassified": 12,
+          "mtdFreeVialsByCode": {
+            "SAMPLE26": 20,
+            "FREE_VIALS": 33,
+            "(uncoded)": 12
+          },
           "newClientsMTD": 12,
           "totalPaid": 296435,
           "outstanding": 75075,
@@ -649,6 +777,14 @@
           "mtdVials": 172,
           "mtdVialsPaid": 129,
           "mtdVialsFree": 43,
+          "mtdVialsSampling": 35,
+          "mtdVialsClinical": 0,
+          "mtdVialsUnclassified": 8,
+          "mtdFreeVialsByCode": {
+            "SAMPLE26": 12,
+            "FREE_VIALS": 23,
+            "(uncoded)": 8
+          },
           "newClientsMTD": 5,
           "totalPaid": 178040,
           "outstanding": 50700,
@@ -668,6 +804,14 @@
           "mtdVials": 74,
           "mtdVialsPaid": 52,
           "mtdVialsFree": 22,
+          "mtdVialsSampling": 18,
+          "mtdVialsClinical": 0,
+          "mtdVialsUnclassified": 4,
+          "mtdFreeVialsByCode": {
+            "FREE_VIALS": 10,
+            "SAMPLE26": 8,
+            "(uncoded)": 4
+          },
           "newClientsMTD": 6,
           "totalPaid": 81495,
           "outstanding": 22275,
@@ -687,6 +831,14 @@
           "mtdVials": 246,
           "mtdVialsPaid": 181,
           "mtdVialsFree": 65,
+          "mtdVialsSampling": 53,
+          "mtdVialsClinical": 0,
+          "mtdVialsUnclassified": 12,
+          "mtdFreeVialsByCode": {
+            "SAMPLE26": 20,
+            "FREE_VIALS": 33,
+            "(uncoded)": 12
+          },
           "newClientsMTD": 11,
           "totalPaid": 259535,
           "outstanding": 72975,
